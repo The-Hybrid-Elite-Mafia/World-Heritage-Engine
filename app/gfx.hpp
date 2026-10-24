@@ -109,6 +109,8 @@ public:
     void strokeRect(const Rect& r, Color c, float width, float radius = 0.0f);
     void fillGradientV(const Rect& r, Color top, Color bottom, float radius = 0.0f);
     void line(float x0, float y0, float x1, float y1, Color c, float width);
+    void fillCircle(float cx, float cy, float r, Color inner, Color outer);  // radial shade
+    void strokeCircle(float cx, float cy, float r, Color c, float width);
     void text(std::wstring_view s, const Rect& r, const TextStyle& st);
     [[nodiscard]] float textWidth(std::wstring_view s, const TextStyle& st);
     void pushClip(const Rect& r);

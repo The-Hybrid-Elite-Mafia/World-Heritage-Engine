@@ -8,6 +8,7 @@
 
 #include <algorithm>
 #include <cmath>
+#include <set>
 
 namespace whe::ui {
 
@@ -22,6 +23,7 @@ void CALLBACK midiProc(HMIDIIN, UINT msg, DWORD_PTR inst, DWORD_PTR p1, DWORD_PT
 }  // namespace
 
 AudioHost::AudioHost() : mgr_(std::make_unique<InstrumentManager>()) {
+    for (int n = 0; n < 128; ++n) remap_[static_cast<std::size_t>(n)].store(static_cast<u8>(n));
     LARGE_INTEGER f{};
     QueryPerformanceFrequency(&f);
     qpcFreq_ = f.QuadPart > 0 ? f.QuadPart : 1;
@@ -176,6 +178,22 @@ Result<void> AudioHost::setInstrument(EngineKind kind, std::shared_ptr<const Sam
     if (!id) return std::unexpected(id.error());
     live_.store(nullptr, std::memory_order_release);
     if (instId_ >= 0) mgr_->remove(instId_);  // retired only after the audio thread has moved on
+    // Note map: identity, except drum kits (no pitched notes) where unmapped keys cycle through the hits.
+    std::vector<int> hits;
+    const Articulation* art = lib->primary();
+    if (art && !art->pitched) {
+        std::set<int> keys;
+        for (const Zone& z : art->zones) keys.insert(z.rootKey);
+        hits.assign(keys.begin(), keys.end());
+    }
+    for (int n = 0; n < 128; ++n) {
+        int m = n;
+        if (!hits.empty() && art && !art->find(n, 100)) {
+            const int h = static_cast<int>(hits.size());
+            m = hits[static_cast<std::size_t>((((n - hits.front()) % h) + h) % h)];
+        }
+        remap_[static_cast<std::size_t>(n)].store(static_cast<u8>(m), std::memory_order_relaxed);
+    }
     instId_ = *id;
     engine_ = raw;
     kind_ = kind;
@@ -200,15 +218,19 @@ bool AudioHost::noteHeld(int note) const noexcept {
 
 void AudioHost::noteOn(int note, int velocity) {
     if (note < 0 || note > 127) return;
+    const int m = mapNote(note);
     if (auto* e = live_.load(std::memory_order_acquire))
-        e->post({NoteEvent::Type::NoteOn, static_cast<u8>(note), static_cast<u8>(std::clamp(velocity, 1, 127)), 0});
+        e->post({NoteEvent::Type::NoteOn, static_cast<u8>(m), static_cast<u8>(std::clamp(velocity, 1, 127)), 0});
     setHeld(note, true);
+    setHeld(m, true);
 }
 
 void AudioHost::noteOff(int note) {
     if (note < 0 || note > 127) return;
-    if (auto* e = live_.load(std::memory_order_acquire)) e->post({NoteEvent::Type::NoteOff, static_cast<u8>(note), 0, 0});
+    const int m = mapNote(note);
+    if (auto* e = live_.load(std::memory_order_acquire)) e->post({NoteEvent::Type::NoteOff, static_cast<u8>(m), 0, 0});
     setHeld(note, false);
+    setHeld(m, false);
 }
 
 void AudioHost::sustain(bool down) {
@@ -226,16 +248,22 @@ void AudioHost::onMidi(unsigned long p1) noexcept {
     InstrumentEngine* e = live_.load(std::memory_order_acquire);
     bool notify = false;
     switch (status & 0xF0) {
-        case 0x90:
-            if (e) e->post({d2 ? NoteEvent::Type::NoteOn : NoteEvent::Type::NoteOff, d1, d2, 0});
+        case 0x90: {
+            const u8 m = static_cast<u8>(mapNote(d1));
+            if (e) e->post({d2 ? NoteEvent::Type::NoteOn : NoteEvent::Type::NoteOff, m, d2, 0});
             setHeld(d1, d2 != 0);
+            setHeld(m, d2 != 0);
             notify = true;
             break;
-        case 0x80:
-            if (e) e->post({NoteEvent::Type::NoteOff, d1, 0, 0});
+        }
+        case 0x80: {
+            const u8 m = static_cast<u8>(mapNote(d1));
+            if (e) e->post({NoteEvent::Type::NoteOff, m, 0, 0});
             setHeld(d1, false);
+            setHeld(m, false);
             notify = true;
             break;
+        }
         case 0xE0:
             if (e) e->post({NoteEvent::Type::PitchBend, 0, 0, ((d2 << 7 | d1) - 8192) / 8192.0f * 2.0f});
             break;

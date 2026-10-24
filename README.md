@@ -19,8 +19,9 @@ Blender (`art/plate.py`, `art/parts.py`; coordinates shared through `art/layout.
 | Area | What it does |
 |---|---|
 | Status bar | Sound card (tap to pick ASIO driver or Windows audio), sample rate, buffer + latency (tap to change), CPU, disk stream, voices, underruns |
-| Instruments | Sample packs found in `Samples\` next to the program plus any you import. **+ Import sample pack**, drag a folder onto the window, or start `whe_studio.exe <folder>` |
-| Engine glass | What is loaded; **FILE MAP** shows every file and how its name was read (root note, keys, velocity layer, round robin, articulation) and lets you choose the engine |
+| Instruments | Sample packs found in `Samples\` next to the program plus any you import — as many as you like (scroll with the wheel or ▲▼). **+ Import sample pack**, drag a folder onto the window, or start `whe_studio.exe <folder>`. While the import page is open the keyboard plays the *new* pack, so you can audition it before **ADD TO INSTRUMENTS** (Cancel puts the previous instrument back) |
+| Engine glass | What is loaded; **FILE MAP** shows every file and how it was mapped (root note, keys, velocity, round robin, articulation), lets you choose the engine (each engine keeps its own dial settings), edit any row by hand (− / + and ±12 buttons, **APPLY**; **AUTOMATIC MAPPING** undoes it) and **REMOVE FROM LIST** |
+| About & Credits | Tap the line under the program name: who recorded each sample pack and under which licence |
 | Key map | Which recording plays where; tap a zone to hear it; lit = sounding |
 | Dials | The physics that reshape the recording, a plain-English line under each. Every dial starts at zero (strike-point dials start at the middle); double-click a dial to put it back |
 | Blend | Left = full recording, right = physics only; **ON** button bypasses the physics; L/R meters (measured before protection). An output safety limiter (instant attack, 150 ms release, −0.5 dBFS ceiling) keeps loud physics settings from clipping the sound card; **LIMIT** lights while it is working |
@@ -31,7 +32,22 @@ re-sampled on the CPU to the exact pixel size it occupies in the window before i
 reaches the GPU — the 4K renders are never uploaded at full size. Static parts are
 cached in one layer so meters animate cheaply (remote desktop friendly).
 
-Settings and saved instrument sounds: `%APPDATA%\HEM\World Heritage Engine\settings.txt`.
+Settings and saved instrument sounds: `%APPDATA%\HEM\World Heritage Engine\settings.txt`
+(saved sounds are kept per pack *and* engine). Hand-edited mappings: `…\mappings\<pack>.sfz` (plain SFZ).
+Fast-stream cache: `%LOCALAPPDATA%\HEM\World Heritage Engine\cache\<pack>-<hash>\` — never inside the
+sample folder. Log: `studio.log` in the program folder.
+
+How a pack is mapped, in order: (1) a hand-edited mapping from the File Map; (2) an `.sfz` in the pack
+folder (or one folder down — the one with the most regions wins); (3) a `MappingChart.txt` (VSCO style,
+`file → MIDI note`); (4) file names. Numbers in names that are not note names are read as MIDI note numbers
+when they look like them (`HV_40` … `HV_84`); `HV`/`MV`/`LV`, `dyn1..` and `v1..` are velocity layers, `rr1..`
+and `_01.._07` takes are round robins. Unpitched hits (strokes, body taps, chucks) go to their own keys
+above the highest real note. If nothing in a pack says which note a file is, the files are laid out from C3
+upward and the File Map shows a red warning. Drum and hit kits play on every key: keys without a recording
+cycle through the hits.
+
+Each pack gets a playback gain so its loudest recording reaches about −1 dBFS (never more than +12 dB or
+less than −12 dB).
 Fonts: Montserrat (SIL Open Font License, `app/res/fonts/OFL.txt`).
 
 ---
@@ -93,7 +109,9 @@ Fonts: Montserrat (SIL Open Font License, `app/res/fonts/OFL.txt`).
 
 ### Why a cache
 FLAC is compressed and cannot be read at an arbitrary frame, so true direct-from-disk streaming
-needs a raw image. Each recording is decoded once into `<pack>/.whe_cache/<hash>.whs`. The cache is
+needs a raw image. Each recording is decoded once into `<cache>/<hash>.whs` (the instrument window uses
+`%LOCALAPPDATA%\HEM\World Heritage Engine\cache`; the command-line tools use `<pack>/.whe_cache` unless
+given `--cache`). The cache is
 re-used until the source file's size or modification time changes.
 
 ### File-name conventions understood (`parseSampleName`)
@@ -213,8 +231,8 @@ cmake --build build --config Release
 MinGW-w64 (GCC 13) also works; Linux: `cmake -S . -B build && cmake --build build -j`.
 
 Tools:
-- `whe_ingest <pack> [--zones] [--middle-c 3|4]` — import, cache, print the map.
-- `whe_render <pack> <piano|bowed|plucked|aerophone|membrane> out.wav [--set Name=value] [--notes 60,64,67]` — offline render.
+- `whe_ingest <pack> [--zones] [--middle-c 3|4] [--cache <dir>] [--map <file.sfz>]` — import, cache, print the map.
+- `whe_render <pack> <piano|bowed|plucked|aerophone|membrane> out.wav [--set Name=value] [--notes 60,64,67] [--vel N]` — offline render (`--vel` plays the notes once at one velocity, for level checks).
 - `whe_play <pack> <engine> [--asio [driver]] [--list-asio] [--buffer N] [--rate Hz] [--exclusive] [--period N] [--midi N] [--set Name=value]` — Windows real-time host:
   WASAPI or ASIO out, MIDI in (notes, CC64 sustain, pitch bend, CC1 → Dynamics, CC20–29 → parameters 0–9),
   PC-keyboard fallback.
@@ -225,6 +243,9 @@ Tools:
 ## 10. What has been verified — and what has not
 
 Verified (October 2026):
+- v0.3 importer: **1196/1196 checks pass** (Linux GCC 13) with real-pack runs on the full Salamander Grand
+  Piano V3 through its `.sfz` (637 recordings), the VSCO 2 CE upright (MappingChart.txt, 69 recordings),
+  and FreePats/Tabla test folders (hang, ukulele, steel-string guitar with MIDI-number names, tabla takes).
 - Linux GCC 13 build: **402/402 checks pass**, including real-pack tests on 85 FLAC files from the
   Salamander Grand Piano and 72 FLAC files from Virtuosity Drums (snare).
 - Windows x64 build (MinGW-w64 GCC 13, cross-compiled): **248/248 checks pass** running under Wine,
@@ -258,6 +279,10 @@ vendor's scheme (check `whe_ingest --zones`); unpitched release noises are sprea
 ## Licence
 GNU General Public License v3.0 — see `LICENSE`. The Steinberg ASIO SDK is used under its GPLv3 option and is downloaded at build time, never stored here.
 
-## Sample credits (test packs, not included)
+## Sample credits (packs used in testing; not stored in this repository)
 - Salamander Grand Piano V3 — Alexander Holm, CC BY 3.0 (github.com/sfzinstruments/SalamanderGrandPiano)
+- Upright Piano — VSCO 2 Community Edition, Versilian Studios / Sam Gossner, Ivy Audio / Simon Dalzell, CC0 (versilian-studios.com/vsco-community)
+- Tabla strokes — Subodh Deolekar (2020), *Tabla strokes dataset*, Zenodo, DOI 10.5281/zenodo.4327350, CC BY 4.0
+- Hang drum, ukulele — FreePats (freepats.zenvoid.org), CC0
+- Steel-string guitar — Gary Campion / FlameStudios, modified by Roberto for FreePats, GPL-3.0-or-later
 - Virtuosity Drums — performed by Austin McMahon, recorded at Virtuosity Musical Instruments (Boston), CC0 (github.com/sfzinstruments/virtuosity_drums)

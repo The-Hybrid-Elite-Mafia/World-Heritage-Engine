@@ -2,13 +2,15 @@
 //
 // One window, drawn entirely with Direct2D over the rendered HEM faceplate:
 //   * status bar  — sound card, sample rate, buffer/latency, CPU, disk stream, voices, underruns
-//   * library     — the sample packs (real recordings) you can play; import new ones
+//   * library     — every sample pack (real recordings) you can play; import, scroll, remove
 //   * engine      — which recording is loaded and how files were read (FILE MAP)
 //   * key map     — which recording plays where; tap a zone to hear it
 //   * dials       — the physics that reshapes the recording, with a plain-English line each
 //   * blend       — recording vs physics, physics on/bypass, output meters
 //   * keyboard    — play with the mouse, the PC keys or any MIDI keyboard
-// Import page    — every file of a pack and how its name was read (note, velocity, round robin, articulation).
+// Import / File Map page — every file of a pack, how its name (or the pack's .sfz) was read,
+// hand-editing of root note / keys / velocities / round robin, and audition before adding.
+// About page — credits for the recordings and the program.
 //
 // Rules of the faceplate: a lit light is ON, an unlit light is OFF; every dial
 // starts at zero (dials whose range runs through zero start at the middle).
@@ -48,7 +50,10 @@ namespace {
 constexpr UINT WM_APP_LOADED = WM_APP + 1;
 constexpr UINT WM_APP_MIDI = WM_APP + 2;
 constexpr UINT_PTR kTimerUi = 1;
-constexpr const wchar_t* kVersion = L"v0.2";
+constexpr const wchar_t* kVersion = L"v0.3";
+constexpr int kRowsVisible = 9;
+constexpr float kRowH = 26.0f;
+constexpr float kRowsTop = 436.0f;
 
 constexpr Color kCyan{0.247f, 0.847f, 0.918f, 1};
 constexpr Color kDarkText{0.012f, 0.086f, 0.102f, 1};
@@ -61,7 +66,8 @@ constexpr Color kRed{1.0f, 0.42f, 0.42f, 1};
 
 enum class Act {
     None, Pack, PackPlaceholder, Import, Save, Reset, Dial, Blend, Physics, Sustain, OctDown, OctUp, Fader, Keys, Zone,
-    Driver, Buffer, Rate, FileMap, Page, ImpEngine, ImpAdd, ImpBack, ImpTable, Library
+    Driver, Buffer, Rate, FileMap, Page, ImpEngine, ImpAdd, ImpBack, ImpTable, ImpRow, ImpScroll, Edit, ImpApply, ImpAuto,
+    Remove, Library, LibUp, LibDown, About, AboutClose
 };
 
 struct Hit {
@@ -80,14 +86,17 @@ struct LoadResult {
 };
 
 struct ZoneSeg {
-    int lo = 0, hi = 0, root = 60;
+    int lo = 0, hi = 0, root = 60;  // keys shown (clipped to the drawn range)
+    int realLo = 0, realHi = 0;     // the zone's true range, for the label
     bool mapped = false;
+    bool hit = false;               // unpitched hit (stroke, tap…)
     float x = 0, w = 0;
 };
 
-struct ImportRow {
-    std::wstring file, art, root, keys, vel, rr;
-    bool skipped = false;
+struct SoundState {
+    std::map<std::string, float> dials;
+    float blend = 0.0f;
+    bool physicsOn = true;
 };
 
 TextStyle st(float size, int weight, Color c, Align a = Align::Left, bool glow = false, bool engrave = false) {
@@ -105,6 +114,11 @@ fs::path exeDir() {
     wchar_t buf[MAX_PATH * 4];
     const DWORD n = GetModuleFileNameW(nullptr, buf, static_cast<DWORD>(std::size(buf)));
     return fs::path(std::wstring(buf, n)).parent_path();
+}
+
+std::wstring upper(std::wstring s) {
+    std::ranges::transform(s, s.begin(), [](wchar_t c) { return static_cast<wchar_t>(std::towupper(c)); });
+    return s;
 }
 
 // The physics-layer levels per engine: zeroed when physics is bypassed.
@@ -129,6 +143,18 @@ std::wstring shortDriver(std::wstring s) {
     return s;
 }
 
+// "13 notes + 2 hits", "5 strokes", "45 notes" …
+std::wstring contentWords(const Articulation* art) {
+    if (!art) return L"";
+    std::set<int> notes, hits;
+    for (const Zone& z : art->zones) (z.pitched ? notes : hits).insert(z.rootKey);
+    auto plural = [](std::size_t n, const wchar_t* one, const wchar_t* many) { return std::to_wstring(n) + L" " + (n == 1 ? one : many); };
+    if (notes.empty()) return plural(hits.size(), L"hit", L"hits");
+    std::wstring s = plural(notes.size(), L"note", L"notes");
+    if (!hits.empty()) s += L" + " + plural(hits.size(), L"hit", L"hits");
+    return s;
+}
+
 class App {
 public:
     int run(HINSTANCE inst, int show);
@@ -146,6 +172,8 @@ private:
     void rememberEngine(const fs::path& folder, EngineKind kind);
     void buildKeyMap();
     void buildImportRows(const SampleLibrary& lib);
+    void fitKeyboardToLibrary();
+    void ensurePackVisible();
 
     // engine state
     float& dialPos(const std::string& key, const ParamInfo& info);
@@ -154,7 +182,21 @@ private:
     void applyDial(const DialSpec& d);
     void resetSound();
     void saveSound();
-    void loadSoundForPack();
+    [[nodiscard]] SoundState currentSound() const { return SoundState{dials_, blend_, physicsOn_}; }
+    void setSound(const SoundState& s) {
+        dials_ = s.dials;
+        blend_ = s.blend;
+        physicsOn_ = s.physicsOn;
+    }
+    void loadSoundFor(EngineKind kind);
+
+    // import / file map
+    void beginPreview();
+    void endPreview(bool restore);
+    void applyMapping(bool automatic);
+    void editField(int field, int op);
+    void removeSelectedPack();
+    [[nodiscard]] int rowCount() const { return static_cast<int>(editRows_.size() + skippedRows_.size()); }
 
     // drawing
     void updateView();
@@ -168,12 +210,14 @@ private:
     void drawBlend();
     void drawKeyboardRow();
     void drawImportPage();
+    void drawAboutPage();
     void drawStatusValues();
     void drawKeyMap();
     void drawMeters();
     void drawKeys();
     void drawFader();
     void button(const Rect& r, bool lit, std::wstring_view text, float size, Act act, int arg, bool dynamic = false, Color textColor = {0, 0, 0, 0});
+    void smallButton(const Rect& r, std::wstring_view text, Act act, int arg);
     void ledRing(float cx, float cy, float radius, int count, float pos, float rest, float ledSize);
     void T(float x, float y, std::wstring_view s, const TextStyle& t) { gfx_.text(s, Rect{x, y, 1400.0f, t.size * 1.5f}, t); }
     void TC(float cx, float y, float w, std::wstring_view s, const TextStyle& t) {
@@ -188,12 +232,13 @@ private:
     void mouseDown(float x, float y, bool dbl);
     void mouseMove(float x, float y, bool shift);
     void mouseUp();
-    void wheel(float x, float y, int delta);
+    void wheel(float x, float y, int delta, bool shift);
     void keyDown(WPARAM vk, LPARAM lp);
     void keyUp(WPARAM vk);
     int keyAt(float x, float y) const;
     void playMouseNote(int note);
     void setVelocityFromX(float x);
+    void scrollRowsTo(float y);
     void showDriverMenu();
     void showBufferMenu();
     void showRateMenu();
@@ -207,7 +252,7 @@ private:
     void setMessage(std::wstring m, bool error = false) {
         message_ = std::move(m);
         messageError_ = error;
-        messageUntil_ = GetTickCount64() + 8000;
+        messageUntil_ = GetTickCount64() + 9000;
         invalidate(true);
     }
 
@@ -229,22 +274,39 @@ private:
     std::map<std::string, float> dials_;
     float blend_ = 0.0f;
     bool physicsOn_ = true;
+    std::map<EngineKind, SoundState> session_;  // per-engine settings of the current pack, kept while switching engines
     bool sustainOn_ = false;
     int page_ = 0;
     std::vector<ZoneSeg> zoneSegs_;
     int zoneLo_ = 21, zoneHi_ = 108;
     int lastNote_ = 60;
 
-    // import page
+    // import page / file map
     bool importPage_ = false;
     bool importIsNew_ = false;
     bool importCancelled_ = false;
     fs::path importFolder_;
     EngineKind importKind_ = EngineKind::Piano;
     std::shared_ptr<const SampleLibrary> importLib_;
-    std::vector<ImportRow> importRows_;
+    std::vector<MapRow> editRows_;
+    std::vector<std::wstring> skippedRows_;
+    int selRow_ = -1;
+    bool mappingDirty_ = false;
     int importScroll_ = 0;
+    float wheelAccum_ = 0.0f;
     std::wstring importSummary_;
+    // audition while the import page is open: what was playing before
+    bool previewing_ = false;
+    struct Before {
+        std::shared_ptr<const SampleLibrary> lib;
+        EngineKind kind = EngineKind::Piano;
+        int pack = -1;
+        SoundState sound;
+        std::map<EngineKind, SoundState> session;
+        int baseNote = 48;
+    } before_;
+
+    bool aboutPage_ = false;
 
     // view + interaction
     float scale_ = 1, ox_ = 0, oy_ = 0;
@@ -358,12 +420,13 @@ int App::run(HINSTANCE inst, int show) {
 
 void App::discoverPacks() {
     packs_.clear();
-    std::set<std::wstring> seen;
+    std::set<std::wstring> seen, hidden;
+    for (const auto& h : settings_.hiddenPacks) hidden.insert(packKey(h));
     auto addPack = [&](const fs::path& folder, std::optional<EngineKind> kind, bool builtIn) {
         std::error_code ec;
         if (!fs::is_directory(folder, ec)) return;
         const auto key = packKey(folder);
-        if (seen.contains(key)) return;
+        if (seen.contains(key) || hidden.contains(key)) return;
         seen.insert(key);
         Pack p;
         p.folder = folder;
@@ -423,26 +486,21 @@ void App::startLoad(int packIndex, const fs::path& folder, EngineKind kind, bool
     loadingSince_ = GetTickCount64();
     if (loader_.joinable()) loader_.join();
     HWND hwnd = hwnd_;
-    loader_ = std::jthread([hwnd, packIndex, folder, kind, forImport] {
+    fs::path mapping;
+    if (auto it = settings_.mappings.find(packKey(folder)); it != settings_.mappings.end()) {
+        std::error_code ec;
+        if (fs::is_regular_file(it->second, ec)) mapping = it->second;
+    }
+    loader_ = std::jthread([hwnd, packIndex, folder, kind, forImport, mapping] {
         auto res = std::make_unique<LoadResult>();
         res->packIndex = packIndex;
         res->folder = folder;
         res->kind = kind;
         res->forImport = forImport;
         ImportOptions io;
-        // The fast-stream cache lives next to the recordings when that folder is
-        // writable, otherwise under %LOCALAPPDATA%.
-        std::error_code ec;
-        const fs::path probe = folder / L".whe_cache";
-        fs::create_directories(probe, ec);
-        if (ec || !fs::is_directory(probe, ec)) {
-            wchar_t local[MAX_PATH] = {};
-            if (GetEnvironmentVariableW(L"LOCALAPPDATA", local, MAX_PATH) > 0) {
-                io.cacheDir = fs::path(local) / L"HEM" / L"World Heritage Engine" / L"cache" /
-                              std::to_wstring(std::hash<std::wstring>{}(packKey(folder)));
-                fs::create_directories(io.cacheDir, ec);
-            }
-        }
+        // The fast-stream cache never goes into the sample folder (it may be read-only).
+        io.cacheDir = cacheDirFor(folder);
+        io.mappingFile = mapping;
         auto lib = SampleLibrary::import(folder, io);
         if (lib) res->lib = *lib;
         else res->error = lib.error().message;
@@ -453,9 +511,12 @@ void App::startLoad(int packIndex, const fs::path& folder, EngineKind kind, bool
 
 void App::onLoaded(std::unique_ptr<LoadResult> r) {
     loading_ = false;
-    logLine("read " + narrow(r->folder.wstring()) + (r->lib ? ": ok, " + std::to_string(r->lib->store().size()) + " recordings" : ": FAILED " + r->error));
+    logLine("read " + narrow(r->folder.wstring()) + (r->lib ? ": ok, " + std::to_string(r->lib->store().size()) + " recordings, mapped from " +
+                                                                  r->lib->mappingSource() + " in " +
+                                                                  std::to_string(GetTickCount64() - loadingSince_) + " ms"
+                                                            : ": FAILED " + r->error));
     if (!r->lib) {
-        if (r->forImport) {
+        if (r->forImport && importIsNew_) {
             importPage_ = false;
             importCancelled_ = false;
         }
@@ -470,10 +531,17 @@ void App::onLoaded(std::unique_ptr<LoadResult> r) {
         importLib_ = r->lib;
         importFolder_ = r->folder;
         importKind_ = r->kind;
-        importIsNew_ = true;
         importPage_ = true;
-        importScroll_ = 0;
+        aboutPage_ = false;
+        selRow_ = -1;
+        mappingDirty_ = false;
         buildImportRows(*importLib_);
+        if (importIsNew_) {
+            beginPreview();
+        } else if (selPack_ >= 0) {
+            // A re-read of a pack in the list (mapping applied): it becomes the playing instrument.
+            activateLibrary(selPack_, importKind_, importLib_);
+        }
         invalidate(true);
         return;
     }
@@ -485,36 +553,78 @@ void App::rememberEngine(const fs::path& folder, EngineKind kind) {
     settings_.userPacks.emplace_back(folder, kind);
 }
 
+void App::loadSoundFor(EngineKind kind) {
+    if (auto it = session_.find(kind); it != session_.end()) {
+        setSound(it->second);
+        return;
+    }
+    setSound(SoundState{});
+    if (selPack_ < 0) return;
+    const fs::path& folder = packs_[static_cast<std::size_t>(selPack_)].folder;
+    auto it = settings_.sounds.find(soundKey(folder, kind));
+    if (it == settings_.sounds.end()) it = settings_.sounds.find(packKey(folder));  // saved by v0.2 (one per pack)
+    if (it == settings_.sounds.end()) return;
+    for (const auto& [k, v] : it->second.dials) dials_[k] = v;
+    blend_ = it->second.blend;
+    physicsOn_ = it->second.physicsOn;
+}
+
 bool App::activateLibrary(int packIndex, EngineKind kind, std::shared_ptr<const SampleLibrary> lib) {
     host_.allNotesOff();
+    const bool samePack = packIndex >= 0 && packIndex == selPack_ && host_.engine() != nullptr;
+    const EngineKind oldKind = host_.kind();
+    const SoundState oldSound = currentSound();
     if (auto res = host_.setInstrument(kind, std::move(lib)); !res) {
         logLine("instrument build failed: " + res.error().message);
         setMessage(L"Could not build the instrument: " + widen(res.error().message), true);
         return false;
     }
+    if (!samePack) session_.clear();
     selPack_ = packIndex;
     if (packIndex >= 0 && packIndex < static_cast<int>(packs_.size())) {
-        packs_[packIndex].kind = kind;
-        settings_.lastPack = packs_[packIndex].folder;
+        packs_[static_cast<std::size_t>(packIndex)].kind = kind;
+        settings_.lastPack = packs_[static_cast<std::size_t>(packIndex)].folder;
     }
-    page_ = 0;
+    if (samePack && oldKind == kind) {
+        setSound(oldSound);  // same instrument re-read (new mapping): keep every dial where it was
+    } else {
+        if (samePack) session_[oldKind] = oldSound;  // switching engines keeps each engine's own settings
+        page_ = 0;
+        loadSoundFor(kind);
+    }
     sustainOn_ = false;
-    loadSoundForPack();
     buildKeyMap();
-    // Make sure the on-screen keyboard shows keys that have recordings (drums sit low, e.g. snare on D2).
-    if (const SampleLibrary* l = host_.library().get(); l && l->primary() && !l->primary()->zones.empty()) {
-        const Articulation& a = *l->primary();
-        const int lo = std::ranges::min(a.zones, {}, &Zone::loKey).loKey;
-        const int hi = std::ranges::max(a.zones, {}, &Zone::hiKey).hiKey;
-        const int base = settings_.baseOctaveNote;
-        if (hi < base || lo > base + 35) settings_.baseOctaveNote = std::clamp(lo / 12 * 12, 12, 84);
-        lastNote_ = a.pitched ? 60 : a.zones.front().rootKey;
-        if (a.pitched && (60 < lo || 60 > hi)) lastNote_ = a.zones.front().rootKey;
-    }
+    fitKeyboardToLibrary();
     applyAll();
+    ensurePackVisible();
     saveSettings(settings_);
     invalidate(true);
     return true;
+}
+
+void App::fitKeyboardToLibrary() {
+    // Keep the on-screen keyboard on keys that have recordings (a snare sits on D2).
+    const SampleLibrary* l = host_.library().get();
+    if (!l || !l->primary() || l->primary()->zones.empty()) return;
+    const Articulation& a = *l->primary();
+    int lo = 127, hi = 0;
+    for (const Zone& z : a.zones) {
+        lo = std::min(lo, z.pitched ? z.rootKey : z.loKey);
+        hi = std::max(hi, z.pitched ? z.rootKey : z.hiKey);
+    }
+    const int base = settings_.baseOctaveNote;
+    if (hi < base || lo > base + 35) settings_.baseOctaveNote = std::clamp(lo / 12 * 12, 12, 84);
+    lastNote_ = host_.mapNote(a.pitched ? 60 : a.zones.front().rootKey);
+    if (!a.find(lastNote_, 100)) lastNote_ = a.zones.front().rootKey;
+}
+
+void App::ensurePackVisible() {
+    const int total = static_cast<int>(packs_.size()) + 1;  // + "[your next pack]"
+    if (selPack_ >= 0) {
+        if (selPack_ < listScroll_) listScroll_ = selPack_;
+        if (selPack_ > listScroll_ + 2) listScroll_ = selPack_ - 2;
+    }
+    listScroll_ = std::clamp(listScroll_, 0, std::max(0, total - 3));
 }
 
 void App::buildKeyMap() {
@@ -522,10 +632,14 @@ void App::buildKeyMap() {
     const SampleLibrary* lib = host_.library().get();
     if (!lib || !lib->primary()) return;
     const Articulation& art = *lib->primary();
-    std::map<std::pair<int, int>, int> ranges;  // (lo, hi) -> root
+    struct R {
+        int root;
+        bool hit;
+    };
+    std::map<std::pair<int, int>, R> ranges;  // (lo, hi) -> root
     int lo = 127, hi = 0;
     for (const Zone& z : art.zones) {
-        ranges[{z.loKey, z.hiKey}] = z.rootKey;
+        ranges[{z.loKey, z.hiKey}] = R{z.rootKey, !z.pitched};
         lo = std::min(lo, z.loKey);
         hi = std::max(hi, z.hiKey);
     }
@@ -542,14 +656,14 @@ void App::buildKeyMap() {
         zoneHi_ = hi;
     }
     int cursor = zoneLo_;
-    for (const auto& [range, root] : ranges) {
+    for (const auto& [range, rr] : ranges) {
         const int a = std::max(range.first, zoneLo_), b = std::min(range.second, zoneHi_);
         if (a > b || b < cursor) continue;
-        if (a > cursor) zoneSegs_.push_back(ZoneSeg{cursor, a - 1, 0, false});
-        zoneSegs_.push_back(ZoneSeg{std::max(a, cursor), b, root, true});
+        if (a > cursor) zoneSegs_.push_back(ZoneSeg{cursor, a - 1, 0, cursor, a - 1, false, false});
+        zoneSegs_.push_back(ZoneSeg{std::max(a, cursor), b, rr.root, range.first, range.second, true, rr.hit});
         cursor = b + 1;
     }
-    if (cursor <= zoneHi_) zoneSegs_.push_back(ZoneSeg{cursor, zoneHi_, 0, false});
+    if (cursor <= zoneHi_) zoneSegs_.push_back(ZoneSeg{cursor, zoneHi_, 0, cursor, zoneHi_, false, false});
 
     // Widths: proportional to the keys each zone covers, but every mapped zone
     // stays wide enough to tap (44 px) when there is room for that.
@@ -587,44 +701,39 @@ void App::buildKeyMap() {
 }
 
 void App::buildImportRows(const SampleLibrary& lib) {
-    importRows_.clear();
-    int files = 0;
-    std::set<int> roots;
+    editRows_.clear();
+    skippedRows_.clear();
     int maxLayers = 0, maxRr = 0;
     for (const Articulation& art : lib.articulations()) {
         std::wstring artName = widen(art.name);
-        if (art.releaseTrigger) artName += L" (release)";
+        if (art.releaseTrigger) artName = L"release";
         for (const Zone& z : art.zones) {
-            roots.insert(z.rootKey);
             maxLayers = std::max(maxLayers, z.layerCount);
             maxRr = std::max(maxRr, static_cast<int>(z.roundRobins.size()));
             for (std::size_t j = 0; j < z.roundRobins.size(); ++j) {
-                ImportRow row;
-                row.file = lib.store().get(z.roundRobins[j]).source.filename().wstring();
-                row.art = artName;
-                row.root = z.pitched ? noteName(z.rootKey) : noteName(z.rootKey) + L" (hit)";
-                row.keys = z.loKey == z.hiKey ? noteName(z.loKey) : noteName(z.loKey) + L" – " + noteName(z.hiKey);
-                row.vel = std::to_wstring(z.loVel) + L" – " + std::to_wstring(z.hiVel) + L"  (" + std::to_wstring(z.layer + 1) + L"/" +
-                          std::to_wstring(z.layerCount) + L")";
-                row.rr = std::to_wstring(j + 1) + L" of " + std::to_wstring(z.roundRobins.size());
-                importRows_.push_back(std::move(row));
-                ++files;
+                MapRow row;
+                row.file = lib.store().get(z.roundRobins[j]).source;
+                row.articulation = z.pitched ? artName : L"hit";
+                row.root = z.rootKey;
+                row.lo = z.loKey;
+                row.hi = z.hiKey;
+                row.loVel = z.loVel;
+                row.hiVel = z.hiVel;
+                row.rr = static_cast<int>(j) + 1;
+                row.release = art.releaseTrigger;
+                row.pitched = z.pitched;
+                row.tuneCents = z.tuneCents;
+                row.gainDb = z.gain > 0.0f ? 20.0f * std::log10(z.gain) : 0.0f;
+                editRows_.push_back(std::move(row));
             }
         }
     }
-    for (const std::string& w : lib.warnings()) {
-        ImportRow row;
-        row.skipped = true;
-        row.file = widen(w);
-        importRows_.push_back(std::move(row));
-    }
-    wchar_t buf[256];
-    const bool pitched = lib.primary() && lib.primary()->pitched;
+    for (const std::string& w : lib.warnings()) skippedRows_.push_back(widen(w));
+    importScroll_ = std::clamp(importScroll_, 0, std::max(0, rowCount() - kRowsVisible));
     const std::wstring skipped = lib.warnings().empty() ? L"" : L" · " + std::to_wstring(lib.warnings().size()) + L" skipped";
-    std::swprintf(buf, 256, L"%d recordings → %zu %ls · up to %d velocity layer%ls · up to %d round robin%ls · %zu articulation%ls%ls", files,
-                  roots.size(), pitched ? (roots.size() == 1 ? L"note" : L"notes") : (roots.size() == 1 ? L"drum key" : L"drum keys"), maxLayers,
-                  maxLayers == 1 ? L"" : L"s", maxRr, maxRr == 1 ? L"" : L"s", lib.articulations().size(),
-                  lib.articulations().size() == 1 ? L"" : L"s", skipped.c_str());
+    wchar_t buf[320];
+    std::swprintf(buf, 320, L"%zu recordings → %ls · up to %d velocity layer%ls · up to %d round robin%ls%ls", editRows_.size(),
+                  contentWords(lib.primary()).c_str(), maxLayers, maxLayers == 1 ? L"" : L"s", maxRr, maxRr == 1 ? L"" : L"s", skipped.c_str());
     importSummary_ = buf;
 }
 
@@ -673,16 +782,14 @@ void App::applyDial(const DialSpec& d) {
 void App::applyAll() {
     InstrumentEngine* e = host_.engine();
     if (!e) return;
+    bool hasRelease = false;
     for (const DialPage& pg : engineUi(host_.kind()).pages)
-        for (const DialSpec& d : pg.dials) applyDial(d);
-    if (!engineUi(host_.kind()).pages.empty()) {
-        // Engines without a release dial still honour "zero": no extra release noise.
-        bool hasRelease = false;
-        for (const DialPage& pg : engineUi(host_.kind()).pages)
-            for (const DialSpec& d : pg.dials)
-                if (d.param && std::string_view(d.param) == "@release") hasRelease = true;
-        if (!hasRelease) e->setReleaseLevel(0.0f);
-    }
+        for (const DialSpec& d : pg.dials) {
+            applyDial(d);
+            if (d.param && std::string_view(d.param) == "@release") hasRelease = true;
+        }
+    // Engines without a release dial still honour "zero": no extra release noise.
+    if (!hasRelease) e->setReleaseLevel(0.0f);
     if (const int rec = e->paramIndex("RecordingLevel"); rec >= 0) e->setParam(rec, physicsOn_ ? 1.0f - blend_ : 1.0f);
 }
 
@@ -695,28 +802,121 @@ void App::resetSound() {
 }
 
 void App::saveSound() {
-    if (selPack_ < 0) return;
+    if (selPack_ < 0 || previewing_) {
+        setMessage(L"Add the pack to your instruments first, then save its sound.", true);
+        return;
+    }
     SavedSound s;
     s.blend = blend_;
     s.physicsOn = physicsOn_;
     for (const DialPage& pg : engineUi(host_.kind()).pages)
         for (const DialSpec& d : pg.dials)
             if (const ParamInfo* info = paramFor(d)) s.dials[d.param] = dialPos(d.param, *info);
-    settings_.sounds[packKey(packs_[selPack_].folder)] = std::move(s);
-    if (saveSettings(settings_)) setMessage(L"Saved. This instrument opens with these settings next time.");
+    settings_.sounds[soundKey(packs_[static_cast<std::size_t>(selPack_)].folder, host_.kind())] = std::move(s);
+    if (saveSettings(settings_))
+        setMessage(L"Saved for the " + std::wstring(engineShortName(host_.kind())) + L" engine. This instrument opens with these settings next time.");
     else setMessage(L"Could not write the settings file.", true);
 }
 
-void App::loadSoundForPack() {
-    dials_.clear();
-    blend_ = 0.0f;
-    physicsOn_ = true;
-    if (selPack_ < 0) return;
-    auto it = settings_.sounds.find(packKey(packs_[selPack_].folder));
-    if (it == settings_.sounds.end()) return;
-    for (const auto& [k, v] : it->second.dials) dials_[k] = v;
-    blend_ = it->second.blend;
-    physicsOn_ = it->second.physicsOn;
+// ===========================================================================
+// import page: audition, mapping edits, remove
+// ===========================================================================
+
+void App::beginPreview() {
+    if (!importLib_) return;
+    if (!previewing_) {
+        before_ = Before{host_.library(), host_.kind(), selPack_, currentSound(), session_, settings_.baseOctaveNote};
+        previewing_ = true;
+    }
+    host_.allNotesOff();
+    if (auto r = host_.setInstrument(importKind_, importLib_); !r) {
+        setMessage(L"The " + std::wstring(engineShortName(importKind_)) + L" engine cannot play these recordings: " + widen(r.error().message) +
+                       L" Pick another engine.",
+                   true);
+        return;
+    }
+    setSound(SoundState{});  // audition starts from the untouched recording
+    page_ = 0;
+    buildKeyMap();
+    fitKeyboardToLibrary();
+    applyAll();
+    invalidate(true);
+}
+
+void App::endPreview(bool restore) {
+    if (!previewing_) return;
+    previewing_ = false;
+    if (!restore) return;
+    host_.allNotesOff();
+    if (before_.lib) {
+        if (host_.setInstrument(before_.kind, before_.lib)) {
+            selPack_ = before_.pack;
+            session_ = before_.session;
+            setSound(before_.sound);
+            settings_.baseOctaveNote = before_.baseNote;
+            buildKeyMap();
+            applyAll();
+        }
+    }
+    before_ = Before{};
+    invalidate(true);
+}
+
+void App::applyMapping(bool automatic) {
+    if (loading_ || !importLib_) return;
+    const std::wstring key = packKey(importFolder_);
+    if (automatic) {
+        settings_.mappings.erase(key);
+    } else {
+        const fs::path sfz = mappingsDir() / (importFolder_.filename().wstring() + L".sfz");
+        if (!writeMappingSfz(sfz, editRows_)) {
+            setMessage(L"Could not write the mapping file " + sfz.wstring(), true);
+            return;
+        }
+        settings_.mappings[key] = sfz;
+    }
+    saveSettings(settings_);
+    mappingDirty_ = false;
+    const int keepScroll = importScroll_;
+    startLoad(importIsNew_ ? -1 : selPack_, importFolder_, importKind_, true);
+    importScroll_ = keepScroll;
+}
+
+void App::editField(int field, int op) {
+    if (selRow_ < 0 || selRow_ >= static_cast<int>(editRows_.size())) return;
+    MapRow& r = editRows_[static_cast<std::size_t>(selRow_)];
+    const int d = op == 0 ? -1 : op == 1 ? 1 : op == 2 ? -12 : 12;
+    switch (field) {
+        case 0: r.root = std::clamp(r.root + d, 0, 127); break;
+        case 1: r.lo = std::clamp(r.lo + d, 0, r.hi); break;
+        case 2: r.hi = std::clamp(r.hi + d, r.lo, 127); break;
+        case 3: r.loVel = std::clamp(r.loVel + d, 1, r.hiVel); break;
+        case 4: r.hiVel = std::clamp(r.hiVel + d, r.loVel, 127); break;
+        case 5: r.rr = std::clamp(r.rr + (d > 0 ? 1 : -1), 1, 64); break;
+        default: return;
+    }
+    // A single-key zone follows its root (moving a drum hit or a one-key note moves its key too).
+    if (field == 0 && r.lo == r.hi - 0 && r.lo == std::clamp(r.root - d, 0, 127)) r.lo = r.hi = r.root;
+    mappingDirty_ = true;
+    invalidate(true);
+}
+
+void App::removeSelectedPack() {
+    if (selPack_ < 0 || selPack_ >= static_cast<int>(packs_.size())) return;
+    const Pack p = packs_[static_cast<std::size_t>(selPack_)];
+    const std::wstring q = L"Remove \"" + p.name + L"\" from your instruments?\n\nThe recordings stay on disk; import the folder again to bring it back.";
+    if (MessageBoxW(hwnd_, q.c_str(), L"World Heritage Engine", MB_YESNO | MB_ICONQUESTION) != IDYES) return;
+    if (p.builtIn) settings_.hiddenPacks.push_back(p.folder);
+    std::erase_if(settings_.userPacks, [&](const auto& u) { return packKey(u.first) == packKey(p.folder); });
+    importPage_ = false;
+    importLib_.reset();
+    discoverPacks();
+    selPack_ = -1;
+    listScroll_ = 0;
+    session_.clear();
+    saveSettings(settings_);
+    if (!packs_.empty()) startLoad(0, packs_.front().folder, packs_.front().kind, false);
+    setMessage(L"Removed " + p.name + L" from the list.");
 }
 
 // ===========================================================================
@@ -758,9 +958,16 @@ void App::button(const Rect& r, bool lit, std::wstring_view text, float size, Ac
             t.color = textColor;
             t.glow = !lit;
         }
-        gfx_.text(text, Rect{r.x, r.y + (r.h - size * 1.25f) / 2.0f, r.w, size * 1.4f}, t);
+        gfx_.text(text, Rect{r.x + 4, r.y + (r.h - size * 1.25f) / 2.0f, r.w - 8, size * 1.4f}, t);
     }
     if (act != Act::None) addHit(r, act, arg, dynamic);
+}
+
+void App::smallButton(const Rect& r, std::wstring_view text, Act act, int arg) {
+    gfx_.nineSlice(Sprite::ButtonOff, r, 128.0f, 9.0f, 5.0f);
+    const float sz = text.size() == 1 ? 19.0f : 14.0f;
+    gfx_.text(text, Rect{r.x, r.y + (r.h - sz * 1.25f) / 2.0f, r.w, sz * 1.4f}, st(sz, 800, kCyan, Align::Center));
+    addHit(Rect{r.x - 2, r.y - 4, r.w + 4, r.h + 8}, act, arg, false);
 }
 
 void App::ledRing(float cx, float cy, float radius, int count, float pos, float rest, float ledSize) {
@@ -788,7 +995,9 @@ void App::drawStatic() {
         if (a != Act::None) addHit(Rect{60.0f + i * 258.0f, 158, 250, 58}, a, 0, false);
     }
     drawLibrary();
-    if (importPage_) {
+    if (aboutPage_) {
+        drawAboutPage();
+    } else if (importPage_) {
         drawImportPage();
     } else {
         drawEngineGlass();
@@ -804,6 +1013,9 @@ void App::drawHeader() {
     gfx_.sprite(Sprite::Ghost, Rect{1774, 36, 92, 96});
     T(170, 54, L"WORLD HERITAGE", st(24, 800, Color{0.902f, 0.910f, 0.922f, 1}, Align::Left, false, true));
     T(170, 84, std::wstring(L"ENGINE · ") + kVersion, st(17, 700, Color{0.604f, 0.627f, 0.659f, 1}, Align::Left, false, true));
+    // "ABOUT & CREDITS" — lit while the about page is open.
+    gfx_.text(L"ABOUT & CREDITS", Rect{300, 86, 170, 20}, st(13, 800, aboutPage_ ? kCyan : Color{0.42f, 0.70f, 0.76f, 1}, Align::Left, aboutPage_));
+    addHit(Rect{165, 50, 320, 66}, Act::About, 0, false);
     TC(960, 38, 900, L"HYBRID ELITE MAFIA", st(46, 800, Color{0.925f, 0.933f, 0.941f, 1}, Align::Center, false, true));
     TC(960, 94, 900, L"REAL INSTRUMENT CREATOR", st(21, 700, kCyan, Align::Center, true));
     T(1590, 54, L"HEM AUDIO", st(24, 800, Color{0.902f, 0.910f, 0.922f, 1}, Align::Left, false, true));
@@ -813,36 +1025,41 @@ void App::drawHeader() {
 void App::drawLibrary() {
     T(64, 252, L"INSTRUMENTS", st(19, 800, kCyan, Align::Left, true));
     const int n = static_cast<int>(packs_.size());
-    if (n > 3) {
-        wchar_t buf[32];
-        std::swprintf(buf, 32, L"%d–%d of %d", listScroll_ + 1, std::min(n, listScroll_ + 3), n);
-        gfx_.text(buf, Rect{200, 256, 140, 20}, st(13, 700, kDim, Align::Right));
+    const int total = n + 1;  // the last slot is always "[your next pack]"
+    listScroll_ = std::clamp(listScroll_, 0, std::max(0, total - 3));
+    addHit(Rect{44, 238, 316, 290}, Act::Library, 0, false);  // first: the arrows and packs on top of it win clicks
+    if (total > 3) {
+        smallButton(Rect{262, 250, 36, 26}, L"▲", Act::LibUp, 0);
+        smallButton(Rect{304, 250, 36, 26}, L"▼", Act::LibDown, 0);
+        wchar_t buf[64];
+        std::swprintf(buf, 64, L"%d–%d of %d · wheel or ▲▼ to scroll", listScroll_ + 1, std::min(total, listScroll_ + 3), total);
+        T(64, 517, buf, st(12, 700, kDim));
     }
-    addHit(Rect{44, 238, 316, 290}, Act::Library, 0, false);
     for (int slot = 0; slot < 3; ++slot) {
         const int i = listScroll_ + slot;
         const Rect r{62, 286.0f + slot * 80.0f, 280, 68};
         if (i < n) {
-            const Pack& p = packs_[i];
-            const bool lit = i == selPack_;
+            const Pack& p = packs_[static_cast<std::size_t>(i)];
+            const bool lit = i == selPack_ && !previewing_;
             button(r, lit, L"", 0, Act::Pack, i);
-            std::wstring name = p.name;
-            std::ranges::transform(name, name.begin(), [](wchar_t c) { return static_cast<wchar_t>(std::towupper(c)); });
-            gfx_.text(name, Rect{84, r.y + 14, 250, 26}, st(18, 800, lit ? kDarkText : kLabel));
+            gfx_.text(upper(p.name), Rect{84, r.y + 14, 250, 26}, st(18, 800, lit ? kDarkText : kLabel));
             const std::wstring sub = std::wstring(engineShortName(p.kind)) + L" · " + std::to_wstring(p.recordings) + L" recordings";
             gfx_.text(sub, Rect{84, r.y + 38, 250, 22}, st(14, 700, lit ? kDarkSub : kGray));
         } else if (i == n) {
-            button(r, false, L"", 0, Act::PackPlaceholder, 0);
-            gfx_.text(L"[YOUR NEXT PACK]", Rect{84, r.y + 14, 250, 26}, st(18, 800, kLabel));
-            gfx_.text(L"Cello, guitar, flute, any", Rect{84, r.y + 38, 250, 22}, st(14, 700, kGray));
+            const bool lit = previewing_;
+            button(r, lit, L"", 0, Act::PackPlaceholder, 0);
+            gfx_.text(lit ? upper(importFolder_.filename().wstring()) : L"[YOUR NEXT PACK]", Rect{84, r.y + 14, 250, 26},
+                      st(18, 800, lit ? kDarkText : kLabel));
+            gfx_.text(lit ? L"Auditioning — not added yet" : L"Cello, guitar, flute, any", Rect{84, r.y + 38, 250, 22},
+                      st(14, 700, lit ? kDarkSub : kGray));
         }
     }
     button(Rect{62, 538, 280, 56}, importPage_ && importIsNew_, L"+  IMPORT SAMPLE PACK", 16, Act::Import, 0, false,
            importPage_ && importIsNew_ ? Color{0, 0, 0, 0} : kCyan);
     const TextStyle help = st(14, 600, kGray);
     T(64, 608, L"Any folder of real recordings —", help);
-    T(64, 628, L"keys, layers and round robins", help);
-    T(64, 648, L"mapped from the file names.", help);
+    T(64, 628, L"or drag a folder onto this window.", help);
+    T(64, 648, L"An .sfz in the folder is used first.", help);
     button(Rect{62, 690, 280, 44}, false, L"SAVE INSTRUMENT", 15, Act::Save, 0);
     button(Rect{62, 742, 280, 44}, false, L"RESET TO RECORDING", 15, Act::Reset, 0);
 }
@@ -851,42 +1068,36 @@ void App::drawEngineGlass() {
     const EngineUi& ui = engineUi(host_.kind());
     const SampleLibrary* lib = host_.library().get();
     const bool messageOn = !message_.empty() && GetTickCount64() < messageUntil_;
-    if (loading_) {
-        T(398, 250, L"READING RECORDINGS…", st(15, 700, kCyan, Align::Left, true));
-        std::wstring nm = loadingName_;
-        std::ranges::transform(nm, nm.begin(), [](wchar_t c) { return static_cast<wchar_t>(std::towupper(c)); });
-        gfx_.text(nm, Rect{398, 270, 820, 40}, st(32, 800, Color{0.949f, 0.957f, 0.965f, 1}));
-    } else if (lib && selPack_ >= 0) {
-        T(398, 250, ui.title, st(15, 700, kCyan, Align::Left, true));
-        std::wstring nm = packs_[selPack_].name;
-        std::ranges::transform(nm, nm.begin(), [](wchar_t c) { return static_cast<wchar_t>(std::towupper(c)); });
-        gfx_.text(nm, Rect{398, 270, 560, 40}, st(32, 800, Color{0.949f, 0.957f, 0.965f, 1}));
-    } else {
-        T(398, 250, L"NO INSTRUMENT LOADED", st(15, 700, kCyan, Align::Left, true));
-        gfx_.text(L"IMPORT A SAMPLE PACK", Rect{398, 270, 820, 40}, st(32, 800, Color{0.949f, 0.957f, 0.965f, 1}));
-    }
     const bool pages = ui.pages.size() > 1;
     const float rightEdge = pages ? 1250.0f : 1385.0f;
+    // While a message shows, the title keeps the left side only (no overlap).
+    const float titleW = messageOn ? 520.0f : rightEdge - 398.0f;
+    const TextStyle nameSt = st(32, 800, Color{0.949f, 0.957f, 0.965f, 1});
+    if (loading_) {
+        gfx_.text(L"READING RECORDINGS…", Rect{398, 250, titleW, 22}, st(15, 700, kCyan, Align::Left, true));
+        gfx_.text(upper(loadingName_), Rect{398, 270, titleW, 40}, nameSt);
+    } else if (lib && (selPack_ >= 0 || previewing_)) {
+        gfx_.text(ui.title, Rect{398, 250, titleW, 22}, st(15, 700, kCyan, Align::Left, true));
+        const std::wstring nm = previewing_ ? importFolder_.filename().wstring() : packs_[static_cast<std::size_t>(selPack_)].name;
+        gfx_.text(upper(nm), Rect{398, 270, messageOn ? 520.0f : 560.0f, 40}, nameSt);
+    } else {
+        gfx_.text(L"NO INSTRUMENT LOADED", Rect{398, 250, titleW, 22}, st(15, 700, kCyan, Align::Left, true));
+        gfx_.text(L"IMPORT A SAMPLE PACK", Rect{398, 270, titleW, 40}, nameSt);
+    }
     if (messageOn) {
         TextStyle t = st(14, 700, messageError_ ? kRed : kCyan, Align::Right);
         t.wrap = true;
         t.lineSpacing = 17;
-        gfx_.pushClip(Rect{700, 244, rightEdge - 700, 66});
-        gfx_.text(message_, Rect{760, 248, rightEdge - 760, 64}, t);
+        gfx_.pushClip(Rect{930, 244, rightEdge - 930, 66});
+        gfx_.text(message_, Rect{935, 248, rightEdge - 945, 64}, t);
         gfx_.popClip();
     } else if (lib && !loading_) {
         const Articulation* art = lib->primary();
-        std::set<int> roots;
         int layers = 0;
         if (art)
-            for (const Zone& z : art->zones) {
-                roots.insert(z.rootKey);
-                layers = std::max(layers, z.layerCount);
-            }
-        wchar_t buf[160];
-        std::swprintf(buf, 160, L"%zu recordings · %zu %ls · %d layer%ls", lib->store().size(), roots.size(),
-                      art && art->pitched ? (roots.size() == 1 ? L"note" : L"notes") : (roots.size() == 1 ? L"drum key" : L"drum keys"), layers,
-                      layers == 1 ? L"" : L"s");
+            for (const Zone& z : art->zones) layers = std::max(layers, z.layerCount);
+        wchar_t buf[200];
+        std::swprintf(buf, 200, L"%zu recordings · %ls · %d layer%ls", lib->store().size(), contentWords(art).c_str(), layers, layers == 1 ? L"" : L"s");
         gfx_.text(buf, Rect{900, 262, rightEdge - 900, 26}, st(18, 600, Color{0.663f, 0.690f, 0.722f, 1}, Align::Right));
     }
     if (pages) {
@@ -900,7 +1111,8 @@ void App::drawEngineGlass() {
 void App::drawDials() {
     const EngineUi& ui = engineUi(host_.kind());
     if (ui.pages.empty()) return;
-    const DialPage& pg = ui.pages[static_cast<std::size_t>(std::clamp(page_, 0, static_cast<int>(ui.pages.size()) - 1))];
+    page_ = std::clamp(page_, 0, static_cast<int>(ui.pages.size()) - 1);
+    const DialPage& pg = ui.pages[static_cast<std::size_t>(page_)];
     const L::Box pockets[3] = {L::pocket_hammer, L::pocket_strings, L::pocket_body};
     for (int s = 0; s < 3; ++s) {
         if (!pg.titles[s] || !*pg.titles[s]) continue;
@@ -913,7 +1125,15 @@ void App::drawDials() {
         const DialSpec& d = pg.dials[static_cast<std::size_t>(i)];
         const L::KnobPos& kp = L::knobWells[i];
         const ParamInfo* info = paramFor(d);
-        if (!d.param || (haveEngine && !info)) continue;
+        if (!d.param || (haveEngine && !info)) {
+            // Unused well: a blanking plug, so the plate shows no empty hole.
+            const float r = kp.ring + 15.0f;
+            gfx_.fillCircle(kp.cx, kp.cy, r, Color{0.105f, 0.11f, 0.118f, 1}, Color{0.028f, 0.03f, 0.033f, 1});
+            gfx_.strokeCircle(kp.cx, kp.cy, r, Color{0, 0, 0, 0.85f}, 2.0f);
+            gfx_.strokeCircle(kp.cx, kp.cy, r - 2.0f, Color{1, 1, 1, 0.07f}, 1.0f);
+            gfx_.fillCircle(kp.cx, kp.cy, 7.0f, Color{0.30f, 0.31f, 0.33f, 1}, Color{0.08f, 0.085f, 0.09f, 1});
+            continue;
+        }
         const ParamInfo& pi = info ? *info : kReleaseInfo;
         const float rest = dialRest(pi);
         const float pos = info ? dialPos(d.param, pi) : rest;
@@ -955,7 +1175,8 @@ void App::drawBlend() {
     const float rs = pb.dia * 1.4f;
     gfx_.sprite(physicsOn_ ? Sprite::RoundOn : Sprite::RoundOff, Rect{pb.cx - rs / 2, pb.cy - rs / 2, rs, rs});
     TC(pb.cx, pb.cy - 14, 100, physicsOn_ ? L"ON" : L"OFF", st(22, 800, physicsOn_ ? kDarkText : kDim, Align::Center));
-    addHit(Rect{pb.cx - 50, pb.cy - 50, 100, 100}, Act::Physics, 0, false);
+    // The whole button and its label take the click.
+    addHit(Rect{pb.cx - 80, pb.cy - 60, 160, 132}, Act::Physics, 0, false);
     TC(pb.cx, 610, 300, L"PHYSICS ON / BYPASS", st(14, 800, kLabel, Align::Center, false, true));
     T(1664, 668, L"L", st(16, 800, kDim));
     T(1664, 702, L"R", st(16, 800, kDim));
@@ -976,70 +1197,158 @@ void App::drawImportPage() {
     gfx_.fillRect(panel, Color{0.010f, 0.012f, 0.015f, 0.97f}, 10);
     gfx_.strokeRect(panel, Color{0.247f, 0.847f, 0.918f, 0.35f}, 1.5f, 10);
     const SampleLibrary* lib = importLib_.get();
-    T(398, 254, importIsNew_ ? L"IMPORT · HOW EACH FILE WAS READ" : L"FILE MAP · HOW EACH FILE WAS READ", st(15, 700, kCyan, Align::Left, true));
+    T(398, 252, importIsNew_ ? L"IMPORT · HOW EACH FILE WAS READ · PLAY THE KEYS TO AUDITION" : L"FILE MAP · HOW EACH FILE WAS READ",
+      st(15, 700, kCyan, Align::Left, true));
     if (loading_) {
-        std::wstring nm = loadingName_;
-        std::ranges::transform(nm, nm.begin(), [](wchar_t c) { return static_cast<wchar_t>(std::towupper(c)); });
-        gfx_.text(nm, Rect{398, 274, 1100, 38}, st(28, 800, kWhite));
+        gfx_.text(upper(loadingName_), Rect{398, 272, 1100, 36}, st(26, 800, kWhite));
         T(398, 330, L"Reading every recording and building the fast-stream cache…", st(17, 600, kGray));
         T(398, 356, L"Big packs take a while the first time; after that they open in seconds.", st(15, 600, kGray));
-        button(Rect{1240, 752, 290, 40}, false, L"CANCEL", 15, Act::ImpBack, 0);
+        button(Rect{1240, 750, 290, 38}, false, L"CANCEL", 15, Act::ImpBack, 0);
         return;
     }
     if (!lib) return;
-    std::wstring nm = importFolder_.filename().wstring();
-    std::ranges::transform(nm, nm.begin(), [](wchar_t c) { return static_cast<wchar_t>(std::towupper(c)); });
-    gfx_.text(nm, Rect{398, 274, 1120, 38}, st(28, 800, kWhite));
-    gfx_.text(importSummary_, Rect{398, 314, 1120, 22}, st(15, 600, kGray));
-    T(398, 352, L"ENGINE", st(14, 800, kLabel, Align::Left, false, true));
+    gfx_.text(L"Mapped from: " + widen(lib->mappingSource()), Rect{900, 254, 628, 18}, st(13, 700, kGray, Align::Right));
+    gfx_.text(upper(importFolder_.filename().wstring()), Rect{398, 272, 1120, 34}, st(26, 800, kWhite));
+    gfx_.text(importSummary_, Rect{398, 306, 1120, 22}, st(14, 600, kGray));
+    T(398, 340, L"ENGINE", st(14, 800, kLabel, Align::Left, false, true));
     const EngineKind kinds[5] = {EngineKind::Piano, EngineKind::BowedString, EngineKind::PluckedString, EngineKind::Aerophone, EngineKind::Membrane};
-    for (int i = 0; i < 5; ++i) {
-        std::wstring n = engineShortName(kinds[i]);
-        std::ranges::transform(n, n.begin(), [](wchar_t c) { return static_cast<wchar_t>(std::towupper(c)); });
-        button(Rect{480.0f + i * 172.0f, 342, 160, 38}, importKind_ == kinds[i], n, 14, Act::ImpEngine, i);
+    for (int i = 0; i < 5; ++i)
+        button(Rect{480.0f + i * 172.0f, 332, 160, 34}, importKind_ == kinds[i], upper(engineShortName(kinds[i])), 14, Act::ImpEngine, i);
+    // Notes about the mapping (guesses, things left out) — red when the mapping is a guess.
+    if (!lib->notices().empty()) {
+        std::wstring all;
+        for (const auto& n : lib->notices()) all += (all.empty() ? L"" : L"  ·  ") + widen(n);
+        TextStyle t = st(13, 700, lib->mappingGuessed() ? kRed : Color{0.55f, 0.80f, 0.86f, 1});
+        t.wrap = true;
+        t.lineSpacing = 16;
+        gfx_.pushClip(Rect{392, 372, 1140, 34});
+        gfx_.text(all, Rect{398, 374, 1120, 34}, t);
+        gfx_.popClip();
     }
-    const float cols[6] = {398, 770, 950, 1080, 1250, 1420};
-    const wchar_t* heads[6] = {L"FILE", L"ARTICULATION", L"ROOT NOTE", L"KEYS", L"VELOCITY (LAYER)", L"ROUND ROBIN"};
-    for (int c = 0; c < 6; ++c) T(cols[c], 398, heads[c], st(13, 800, kCyan, Align::Left, true));
-    gfx_.line(392, 420, 1528, 420, Color{0.247f, 0.847f, 0.918f, 0.35f}, 1);
-    const int visible = 11;
-    const int nRows = static_cast<int>(importRows_.size());
-    importScroll_ = std::clamp(importScroll_, 0, std::max(0, nRows - visible));
-    gfx_.pushClip(Rect{392, 422, 1140, visible * 28.0f});
-    for (int k = 0; k < visible; ++k) {
+    const float cols[7] = {398, 720, 860, 960, 1120, 1250, 1400};
+    const wchar_t* heads[7] = {L"FILE", L"PLAYS AS", L"ROOT", L"KEYS", L"VELOCITY", L"ROUND ROBIN", L""};
+    for (int c = 0; c < 6; ++c) T(cols[c], 412, heads[c], st(13, 800, kCyan, Align::Left, true));
+    gfx_.line(392, 432, 1514, 432, Color{0.247f, 0.847f, 0.918f, 0.35f}, 1);
+    const int nRows = rowCount();
+    importScroll_ = std::clamp(importScroll_, 0, std::max(0, nRows - kRowsVisible));
+    // The table area first: rows added after it win the click (hits are searched last-first).
+    addHit(Rect{392, kRowsTop, 1118, kRowsVisible * kRowH}, Act::ImpTable, 0, false);
+    gfx_.pushClip(Rect{392, kRowsTop - 2, 1124, kRowsVisible * kRowH + 2});
+    for (int k = 0; k < kRowsVisible; ++k) {
         const int i = importScroll_ + k;
         if (i >= nRows) break;
-        const ImportRow& row = importRows_[static_cast<std::size_t>(i)];
-        const float y = 424.0f + k * 28.0f;
-        if (k % 2 == 0) gfx_.fillRect(Rect{392, y - 2, 1140, 28}, Color{1, 1, 1, 0.03f});
-        if (row.skipped) {
-            gfx_.text(L"SKIPPED: " + row.file, Rect{cols[0], y + 2, 1120, 22}, st(14, 600, kRed));
+        const float y = kRowsTop + k * kRowH;
+        if (i >= static_cast<int>(editRows_.size())) {
+            gfx_.text(L"SKIPPED: " + skippedRows_[static_cast<std::size_t>(i) - editRows_.size()], Rect{cols[0], y + 3, 1100, 20}, st(14, 600, kRed));
             continue;
         }
+        const MapRow& row = editRows_[static_cast<std::size_t>(i)];
+        const bool sel = i == selRow_;
+        if (sel) {
+            gfx_.fillRect(Rect{392, y, 1122, kRowH}, Color{0.247f, 0.847f, 0.918f, 0.16f}, 3);
+            gfx_.strokeRect(Rect{392, y, 1122, kRowH}, Color{0.247f, 0.847f, 0.918f, 0.6f}, 1, 3);
+        } else if (k % 2 == 0) {
+            gfx_.fillRect(Rect{392, y, 1122, kRowH}, Color{1, 1, 1, 0.03f});
+        }
         const TextStyle cell = st(14, 600, kLabel);
-        gfx_.text(row.file, Rect{cols[0], y + 2, cols[1] - cols[0] - 12, 22}, cell);
-        gfx_.text(row.art, Rect{cols[1], y + 2, cols[2] - cols[1] - 12, 22}, cell);
-        gfx_.text(row.root, Rect{cols[2], y + 2, cols[3] - cols[2] - 12, 22}, st(14, 800, kCyan));
-        gfx_.text(row.keys, Rect{cols[3], y + 2, cols[4] - cols[3] - 12, 22}, cell);
-        gfx_.text(row.vel, Rect{cols[4], y + 2, cols[5] - cols[4] - 12, 22}, cell);
-        gfx_.text(row.rr, Rect{cols[5], y + 2, 110, 22}, cell);
+        gfx_.text(row.file.filename().wstring(), Rect{cols[0], y + 3, cols[1] - cols[0] - 12, 20}, cell);
+        gfx_.text(row.release ? L"release" : row.articulation, Rect{cols[1], y + 3, cols[2] - cols[1] - 8, 20}, cell);
+        gfx_.text(noteName(row.root) + (row.pitched ? L"" : L" hit"), Rect{cols[2], y + 3, cols[3] - cols[2] - 8, 20}, st(14, 800, kCyan));
+        gfx_.text(row.lo == row.hi ? noteName(row.lo) : noteName(row.lo) + L" – " + noteName(row.hi), Rect{cols[3], y + 3, cols[4] - cols[3] - 8, 20}, cell);
+        gfx_.text(std::to_wstring(row.loVel) + L" – " + std::to_wstring(row.hiVel), Rect{cols[4], y + 3, cols[5] - cols[4] - 8, 20}, cell);
+        gfx_.text(std::to_wstring(row.rr), Rect{cols[5], y + 3, 120, 20}, cell);
+        addHit(Rect{392, y, 1118, kRowH}, Act::ImpRow, i, false);
     }
     gfx_.popClip();
-    addHit(Rect{392, 422, 1140, visible * 28.0f}, Act::ImpTable, 0, false);
-    wchar_t buf[96];
-    std::swprintf(buf, 96, L"Rows %d–%d of %d · scroll with the mouse wheel", nRows ? importScroll_ + 1 : 0, std::min(nRows, importScroll_ + visible), nRows);
-    T(398, 762, buf, st(14, 600, kGray));
-    if (importIsNew_) {
-        button(Rect{1080, 752, 140, 40}, false, L"CANCEL", 15, Act::ImpBack, 0);
-        button(Rect{1240, 752, 290, 40}, true, L"ADD TO INSTRUMENTS", 15, Act::ImpAdd, 0);
-    } else {
-        button(Rect{1240, 752, 290, 40}, true, L"BACK TO PLAYING", 15, Act::ImpBack, 0);
+    // Scroll bar (drag the thumb or click the track).
+    const Rect track{1518, kRowsTop, 10, kRowsVisible * kRowH};
+    gfx_.fillRect(track, Color{1, 1, 1, 0.05f}, 5);
+    if (nRows > kRowsVisible) {
+        const float th = std::max(24.0f, track.h * kRowsVisible / nRows);
+        const float ty = track.y + (track.h - th) * importScroll_ / std::max(1, nRows - kRowsVisible);
+        gfx_.fillRect(Rect{track.x, ty, track.w, th}, Color{0.247f, 0.847f, 0.918f, 0.75f}, 5);
     }
+    addHit(Rect{track.x - 8, track.y, track.w + 16, track.h}, Act::ImpScroll, 0, false);
+
+    // ---- edit bar ----
+    const float ey = 682;
+    if (selRow_ >= 0 && selRow_ < static_cast<int>(editRows_.size())) {
+        const MapRow& r = editRows_[static_cast<std::size_t>(selRow_)];
+        const TextStyle lab = st(13, 800, kLabel, Align::Left, false, true);
+        const TextStyle val = st(16, 800, kCyan, Align::Center, true);
+        float x = 398;
+        auto field = [&](const wchar_t* label, std::wstring value, int f, float valW, bool octave) {
+            T(x, ey + 8, label, lab);
+            const float lx = x + 6.0f + gfx_.textWidth(label, lab);
+            smallButton(Rect{lx, ey + 2, 30, 30}, L"−", Act::Edit, f * 4 + 0);
+            gfx_.text(value, Rect{lx + 32, ey + 7, valW, 22}, val);
+            smallButton(Rect{lx + 34 + valW, ey + 2, 30, 30}, L"+", Act::Edit, f * 4 + 1);
+            x = lx + 64 + valW;
+            if (octave) {
+                smallButton(Rect{x + 4, ey + 2, 38, 30}, L"−12", Act::Edit, f * 4 + 2);
+                smallButton(Rect{x + 46, ey + 2, 38, 30}, L"+12", Act::Edit, f * 4 + 3);
+                x += 84;
+            }
+            x += 14;
+        };
+        field(L"ROOT", noteName(r.root), 0, 46, true);
+        field(L"KEYS", noteName(r.lo), 1, 46, false);
+        field(L"TO", noteName(r.hi), 2, 46, false);
+        field(L"VEL", std::to_wstring(r.loVel), 3, 34, false);
+        field(L"TO", std::to_wstring(r.hiVel), 4, 34, false);
+        field(L"RR", std::to_wstring(r.rr), 5, 24, false);
+        button(Rect{1404, ey, 126, 34}, mappingDirty_, L"APPLY", 15, Act::ImpApply, 0);
+    } else {
+        TextStyle t = st(14, 600, kGray);
+        T(398, ey + 8, L"Click a row to hear it and change its root note, keys, velocities or round robin. Mouse wheel over − / + works too.", t);
+        if (mappingDirty_) button(Rect{1404, ey, 126, 34}, true, L"APPLY", 15, Act::ImpApply, 0);
+    }
+
+    // ---- bottom line ----
+    wchar_t buf[96];
+    std::swprintf(buf, 96, L"Rows %d–%d of %d", nRows ? importScroll_ + 1 : 0, std::min(nRows, importScroll_ + kRowsVisible), nRows);
+    T(398, 760, buf, st(14, 600, kGray));
+    const bool hasOwnMapping = settings_.mappings.contains(packKey(importFolder_));
+    if (hasOwnMapping) button(Rect{560, 750, 230, 38}, false, L"AUTOMATIC MAPPING", 14, Act::ImpAuto, 0);
+    if (importIsNew_) {
+        button(Rect{1080, 750, 140, 38}, false, L"CANCEL", 15, Act::ImpBack, 0);
+        button(Rect{1240, 750, 290, 38}, true, L"ADD TO INSTRUMENTS", 15, Act::ImpAdd, 0);
+    } else {
+        button(Rect{820, 750, 240, 38}, false, L"REMOVE FROM LIST", 14, Act::Remove, 0);
+        button(Rect{1240, 750, 290, 38}, true, L"BACK TO PLAYING", 15, Act::ImpBack, 0);
+    }
+}
+
+void App::drawAboutPage() {
+    const Rect panel{376, 240, 1168, 558};
+    gfx_.fillRect(panel, Color{0.010f, 0.012f, 0.015f, 0.97f}, 10);
+    gfx_.strokeRect(panel, Color{0.247f, 0.847f, 0.918f, 0.35f}, 1.5f, 10);
+    T(398, 252, L"ABOUT & CREDITS", st(15, 700, kCyan, Align::Left, true));
+    gfx_.text(std::wstring(L"WORLD HERITAGE ENGINE ") + kVersion, Rect{398, 272, 1100, 34}, st(26, 800, kWhite));
+    TextStyle body = st(14, 600, kLabel);
+    body.wrap = true;
+    body.lineSpacing = 19;
+    const wchar_t* text =
+        L"Hybrid Elite Mafia · real-instrument creator. Every sound starts from real recordings; the physics only reshapes them. "
+        L"Program: GPLv3, source at github.com/The-Hybrid-Elite-Mafia/World-Heritage-Engine.\n\n"
+        L"RECORDINGS\n"
+        L"• Salamander Grand Piano V3 — Alexander Holm (Yamaha C5), CC BY 3.0. SFZ by kinwie / sfzinstruments.\n"
+        L"• Upright Piano — VSCO 2 Community Edition, Versilian Studios / Sam Gossner, Ivy Audio / Simon Dalzell, CC0. versilian-studios.com/vsco-community\n"
+        L"• Virtuosity Drums (snare) — performed by Austin McMahon, recorded at Virtuosity Musical Instruments (Boston), CC0.\n"
+        L"• Tabla strokes — Subodh Deolekar (2020), Tabla strokes dataset, Zenodo, DOI 10.5281/zenodo.4327350, CC BY 4.0.\n"
+        L"• Hang drum, ukulele, nylon guitar and other FreePats packs — freepats.zenvoid.org, CC0 (authors in each pack's readme).\n"
+        L"• Steel-string guitar — Gary Campion / FlameStudios, modified by Roberto for FreePats, GPL-3.0-or-later.\n\n"
+        L"PROGRAM PARTS\n"
+        L"• Montserrat font — The Montserrat Project Authors, SIL Open Font License 1.1.\n"
+        L"• ASIO is a trademark and software of Steinberg Media Technologies GmbH (ASIO SDK used under GPLv3).\n"
+        L"Credit is not endorsement: none of these people or projects are connected with HEM.";
+    gfx_.text(text, Rect{398, 316, 1120, 420}, body);
+    button(Rect{1240, 750, 290, 38}, true, L"BACK TO PLAYING", 15, Act::AboutClose, 0);
 }
 
 void App::drawDynamic() {
     drawStatusValues();
-    if (!importPage_) drawKeyMap();
+    if (!importPage_ && !aboutPage_) drawKeyMap();
     drawMeters();
     drawFader();
     // SUSTAIN lights from the button or a MIDI sustain pedal.
@@ -1099,9 +1408,11 @@ void App::drawKeyMap() {
             gfx_.fillRect(r, Color{0.247f, 0.847f, 0.918f, 0.06f}, 5);
             gfx_.strokeRect(r, Color{0.247f, 0.847f, 0.918f, 0.35f}, 1, 5);
         }
+        // Labels show the zone's true range (same as the File Map).
         std::wstring label;
-        if (z.w > 150 && z.lo != z.hi) label = noteName(z.root) + L" · " + noteName(z.lo) + L"–" + noteName(z.hi);
+        if (z.w > 150 && z.realLo != z.realHi) label = noteName(z.root) + L" · " + noteName(z.realLo) + L"–" + noteName(z.realHi);
         else if (z.w >= 40) label = noteName(z.root);
+        if (z.hit && !label.empty()) label += L" hit";
         if (!label.empty()) {
             gfx_.pushClip(r);
             gfx_.text(label, Rect{r.x, r.y + 11, r.w, 22}, st(16, 800, lit ? kDarkText : Color{0.498f, 0.867f, 0.918f, 1}, Align::Center));
@@ -1166,7 +1477,7 @@ void App::drawFader() {
     addHit(Rect{f.x - 24, f.y - 14, f.w + 48, f.h + 28}, Act::Fader, 0, true);
     std::wstring layer;
     if (const SampleLibrary* lib = host_.library().get(); lib && lib->primary()) {
-        if (const Zone* z = lib->primary()->find(lastNote_, settings_.velocity))
+        if (const Zone* z = lib->primary()->find(host_.mapNote(lastNote_), settings_.velocity))
             layer = L" · LAYER " + std::to_wstring(z->layer + 1) + L" / " + std::to_wstring(z->layerCount);
     }
     T(1420, 832, std::to_wstring(settings_.velocity) + layer, st(19, 800, kCyan, Align::Left, true));
@@ -1256,6 +1567,14 @@ void App::setVelocityFromX(float x) {
     invalidate(false);
 }
 
+void App::scrollRowsTo(float y) {
+    const int n = rowCount();
+    if (n <= kRowsVisible) return;
+    const float t = std::clamp((y - kRowsTop) / (kRowsVisible * kRowH), 0.0f, 1.0f);
+    importScroll_ = static_cast<int>(std::lround(t * static_cast<float>(n - kRowsVisible)));
+    invalidate(true);
+}
+
 void App::mouseDown(float x, float y, bool dbl) {
     auto hit = hitAt(x, y);
     if (!hit) return;
@@ -1326,18 +1645,44 @@ void App::mouseDown(float x, float y, bool dbl) {
             invalidate(false);
             break;
         case Act::Pack:
-            if (!loading_ && hit->arg != selPack_) {
+            if (!loading_ && (hit->arg != selPack_ || previewing_ || importPage_ || aboutPage_)) {
+                endPreview(false);
                 importPage_ = false;
-                startLoad(hit->arg, packs_[hit->arg].folder, packs_[hit->arg].kind, false);
+                aboutPage_ = false;
+                if (hit->arg == selPack_ && host_.library()) {
+                    invalidate(true);
+                    break;
+                }
+                startLoad(hit->arg, packs_[static_cast<std::size_t>(hit->arg)].folder, packs_[static_cast<std::size_t>(hit->arg)].kind, false);
             }
             break;
         case Act::PackPlaceholder:
+            if (!previewing_) chooseImportFolder();
+            break;
         case Act::Import: chooseImportFolder(); break;
         case Act::Save: saveSound(); break;
         case Act::Reset: resetSound(); break;
         case Act::Driver: showDriverMenu(); break;
         case Act::Buffer: showBufferMenu(); break;
         case Act::Rate: showRateMenu(); break;
+        case Act::LibUp:
+            listScroll_ = std::max(0, listScroll_ - 1);
+            invalidate(true);
+            break;
+        case Act::LibDown:
+            ++listScroll_;
+            invalidate(true);
+            break;
+        case Act::About:
+            if (importPage_ && importIsNew_) break;  // finish or cancel the import first
+            aboutPage_ = !aboutPage_;
+            importPage_ = false;
+            invalidate(true);
+            break;
+        case Act::AboutClose:
+            aboutPage_ = false;
+            invalidate(true);
+            break;
         case Act::Page:
             if (!ui.pages.empty()) {
                 page_ = (page_ + 1) % static_cast<int>(ui.pages.size());
@@ -1347,70 +1692,119 @@ void App::mouseDown(float x, float y, bool dbl) {
         case Act::FileMap:
             if (host_.library() && selPack_ >= 0) {
                 importLib_ = host_.library();
-                importFolder_ = packs_[selPack_].folder;
+                importFolder_ = packs_[static_cast<std::size_t>(selPack_)].folder;
                 importKind_ = host_.kind();
                 importIsNew_ = false;
                 importPage_ = true;
+                aboutPage_ = false;
                 importScroll_ = 0;
+                selRow_ = -1;
+                mappingDirty_ = false;
                 buildImportRows(*importLib_);
                 invalidate(true);
             }
             break;
         case Act::ImpEngine: {
+            if (loading_ || !importLib_) break;
             const EngineKind kinds[5] = {EngineKind::Piano, EngineKind::BowedString, EngineKind::PluckedString, EngineKind::Aerophone, EngineKind::Membrane};
-            importKind_ = kinds[std::clamp(hit->arg, 0, 4)];
+            const EngineKind k = kinds[std::clamp(hit->arg, 0, 4)];
+            if (k == importKind_) break;
+            if (importIsNew_) {
+                const EngineKind prev = importKind_;
+                importKind_ = k;
+                host_.allNotesOff();
+                if (auto r = host_.setInstrument(k, importLib_); !r) {
+                    importKind_ = prev;
+                    host_.setInstrument(prev, importLib_);
+                    setMessage(L"The " + std::wstring(engineShortName(k)) + L" engine cannot play these recordings: " + widen(r.error().message), true);
+                } else {
+                    setSound(SoundState{});
+                    page_ = 0;
+                    buildKeyMap();
+                    applyAll();
+                }
+            } else if (selPack_ >= 0) {
+                // Changing the engine of a pack in the list takes effect now; each engine keeps its own dial settings.
+                if (activateLibrary(selPack_, k, importLib_)) {
+                    importKind_ = k;
+                    rememberEngine(importFolder_, k);
+                    saveSettings(settings_);
+                }
+            }
             invalidate(true);
             break;
         }
+        case Act::ImpRow: {
+            selRow_ = hit->arg;
+            if (selRow_ >= 0 && selRow_ < static_cast<int>(editRows_.size())) {
+                // Hear the recording of this row (its own root, middle of its velocity range).
+                const MapRow& r = editRows_[static_cast<std::size_t>(selRow_)];
+                if (!r.release) {
+                    const int note = std::clamp(r.root, r.lo, r.hi);
+                    host_.noteOn(note, (r.loVel + r.hiVel) / 2);
+                    pendingOff_.emplace_back(GetTickCount64() + 1500, note);
+                }
+            }
+            invalidate(true);
+            break;
+        }
+        case Act::ImpScroll:
+            drag_ = Act::ImpScroll;
+            scrollRowsTo(y);
+            SetCapture(hwnd_);
+            break;
+        case Act::Edit: editField(hit->arg / 4, hit->arg % 4); break;
+        case Act::ImpApply: applyMapping(false); break;
+        case Act::ImpAuto: applyMapping(true); break;
+        case Act::Remove: removeSelectedPack(); break;
         case Act::ImpAdd: {
-            if (!importLib_) break;
-            // Build it first: an engine that cannot play these recordings keeps the import page open.
-            const auto lib = importLib_;
-            const int before = selPack_;
-            if (!activateLibrary(-1, importKind_, lib)) {
-                selPack_ = before;
+            if (!importLib_ || loading_) break;
+            logLine("ADD pressed for " + narrow(importFolder_.wstring()));
+            if (mappingDirty_) {
+                setMessage(L"Press APPLY first so your mapping changes are used.", true);
                 break;
             }
+            // The audition instrument becomes the real one; register the folder and select it.
+            std::erase_if(settings_.hiddenPacks, [&](const fs::path& h) { return packKey(h) == packKey(importFolder_); });
             rememberEngine(importFolder_, importKind_);
             discoverPacks();
             int idx = -1;
             for (int i = 0; i < static_cast<int>(packs_.size()); ++i)
-                if (packKey(packs_[i].folder) == packKey(importFolder_)) idx = i;
-            selPack_ = idx;
-            if (idx >= 0) {
-                packs_[idx].kind = importKind_;
-                settings_.lastPack = packs_[idx].folder;
-                loadSoundForPack();
-                applyAll();
+                if (packKey(packs_[static_cast<std::size_t>(i)].folder) == packKey(importFolder_)) idx = i;
+            if (idx < 0) {
+                logLine("add failed: folder not found after registering: " + narrow(importFolder_.wstring()));
+                setMessage(L"Could not add " + importFolder_.filename().wstring() + L": the folder has no readable recordings any more.", true);
+                break;
             }
-            saveSettings(settings_);
+            endPreview(false);
+            if (!activateLibrary(idx, importKind_, importLib_)) break;
             importPage_ = false;
             importLib_.reset();
-            if (idx >= 3) listScroll_ = idx - 2;
+            saveSettings(settings_);
+            logLine("added pack " + narrow(packs_[static_cast<std::size_t>(idx)].folder.wstring()) + " (" + std::to_string(packs_.size()) + " in the list)");
             setMessage(L"Added. Play it on the keyboard below.");
             break;
         }
         case Act::ImpBack: {
             if (loading_) {
                 // The read cannot be interrupted mid-file; its result is dropped when it arrives.
-                importCancelled_ = true;
+                importCancelled_ = importIsNew_;
                 importPage_ = false;
                 invalidate(true);
                 break;
             }
-            const bool engineChanged = !importIsNew_ && importLib_ && importKind_ != host_.kind();
-            importPage_ = false;
-            if (engineChanged && selPack_ >= 0) {
-                // Rebuild with the chosen engine; remember the choice only if it can play these recordings.
-                if (activateLibrary(selPack_, importKind_, importLib_)) {
-                    rememberEngine(importFolder_, importKind_);
-                    saveSettings(settings_);
-                } else {
-                    importPage_ = true;  // stay here so another engine can be picked
+            if (importIsNew_) endPreview(true);
+            if (!importIsNew_ && mappingDirty_) {
+                const int a = MessageBoxW(hwnd_, L"Use the mapping changes you made?", L"World Heritage Engine", MB_YESNOCANCEL | MB_ICONQUESTION);
+                if (a == IDCANCEL) break;
+                if (a == IDYES) {
+                    applyMapping(false);
                     break;
                 }
             }
+            importPage_ = false;
             importLib_.reset();
+            mappingDirty_ = false;
             invalidate(true);
             break;
         }
@@ -1438,6 +1832,8 @@ void App::mouseMove(float x, float y, bool shift) {
         setVelocityFromX(x);
     } else if (drag_ == Act::Keys) {
         playMouseNote(keyAt(x, y));
+    } else if (drag_ == Act::ImpScroll) {
+        scrollRowsTo(y);
     }
 }
 
@@ -1447,10 +1843,11 @@ void App::mouseUp() {
     drag_ = Act::None;
 }
 
-void App::wheel(float x, float y, int delta) {
+void App::wheel(float x, float y, int delta, bool shift) {
     auto hit = hitAt(x, y);
     if (!hit) return;
-    const float step = static_cast<float>(delta) / 120.0f / 50.0f;
+    const float notches = static_cast<float>(delta) / 120.0f;
+    const float step = notches / 50.0f;
     switch (hit->act) {
         case Act::Dial: {
             const EngineUi& ui = engineUi(host_.kind());
@@ -1475,18 +1872,62 @@ void App::wheel(float x, float y, int delta) {
         case Act::Library:
         case Act::Pack:
         case Act::PackPlaceholder:
-            listScroll_ = std::clamp(listScroll_ + (delta > 0 ? -1 : 1), 0, std::max(0, static_cast<int>(packs_.size()) - 2));
+        case Act::LibUp:
+        case Act::LibDown:
+            listScroll_ = std::max(0, listScroll_ + (delta > 0 ? -1 : 1));
             invalidate(true);
             break;
         case Act::ImpTable:
-            importScroll_ += delta > 0 ? -3 : 3;
-            invalidate(true);
+        case Act::ImpRow:
+        case Act::ImpScroll: {
+            // 5 rows per wheel notch; fine-grained wheels and touchpads add up.
+            wheelAccum_ -= notches * 5.0f;
+            const int rows = static_cast<int>(wheelAccum_);
+            if (rows != 0) {
+                wheelAccum_ -= static_cast<float>(rows);
+                importScroll_ = std::clamp(importScroll_ + rows, 0, std::max(0, rowCount() - kRowsVisible));
+                invalidate(true);
+            }
             break;
+        }
+        case Act::Edit: {
+            const int field = hit->arg / 4;
+            const bool up = delta > 0;
+            editField(field, shift && field <= 2 ? (up ? 3 : 2) : (up ? 1 : 0));
+            break;
+        }
         default: break;
     }
 }
 
 void App::keyDown(WPARAM vk, LPARAM lp) {
+    if (importPage_ && !loading_) {
+        const int n = rowCount();
+        int handled = 1;
+        switch (vk) {
+            case VK_PRIOR: importScroll_ = std::max(0, importScroll_ - kRowsVisible); break;
+            case VK_NEXT: importScroll_ = std::min(std::max(0, n - kRowsVisible), importScroll_ + kRowsVisible); break;
+            case VK_HOME: importScroll_ = 0; break;
+            case VK_END: importScroll_ = std::max(0, n - kRowsVisible); break;
+            case VK_UP:
+            case VK_DOWN:
+                if (!editRows_.empty()) {
+                    selRow_ = std::clamp(selRow_ + (vk == VK_UP ? -1 : 1), 0, static_cast<int>(editRows_.size()) - 1);
+                    if (selRow_ < importScroll_) importScroll_ = selRow_;
+                    if (selRow_ >= importScroll_ + kRowsVisible) importScroll_ = selRow_ - kRowsVisible + 1;
+                }
+                break;
+            case VK_LEFT:
+            case VK_RIGHT:
+                if (selRow_ >= 0) editField(0, vk == VK_RIGHT ? 1 : 0);
+                break;
+            default: handled = 0;
+        }
+        if (handled) {
+            invalidate(true);
+            return;
+        }
+    }
     if (lp & (1 << 30)) return;  // auto-repeat
     static constexpr int keys[] = {'A', 'W', 'S', 'E', 'D', 'F', 'T', 'G', 'Y', 'H', 'U', 'J', 'K', 'O', 'L', 'P', VK_OEM_1};
     for (int i = 0; i < static_cast<int>(std::size(keys)); ++i)
@@ -1512,6 +1953,10 @@ void App::keyDown(WPARAM vk, LPARAM lp) {
     } else if (vk == VK_ESCAPE) {
         host_.allNotesOff();
         pcNotes_.clear();
+        if (aboutPage_) {
+            aboutPage_ = false;
+            invalidate(true);
+        }
         invalidate(false);
     }
 }
@@ -1533,7 +1978,7 @@ void App::chooseImportFolder() {
     DWORD opts = 0;
     dlg->GetOptions(&opts);
     dlg->SetOptions(opts | FOS_PICKFOLDERS | FOS_FORCEFILESYSTEM | FOS_PATHMUSTEXIST);
-    dlg->SetTitle(L"Pick a folder of real instrument recordings (.wav / .flac / .aiff)");
+    dlg->SetTitle(L"Pick a folder of real instrument recordings (.wav / .flac / .aiff, optional .sfz)");
     if (FAILED(dlg->Show(hwnd_))) return;
     ComPtr<IShellItem> item;
     if (FAILED(dlg->GetResult(item.GetAddressOf()))) return;
@@ -1555,12 +2000,26 @@ void App::importFolder(const fs::path& folder) {
         setMessage(L"No .wav, .flac or .aiff recordings in " + folder.filename().wstring() + L".", true);
         return;
     }
+    // Already in the list: open its File Map instead of importing it twice.
+    for (int i = 0; i < static_cast<int>(packs_.size()); ++i)
+        if (packKey(packs_[static_cast<std::size_t>(i)].folder) == packKey(folder)) {
+            setMessage(packs_[static_cast<std::size_t>(i)].name + L" is already in your instruments — showing it.");
+            endPreview(true);
+            importPage_ = false;
+            startLoad(i, packs_[static_cast<std::size_t>(i)].folder, packs_[static_cast<std::size_t>(i)].kind, false);
+            return;
+        }
+    endPreview(true);
     importFolder_ = folder;
     importIsNew_ = true;
     importPage_ = true;
+    aboutPage_ = false;
     importCancelled_ = false;
     importLib_.reset();
-    importRows_.clear();
+    editRows_.clear();
+    skippedRows_.clear();
+    selRow_ = -1;
+    importScroll_ = 0;
     startLoad(-1, folder, guessEngine(folder.filename().wstring()), true);
 }
 
@@ -1667,7 +2126,7 @@ void App::showRateMenu() {
 void App::tick() {
     const ULONGLONG now = GetTickCount64();
     bool dyn = false;
-    // Scheduled note-offs (key-map previews).
+    // Scheduled note-offs (key-map and File Map previews).
     std::erase_if(pendingOff_, [&](const auto& p) {
         if (p.first > now) return false;
         host_.noteOff(p.second);
@@ -1677,7 +2136,7 @@ void App::tick() {
     const auto live = host_.readLive();
     if (live.limitDb < -0.5f) {
         if (now >= limitUntil_) dyn = true;
-        limitUntil_ = now + 600;
+        limitUntil_ = now + 1500;
     } else if (limitUntil_ != 0 && now >= limitUntil_) {
         limitUntil_ = 0;
         dyn = true;
@@ -1767,6 +2226,12 @@ LRESULT App::wndProc(UINT m, WPARAM w, LPARAM l) {
         case WM_LBUTTONDOWN:
         case WM_LBUTTONDBLCLK:
             SetFocus(hwnd_);
+            // Hit areas come from the last frame: draw any pending change first so a quick
+            // click right after a page change lands on what is on screen now.
+            if (!gfx_.layerValid()) {
+                paint();
+                ValidateRect(hwnd_, nullptr);
+            }
             mouseDown(lx(l), ly(l), m == WM_LBUTTONDBLCLK);
             return 0;
         case WM_MOUSEMOVE: mouseMove(lx(l), ly(l), (w & MK_SHIFT) != 0); return 0;
@@ -1778,7 +2243,12 @@ LRESULT App::wndProc(UINT m, WPARAM w, LPARAM l) {
         case WM_MOUSEWHEEL: {
             POINT p{GET_X_LPARAM(l), GET_Y_LPARAM(l)};
             ScreenToClient(hwnd_, &p);
-            wheel((static_cast<float>(p.x) - ox_) / scale_, (static_cast<float>(p.y) - oy_) / scale_, GET_WHEEL_DELTA_WPARAM(w));
+            if (!gfx_.layerValid()) {
+                paint();
+                ValidateRect(hwnd_, nullptr);
+            }
+            wheel((static_cast<float>(p.x) - ox_) / scale_, (static_cast<float>(p.y) - oy_) / scale_, GET_WHEEL_DELTA_WPARAM(w),
+                  (GET_KEYSTATE_WPARAM(w) & MK_SHIFT) != 0);
             return 0;
         }
         case WM_KEYDOWN: keyDown(w, l); return 0;
@@ -1808,10 +2278,6 @@ LRESULT App::wndProc(UINT m, WPARAM w, LPARAM l) {
     }
     return DefWindowProcW(hwnd_, m, w, l);
 }
-
-}  // namespace
-
-namespace {
 
 // If the program ever crashes, write what and where to studio.log before Windows closes it.
 LONG WINAPI crashLogger(EXCEPTION_POINTERS* ep) {

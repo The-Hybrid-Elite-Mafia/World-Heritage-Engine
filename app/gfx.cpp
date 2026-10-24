@@ -287,6 +287,26 @@ void Gfx::line(float x0, float y0, float x1, float y1, Color c, float width) {
     cur_->DrawLine(D2D1::Point2F(ox_ + x0 * scale_, oy_ + y0 * scale_), D2D1::Point2F(ox_ + x1 * scale_, oy_ + y1 * scale_), brush(c), width * scale_);
 }
 
+void Gfx::fillCircle(float cx, float cy, float r, Color inner, Color outer) {
+    cur_->SetTransform(D2D1::Matrix3x2F::Identity());
+    const D2D1_POINT_2F c = D2D1::Point2F(ox_ + cx * scale_, oy_ + cy * scale_);
+    const float pr = r * scale_;
+    D2D1_GRADIENT_STOP stops[2] = {{0.0f, d2c(inner)}, {1.0f, d2c(outer)}};
+    ComPtr<ID2D1GradientStopCollection> coll;
+    ComPtr<ID2D1RadialGradientBrush> rg;
+    if (FAILED(cur_->CreateGradientStopCollection(stops, 2, coll.GetAddressOf()))) return;
+    // Light from the top-left, like the rendered parts.
+    if (FAILED(cur_->CreateRadialGradientBrush(D2D1::RadialGradientBrushProperties(c, D2D1::Point2F(-pr * 0.3f, -pr * 0.3f), pr * 1.2f, pr * 1.2f),
+                                               coll.Get(), rg.GetAddressOf())))
+        return;
+    cur_->FillEllipse(D2D1::Ellipse(c, pr, pr), rg.Get());
+}
+
+void Gfx::strokeCircle(float cx, float cy, float r, Color c, float width) {
+    cur_->SetTransform(D2D1::Matrix3x2F::Identity());
+    cur_->DrawEllipse(D2D1::Ellipse(D2D1::Point2F(ox_ + cx * scale_, oy_ + cy * scale_), r * scale_, r * scale_), brush(c), width * scale_);
+}
+
 IDWriteTextFormat* Gfx::format(const TextStyle& st) {
     const int sizeKey = static_cast<int>(std::lround(st.size * 4.0f));
     const auto key = std::make_tuple(sizeKey, st.weight * 4 + static_cast<int>(st.align), static_cast<int>(st.lineSpacing * 4.0f), st.wrap);

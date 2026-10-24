@@ -1,3 +1,4 @@
+#include <algorithm>
 // World Heritage Engine test suite (no framework, no dependencies).
 //
 //   whe_tests [real-pack-folder ...]
@@ -246,6 +247,101 @@ static void testMapper(const fs::path& dir) {
             CHECK(a->find(69, 32)->layer == 0);
             CHECK(a->find(69, 33)->layer == 1);
             CHECK(a->find(69, 127)->layer == 3);
+        }
+    }
+    // MIDI note numbers in file names (HV_40 … = notes, HV/MV = velocity layers)
+    {
+        const fs::path pk = dir / "MidiNumPack";
+        fs::remove_all(pk);
+        fs::create_directories(pk);
+        for (int n : {40, 45, 50, 55, 60}) writeWav16(pk / ("HV_" + std::to_string(n) + ".wav"), sig, 1, 48000);
+        for (int n : {40, 50, 60}) writeWav16(pk / ("MV_" + std::to_string(n) + ".wav"), sig, 1, 48000);
+        auto l = SampleLibrary::import(pk);
+        CHECK(l.has_value());
+        if (l) {
+            const Articulation* a = (*l)->primary();
+            CHECK(a && a->pitched && (*l)->articulations().size() == 1);
+            CHECK(a && a->find(40, 127) && a->find(40, 127)->rootKey == 40);
+            CHECK(a && a->find(55, 100) && a->find(55, 100)->rootKey == 55);
+            CHECK(a && a->find(40, 1) && a->find(40, 1)->layerCount == 2);  // MV + HV layers on 40
+        }
+    }
+    // Takes "Da_Test01..04": strokes on separate keys, takes are round robins, one playable articulation
+    {
+        const fs::path pk = dir / "StrokePack";
+        fs::remove_all(pk);
+        fs::create_directories(pk);
+        for (const char* s : {"Da", "Ge", "Na"})
+            for (int t = 1; t <= 4; ++t) writeWav16(pk / (std::string(s) + "_Test0" + std::to_string(t) + ".wav"), sig, 1, 48000);
+        auto l = SampleLibrary::import(pk);
+        CHECK(l.has_value());
+        if (l) {
+            const Articulation* a = (*l)->primary();
+            CHECK(a && !a->pitched && a->zones.size() == 3);
+            CHECK(a && std::ranges::all_of(a->zones, [](const Zone& z) { return z.roundRobins.size() == 4; }));
+        }
+    }
+    // Unpitched extras next to real notes go above the notes, never on top of them
+    {
+        const fs::path pk = dir / "UkePack";
+        fs::remove_all(pk);
+        fs::create_directories(pk);
+        for (const char* n : {"C4", "E4", "G4", "C5", "body-tap", "chuck"}) writeWav16(pk / (std::string(n) + ".wav"), sig, 1, 48000);
+        auto l = SampleLibrary::import(pk);
+        CHECK(l.has_value());
+        if (l) {
+            const Articulation* a = (*l)->primary();
+            CHECK(a && a->pitched);
+            CHECK(a && a->find(60, 100) && a->find(60, 100)->rootKey == 60);
+            CHECK(a && a->find(74, 100) && !a->find(74, 100)->pitched);  // first hit: C5 (72) + 2
+            CHECK(a && a->find(75, 100) && !a->find(75, 100)->pitched);
+        }
+    }
+    // MappingChart.txt: number in the name -> key
+    {
+        const fs::path pk = dir / "ChartPack";
+        fs::remove_all(pk);
+        fs::create_directories(pk);
+        for (int i : {0, 2, 4}) {
+            char nm[64];
+            std::snprintf(nm, sizeof nm, "Player_dyn1_rr1_%03d.wav", i);
+            writeWav16(pk / nm, sig, 1, 48000);
+        }
+        std::ofstream(pk / "MappingChart.txt") << "Notation=KeyNumber\n000=21\n002=25\n004=29";
+        auto l = SampleLibrary::import(pk);
+        CHECK(l.has_value());
+        if (l) {
+            const Articulation* a = (*l)->primary();
+            CHECK(a && a->find(21, 64) && a->find(21, 64)->rootKey == 21);
+            CHECK(a && a->find(29, 64) && a->find(29, 64)->rootKey == 29);
+            CHECK(!(*l)->mappingGuessed());
+        }
+    }
+    // SFZ wins over file names: #define, #include, groups, seq_position, release trigger, keyswitch default
+    {
+        const fs::path pk = dir / "SfzPack";
+        fs::remove_all(pk);
+        fs::create_directories(pk / "samples");
+        fs::create_directories(pk / "inc");
+        for (const char* n : {"a1", "a2", "b1", "rel", "alt"}) writeWav16(pk / "samples" / (std::string(n) + ".wav"), sig, 1, 48000);
+        std::ofstream(pk / "inc" / "notes.txt") << "<region> sample=$P1.wav seq_position=1\n<region> sample=$P2.wav seq_position=2\n";
+        std::ofstream(pk / "pack.sfz") << "// test\n#define $P1 a1\n#define $P2 a2\n<control> default_path=samples/\n"
+                                          "<global> sw_default=c0\n<master> sw_last=c0\n"
+                                          "<group> lokey=c4 hikey=d4 pitch_keycenter=c4 seq_length=2 volume=-6\n#include \"inc/notes.txt\"\n"
+                                          "<group> key=70 lovel=1 hivel=127 <region> sample=b1.wav\n"
+                                          "<master> sw_last=c#0\n<group> key=70 <region> sample=alt.wav\n"
+                                          "<global> trigger=release <region> key=60 sample=rel.wav\n"
+                                          "<global> <region> key=61 on_locc64=127 sample=b1.wav\n";
+        auto l = SampleLibrary::import(pk);
+        CHECK(l.has_value());
+        if (l) {
+            const Articulation* a = (*l)->primary();
+            CHECK((*l)->mappingSource() == "pack.sfz");
+            CHECK(a && a->find(61, 100) && a->find(61, 100)->roundRobins.size() == 2 && a->find(61, 100)->rootKey == 60);
+            CHECK(a && a->find(61, 100) && std::abs(a->find(61, 100)->gain - 0.501f) < 0.01f);
+            CHECK(a && a->find(70, 100) && a->find(70, 100)->roundRobins.size() == 1);  // c#0 keyswitch region left out
+            CHECK((*l)->releaseArticulation() && (*l)->releaseArticulation()->find(60, 64));
+            CHECK((*l)->store().size() == 4);  // alt.wav (other keyswitch) never decoded
         }
     }
     // no recordings -> no instrument

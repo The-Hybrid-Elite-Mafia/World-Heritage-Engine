@@ -3,6 +3,7 @@
 // status bar and meters show. Everything here is plain Win32 + the engine.
 #pragma once
 
+#include <array>
 #include <atomic>
 #include <bitset>
 #include <memory>
@@ -63,6 +64,11 @@ public:
     void closeMidi();
     [[nodiscard]] int midiDeviceCount() const noexcept { return static_cast<int>(midiIn_.size()); }
 
+    // Drum kits: keys without a recording play the kit's hits in turn, so every key sounds.
+    [[nodiscard]] int mapNote(int note) const noexcept {
+        return note < 0 || note > 127 ? note : static_cast<int>(remap_[static_cast<std::size_t>(note)].load(std::memory_order_relaxed));
+    }
+
     // Notes currently down from any source (UI or MIDI), for lighting keys.
     [[nodiscard]] bool noteHeld(int note) const noexcept;
     [[nodiscard]] bool midiSustain() const noexcept { return midiSustain_.load(std::memory_order_relaxed); }
@@ -113,6 +119,7 @@ private:
     float limGain_ = 1.0f;
     std::atomic<float> limMin_{1.0f};
     std::atomic<u64> held_[2]{};  // 128-bit held-note mask
+    std::array<std::atomic<u8>, 128> remap_{};
     std::atomic<bool> midiSustain_{false};
     std::vector<void*> midiIn_;
     void* notifyWnd_ = nullptr;

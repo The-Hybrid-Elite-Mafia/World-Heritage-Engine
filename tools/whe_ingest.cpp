@@ -1,7 +1,7 @@
 // whe_ingest — import a real-instrument sample folder, build the DFD cache,
 // and print the automatic key-zone / velocity / round-robin map.
 //
-//   whe_ingest <sample-folder> [--middle-c 3|4] [--cache <dir>] [--zones]
+//   whe_ingest <sample-folder> [--middle-c 3|4] [--cache <dir>] [--zones] [--map <file.sfz>]
 #include <cstdio>
 #include <string>
 
@@ -18,7 +18,7 @@ static const char* noteName(int midi, int middleC) {
 
 int main(int argc, char** argv) {
     if (argc < 2) {
-        std::fprintf(stderr, "usage: whe_ingest <sample-folder> [--middle-c 3|4] [--cache <dir>] [--zones]\n");
+        std::fprintf(stderr, "usage: whe_ingest <sample-folder> [--middle-c 3|4] [--cache <dir>] [--zones] [--map <file.sfz>]\n");
         return 2;
     }
     ImportOptions opts;
@@ -28,6 +28,7 @@ int main(int argc, char** argv) {
         if (a == "--middle-c" && i + 1 < argc) opts.naming.middleCOctave = std::stoi(argv[++i]);
         else if (a == "--cache" && i + 1 < argc) opts.cacheDir = argv[++i];
         else if (a == "--zones") zones = true;
+        else if (a == "--map" && i + 1 < argc) opts.mappingFile = argv[++i];
     }
     auto lib = SampleLibrary::import(argv[1], opts);
     if (!lib) {

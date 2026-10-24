@@ -41,6 +41,7 @@ struct Zone {
     int rootKey = 60;
     bool pitched = true;
     float tuneCents = 0.0f;
+    float gain = 1.0f;                // level set by the pack's mapping (SFZ volume=)
     int layer = 0;                    // 0 = softest velocity layer for this key
     int layerCount = 1;
     std::vector<u32> roundRobins;     // sample ids in the SampleStore, cycled per hit
@@ -65,6 +66,8 @@ struct Articulation {
 
 struct ImportOptions {
     fs::path cacheDir;  // default: <folder>/.whe_cache
+    fs::path mappingFile;  // an .sfz to use instead of looking in the folder (e.g. a hand-edited mapping)
+    bool useSfz = true;    // read an .sfz shipped in the folder instead of guessing from file names
     NamingOptions naming;
     u32 preloadFrames = 4096;
     bool lockPreloadInRam = true;
@@ -88,6 +91,14 @@ public:
     [[nodiscard]] const std::string& report() const noexcept { return report_; }
     [[nodiscard]] const std::vector<std::string>& warnings() const noexcept { return warnings_; }
     [[nodiscard]] const IngestStats& ingestStats() const noexcept { return stats_; }
+    // How the mapping was made: "file names", "file names + MappingChart.txt" or "Salamander.sfz".
+    [[nodiscard]] const std::string& mappingSource() const noexcept { return mappingSource_; }
+    // Plain-English notes about the mapping (guesses, things left out). Empty when nothing needs attention.
+    [[nodiscard]] const std::vector<std::string>& notices() const noexcept { return notices_; }
+    // True when some files had no readable note and were placed on keys by order: check the File Map.
+    [[nodiscard]] bool mappingGuessed() const noexcept { return guessed_; }
+    // Gain that brings the loudest recording of the pack to about -1 dBFS (never more than +12 dB).
+    [[nodiscard]] float levelGain() const noexcept { return levelGain_; }
 
 private:
     std::string name_;
@@ -96,6 +107,10 @@ private:
     std::size_t zoneCount_ = 0;
     std::string report_;
     std::vector<std::string> warnings_;
+    std::vector<std::string> notices_;
+    std::string mappingSource_ = "file names";
+    bool guessed_ = false;
+    float levelGain_ = 1.0f;
     IngestStats stats_;
 };
 

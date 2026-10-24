@@ -12,6 +12,7 @@
 #include <cwctype>
 #include <fstream>
 #include <sstream>
+#include <tuple>
 
 namespace whe::ui {
 
@@ -115,12 +116,24 @@ const wchar_t* engineShortName(EngineKind k) {
     return L"Piano";
 }
 
+const char* engineId(EngineKind k) {
+    switch (k) {
+        case EngineKind::Piano: return "piano";
+        case EngineKind::BowedString: return "bowed";
+        case EngineKind::PluckedString: return "plucked";
+        case EngineKind::Aerophone: return "wind";
+        case EngineKind::Membrane: return "drum";
+    }
+    return "piano";
+}
+
 EngineKind guessEngine(const std::wstring& folderName) {
     std::wstring s = folderName;
     std::ranges::transform(s, s.begin(), [](wchar_t c) { return static_cast<wchar_t>(std::towlower(c)); });
     auto has = [&](std::initializer_list<const wchar_t*> words) {
         return std::ranges::any_of(words, [&](const wchar_t* w) { return s.find(w) != std::wstring::npos; });
     };
+    if (has({L"hang", L"handpan", L"steelpan", L"steel pan", L"steel drum", L"tongue drum", L"tank drum"})) return EngineKind::Membrane;
     if (has({L"snare", L"drum", L"tom", L"kick", L"tabla", L"djembe", L"timpani", L"cajon", L"conga", L"bongo", L"taiko", L"perc", L"bodhran", L"darbuka"}))
         return EngineKind::Membrane;
     if (has({L"violin", L"viola", L"cello", L"contrabass", L"double bass", L"fiddle", L"erhu", L"bowed", L"sarangi", L"strings"}))
@@ -226,6 +239,69 @@ std::wstring packKey(const fs::path& folder) {
     return s;
 }
 
+std::wstring soundKey(const fs::path& folder, EngineKind k) { return packKey(folder) + L"|" + widen(engineId(k)); }
+
+namespace {
+std::wstring fnv(const std::wstring& s) {
+    unsigned long long h = 1469598103934665603ull;
+    for (wchar_t c : s) {
+        h ^= static_cast<unsigned long long>(c);
+        h *= 1099511628211ull;
+    }
+    wchar_t buf[24];
+    std::swprintf(buf, 24, L"%016llx", h);
+    return buf;
+}
+fs::path localDir() {
+    PWSTR p = nullptr;
+    fs::path dir;
+    if (SUCCEEDED(SHGetKnownFolderPath(FOLDERID_LocalAppData, 0, nullptr, &p))) dir = fs::path(p) / L"HEM" / L"World Heritage Engine";
+    CoTaskMemFree(p);
+    if (dir.empty()) dir = fs::temp_directory_path() / L"World Heritage Engine";
+    return dir;
+}
+}  // namespace
+
+fs::path cacheDirFor(const fs::path& folder) {
+    const fs::path d = localDir() / L"cache" / (folder.filename().wstring() + L"-" + fnv(packKey(folder)).substr(0, 8));
+    std::error_code ec;
+    fs::create_directories(d, ec);
+    return d;
+}
+
+fs::path mappingsDir() {
+    const fs::path d = settingsDir() / L"mappings";
+    std::error_code ec;
+    fs::create_directories(d, ec);
+    return d;
+}
+
+bool writeMappingSfz(const fs::path& sfz, const std::vector<MapRow>& rows) {
+    // Round-robin groups: rows with identical keys/velocities/root/trigger, ordered by rr.
+    std::map<std::tuple<bool, int, int, int, int, int>, std::vector<const MapRow*>> groups;
+    for (const MapRow& r : rows) groups[{r.release, r.lo, r.hi, r.loVel, r.hiVel, r.root}].push_back(&r);
+    std::ofstream out(sfz, std::ios::binary | std::ios::trunc);
+    if (!out) return false;
+    out << "// World Heritage Engine — mapping edited in the File Map. Delete this file to go back to automatic mapping.\n";
+    for (auto& [k, list] : groups) {
+        std::ranges::stable_sort(list, [](const MapRow* a, const MapRow* b) { return a->rr < b->rr; });
+        out << "<group> lokey=" << std::get<1>(k) << " hikey=" << std::get<2>(k) << " pitch_keycenter=" << std::get<5>(k) << " lovel=" << std::get<3>(k)
+            << " hivel=" << std::get<4>(k) << " seq_length=" << list.size() << (std::get<0>(k) ? " trigger=release" : "");
+        const MapRow& first = *list.front();
+        if (!first.release && first.pitched && !first.articulation.empty()) out << " group_label=" << narrow(first.articulation);
+        out << "\n";
+        int pos = 1;
+        for (const MapRow* r : list) {
+            out << "<region> seq_position=" << pos++;
+            if (!r->pitched) out << " pitch_keytrack=0";
+            if (r->tuneCents != 0.0f) out << " tune=" << -r->tuneCents;
+            if (r->gainDb != 0.0f) out << " volume=" << r->gainDb;
+            out << " sample=" << narrow(r->file.wstring()) << "\n";
+        }
+    }
+    return static_cast<bool>(out);
+}
+
 fs::path settingsDir() {
     PWSTR p = nullptr;
     fs::path dir;
@@ -284,6 +360,10 @@ Settings loadSettings() {
                 s.sounds[widen(f[1])].blend = std::clamp(std::stof(f[2]), 0.0f, 1.0f);
             } else if (f[0] == "physics" && f.size() >= 3) {
                 s.sounds[widen(f[1])].physicsOn = f[2] == "1";
+            } else if (f[0] == "hidden") {
+                s.hiddenPacks.emplace_back(widen(f[1]));
+            } else if (f[0] == "mapping" && f.size() >= 3) {
+                s.mappings[widen(f[1])] = fs::path(widen(f[2]));
             }
         } catch (...) {
             // A damaged line is skipped; the rest of the settings still load.
@@ -307,6 +387,8 @@ bool saveSettings(const Settings& s) {
         out << "baseNote\t" << s.baseOctaveNote << "\n";
         out << "velocity\t" << s.velocity << "\n";
         for (const auto& [p, k] : s.userPacks) out << "pack\t" << narrow(p.wstring()) << "\t" << static_cast<int>(k) << "\n";
+        for (const auto& p : s.hiddenPacks) out << "hidden\t" << narrow(p.wstring()) << "\n";
+        for (const auto& [k, p] : s.mappings) out << "mapping\t" << narrow(k) << "\t" << narrow(p.wstring()) << "\n";
         for (const auto& [key, snd] : s.sounds) {
             const std::string k = narrow(key);
             for (const auto& [param, v] : snd.dials) out << "dial\t" << k << "\t" << param << "\t" << v << "\n";

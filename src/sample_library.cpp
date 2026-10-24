@@ -1,5 +1,11 @@
 #include "whe/sample_library.hpp"
 
+#include <algorithm>
+#include <cmath>
+#include <optional>
+
+#include "whe/sfz.hpp"
+
 #include <cctype>
 #include <cstdio>
 #include <map>
@@ -91,7 +97,8 @@ std::optional<int> dynamicWordRank(const std::string& w) {
     static const std::pair<const char*, int> table[] = {
         {"ppp", 1},  {"pp", 2},    {"p", 3},     {"mp", 4},       {"mf", 5},     {"f", 6},      {"ff", 7},      {"fff", 8},
         {"soft", 2}, {"quiet", 2}, {"light", 2}, {"gentle", 2},   {"medium", 5}, {"med", 5},    {"moderate", 5}, {"normal", 5},
-        {"hard", 7}, {"loud", 7},  {"strong", 7}, {"heavy", 7},   {"accent", 8}, {"accented", 8}};
+        {"hard", 7}, {"loud", 7},  {"strong", 7}, {"heavy", 7},   {"accent", 8}, {"accented", 8},
+        {"lv", 3},   {"mv", 5},    {"hv", 7}};  // low / medium / high velocity (FreePats, FlameStudios)
     for (const auto& [name, rank] : table)
         if (w == name) return rank;
     return std::nullopt;
@@ -174,7 +181,11 @@ ParsedName parseSampleName(std::string_view stem, const NamingOptions& opts) {
                         break;
                     }
                 }
-                if (!embedded) p.words.push_back(lt);
+                if (!embedded) {
+                    // "Test01", "Take3", "Hit2": a word plus a take number, not one long word.
+                    p.words.push_back(prefix);
+                    p.bareNumbers.push_back(value);
+                }
             }
             continue;
         }
@@ -302,21 +313,142 @@ struct DynKey {
 
 }  // namespace
 
+namespace {
+
+// Pick the zone for every (key, velocity) cell: first zone in list order wins.
+void buildLookup(Articulation& art) {
+    art.lookup.assign(128 * 128, -1);
+    for (std::size_t zi = 0; zi < art.zones.size(); ++zi) {
+        const Zone& z = art.zones[zi];
+        for (int k = std::max(0, z.loKey); k <= std::min(127, z.hiKey); ++k)
+            for (int v = std::max(1, z.loVel); v <= std::min(127, z.hiVel); ++v)
+                if (art.lookup[static_cast<std::size_t>(k) * 128 + static_cast<std::size_t>(v)] < 0)
+                    art.lookup[static_cast<std::size_t>(k) * 128 + static_cast<std::size_t>(v)] = static_cast<i32>(zi);
+    }
+}
+
+using ByKey = std::map<int, std::map<DynKey, std::vector<Candidate*>>>;
+
+// key -> velocity layers -> round robins  ==>  zones. Pitched keys split the keyboard at the midpoints between roots.
+void zonesFromKeys(ByKey& byKey, bool pitched, bool wholeKeyboard, Articulation& art, u32& zoneIndex) {
+    std::vector<int> roots;
+    for (auto& [k, _] : byKey) roots.push_back(k);
+    for (std::size_t ri = 0; ri < roots.size(); ++ri) {
+        const int root = roots[ri];
+        int loKey = pitched ? (ri == 0 ? 0 : (roots[ri - 1] + root) / 2 + 1) : root;
+        int hiKey = pitched ? (ri + 1 == roots.size() ? 127 : (root + roots[ri + 1]) / 2) : root;
+        if (wholeKeyboard) {  // unpitched release noise (key-off thump) serves the whole keyboard
+            loKey = 0;
+            hiKey = 127;
+        }
+        auto& layers = byKey[root];
+        const int layerCount = static_cast<int>(layers.size());
+        const bool allVelocity = std::ranges::all_of(layers, [](auto& kv) { return kv.first.kind == DynKind::Velocity; });
+        int li = 0, prevHi = 0;
+        for (auto& [dyn, rrs] : layers) {
+            Zone z;
+            z.index = zoneIndex++;
+            z.rootKey = root;
+            z.pitched = pitched;
+            z.layer = li;
+            z.layerCount = layerCount;
+            z.loKey = loKey;
+            z.hiKey = hiKey;
+            if (allVelocity) {
+                z.loVel = prevHi + 1;
+                z.hiVel = (li + 1 == layerCount) ? 127 : std::max(dyn.value, z.loVel);
+            } else {
+                z.loVel = prevHi + 1;
+                z.hiVel = (li + 1 == layerCount) ? 127 : std::max(z.loVel, (127 * (li + 1) + layerCount / 2) / layerCount);
+            }
+            prevHi = z.hiVel;
+            std::ranges::sort(rrs, [](Candidate* a, Candidate* b) {
+                const int ra = a->name.roundRobin.value_or(a->name.bareNumbers.empty() ? 0 : a->name.bareNumbers.back());
+                const int rb = b->name.roundRobin.value_or(b->name.bareNumbers.empty() ? 0 : b->name.bareNumbers.back());
+                return ra != rb ? ra < rb : a->path < b->path;
+            });
+            const WhsHeader& h0 = *rrs.front()->header;
+            // Metadata embedded by the pack author overrides the inferred ranges.
+            if (std::ranges::all_of(rrs, [](Candidate* c) { return c->header->lowKey >= 0; }) && pitched && !wholeKeyboard) {
+                z.loKey = h0.lowKey;
+                z.hiKey = h0.highKey;
+            }
+            if (std::ranges::all_of(rrs, [](Candidate* c) { return c->header->lowVel >= 1; })) {
+                z.loVel = h0.lowVel;
+                z.hiVel = h0.highVel;
+            }
+            z.tuneCents = rrs.front()->name.note ? 0.0f : h0.fineTuneCents;
+            for (auto* c : rrs) z.roundRobins.push_back(c->sampleId);
+            art.zones.push_back(std::move(z));
+            ++li;
+        }
+    }
+}
+
+// Velocity-layer numbering inside each key range (softest = 0), for zones that came from an SFZ.
+void numberLayers(Articulation& art) {
+    for (Zone& z : art.zones) {
+        int below = 0, count = 0;
+        for (const Zone& o : art.zones) {
+            if (o.loKey > z.rootKey || o.hiKey < z.rootKey) continue;
+            ++count;
+            if (o.loVel < z.loVel) ++below;
+        }
+        z.layer = below;
+        z.layerCount = std::max(1, count);
+    }
+}
+
+}  // namespace
+
 Result<std::shared_ptr<SampleLibrary>> SampleLibrary::import(const fs::path& folder, const ImportOptions& opts) {
     std::error_code ec;
     if (!fs::is_directory(folder, ec)) return fail("sample pack folder not found: " + folder.string());
     const fs::path cacheDir = opts.cacheDir.empty() ? folder / ".whe_cache" : opts.cacheDir;
 
-    std::vector<Candidate> files;
-    for (auto it = fs::recursive_directory_iterator(folder, fs::directory_options::skip_permission_denied, ec);
-         it != fs::recursive_directory_iterator(); it.increment(ec)) {
-        if (ec) break;
-        const fs::path& p = it->path();
-        if (it->is_directory(ec) && p.filename() == ".whe_cache") {
-            it.disable_recursion_pending();
-            continue;
+    // ---- An SFZ (shipped with the pack, or a hand-edited one) wins over file-name guessing ----
+    std::optional<SfzMapping> sfz;
+    std::vector<std::string> sfzNotes;
+    if (!opts.mappingFile.empty()) {
+        auto m = parseSfz(opts.mappingFile);
+        if (!m) return fail("mapping file " + opts.mappingFile.string() + ": " + m.error().message);
+        sfz = std::move(*m);
+    } else if (opts.useSfz) {
+        std::vector<fs::path> found;
+        for (const auto& e : fs::directory_iterator(folder, ec))
+            if (e.is_regular_file(ec) && lower(e.path().extension().string()) == ".sfz") found.push_back(e.path());
+        if (found.empty())  // packs often keep the .sfz one folder down ("Programs/", "sfz/")
+            for (const auto& d : fs::directory_iterator(folder, ec))
+                if (d.is_directory(ec) && d.path().filename() != ".whe_cache")
+                    for (const auto& e : fs::directory_iterator(d.path(), ec))
+                        if (e.is_regular_file(ec) && lower(e.path().extension().string()) == ".sfz") found.push_back(e.path());
+        std::ranges::sort(found);
+        for (const auto& f : found) {
+            auto m = parseSfz(f);
+            if (!m) {
+                sfzNotes.push_back("ignored " + f.filename().string() + ": " + m.error().message);
+                continue;
+            }
+            if (!sfz || m->regions.size() > sfz->regions.size()) sfz = std::move(*m);
         }
-        if (it->is_regular_file(ec) && isSupportedAudioExtension(p)) files.push_back(Candidate{p, {}, {}, {}, 0, nullptr});
+    }
+
+    std::vector<Candidate> files;
+    if (sfz) {
+        std::set<fs::path> uniq;
+        for (const auto& r : sfz->regions) uniq.insert(r.sample);
+        for (const auto& p : uniq) files.push_back(Candidate{p, {}, {}, {}, 0, nullptr});
+    } else {
+        for (auto it = fs::recursive_directory_iterator(folder, fs::directory_options::skip_permission_denied, ec);
+             it != fs::recursive_directory_iterator(); it.increment(ec)) {
+            if (ec) break;
+            const fs::path& p = it->path();
+            if (it->is_directory(ec) && p.filename() == ".whe_cache") {
+                it.disable_recursion_pending();
+                continue;
+            }
+            if (it->is_regular_file(ec) && isSupportedAudioExtension(p)) files.push_back(Candidate{p, {}, {}, {}, 0, nullptr});
+        }
     }
     if (files.empty())
         return fail("no recorded audio (.wav/.flac/.aif/.aiff) found in " + folder.string() +
@@ -327,6 +459,7 @@ Result<std::shared_ptr<SampleLibrary>> SampleLibrary::import(const fs::path& fol
     lib->name_ = folder.filename().string();
     if (lib->name_.empty()) lib->name_ = folder.parent_path().filename().string();
     lib->store_ = SampleStore(opts.preloadFrames);
+    for (auto& n : sfzNotes) lib->notices_.push_back(std::move(n));
 
     // ---- Decode once into the DFD cache (parallel) ----
     unsigned threads = opts.threads ? opts.threads : std::max(1u, std::thread::hardware_concurrency());
@@ -370,180 +503,347 @@ Result<std::shared_ptr<SampleLibrary>> SampleLibrary::import(const fs::path& fol
     lib->store_.finalize(opts.lockPreloadInRam);
     for (auto* c : good) c->header = &lib->store_.get(c->sampleId).header;
 
-    // ---- Articulation signature: words not shared by every file ----
-    std::map<std::string, std::size_t> wordFreq;
-    for (auto* c : good) {
-        std::set<std::string> uniq(c->name.words.begin(), c->name.words.end());
-        for (const auto& w : uniq) ++wordFreq[w];
-    }
-    std::map<std::string, std::vector<Candidate*>> groups;
-    std::map<std::string, std::vector<std::string>> groupAllWords;
-    for (auto* c : good) {
-        std::string sig;
-        for (const auto& w : c->name.words) {
-            if (good.size() > 1 && wordFreq[w] == good.size()) continue;
-            if (w == "release") continue;
-            if (!sig.empty()) sig += ' ';
-            sig += w;
-        }
-        if (sig.empty()) sig = "default";
-        if (c->name.release) sig = (sig == "default") ? "release" : sig + " release";
-        groups[sig].push_back(c);
-        auto& all = groupAllWords[sig];
-        for (const auto& w : c->name.words) all.push_back(w);
-        all.push_back(lower(lib->name_));
-    }
-
-    std::set<int> usedPercussionKeys;
     u32 zoneIndex = 0;
     std::string rep;
     char line[512];
-    std::snprintf(line, sizeof line, "Instrument '%s': %zu recordings, %zu articulation group(s)\n", lib->name_.c_str(), good.size(), groups.size());
-    rep += line;
 
-    for (auto& [sig, members] : groups) {
-        Articulation art;
-        art.name = sig;
-        art.releaseTrigger = std::ranges::any_of(members, [](Candidate* c) { return c->name.release; });
+    if (sfz) {
+        // ================= SFZ mapping =================
+        lib->mappingSource_ = sfz->file.filename().string();
+        for (const auto& n : sfz->notes) lib->notices_.push_back(n);
+        std::map<fs::path, u32> idOf;
+        for (auto* c : good) idOf[c->path] = c->sampleId;
+        Articulation attack, release;
+        {
+            // Name the playing articulation after the regions' group_label when they share one.
+            std::map<std::string, int> labels;
+            for (const auto& r : sfz->regions)
+                if (!r.release && !r.label.empty() && idOf.contains(r.sample)) ++labels[r.label];
+            attack.name = "default";
+            int best = 0;
+            for (const auto& [l, n] : labels)
+                if (n > best) {
+                    best = n;
+                    attack.name = l;
+                }
+        }
+        release.name = "release";
+        release.releaseTrigger = true;
+        // Regions with the same key range + velocity range + root are one zone; their recordings are round robins.
+        struct Key {
+            bool rel;
+            int lo, hi, lv, hv, root;
+            auto operator<=>(const Key&) const = default;
+        };
+        std::map<Key, std::vector<std::pair<float, const SfzRegion*>>> merged;
+        std::vector<Key> order;
+        for (const auto& r : sfz->regions) {
+            if (!idOf.contains(r.sample)) continue;
+            const Key k{r.release, r.loKey, r.hiKey, r.loVel, r.hiVel, r.keyCenter};
+            if (!merged.contains(k)) order.push_back(k);
+            const float pos = r.seqLength > 1 ? static_cast<float>(r.seqPosition) : r.loRand;
+            merged[k].emplace_back(pos, &r);
+        }
+        int pitchedZones = 0, totalZones = 0;
+        for (const Key& k : order) {
+            auto& list = merged[k];
+            std::ranges::stable_sort(list, [](const auto& a, const auto& b) { return a.first < b.first; });
+            const SfzRegion& r0 = *list.front().second;
+            Zone z;
+            z.index = zoneIndex++;
+            z.loKey = k.lo;
+            z.hiKey = k.hi;
+            z.loVel = k.lv;
+            z.hiVel = k.hv;
+            z.rootKey = k.root;
+            z.pitched = r0.pitched;
+            z.tuneCents = -r0.tuneCents;  // our tuneCents = how sharp the recording is
+            z.gain = dbToGain(r0.volumeDb);
+            for (const auto& [pos, r] : list) z.roundRobins.push_back(idOf[r->sample]);
+            (k.rel ? release : attack).zones.push_back(std::move(z));
+            if (!k.rel) {
+                ++totalZones;
+                pitchedZones += r0.pitched ? 1 : 0;
+            }
+        }
+        attack.pitched = pitchedZones * 2 > totalZones;
+        if (attack.zones.empty()) return fail(sfz->file.filename().string() + " maps no attack (key-down) recordings");
+        numberLayers(attack);
+        buildLookup(attack);
+        int maxRr = 0;
+        for (const Zone& z : attack.zones) maxRr = std::max(maxRr, static_cast<int>(z.roundRobins.size()));
+        std::snprintf(line, sizeof line, "Instrument '%s' mapped by %s: %zu recordings -> %zu zones, up to %d round robin(s)%s\n", lib->name_.c_str(),
+                      lib->mappingSource_.c_str(), good.size(), attack.zones.size(), maxRr,
+                      release.zones.empty() ? "" : (", " + std::to_string(release.zones.size()) + " release zone(s)").c_str());
+        rep += line;
+        lib->articulations_.push_back(std::move(attack));
+        if (!release.zones.empty()) {
+            release.pitched = true;
+            numberLayers(release);
+            buildLookup(release);
+            lib->articulations_.push_back(std::move(release));
+        }
+    } else {
+        // ================= File-name mapping =================
+        // MappingChart.txt (VSCO): number in the file name -> MIDI key.
+        std::map<int, int> chart;
+        for (const auto& e : fs::directory_iterator(folder, ec)) {
+            const std::string n = lower(e.path().filename().string());
+            if (e.is_regular_file(ec) && n.find("mapping") != std::string::npos && n.ends_with(".txt"))
+                for (auto [idx, key] : parseMappingChart(e.path())) chart[idx] = key;
+        }
 
-        // Pitch: filename note, else embedded root key.
+        // ---- Articulation signature: words not shared by every file ----
+        std::map<std::string, std::size_t> wordFreq;
+        for (auto* c : good) {
+            std::set<std::string> uniq(c->name.words.begin(), c->name.words.end());
+            for (const auto& w : uniq) ++wordFreq[w];
+        }
+        std::map<std::string, std::vector<Candidate*>> groups;
+        std::map<std::string, std::vector<std::string>> groupAllWords;
+        for (auto* c : good) {
+            std::string sig;
+            for (const auto& w : c->name.words) {
+                if (good.size() > 1 && wordFreq[w] == good.size()) continue;
+                if (w == "release") continue;
+                if (!sig.empty()) sig += ' ';
+                sig += w;
+            }
+            if (sig.empty()) sig = "default";
+            if (c->name.release) sig = (sig == "default") ? "release" : sig + " release";
+            groups[sig].push_back(c);
+            auto& all = groupAllWords[sig];
+            for (const auto& w : c->name.words) all.push_back(w);
+            all.push_back(lower(lib->name_));
+        }
+
         auto rootOf = [](const Candidate* c) -> std::optional<int> {
             if (c->name.note) return c->name.note;
             if (c->header->rootKey >= 0) return c->header->rootKey;
             return std::nullopt;
         };
-        const std::size_t pitchedCount = static_cast<std::size_t>(std::ranges::count_if(members, [&](Candidate* c) { return rootOf(c).has_value(); }));
-        art.pitched = pitchedCount * 2 > members.size();
 
-        // Resolve "v<n>": a contiguous run 1..N (or 0..N-1) with N <= 64 is a layer index; otherwise MIDI velocity.
-        std::set<int> vValues;
-        for (auto* c : members)
-            if (c->name.ambiguousV) vValues.insert(*c->name.ambiguousV);
-        bool vIsIndex = false;
-        if (!vValues.empty()) {
-            const int lo = *vValues.begin(), hi = *vValues.rbegin();
-            vIsIndex = (lo == 0 || lo == 1) && hi <= 64 && static_cast<int>(vValues.size()) == hi - lo + 1;
+        // ---- Numbers in file names: MappingChart index, MIDI note, or round robin ----
+        bool usedChart = false, usedMidi = false;
+        for (auto& [sig, members] : groups) {
+            if (std::ranges::any_of(members, [&](Candidate* c) { return rootOf(c).has_value(); })) continue;
+            if (!std::ranges::all_of(members, [](Candidate* c) { return !c->name.bareNumbers.empty(); })) continue;
+            std::set<int> nums;
+            for (auto* c : members) nums.insert(c->name.bareNumbers.back());
+            if (!chart.empty() && std::ranges::all_of(nums, [&](int n) { return chart.contains(n); })) {
+                for (auto* c : members) c->name.note = chart[c->name.bareNumbers.back()];
+                usedChart = true;
+            } else if (nums.size() >= 3 && *nums.begin() >= 12 && *nums.rbegin() <= 120 && nums.size() * 2 >= members.size()) {
+                // "HV_40.wav … HV_83.wav": the number is the MIDI note.
+                for (auto* c : members) c->name.note = c->name.bareNumbers.back();
+                usedMidi = true;
+            } else if (groups.size() == 1 && nums.size() >= 8) {
+                // A whole pack numbered 000, 002 … with no note names and no chart: the numbers are an
+                // index, not notes. Place one per key from C3 up so every file is reachable, and say so.
+                int rank = 0;
+                std::map<int, int> keyOf;
+                for (int n : nums) keyOf[n] = std::min(127, 48 + rank++);
+                for (auto* c : members) c->name.note = keyOf[c->name.bareNumbers.back()];
+                lib->guessed_ = true;
+                lib->notices_.push_back("The file names carry numbers (" + std::to_string(*nums.begin()) + "–" + std::to_string(*nums.rbegin()) +
+                                        ") that are not note names or MIDI notes, and the folder has no .sfz or MappingChart.txt. Each number "
+                                        "was placed on its own key from C3 up — set the real root notes in the File Map.");
+            }
         }
-        auto dynOf = [&](const Candidate* c) {
-            const ParsedName& n = c->name;
-            if (n.velocity) return DynKey{DynKind::Velocity, *n.velocity};
-            if (n.ambiguousV) return vIsIndex ? DynKey{DynKind::Index, *n.ambiguousV} : DynKey{DynKind::Velocity, std::clamp(*n.ambiguousV, 1, 127)};
-            if (n.layerIndex) return DynKey{DynKind::Index, *n.layerIndex};
-            if (n.dynamicRank) return DynKey{DynKind::Rank, *n.dynamicRank};
-            return DynKey{};
+        if (usedChart) lib->mappingSource_ = "file names + MappingChart.txt";
+        else if (usedMidi) lib->mappingSource_ = "file names (numbers read as MIDI notes)";
+
+        std::snprintf(line, sizeof line, "Instrument '%s': %zu recordings, %zu group(s), mapped from %s\n", lib->name_.c_str(), good.size(),
+                      groups.size(), lib->mappingSource_.c_str());
+        rep += line;
+
+        struct GroupInfo {
+            std::string sig;
+            std::vector<Candidate*>* members;
+            bool pitched, release;
+            std::set<int> vValues;
+            bool vIsIndex;
+        };
+        std::vector<GroupInfo> infos;
+        for (auto& [sig, members] : groups) {
+            GroupInfo g{sig, &members, false, false, {}, false};
+            g.release = std::ranges::any_of(members, [](Candidate* c) { return c->name.release; });
+            const auto pitchedCount = static_cast<std::size_t>(std::ranges::count_if(members, [&](Candidate* c) { return rootOf(c).has_value(); }));
+            g.pitched = pitchedCount * 2 > members.size();
+            // Resolve "v<n>": a contiguous run 1..N (or 0..N-1) with N <= 64 is a layer index; otherwise MIDI velocity.
+            for (auto* c : members)
+                if (c->name.ambiguousV) g.vValues.insert(*c->name.ambiguousV);
+            if (!g.vValues.empty()) {
+                const int lo = *g.vValues.begin(), hi = *g.vValues.rbegin();
+                g.vIsIndex = (lo == 0 || lo == 1) && hi <= 64 && static_cast<int>(g.vValues.size()) == hi - lo + 1;
+            }
+            infos.push_back(std::move(g));
+        }
+        auto dynFor = [](const GroupInfo& g) {
+            return [&g](const Candidate* c) {
+                const ParsedName& n = c->name;
+                if (n.velocity) return DynKey{DynKind::Velocity, *n.velocity};
+                if (n.ambiguousV)
+                    return g.vIsIndex ? DynKey{DynKind::Index, *n.ambiguousV} : DynKey{DynKind::Velocity, std::clamp(*n.ambiguousV, 1, 127)};
+                if (n.layerIndex) return DynKey{DynKind::Index, *n.layerIndex};
+                if (n.dynamicRank) return DynKey{DynKind::Rank, *n.dynamicRank};
+                return DynKey{};
+            };
+        };
+        auto report = [&](const Articulation& art, std::size_t recordings) {
+            int maxLayers = 0, maxRr = 0;
+            std::set<int> roots;
+            for (auto& z : art.zones) {
+                maxLayers = std::max(maxLayers, z.layerCount);
+                maxRr = std::max(maxRr, static_cast<int>(z.roundRobins.size()));
+                roots.insert(z.rootKey);
+            }
+            const int keyLo = art.zones.empty() ? 0 : std::ranges::min(art.zones, {}, &Zone::loKey).loKey;
+            const int keyHi = art.zones.empty() ? 0 : std::ranges::max(art.zones, {}, &Zone::hiKey).hiKey;
+            std::snprintf(line, sizeof line,
+                          "  [%s]%s %s: %zu recordings -> %zu zones, %zu root notes, keys %d-%d, up to %d velocity layer(s), up to %d round robin(s)\n",
+                          art.name.c_str(), art.releaseTrigger ? " (release trigger)" : "", art.pitched ? "pitched" : "unpitched", recordings,
+                          art.zones.size(), roots.size(), keyLo, keyHi, maxLayers, maxRr);
+            rep += line;
         };
 
-        // key -> dyn -> samples (round robins)
-        std::map<int, std::map<DynKey, std::vector<Candidate*>>> byKey;
-        int unpitchedKey = -1;
-        if (!art.pitched && !art.releaseTrigger) {
-            auto gm = gmPercussionKey(groupAllWords[sig]);
-            int k = gm.value_or(60);
-            while (usedPercussionKeys.contains(k) && k < 127) ++k;
-            unpitchedKey = k;
-            usedPercussionKeys.insert(k);
-        }
-        for (auto* c : members) {
-            int key;
-            if (art.pitched) {
+        // ---- Pitched articulations (sustain, staccato, pizz …) ----
+        std::vector<Articulation> pitchedArts;
+        std::vector<std::size_t> pitchedSizes;
+        for (auto& g : infos) {
+            if (!g.pitched || g.release) continue;
+            Articulation art;
+            art.name = g.sig;
+            art.pitched = true;
+            ByKey byKey;
+            const auto dynOf = dynFor(g);
+            for (auto* c : *g.members) {
                 auto r = rootOf(c);
                 if (!r) {
                     lib->warnings_.push_back("no pitch in name or metadata, skipped: " + c->path.filename().string());
                     continue;
                 }
-                key = *r;
-            } else {
-                key = art.releaseTrigger ? 60 : unpitchedKey;
+                byKey[*r][dynOf(c)].push_back(c);
             }
-            byKey[key][dynOf(c)].push_back(c);
+            if (byKey.empty()) continue;
+            zonesFromKeys(byKey, true, false, art, zoneIndex);
+            pitchedArts.push_back(std::move(art));
+            pitchedSizes.push_back(g.members->size());
         }
-        if (byKey.empty()) continue;
+        // The main articulation is the one with the most recordings.
+        std::size_t primaryIdx = 0;
+        for (std::size_t i = 1; i < pitchedArts.size(); ++i)
+            if (pitchedSizes[i] > pitchedSizes[primaryIdx]) primaryIdx = i;
 
-        std::vector<int> roots;
-        for (auto& [k, _] : byKey) roots.push_back(k);
-        for (std::size_t ri = 0; ri < roots.size(); ++ri) {
-            const int root = roots[ri];
-            int loKey = art.pitched ? (ri == 0 ? 0 : (roots[ri - 1] + root) / 2 + 1) : root;
-            int hiKey = art.pitched ? (ri + 1 == roots.size() ? 127 : (root + roots[ri + 1]) / 2) : root;
-            if (!art.pitched && art.releaseTrigger) {  // unpitched release noise (key-off thump) serves the whole keyboard
-                loKey = 0;
-                hiKey = 127;
+        // ---- Unpitched hits (strokes, taps, chucks): one key each, takes = round robins ----
+        std::vector<GroupInfo*> hits;
+        for (auto& g : infos)
+            if (!g.pitched && !g.release) hits.push_back(&g);
+        if (!hits.empty()) {
+            const bool alongsideNotes = !pitchedArts.empty();
+            Articulation kit;
+            kit.name = "hits";
+            kit.pitched = false;
+            Articulation& target = alongsideNotes ? pitchedArts[primaryIdx] : kit;
+            std::set<int> used;
+            int nextKey = 60;
+            if (alongsideNotes) {
+                // Above the highest recorded note, so the hits never cover real notes.
+                int topRoot = 0;
+                for (const Zone& z : target.zones) topRoot = std::max(topRoot, z.rootKey);
+                nextKey = std::min(126, topRoot + 2);
+                for (Zone& z : target.zones)
+                    if (z.hiKey >= nextKey) z.hiKey = std::max(z.loKey, nextKey - 1);
             }
-            auto& layers = byKey[root];
-            const int layerCount = static_cast<int>(layers.size());
-            const bool allVelocity = std::ranges::all_of(layers, [](auto& kv) { return kv.first.kind == DynKind::Velocity; });
-            int li = 0, prevHi = 0;
-            for (auto& [dyn, rrs] : layers) {
-                Zone z;
-                z.index = zoneIndex++;
-                z.rootKey = root;
-                z.pitched = art.pitched;
-                z.layer = li;
-                z.layerCount = layerCount;
-                z.loKey = loKey;
-                z.hiKey = hiKey;
-                if (allVelocity) {
-                    z.loVel = prevHi + 1;
-                    z.hiVel = (li + 1 == layerCount) ? 127 : std::max(dyn.value, z.loVel);
+            std::size_t hitRecordings = 0;
+            for (GroupInfo* g : hits) {
+                int key;
+                if (!alongsideNotes) {
+                    key = gmPercussionKey(groupAllWords[g->sig]).value_or(nextKey);
+                    while (used.contains(key) && key < 127) ++key;
                 } else {
-                    z.loVel = prevHi + 1;
-                    z.hiVel = (li + 1 == layerCount) ? 127 : std::max(z.loVel, (127 * (li + 1) + layerCount / 2) / layerCount);
+                    key = nextKey;
                 }
-                prevHi = z.hiVel;
-                std::ranges::sort(rrs, [](Candidate* a, Candidate* b) {
-                    const int ra = a->name.roundRobin.value_or(0), rb = b->name.roundRobin.value_or(0);
-                    return ra != rb ? ra < rb : a->path < b->path;
-                });
-                const WhsHeader& h0 = *rrs.front()->header;
-                // Metadata embedded by the pack author overrides the inferred ranges.
-                if (std::ranges::all_of(rrs, [](Candidate* c) { return c->header->lowKey >= 0; }) && art.pitched) {
-                    z.loKey = h0.lowKey;
-                    z.hiKey = h0.highKey;
-                }
-                if (std::ranges::all_of(rrs, [](Candidate* c) { return c->header->lowVel >= 1; })) {
-                    z.loVel = h0.lowVel;
-                    z.hiVel = h0.highVel;
-                }
-                z.tuneCents = rrs.front()->name.note ? 0.0f : h0.fineTuneCents;
-                for (auto* c : rrs) z.roundRobins.push_back(c->sampleId);
-                art.zones.push_back(std::move(z));
-                ++li;
+                used.insert(key);
+                nextKey = key + 1;
+                ByKey byKey;
+                const auto dynOf = dynFor(*g);
+                for (auto* c : *g->members) byKey[key][dynOf(c)].push_back(c);
+                const std::size_t before = target.zones.size();
+                zonesFromKeys(byKey, false, false, target, zoneIndex);
+                for (std::size_t zi = before; zi < target.zones.size(); ++zi) target.zones[zi].pitched = false;
+                hitRecordings += g->members->size();
+            }
+            if (alongsideNotes) {
+                std::snprintf(line, sizeof line, "  %zu unpitched hit group(s) placed above the notes, from key %d\n", hits.size(),
+                              *used.begin());
+                rep += line;
+            } else {
+                pitchedArts.insert(pitchedArts.begin(), std::move(kit));
+                pitchedSizes.insert(pitchedSizes.begin(), hitRecordings);
+                primaryIdx = 0;
             }
         }
-
-        art.lookup.assign(128 * 128, -1);
-        for (std::size_t zi = 0; zi < art.zones.size(); ++zi) {
-            const Zone& z = art.zones[zi];
-            for (int k = std::max(0, z.loKey); k <= std::min(127, z.hiKey); ++k)
-                for (int v = std::max(1, z.loVel); v <= std::min(127, z.hiVel); ++v)
-                    if (art.lookup[static_cast<std::size_t>(k) * 128 + static_cast<std::size_t>(v)] < 0)
-                        art.lookup[static_cast<std::size_t>(k) * 128 + static_cast<std::size_t>(v)] = static_cast<i32>(zi);
+        if (!pitchedArts.empty() && primaryIdx != 0) {
+            std::swap(pitchedArts[0], pitchedArts[primaryIdx]);
+            std::swap(pitchedSizes[0], pitchedSizes[primaryIdx]);
+        }
+        for (std::size_t i = 0; i < pitchedArts.size(); ++i) {
+            buildLookup(pitchedArts[i]);
+            report(pitchedArts[i], pitchedSizes[i]);
+            lib->articulations_.push_back(std::move(pitchedArts[i]));
         }
 
-        int maxLayers = 0, maxRr = 0;
-        for (auto& z : art.zones) {
-            maxLayers = std::max(maxLayers, z.layerCount);
-            maxRr = std::max(maxRr, static_cast<int>(z.roundRobins.size()));
+        // ---- Release triggers: one articulation ----
+        Articulation rel;
+        rel.name = "release";
+        rel.releaseTrigger = true;
+        std::size_t relCount = 0, relPitched = 0;
+        for (auto& g : infos) {
+            if (!g.release) continue;
+            relCount += g.members->size();
+            relPitched += g.pitched ? g.members->size() : 0;
         }
-        const int keyLo = art.zones.empty() ? 0 : std::ranges::min(art.zones, {}, &Zone::loKey).loKey;
-        const int keyHi = art.zones.empty() ? 0 : std::ranges::max(art.zones, {}, &Zone::hiKey).hiKey;
-        std::snprintf(line, sizeof line,
-                      "  [%s]%s %s: %zu recordings -> %zu zones, %zu root notes, keys %d-%d, up to %d velocity layer(s)%s, up to %d round robin(s)\n",
-                      art.name.c_str(), art.releaseTrigger ? " (release trigger)" : "", art.pitched ? "pitched" : "unpitched",
-                      members.size(), art.zones.size(), roots.size(), keyLo, keyHi, maxLayers,
-                      vValues.empty() ? "" : (vIsIndex ? " ['v' read as layer index]" : " ['v' read as MIDI velocity]"), maxRr);
-        rep += line;
-        lib->articulations_.push_back(std::move(art));
+        if (relCount) {
+            rel.pitched = relPitched * 2 > relCount;
+            ByKey byKey;
+            for (auto& g : infos) {
+                if (!g.release) continue;
+                const auto dynOf = dynFor(g);
+                for (auto* c : *g.members) {
+                    int key = 60;
+                    if (rel.pitched) {
+                        auto r = rootOf(c);
+                        if (!r) continue;
+                        key = *r;
+                    }
+                    byKey[key][dynOf(c)].push_back(c);
+                }
+            }
+            zonesFromKeys(byKey, rel.pitched, !rel.pitched, rel, zoneIndex);
+            buildLookup(rel);
+            report(rel, relCount);
+            lib->articulations_.push_back(std::move(rel));
+        }
     }
-    // Primary (non-release) articulations first.
-    std::ranges::stable_partition(lib->articulations_, [](const Articulation& a) { return !a.releaseTrigger; });
+
     lib->zoneCount_ = zoneIndex;
     if (!lib->primary()) return fail("only release-trigger samples were found in " + folder.string());
 
+    // ---- Level: bring the loudest recording of the main articulation to about -1 dBFS (at most +12 dB) ----
+    float peak = 0.0f;
+    for (const Zone& z : lib->primary()->zones)
+        for (u32 id : z.roundRobins) peak = std::max(peak, lib->store_.get(id).header.peak * z.gain);
+    lib->levelGain_ = peak > 1e-6f ? std::clamp(0.891f / peak, 0.25f, 3.981f) : 1.0f;
+
+    std::snprintf(line, sizeof line, "Level: loudest recording peaks at %.1f dBFS, playback gain %+.1f dB\n",
+                  20.0f * std::log10(std::max(peak, 1e-6f)), 20.0f * std::log10(lib->levelGain_));
+    rep += line;
     std::snprintf(line, sizeof line, "DFD: %zu samples mapped (%.1f MB on disk), %.1f MB resident preload%s; decoded %zu, cache hits %zu, FLAC MD5 verified %zu\n",
                   lib->store_.size(), lib->store_.mappedBytes() / 1048576.0, lib->store_.residentBytes() / 1048576.0,
                   lib->store_.ramLocked() ? " (locked)" : "", lib->stats_.decoded, lib->stats_.cacheHits, lib->stats_.md5Verified);
     rep += line;
+    for (const auto& n : lib->notices_) rep += "  note: " + n + "\n";
     for (const auto& w : lib->warnings_) rep += "  warning: " + w + "\n";
     lib->report_ = std::move(rep);
     return lib;

@@ -36,6 +36,7 @@ struct EngineUi {
 [[nodiscard]] const EngineUi& engineUi(EngineKind k);
 [[nodiscard]] const wchar_t* engineShortName(EngineKind k);  // "Piano", "Bowed strings", …
 [[nodiscard]] EngineKind guessEngine(const std::wstring& folderName);
+[[nodiscard]] const char* engineId(EngineKind k);  // "piano", "bowed" … (settings keys)
 
 // Dial position (0..1) <-> engine value. Dials whose range crosses zero
 // (strike point -1..1) rest at the middle; every other dial rests at 0.
@@ -50,7 +51,7 @@ struct Pack {
     std::wstring name;
     EngineKind kind = EngineKind::Piano;
     int recordings = 0;      // audio files found in the folder
-    bool builtIn = false;    // found next to the program (not removable)
+    bool builtIn = false;    // found next to the program
 };
 
 [[nodiscard]] int countRecordings(const std::filesystem::path& folder);
@@ -72,13 +73,33 @@ struct Settings {
     std::filesystem::path lastPack;
     int baseOctaveNote = 48;   // lowest C shown on the keyboard
     int velocity = 100;
-    std::map<std::wstring, SavedSound> sounds;  // keyed by pack folder (lower-case)
+    std::map<std::wstring, SavedSound> sounds;  // keyed by soundKey(pack, engine)
+    std::vector<std::filesystem::path> hiddenPacks;            // packs next to the program the user removed from the list
+    std::map<std::wstring, std::filesystem::path> mappings;    // pack key -> hand-edited .sfz
 };
 
 [[nodiscard]] std::filesystem::path settingsDir();  // %APPDATA%\HEM\World Heritage Engine
 [[nodiscard]] Settings loadSettings();
 bool saveSettings(const Settings& s);
 [[nodiscard]] std::wstring packKey(const std::filesystem::path& folder);
+[[nodiscard]] std::wstring soundKey(const std::filesystem::path& folder, EngineKind k);  // saved dials are per pack AND engine
+// Fast-stream cache for a pack: %LOCALAPPDATA%\HEM\World Heritage Engine\cache\<hash> (never inside the sample folder).
+[[nodiscard]] std::filesystem::path cacheDirFor(const std::filesystem::path& folder);
+[[nodiscard]] std::filesystem::path mappingsDir();  // where hand-edited mappings (.sfz) are kept
+
+// One recording's place on the keyboard, as shown and edited in the File Map.
+struct MapRow {
+    std::filesystem::path file;
+    std::wstring articulation;
+    int root = 60, lo = 0, hi = 127, loVel = 1, hiVel = 127;
+    int rr = 1;              // position among the recordings that share the same keys and velocities
+    bool release = false;
+    bool pitched = true;
+    float tuneCents = 0.0f;  // + = recording is sharp
+    float gainDb = 0.0f;
+};
+// Writes rows as an .sfz the importer reads back (round robins from rr order).
+bool writeMappingSfz(const std::filesystem::path& sfz, const std::vector<MapRow>& rows);
 
 // Appends one time-stamped line to studio.log in the program folder (or the settings folder)
 // (start-up steps, sound-card results, load errors) so problems can be traced.

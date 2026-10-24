@@ -105,12 +105,13 @@ int InstrumentEngine::startVoice(const Zone& zone, int note, int velocity, float
     if (zone.pitched) ratio *= std::exp2((note + bend_ - zone.rootKey - zone.tuneCents / 100.0) / 12.0);
     // Velocity inside one recorded layer: gentle scaling; a single-layer zone gets a wider range.
     const float span = std::max(1, zone.hiVel - zone.loVel + 1);
-    const float rangeDb = zone.layerCount > 1 ? 6.0f : 30.0f;
+    // (Each recorded layer already carries its own loudness, so only a 3 dB trim inside it.)
+    const float rangeDb = zone.layerCount > 1 ? 3.0f : 24.0f;
     const float within = clampf(static_cast<float>(zone.hiVel - velocity) / span, 0.0f, 1.0f);
     const float velGain = zone.layerCount > 1 ? dbToGain(-rangeDb * within) : dbToGain(-rangeDb * (1.0f - velocity / 127.0f));
 
     SampleVoice& sv = voices_[static_cast<std::size_t>(v)];
-    sv.start(s, ratio, gain * velGain, !releaseVoice);
+    sv.start(s, ratio, gain * velGain * zone.gain * lib_->levelGain(), !releaseVoice);
     VoiceInfo& in = info_[static_cast<std::size_t>(v)];
     in = VoiceInfo{};
     in.note = note;

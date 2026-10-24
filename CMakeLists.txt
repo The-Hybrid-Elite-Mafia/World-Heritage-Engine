@@ -20,6 +20,7 @@ add_library(whe_core STATIC
   src/flac.cpp
   src/sample_store.cpp
   src/sample_library.cpp
+  src/sfz.cpp
   src/dfd_stream.cpp
   src/voice.cpp
   src/hybrid.cpp

@@ -3,7 +3,7 @@
 //
 //   whe_render <sample-folder> <piano|bowed|plucked|aerophone|membrane> <out.wav>
 //              [--set Name=value ...] [--seconds N] [--rate 48000] [--block 256]
-//              [--notes 60,64,67] [--middle-c 3|4]
+//              [--notes 60,64,67] [--middle-c 3|4] [--vel 1..127 (play --notes once at this velocity)]
 #include <cstdio>
 #include <sstream>
 #include <string>
@@ -21,10 +21,16 @@ struct Hit {
     NoteEvent ev;
 };
 
-std::vector<Hit> demoPhrase(EngineKind kind, const Articulation& art, std::vector<int> notes, double seconds) {
+std::vector<Hit> demoPhrase(EngineKind kind, const Articulation& art, std::vector<int> notes, double seconds, int fixedVel) {
     std::vector<Hit> h;
     auto on = [&](double t, int n, int v) { h.push_back({t, {NoteEvent::Type::NoteOn, static_cast<u8>(n), static_cast<u8>(v), 0}}); };
     auto off = [&](double t, int n) { h.push_back({t, {NoteEvent::Type::NoteOff, static_cast<u8>(n), 0, 0}}); };
+    if (fixedVel > 0 && !notes.empty()) {
+        // --vel: the given notes together at one velocity, held until 1 s before the end (level checks).
+        for (int n : notes) on(0.1, n, fixedVel);
+        for (int n : notes) off(std::max(0.2, seconds - 1.0), n);
+        return h;
+    }
     if (notes.empty()) {
         if (!art.pitched) {
             notes = {art.zones.front().rootKey};
@@ -84,6 +90,7 @@ int main(int argc, char** argv) {
     int block = 256;
     std::vector<std::pair<std::string, float>> sets;
     std::vector<int> notes;
+    int fixedVel = 0;
     for (int i = 4; i < argc; ++i) {
         const std::string a = argv[i];
         if (a == "--set" && i + 1 < argc) {
@@ -94,6 +101,7 @@ int main(int argc, char** argv) {
         else if (a == "--rate" && i + 1 < argc) rate = std::stod(argv[++i]);
         else if (a == "--block" && i + 1 < argc) block = std::stoi(argv[++i]);
         else if (a == "--middle-c" && i + 1 < argc) io.naming.middleCOctave = std::stoi(argv[++i]);
+        else if (a == "--vel" && i + 1 < argc) fixedVel = std::clamp(std::stoi(argv[++i]), 1, 127);
         else if (a == "--notes" && i + 1 < argc) {
             std::stringstream ss(argv[++i]);
             std::string t;
@@ -131,7 +139,7 @@ int main(int argc, char** argv) {
         return 1;
     }
 
-    auto phrase = demoPhrase(*kind, eng->articulation(), notes, seconds);
+    auto phrase = demoPhrase(*kind, eng->articulation(), notes, seconds, fixedVel);
     std::ranges::sort(phrase, {}, &Hit::at);
     const std::size_t frames = static_cast<std::size_t>(seconds * rate);
     std::vector<float> out(frames * 2);
@@ -161,7 +169,7 @@ int main(int argc, char** argv) {
     }
     const auto st = mgr.streamer().stats();
     std::printf("Rendered %.1f s with the %s engine (SIMD: %s) -> %s\n", seconds, eng->kind(), simd().name, argv[3]);
-    std::printf("Peak %.3f, RMS %.4f%s | disk fills %llu, stale %llu, underruns %llu, streamed %.1f MB\n", peak, std::sqrt(sumSq / static_cast<double>(frames)), peak > 0.98 ? " (normalized)" : "",
+    std::printf("Peak %.3f (%.1f dBFS), RMS %.4f%s | disk fills %llu, stale %llu, underruns %llu, streamed %.1f MB\n", peak, 20.0 * std::log10(std::max(peak, 1e-9)), std::sqrt(sumSq / static_cast<double>(frames)), peak > 0.98 ? " (normalized)" : "",
                 static_cast<unsigned long long>(st.fills), static_cast<unsigned long long>(st.staleFills), static_cast<unsigned long long>(st.underruns),
                 st.bytesCopied / 1048576.0);
     return 0;
