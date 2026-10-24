@@ -1,0 +1,32 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Double bass; variant Strings/Solo Contrabass/SusNV; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+28
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_E0_v1_rr1.wav" 28 28 29 1 63 0 0.8 0 0 20 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_E0_v3_rr1.wav" 28 28 29 64 127 0 0.8 0 0 5 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_F#0_v1_rr1.wav" 30 30 30 1 63 0 0.8 0 0 20 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_F#0_v3_rr1.wav" 30 30 30 64 127 0 0.8 0 0 5 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_G0_v1_rr1.wav" 31 31 32 1 63 0 0.8 0 0 20 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_G0_v3_rr1.wav" 31 31 32 64 127 0 0.8 0 0 5 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_A#0_v1_rr1.wav" 34 33 35 1 63 0 0.8 0 0 20 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_A#0_v3_rr1.wav" 34 33 35 64 127 0 0.8 0 0 5 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_C1_v1_rr1.wav" 36 36 37 1 63 0 0.8 0 0 20 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_C1_v3_rr1.wav" 36 36 37 64 127 0 0.8 0 0 5 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_D1_v1_rr1.wav" 38 38 39 1 63 0 0.8 0 0 20 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_D1_v3_rr1.wav" 38 38 39 64 127 0 0.8 0 0 5 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_E1_v1_rr1.wav" 40 40 41 1 63 0 0.8 0 0 20 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_E1_v3_rr1.wav" 40 40 41 64 127 0 0.8 0 0 5 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_F#1_v1_rr1.wav" 42 42 43 1 63 0 0.8 0 0 20 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_F#1_v3_rr1.wav" 42 42 43 64 127 0 0.8 0 0 5 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_G#1_v1_rr1.wav" 44 44 44 1 63 0 0.8 0 0 20 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_G#1_v3_rr1.wav" 44 44 44 64 127 0 0.8 0 0 5 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_A1_v1_rr1.wav" 45 45 47 1 63 0 0.8 0 0 20 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_A1_v3_rr1.wav" 45 45 47 64 127 0 0.8 0 0 5 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_C#2_v1_rr1.wav" 49 48 50 1 63 0 0.8 0 0 20 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_C#2_v3_rr1.wav" 49 48 50 64 127 0 0.8 0 0 5 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_E2_v1_rr1.wav" 52 51 54 1 63 0 0.8 0 0 20 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_E2_v3_rr1.wav" 52 51 54 64 127 0 0.8 0 0 5 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_G#2_v1_rr1.wav" 56 55 57 1 63 0 0.8 0 0 20 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_G#2_v3_rr1.wav" 56 55 57 64 127 0 0.8 0 0 5 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_B2_v1_rr1.wav" 59 58 59 1 63 0 0.8 0 0 20 0.001
+"../source/Strings/Solo Contrabass/SusNV/BKCtbss_SusNV_B2_v3_rr1.wav" 59 58 59 64 127 0 0.8 0 0 5 0.001

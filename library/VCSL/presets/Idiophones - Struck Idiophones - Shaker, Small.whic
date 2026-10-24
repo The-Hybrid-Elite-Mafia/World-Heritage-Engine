@@ -1,0 +1,20 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Shaker, Small.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+16
+"../source/Idiophones/Struck Idiophones/Shaker, Small/Mid_Shaker_Roll_Fast_rr2.wav" 60 60 60 1 127 1 0.5 0 0.0 20.126577 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Small/Mid_Shaker_Roll_Fast_rr1.wav" 60 60 60 1 127 2 0.5 0 0.0 19.875241 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Small/Mid_Shaker_Slap_rr1.wav" 61 61 61 1 127 1 30.0 0 0.0 19.259504 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Small/Mid_Shaker_Slap_rr2.wav" 61 61 61 1 127 2 30.0 0 0.0 20.809559 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Small/Mid_ShakerDouble_Down_rr2.wav" 62 62 62 1 127 1 30.0 0 0.0 19.707995 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Small/Mid_ShakerDouble_Down_rr1.wav" 62 62 62 1 127 2 30.0 0 0.0 20.302164 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Small/Mid_ShakerDouble_Up_rr1.wav" 63 63 63 1 127 1 30.0 0 0.0 19.229598 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Small/Mid_ShakerDouble_Up_rr2.wav" 63 63 63 1 127 2 30.0 0 0.0 20.845443 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Small/Mid_ShakerHighFaster_Down_rr1.wav" 64 64 64 1 127 1 30.0 0 0.0 19.995481 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Small/Mid_ShakerHighFaster_Down_rr2.wav" 64 64 64 1 127 2 30.0 0 0.0 20.004522 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Small/Mid_ShakerHighFaster_Up_rr1.wav" 65 65 65 1 127 1 30.0 0 0.0 18.985387 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Small/Mid_ShakerHighFaster_Up_rr2.wav" 65 65 65 1 127 2 30.0 0 0.0 21.149003 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Small/Mid_ShakerLowFaster_Down_rr1.wav" 66 66 66 1 127 1 30.0 0 0.0 20.050183 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Small/Mid_ShakerLowFaster_Down_rr2.wav" 66 66 66 1 127 2 30.0 0 0.0 19.950105 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Small/Mid_ShakerLowFaster_Up_rr1.wav" 67 67 67 1 127 1 30.0 0 0.0 21.484522 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Small/Mid_ShakerLowFaster_Up_rr2.wav" 67 67 67 1 127 2 30.0 0 0.0 18.732551 0.004

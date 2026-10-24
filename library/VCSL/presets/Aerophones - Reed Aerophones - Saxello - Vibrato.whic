@@ -1,0 +1,12 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Reed Aerophones/Saxello - Vibrato.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+8
+"../source/Aerophones/Reed Aerophones/Saxello/Vibrato/BrettSaxello_SusVB_MainSpirit_A#2_vl2_rr1.wav" 58 58 60 1 127 0 0.5 0 0.0 9.133215 0.004
+"../source/Aerophones/Reed Aerophones/Saxello/Vibrato/BrettSaxello_SusVB_MainSpirit_D3_vl2_rr1.wav" 62 61 64 1 127 0 0.5 0 1.0 9.325023 0.004
+"../source/Aerophones/Reed Aerophones/Saxello/Vibrato/BrettSaxello_SusVB_MainSpirit_F#3_vl2_rr1.wav" 66 65 68 1 127 0 0.5 0 1.0 9.11635 0.004
+"../source/Aerophones/Reed Aerophones/Saxello/Vibrato/BrettSaxello_SusVB_MainSpirit_A#3_vl2_rr1.wav" 70 69 72 1 127 0 0.5 0 0.0 12.558017 0.004
+"../source/Aerophones/Reed Aerophones/Saxello/Vibrato/BrettSaxello_SusVB_MainSpirit_D4_vl2_rr1.wav" 74 73 76 1 127 0 0.5 0 2.0 7.284307 0.004
+"../source/Aerophones/Reed Aerophones/Saxello/Vibrato/BrettSaxello_SusVB_MainSpirit_F#4_vl2_rr1.wav" 78 77 80 1 127 0 0.5 0 0.0 7.695181 0.004
+"../source/Aerophones/Reed Aerophones/Saxello/Vibrato/BrettSaxello_SusVB_MainSpirit_A#4_vl2_rr1.wav" 82 81 84 1 127 0 0.5 0 2.0 11.351061 0.004
+"../source/Aerophones/Reed Aerophones/Saxello/Vibrato/BrettSaxello_SusVB_MainSpirit_D#5_vl2_rr1.wav" 87 85 89 1 127 0 0.5 0 5.0 9.237326 0.004

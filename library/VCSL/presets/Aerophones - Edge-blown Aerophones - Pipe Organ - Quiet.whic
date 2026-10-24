@@ -1,0 +1,25 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Edge-blown Aerophones/Pipe Organ - Quiet.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+21
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_C1_rr1.wav" 36 36 37 1 127 0 0.5 1365 6.0 27.0 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_D#1_rr1.wav" 39 38 40 1 127 0 0.5 0 -1.0 25.169845 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_F#1_rr1.wav" 42 41 43 1 127 0 0.5 1538 -15.0 27.0 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_A1_rr1.wav" 45 44 46 1 127 0 0.5 3434 0.0 21.0 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_C2_rr1.wav" 48 47 49 1 127 0 0.5 2095 0.0 18.449313 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_D#2_rr1.wav" 51 50 52 1 127 0 0.5 3710 -2.0 23.0 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_F#2_rr1.wav" 54 53 55 1 127 0 0.5 2217 -5.0 19.0 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_A2_rr1.wav" 57 56 58 1 127 0 0.5 1751 -3.0 24.0 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_C3_rr1.wav" 60 59 61 1 127 0 0.5 1876 -2.0 22.0 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_D#3_rr1.wav" 63 62 64 1 127 0 0.5 3062 0.0 19.0 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_F#3_rr1.wav" 66 65 67 1 127 0 0.5 1042 0.0 19.0 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_A3_rr1.wav" 69 68 70 1 127 0 0.5 1917 2.0 21.640202 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_C4_rr1.wav" 72 71 73 1 127 0 0.5 1633 3.0 24.279572 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_D#4_rr1.wav" 75 74 76 1 127 0 0.5 2384 2.0 19.446667 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_F#4_rr1.wav" 78 77 79 1 127 0 0.5 1629 1.0 20.875902 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_A4_rr1.wav" 81 80 82 1 127 0 0.5 1871 0.0 19.130972 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_C5_rr1.wav" 84 83 85 1 127 0 0.5 1976 0.0 16.799337 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_D#5_rr1.wav" 87 86 88 1 127 0 0.5 1653 8.0 22.843969 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_F#5_rr1.wav" 90 89 91 1 127 0 0.5 1896 3.0 18.999193 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_A5_rr1.wav" 93 92 94 1 127 0 0.5 2103 2.0 20.194444 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet/NT5_Man3Quiet_C6_rr1.wav" 96 95 97 1 127 0 0.5 1785 1.0 24.38581 0.004

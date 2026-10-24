@@ -1,0 +1,11 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Tambourine 2.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+7
+"../source/Idiophones/Struck Idiophones/Tambourine 2/Tamb2_Hit_v1_rr1_Mid.wav" 60 60 60 1 83 0 30.0 248 0.0 22.894104 0.004
+"../source/Idiophones/Struck Idiophones/Tambourine 2/Tamb2_Hit_v2_rr2_Mid.wav" 60 60 60 84 127 0 30.0 228 0.0 17.83296 0.004
+"../source/Idiophones/Struck Idiophones/Tambourine 2/Tamb2_Roll_v1_rr1_Mid.wav" 61 61 61 1 65 0 1.0 291 0.0 33.025317 0.004
+"../source/Idiophones/Struck Idiophones/Tambourine 2/Tamb2_Roll_v2_rr1_Mid.wav" 61 61 61 66 99 0 1.0 554 0.0 22.852296 0.004
+"../source/Idiophones/Struck Idiophones/Tambourine 2/Tamb2_Roll_v3_rr1_Mid.wav" 61 61 61 100 127 0 1.0 1774 0.0 13.736615 0.004
+"../source/Idiophones/Struck Idiophones/Tambourine 2/Tamb2_Shake_rr3_Mid.wav" 62 62 62 1 127 1 30.0 512 0.0 22.89982 0.004
+"../source/Idiophones/Struck Idiophones/Tambourine 2/Tamb2_Shake_rr4_Mid.wav" 62 62 62 1 127 2 30.0 2223 0.0 17.82977 0.004

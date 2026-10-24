@@ -1,0 +1,14 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Snare drum; variant Percussion/Snare2-HitSN; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+10
+"../source/Percussion/Snare2-HitSN_v1_rr1_Sum.wav" 60 60 60 1 25 0 3 0 0 25 0.001
+"../source/Percussion/Snare2-HitSN_v1_rr2_Sum.wav" 60 60 60 1 25 1 3 0 0 25 0.001
+"../source/Percussion/Snare2-HitSN_v3_rr1_Sum.wav" 60 60 60 26 50 0 3 0 0 20 0.001
+"../source/Percussion/Snare2-HitSN_v3_rr2_Sum.wav" 60 60 60 26 50 1 3 0 0 20 0.001
+"../source/Percussion/Snare2-HitSN_v5_rr1_Sum.wav" 60 60 60 51 76 0 3 0 0 14 0.001
+"../source/Percussion/Snare2-HitSN_v5_rr2_Sum.wav" 60 60 60 51 76 1 3 0 0 14 0.001
+"../source/Percussion/Snare2-HitSN_v7_rr1_Sum.wav" 60 60 60 77 101 0 3 0 0 9 0.001
+"../source/Percussion/Snare2-HitSN_v7_rr2_Sum.wav" 60 60 60 77 101 1 3 0 0 9 0.001
+"../source/Percussion/Snare2-HitSN_v9_rr1_Sum.wav" 60 60 60 102 127 0 3 0 0 3 0.001
+"../source/Percussion/Snare2-HitSN_v9_rr2_Sum.wav" 60 60 60 102 127 1 3 0 0 3 0.001

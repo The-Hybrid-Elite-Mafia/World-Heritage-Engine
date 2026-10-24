@@ -1,0 +1,15 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Gong; variant VSCO 1 Percussion/varMetal/Gong/gong_hit; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+11
+"../source/VSCO 1 Percussion/varMetal/Gong/gong_hit_ppp.wav" 60 60 60 1 15 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varMetal/Gong/gong_hit_pp.wav" 60 60 60 16 31 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varMetal/Gong/gong_hit_p.wav" 60 60 60 32 47 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varMetal/Gong/gong_hit_p_2.wav" 60 60 60 32 47 1 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varMetal/Gong/gong_hit_mp.wav" 60 60 60 48 63 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varMetal/Gong/gong_hit_mf.wav" 60 60 60 64 79 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varMetal/Gong/gong_hit_mf_2.wav" 60 60 60 64 79 1 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varMetal/Gong/gong_hit_mf_3.wav" 60 60 60 64 79 2 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varMetal/Gong/gong_hit_f.wav" 60 60 60 80 95 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varMetal/Gong/gong_hit_ff.wav" 60 60 60 96 111 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varMetal/Gong/gong_hit_fff.wav" 60 60 60 112 127 0 0.05 0 0 0 0.003

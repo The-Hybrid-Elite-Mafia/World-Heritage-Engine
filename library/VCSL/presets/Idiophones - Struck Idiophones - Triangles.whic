@@ -1,0 +1,41 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Triangles.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+37
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle1_Hit_v1_rr1_Mid.wav" 60 60 60 1 83 1 30.0 184 0.0 32.122648 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle1_Hit_v1_rr2_Mid.wav" 60 60 60 1 83 2 30.0 184 0.0 29.662099 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle1_Hit_v2_rr1_Mid.wav" 60 60 60 84 127 1 30.0 189 0.0 15.583062 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle1_Hit_v2_rr2_Mid.wav" 60 60 60 84 127 2 30.0 184 0.0 15.086122 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle1_HitFM_v1_rr1_Mid.wav" 61 61 61 1 127 1 30.0 183 0.0 20.014204 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle1_HitFM_v1_rr2_Mid.wav" 61 61 61 1 127 2 30.0 187 0.0 19.985819 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle1_HitM_v1_rr2_Mid.wav" 62 62 62 1 127 1 30.0 187 0.0 17.929534 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle1_HitM_v1_rr4_Mid.wav" 62 62 62 1 127 2 30.0 183 0.0 22.723794 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle1_Roll_rr1_Mid.wav" 63 63 63 1 127 0 2.0 207 0.0 20.0 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle1_hitFM_v2_rr1_Mid.wav" 64 64 64 1 127 1 30.0 181 0.0 19.816896 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle1_hitFM_v2_rr2_Mid.wav" 64 64 64 1 127 2 30.0 181 0.0 20.187048 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle3_Hit_v1_rr1_Mid.wav" 65 65 65 1 83 1 30.0 178 0.0 25.707216 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle3_Hit_v1_rr2_Mid.wav" 65 65 65 1 83 2 30.0 182 0.0 24.981028 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle3_Hit_v2_rr1_Mid.wav" 65 65 65 84 127 1 30.0 180 0.0 15.756029 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle3_Hit_v2_rr2_Mid.wav" 65 65 65 84 127 2 30.0 183 0.0 17.801556 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle3_HitFM_v1_rr1_Mid.wav" 66 66 66 1 83 1 30.0 182 0.0 20.528999 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle3_HitFM_v1_rr2_Mid.wav" 66 66 66 1 83 2 30.0 187 0.0 23.334479 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle3_HitFM_v2_rr1_Mid.wav" 66 66 66 84 127 1 30.0 183 0.0 17.893418 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle3_HitFM_v2_rr2_Mid.wav" 66 66 66 84 127 2 30.0 186 0.0 19.145222 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle3_HitM_v1_rr1_Mid.wav" 67 67 67 1 83 1 30.0 186 0.0 25.404611 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle3_HitM_v1_rr2_Mid.wav" 67 67 67 1 83 2 30.0 177 0.0 30.842303 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle3_HitM_v2_rr1_Mid.wav" 67 67 67 84 127 1 30.0 188 0.0 15.653878 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle3_HitM_v2_rr2_Mid.wav" 67 67 67 84 127 2 30.0 184 0.0 16.323636 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle3_Roll_v2_rr1_Mid.wav" 68 68 68 1 127 0 2.0 200 0.0 20.0 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle6_Hit_v1_rr1_Mid.wav" 69 69 69 1 83 1 30.0 183 0.0 29.871626 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle6_Hit_v1_rr2_Mid.wav" 69 69 69 1 83 2 30.0 178 0.0 24.363666 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle6_Hit_v2_rr1_Mid.wav" 69 69 69 84 127 1 30.0 189 0.0 16.133992 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle6_Hit_v2_rr2_Mid.wav" 69 69 69 84 127 2 30.0 188 0.0 16.401231 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle6_HitFM_v1_rr1_Mid.wav" 70 70 70 1 83 1 30.0 183 0.0 19.290702 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle6_HitFM_v1_rr2_Mid.wav" 70 70 70 1 83 2 30.0 193 0.0 23.38742 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle6_HitFM_v2_rr1_Mid.wav" 70 70 70 84 127 1 30.0 185 0.0 18.561818 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle6_HitFM_v2_rr2_Mid.wav" 70 70 70 84 127 2 30.0 184 0.0 19.512128 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle6_HitM_v1_rr1_Mid.wav" 71 71 71 1 83 1 30.0 184 0.0 21.336629 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle6_HitM_v1_rr2_Mid.wav" 71 71 71 1 83 2 30.0 184 0.0 22.712483 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle6_HitM_v2_rr1_Mid.wav" 71 71 71 84 127 1 30.0 183 0.0 16.872004 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle6_HitM_v2_rr2_Mid.wav" 71 71 71 84 127 2 30.0 184 0.0 20.198994 0.004
+"../source/Idiophones/Struck Idiophones/Triangles/Triangle6_Roll_v2_rr1_Mid.wav" 72 72 72 1 127 0 2.0 190 0.0 20.0 0.004

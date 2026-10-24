@@ -1,0 +1,17 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Edge-blown Aerophones/Baroque Tenor Recorder - Sustain.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+13
+"../source/Aerophones/Edge-blown Aerophones/Baroque Tenor Recorder/Sustain/TenRecorder_Sus_C3_rr1_Main.wav" 60 60 61 1 127 0 0.3 8014 -2.0 11.677995 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Tenor Recorder/Sustain/TenRecorder_Sus_D3_rr1_Main.wav" 62 62 63 1 127 0 0.3 1329 -2.0 8.055846 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Tenor Recorder/Sustain/TenRecorder_Sus_E3_rr1_Main.wav" 64 64 65 1 127 0 0.3 1247 -3.0 16.698088 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Tenor Recorder/Sustain/TenRecorder_Sus_F#3_rr1_Main.wav" 66 66 67 1 127 0 0.3 671 0.0 10.904645 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Tenor Recorder/Sustain/TenRecorder_Sus_G#3_rr1_Main.wav" 68 68 69 1 127 0 0.3 457 -1.0 7.2165 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Tenor Recorder/Sustain/TenRecorder_Sus_A#3_rr1_Main.wav" 70 70 71 1 127 0 0.3 0 0.0 8.180374 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Tenor Recorder/Sustain/TenRecorder_Sus_C4_rr1_Main.wav" 72 72 73 1 127 0 0.3 493 0.0 17.688264 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Tenor Recorder/Sustain/TenRecorder_Sus_D4_rr1_Main.wav" 74 74 75 1 127 0 0.3 323 0.0 8.733515 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Tenor Recorder/Sustain/TenRecorder_Sus_E4_rr1_Main.wav" 76 76 77 1 127 0 0.3 676 0.0 11.578932 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Tenor Recorder/Sustain/TenRecorder_Sus_F#4_rr1_Main.wav" 78 78 79 1 127 0 0.3 420 0.0 10.223089 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Tenor Recorder/Sustain/TenRecorder_Sus_G#4_rr1_Main.wav" 80 80 80 1 127 0 0.3 429 0.0 12.454909 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Tenor Recorder/Sustain/TenRecorder_Sus_A4_rr1_Main.wav" 81 81 82 1 127 0 0.3 486 -1.0 9.004677 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Tenor Recorder/Sustain/TenRecorder_Sus_C5_rr1_Main.wav" 84 83 86 1 127 0 0.3 592 0.0 6.976658 0.004

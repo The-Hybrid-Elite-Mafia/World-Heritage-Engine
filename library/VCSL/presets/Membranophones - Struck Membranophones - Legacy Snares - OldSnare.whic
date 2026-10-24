@@ -1,0 +1,19 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Membranophones/Struck Membranophones/Legacy Snares - OldSnare.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+15
+"../source/Membranophones/Struck Membranophones/Legacy Snares/OldSnare/snare_pp1.wav" 60 60 60 1 47 1 30.0 399 0.0 37.180308 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/OldSnare/snare_pp2.wav" 60 60 60 1 47 2 30.0 188 0.0 30.705181 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/OldSnare/snare_pp3.wav" 60 60 60 1 47 3 30.0 167 0.0 29.668115 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/OldSnare/snare_p1.wav" 60 60 60 48 72 1 30.0 135 0.0 29.249182 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/OldSnare/snare_p2.wav" 60 60 60 48 72 2 30.0 121 0.0 26.631159 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/OldSnare/snare_mf1.wav" 60 60 60 73 93 1 30.0 183 0.0 22.750074 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/OldSnare/snare_mf2.wav" 60 60 60 73 93 2 30.0 408 0.0 13.789593 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/OldSnare/snare_mf3.wav" 60 60 60 73 93 3 30.0 124 0.0 21.296823 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/OldSnare/snare_mf4.wav" 60 60 60 73 93 4 30.0 220 0.0 22.768307 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/OldSnare/snare_f1.wav" 60 60 60 94 110 1 30.0 234 0.0 11.218773 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/OldSnare/snare_f2.wav" 60 60 60 94 110 2 30.0 87 0.0 12.910241 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/OldSnare/snare_f3.wav" 60 60 60 94 110 3 30.0 112 0.0 12.284653 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/OldSnare/snare_ff1.wav" 60 60 60 111 127 1 30.0 127 0.0 6.105861 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/OldSnare/snare_ff2.wav" 60 60 60 111 127 2 30.0 190 0.0 8.255459 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/OldSnare/snare_rim.wav" 61 61 61 1 127 0 30.0 248 0.0 16.0 0.004

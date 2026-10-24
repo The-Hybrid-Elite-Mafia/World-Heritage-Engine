@@ -1,0 +1,7 @@
+Tabla strokes dataset, Subodh Deolekar (2020), DOI 10.5281/zenodo.4327350; https://zenodo.org/records/4327350 . CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ . Professional-player acoustic recordings, source described as tuned C#. WHIC pad/RR mappings added 2026-10-24; sample bytes unchanged. Attribution required when redistributing/adapting these recordings; no endorsement.
+
+13 source filename stroke labels preserved without inventing their expanded names.
+Each label assigned one MIDI pad 60-72 at original playback speed; pad numbers do not claim measured pitch.
+50 recorded takes per label cycle deterministically; no invented velocity-layer metadata. Velocity 1-127 changes playback gain.
+3 ms attack, 0.5 s release; no audio edits, normalization, synthetic sounds or chromatic extension.
+Retain Subodh Deolekar attribution, DOI, CC BY 4.0 license/link and this modification notice.

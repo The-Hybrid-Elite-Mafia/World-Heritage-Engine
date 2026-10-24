@@ -1,0 +1,22 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Balafon - Hard Mallet.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+18
+"../source/Idiophones/Struck Idiophones/Balafon/Hard Mallet/EthnicXylo_hardM_C#3_vl1_rr1_Mid.wav" 61 60 63 1 65 0 30.0 198 0.0 21.067154 0.004
+"../source/Idiophones/Struck Idiophones/Balafon/Hard Mallet/EthnicXylo_hardM_C#3_vl2_rr1_Mid.wav" 61 60 63 66 99 0 30.0 197 0.0 12.248946 0.004
+"../source/Idiophones/Struck Idiophones/Balafon/Hard Mallet/EthnicXylo_hardM_C#3_vl3_rr1_Mid.wav" 61 60 63 100 127 0 30.0 200 0.0 3.203128 0.004
+"../source/Idiophones/Struck Idiophones/Balafon/Hard Mallet/EthnicXylo_hardM_F3_vl1_rr1_Mid.wav" 65 64 68 1 65 0 30.0 189 0.0 24.338365 0.004
+"../source/Idiophones/Struck Idiophones/Balafon/Hard Mallet/EthnicXylo_hardM_F3_vl2_rr1_Mid.wav" 65 64 68 66 99 0 30.0 189 0.0 14.426469 0.004
+"../source/Idiophones/Struck Idiophones/Balafon/Hard Mallet/EthnicXylo_hardM_F3_vl3_rr1_Mid.wav" 65 64 68 100 127 0 30.0 192 0.0 6.824585 0.004
+"../source/Idiophones/Struck Idiophones/Balafon/Hard Mallet/EthnicXylo_hardM_C4_vl1_rr1_Mid.wav" 72 69 74 1 65 0 30.0 185 0.0 27.040275 0.004
+"../source/Idiophones/Struck Idiophones/Balafon/Hard Mallet/EthnicXylo_hardM_C4_vl2_rr1_Mid.wav" 72 69 74 66 99 0 30.0 182 0.0 21.768622 0.004
+"../source/Idiophones/Struck Idiophones/Balafon/Hard Mallet/EthnicXylo_hardM_C4_vl3_rr1_Mid.wav" 72 69 74 100 127 0 30.0 183 0.0 9.278741 0.004
+"../source/Idiophones/Struck Idiophones/Balafon/Hard Mallet/EthnicXylo_hardM_F4_vl1_rr1_Mid.wav" 77 75 80 1 65 0 30.0 184 0.0 26.448957 0.004
+"../source/Idiophones/Struck Idiophones/Balafon/Hard Mallet/EthnicXylo_hardM_F4_vl2_rr1_Mid.wav" 77 75 80 66 99 0 30.0 190 0.0 19.322213 0.004
+"../source/Idiophones/Struck Idiophones/Balafon/Hard Mallet/EthnicXylo_hardM_F4_vl3_rr1_Mid.wav" 77 75 80 100 127 0 30.0 185 0.0 10.504588 0.004
+"../source/Idiophones/Struck Idiophones/Balafon/Hard Mallet/EthnicXylo_hardM_C5_vl1_rr1_Mid.wav" 84 81 86 1 65 0 30.0 196 0.0 16.547392 0.004
+"../source/Idiophones/Struck Idiophones/Balafon/Hard Mallet/EthnicXylo_hardM_C5_vl2_rr1_Mid.wav" 84 81 86 66 99 0 30.0 195 0.0 12.563947 0.004
+"../source/Idiophones/Struck Idiophones/Balafon/Hard Mallet/EthnicXylo_hardM_C5_vl3_rr1_Mid.wav" 84 81 86 100 127 0 30.0 189 0.0 2.975057 0.004
+"../source/Idiophones/Struck Idiophones/Balafon/Hard Mallet/EthnicXylo_hardM_F5_vl1_rr1_Mid.wav" 89 87 91 1 65 0 30.0 177 0.0 19.810595 0.004
+"../source/Idiophones/Struck Idiophones/Balafon/Hard Mallet/EthnicXylo_hardM_F5_vl2_rr1_Mid.wav" 89 87 91 66 99 0 30.0 176 0.0 10.276161 0.004
+"../source/Idiophones/Struck Idiophones/Balafon/Hard Mallet/EthnicXylo_hardM_F5_vl3_rr1_Mid.wav" 89 87 91 100 127 0 30.0 176 0.0 5.113356 0.004

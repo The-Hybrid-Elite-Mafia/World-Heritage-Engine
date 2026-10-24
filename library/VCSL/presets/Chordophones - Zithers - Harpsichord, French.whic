@@ -1,0 +1,34 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Chordophones/Zithers/Harpsichord, French.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+30
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_D0_rr1_Main.wav" 26 24 29 1 127 0 0.4 0 0.0 4.179046 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_G#0_rr1_Main.wav" 32 30 33 1 127 0 0.4 0 0.0 0.0 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_A#0_rr1_Main.wav" 34 34 35 1 127 0 0.4 0 0.0 -1.0 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_C1_rr1_Main.wav" 36 36 37 1 127 0 0.4 0 0.0 2.0 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_D1_rr1_Main.wav" 38 38 39 1 127 0 0.4 0 0.0 3.01704 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_E1_rr1_Main.wav" 40 40 41 1 127 0 0.4 0 0.0 0.0 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_F#1_rr1_Main.wav" 42 42 43 1 127 0 0.4 0 0.0 2.326338 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_G#1_rr1_Main.wav" 44 44 45 1 127 0 0.4 0 0.0 1.090938 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_A#1_rr1_Main.wav" 46 46 47 1 127 0 0.4 0 0.0 0.0 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_C2_rr1_Main.wav" 48 48 49 1 127 0 0.4 0 0.0 1.332672 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_D2_rr1_Main.wav" 50 50 51 1 127 1 0.4 0 0.0 1.375043 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_D2_rr3_Main.wav" 50 50 51 1 127 2 0.4 0 0.0 0.903587 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_E2_rr1_Main.wav" 52 52 53 1 127 0 0.4 0 0.0 -2.236344 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_F#2_rr1_Main.wav" 54 54 55 1 127 0 0.4 0 0.0 -1.625484 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_G#2_rr1_Main.wav" 56 56 57 1 127 0 0.4 0 0.0 -2.0 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_A#2_rr1_Main.wav" 58 58 59 1 127 1 0.4 0 0.0 -2.0 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_A#2_rr3_Main.wav" 58 58 59 1 127 2 0.4 0 0.0 2.749652 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_C3_rr1_Main.wav" 60 60 61 1 127 0 0.4 0 0.0 1.428407 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_D3_rr1_Main.wav" 62 62 63 1 127 0 0.4 0 0.0 -1.491419 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_E3_rr1_Main.wav" 64 64 65 1 127 0 0.4 0 0.0 -0.406981 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_F#3_rr1_Main.wav" 66 66 67 1 127 0 0.4 0 0.0 -1.140535 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_G#3_rr1_Main.wav" 68 68 69 1 127 0 0.4 0 0.0 -1.096978 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_A#3_rr1_Main.wav" 70 70 71 1 127 0 0.4 0 0.0 0.664721 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_C4_rr1_Main.wav" 72 72 73 1 127 0 0.4 0 0.0 4.209829 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_D4_rr1_Main.wav" 74 74 75 1 127 0 0.4 0 0.0 1.906753 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_E4_rr1_Main.wav" 76 76 77 1 127 0 0.4 0 0.0 -1.0 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_F#4_rr1_Main.wav" 78 78 79 1 127 0 0.4 0 0.0 -0.806964 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_G#4_rr1_Main.wav" 80 80 81 1 127 0 0.4 0 0.0 -3.383531 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_A#4_rr1_Main.wav" 82 82 83 1 127 0 0.4 0 0.0 0.40968 0.004
+"../source/Chordophones/Zithers/Harpsichord, French/Sustains/Harpsi2_Normal_C5_rr1_Main.wav" 84 84 84 1 127 0 0.4 0 0.0 5.325038 0.004

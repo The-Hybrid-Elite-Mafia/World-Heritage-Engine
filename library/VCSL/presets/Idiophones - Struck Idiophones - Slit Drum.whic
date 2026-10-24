@@ -1,0 +1,10 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Slit Drum.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+6
+"../source/Idiophones/Struck Idiophones/Slit Drum/LogDrumHi_MedM_v1_rr1_Sum.wav" 60 60 60 1 65 0 30.0 0 0.0 20.656011 0.004
+"../source/Idiophones/Struck Idiophones/Slit Drum/LogDrumHi_MedM_v2_rr1_Sum.wav" 60 60 60 66 99 0 30.0 0 0.0 16.276508 0.004
+"../source/Idiophones/Struck Idiophones/Slit Drum/LogDrumHi_MedM_v3_rr1_Sum.wav" 60 60 60 100 127 0 30.0 0 0.0 10.835257 0.004
+"../source/Idiophones/Struck Idiophones/Slit Drum/LogDrumLo_MedM_v1_rr1_Sum.wav" 61 61 61 1 65 0 30.0 0 0.0 22.13041 0.004
+"../source/Idiophones/Struck Idiophones/Slit Drum/LogDrumLo_MedM_v2_rr1_Sum.wav" 61 61 61 66 99 0 30.0 0 0.0 14.020533 0.004
+"../source/Idiophones/Struck Idiophones/Slit Drum/LogDrumLo_MedM_v3_rr1_Sum.wav" 61 61 61 100 127 0 30.0 0 0.0 11.82911 0.004

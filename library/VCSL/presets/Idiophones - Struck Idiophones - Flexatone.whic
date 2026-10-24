@@ -1,0 +1,12 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Flexatone.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+8
+"../source/Idiophones/Struck Idiophones/Flexatone/flexatone_extralong.wav" 60 60 60 1 127 0 1.0 2470 0.0 20.0 0.004
+"../source/Idiophones/Struck Idiophones/Flexatone/flexatone_fast.wav" 61 61 61 1 127 0 1.0 0 0.0 20.0 0.004
+"../source/Idiophones/Struck Idiophones/Flexatone/flexatone_long.wav" 62 62 62 1 127 0 1.0 606 0.0 20.0 0.004
+"../source/Idiophones/Struck Idiophones/Flexatone/flexatone_long2.wav" 63 63 63 1 127 0 1.0 3893 0.0 20.0 0.004
+"../source/Idiophones/Struck Idiophones/Flexatone/flexatone_slap1.wav" 64 64 64 1 127 0 1.0 1060 0.0 20.0 0.004
+"../source/Idiophones/Struck Idiophones/Flexatone/flexatone_slap2.wav" 65 65 65 1 127 0 1.0 1372 0.0 20.0 0.004
+"../source/Idiophones/Struck Idiophones/Flexatone/flexatone1.wav" 66 66 66 1 127 0 1.0 1437 0.0 20.0 0.004
+"../source/Idiophones/Struck Idiophones/Flexatone/flexatone2.wav" 67 67 67 1 127 0 1.0 1544 0.0 20.0 0.004

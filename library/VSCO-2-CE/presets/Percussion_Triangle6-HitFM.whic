@@ -1,0 +1,8 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Triangle; variant Percussion/Triangle6-HitFM; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+4
+"../source/Percussion/Triangle6-HitFM_v1_rr1_Sum.wav" 60 60 60 1 63 0 3 0 0 21 0.001
+"../source/Percussion/Triangle6-HitFM_v1_rr2_Sum.wav" 60 60 60 1 63 1 3 0 0 21 0.001
+"../source/Percussion/Triangle6-HitFM_v2_rr1_Sum.wav" 60 60 60 64 127 0 3 0 0 7 0.001
+"../source/Percussion/Triangle6-HitFM_v2_rr2_Sum.wav" 60 60 60 64 127 1 3 0 0 7 0.001

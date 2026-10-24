@@ -1,0 +1,23 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Flute; variant Woodwinds/Flute/susNV; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+19
+"../source/Woodwinds/Flute/susNV/LDFlute_susNV_C3_v1_1.wav" 60 60 62 1 63 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Flute/susNV/LDFlute_susNV_C3_v3_1.wav" 60 60 62 64 127 0 0.7 0 0 4 0.001
+"../source/Woodwinds/Flute/susNV/LDFlute_susNV_E3_v1_1.wav" 64 63 66 1 63 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Flute/susNV/LDFlute_susNV_E3_v3_1.wav" 64 63 66 64 127 0 0.7 0 0 4 0.001
+"../source/Woodwinds/Flute/susNV/LDFlute_susNV_A3_v1_1.wav" 69 67 70 1 63 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Flute/susNV/LDFlute_susNV_A3_v3_1.wav" 69 67 70 64 127 0 0.7 0 0 4 0.001
+"../source/Woodwinds/Flute/susNV/LDFlute_susNV_C4_v1_1.wav" 72 71 74 1 63 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Flute/susNV/LDFlute_susNV_C4_v3_1.wav" 72 71 74 64 127 0 0.7 0 0 4 0.001
+"../source/Woodwinds/Flute/susNV/LDFlute_susNV_E4_v1_1.wav" 76 75 78 1 63 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Flute/susNV/LDFlute_susNV_E4_v3_1.wav" 76 75 78 64 127 0 0.7 0 0 4 0.001
+"../source/Woodwinds/Flute/susNV/LDFlute_susNV_A4_v1_1.wav" 81 79 82 1 63 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Flute/susNV/LDFlute_susNV_A4_v3_1.wav" 81 79 82 64 127 0 0.7 0 0 4 0.001
+"../source/Woodwinds/Flute/susNV/LDFlute_susNV_C5_v1_1.wav" 84 83 86 1 63 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Flute/susNV/LDFlute_susNV_C5_v2_1.wav" 84 83 86 64 127 0 0.7 0 0 4 0.001
+"../source/Woodwinds/Flute/susNV/LDFlute_susNV_E5_v1_1.wav" 88 87 90 1 63 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Flute/susNV/LDFlute_susNV_E5_v2_1.wav" 88 87 90 64 127 0 0.7 0 0 4 0.001
+"../source/Woodwinds/Flute/susNV/LDFlute_susNV_A5_v1_1.wav" 93 91 94 1 63 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Flute/susNV/LDFlute_susNV_A5_v3_1.wav" 93 91 94 64 127 0 0.7 0 0 4 0.001
+"../source/Woodwinds/Flute/susNV/LDFlute_susNV_C6_v1_1.wav" 96 95 96 1 127 0 0.7 0 0 8 0.001

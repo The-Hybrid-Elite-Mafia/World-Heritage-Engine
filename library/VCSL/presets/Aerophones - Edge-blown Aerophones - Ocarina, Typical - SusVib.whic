@@ -1,0 +1,14 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Edge-blown Aerophones/Ocarina, Typical - SusVib.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+10
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Typical/Sustains/SusVib/StdOcarina_SusVib_A3.wav" 69 69 70 1 127 0 0.2 0 -10.0 2.421947 0.004
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Typical/Sustains/SusVib/StdOcarina_SusVib_C4.wav" 72 71 72 1 127 0 0.2 0 -1.0 -1.137416 0.004
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Typical/Sustains/SusVib/StdOcarina_SusVib_C#4.wav" 73 73 74 1 127 0 0.2 0 -5.0 -1.872448 0.004
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Typical/Sustains/SusVib/StdOcarina_SusVib_D#4.wav" 75 75 75 1 127 0 0.2 0 0.0 2.520636 0.004
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Typical/Sustains/SusVib/StdOcarina_SusVib_E4.wav" 76 76 77 1 127 0 0.2 0 0.0 4.915036 0.004
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Typical/Sustains/SusVib/StdOcarina_SusVib_F#4.wav" 78 78 79 1 127 0 0.2 0 -4.0 -1.163715 0.004
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Typical/Sustains/SusVib/StdOcarina_SusVib_G#4.wav" 80 80 80 1 127 0 0.2 0 -5.0 -3.957509 0.004
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Typical/Sustains/SusVib/StdOcarina_SusVib_A4.wav" 81 81 81 1 127 0 0.2 0 -8.0 1.959666 0.004
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Typical/Sustains/SusVib/StdOcarina_SusVib_A#4.wav" 82 82 83 1 127 0 0.2 0 -9.0 -0.147342 0.004
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Typical/Sustains/SusVib/StdOcarina_SusVib_C5.wav" 84 84 86 1 127 0 0.2 0 -9.0 1.380054 0.004

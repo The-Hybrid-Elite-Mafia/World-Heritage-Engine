@@ -1,0 +1,16 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Slit drum; variant VSCO 1 Percussion/varWood/log_drum/slitdrum3; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+12
+"../source/VSCO 1 Percussion/varWood/log_drum/slitdrum3_p_1.wav" 60 60 60 1 42 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varWood/log_drum/slitdrum3_p_2.wav" 60 60 60 1 42 1 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varWood/log_drum/slitdrum3_p_3.wav" 60 60 60 1 42 2 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varWood/log_drum/slitdrum3_p_4.wav" 60 60 60 1 42 3 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varWood/log_drum/slitdrum3_mp_1.wav" 60 60 60 43 84 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varWood/log_drum/slitdrum3_mp_2.wav" 60 60 60 43 84 1 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varWood/log_drum/slitdrum3_mp_3.wav" 60 60 60 43 84 2 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varWood/log_drum/slitdrum3_mp_4.wav" 60 60 60 43 84 3 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varWood/log_drum/slitdrum3_ff_1.wav" 60 60 60 85 127 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varWood/log_drum/slitdrum3_ff_2.wav" 60 60 60 85 127 1 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varWood/log_drum/slitdrum3_ff_3.wav" 60 60 60 85 127 2 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/varWood/log_drum/slitdrum3_ff_4.wav" 60 60 60 85 127 3 0.05 0 0 0 0.003

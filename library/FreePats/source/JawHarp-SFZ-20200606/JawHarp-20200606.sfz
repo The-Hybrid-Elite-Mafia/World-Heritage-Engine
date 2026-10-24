@@ -1,0 +1,168 @@
+//+ Name: Jaw Harp
+//+ Date: 2020-06-06
+//+ URL: http://freepats.zenvoid.org/Ethnic/jaw-harp.html#JawHarp1
+
+<global>
+ //+ Instrument: Jaw Harp
+ ampeg_release=1
+
+<group>
+<region>
+ key=36
+ sample=samples/jaw_harp27.wav
+<region>
+ key=37
+ sample=samples/jaw_harp28.wav
+<region>
+ key=38
+ sample=samples/jaw_harp31.wav
+<region>
+ key=39
+ sample=samples/jaw_harp32.wav
+<region>
+ key=40
+ sample=samples/jaw_harp35.wav
+<region>
+ key=41
+ sample=samples/jaw_harp39.wav
+<region>
+ key=42
+ sample=samples/jaw_harp40.wav
+<region>
+ key=43
+ sample=samples/jaw_harp43.wav
+<region>
+ key=44
+ sample=samples/jaw_harp45.wav
+<region>
+ key=45
+ sample=samples/jaw_harp44.wav
+<region>
+ key=46
+ sample=samples/jaw_harp48.wav
+
+<region>
+ key=47
+ sample=samples/jaw_harp26.wav
+<region>
+ key=48
+ sample=samples/jaw_harp29.wav
+<region>
+ key=49
+ sample=samples/jaw_harp30.wav
+<region>
+ key=50
+ sample=samples/jaw_harp33.wav
+<region>
+ key=51
+ sample=samples/jaw_harp34.wav
+<region>
+ key=52
+ sample=samples/jaw_harp36.wav
+<region>
+ key=53
+ sample=samples/jaw_harp37.wav
+<region>
+ key=54
+ sample=samples/jaw_harp38.wav
+<region>
+ key=55
+ sample=samples/jaw_harp41.wav
+<region>
+ key=56
+ sample=samples/jaw_harp42.wav
+<region>
+ key=57
+ sample=samples/jaw_harp46.wav
+<region>
+ key=58
+ sample=samples/jaw_harp47.wav
+
+<region>
+ key=59
+ sample=samples/jaw_harp1.wav
+<region>
+ key=60
+ sample=samples/jaw_harp2.wav
+<region>
+ key=61
+ sample=samples/jaw_harp3.wav
+<region>
+ key=62
+ sample=samples/jaw_harp4.wav
+<region>
+ key=63
+ sample=samples/jaw_harp5.wav
+<region>
+ key=64
+ sample=samples/jaw_harp6.wav
+<region>
+ key=65
+ sample=samples/jaw_harp7.wav
+<region>
+ key=66
+ sample=samples/jaw_harp8.wav
+<region>
+ key=67
+ sample=samples/jaw_harp18.wav
+<region>
+ key=68
+ sample=samples/jaw_harp23.wav
+
+<region>
+ key=69
+ volume=-20
+ sample=samples/jaw_harp9.wav
+<region>
+ key=70
+ volume=-20
+ sample=samples/jaw_harp10.wav
+<region>
+ key=71
+ volume=-20
+ sample=samples/jaw_harp11.wav
+<region>
+ key=72
+ volume=-20
+ sample=samples/jaw_harp12.wav
+<region>
+ key=73
+ volume=-20
+ sample=samples/jaw_harp13.wav
+<region>
+ key=74
+ volume=-20
+ sample=samples/jaw_harp14.wav
+<region>
+ key=75
+ volume=-20
+ sample=samples/jaw_harp15.wav
+<region>
+ key=76
+ volume=-20
+ sample=samples/jaw_harp16.wav
+<region>
+ key=77
+ volume=-20
+ sample=samples/jaw_harp17.wav
+<region>
+ key=78
+ volume=-9
+ sample=samples/jaw_harp22.wav
+<region>
+ key=79
+ volume=-6
+ sample=samples/jaw_harp24.wav
+
+<region>
+ key=80
+ sample=samples/jaw_harp19.wav
+<region>
+ key=81
+ sample=samples/jaw_harp20.wav
+<region>
+ key=82
+ sample=samples/jaw_harp21.wav
+<region>
+ key=83
+ sample=samples/jaw_harp25.wav

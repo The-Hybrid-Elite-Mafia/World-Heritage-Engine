@@ -1,0 +1,5 @@
+SX six-string guitar-banjo; recorded, edited and mapped by itsclipping. CC0 1.0. https://github.com/sfzinstruments/ganjo release v1.000. Not a five-string bluegrass banjo.
+
+Original sample bytes unchanged; original SFZ and notices retained.
+WHIC v4 mapping generated 2026-10-24; numeric SFZ roots/ranges/velocity splits retained; seq_position converted to zero-based deterministic RR.
+App attack uses 3 ms; native SFZ amplitude/velocity defaults may differ. No looping or invented pitches outside explicit source ranges.

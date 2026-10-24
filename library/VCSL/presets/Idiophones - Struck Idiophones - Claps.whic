@@ -1,0 +1,14 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Claps.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+10
+"../source/Idiophones/Struck Idiophones/Claps/Clap_rr5.wav" 60 60 60 1 127 1 2.0 0 0.0 0.841848 0.004
+"../source/Idiophones/Struck Idiophones/Claps/Clap_rr4.wav" 60 60 60 1 127 2 2.0 0 0.0 3.052644 0.004
+"../source/Idiophones/Struck Idiophones/Claps/Clap_rr6.wav" 60 60 60 1 127 3 2.0 0 0.0 -5.02455 0.004
+"../source/Idiophones/Struck Idiophones/Claps/Clap_rr3.wav" 60 60 60 1 127 4 2.0 0 0.0 0.856101 0.004
+"../source/Idiophones/Struck Idiophones/Claps/Clap_rr2.wav" 60 60 60 1 127 5 2.0 0 0.0 1.17845 0.004
+"../source/Idiophones/Struck Idiophones/Claps/Clap_rr1.wav" 60 60 60 1 127 6 2.0 0 0.0 1.659081 0.004
+"../source/Idiophones/Struck Idiophones/Claps/SoloClap_vl1.wav" 61 61 61 1 54 0 2.0 1126 0.0 4.810288 0.004
+"../source/Idiophones/Struck Idiophones/Claps/SoloClap_vl2.wav" 61 61 61 55 83 0 2.0 2099 0.0 -1.165774 0.004
+"../source/Idiophones/Struck Idiophones/Claps/SoloClap_vl3.wav" 61 61 61 84 106 0 2.0 1483 0.0 6.331266 0.004
+"../source/Idiophones/Struck Idiophones/Claps/SoloClap_vl4.wav" 61 61 61 107 127 0 2.0 1770 0.0 -5.101445 0.004

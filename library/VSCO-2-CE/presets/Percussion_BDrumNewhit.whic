@@ -1,0 +1,18 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Bass drum; variant Percussion/BDrumNewhit; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+14
+"../source/Percussion/BDrumNewhit_v1_rr1_Sum.wav" 60 60 60 1 18 0 6 0 0 34 0.001
+"../source/Percussion/BDrumNewhit_v1_rr2_Sum.wav" 60 60 60 1 18 1 6 0 0 32 0.001
+"../source/Percussion/BDrumNewhit_v2_rr1_Sum.wav" 60 60 60 19 36 0 6 0 0 26 0.001
+"../source/Percussion/BDrumNewhit_v2_rr2_Sum.wav" 60 60 60 19 36 1 6 0 0 26 0.001
+"../source/Percussion/BDrumNewhit_v3_rr1_Sum.wav" 60 60 60 37 54 0 6 0 0 22 0.001
+"../source/Percussion/BDrumNewhit_v3_rr2_Sum.wav" 60 60 60 37 54 1 6 0 0 22 0.001
+"../source/Percussion/BDrumNewhit_v4_rr1_Sum.wav" 60 60 60 55 72 0 6 0 0 18 0.001
+"../source/Percussion/BDrumNewhit_v4_rr2_Sum.wav" 60 60 60 55 72 1 6 0 0 18 0.001
+"../source/Percussion/BDrumNewhit_v5_rr1_Sum.wav" 60 60 60 73 90 0 6 0 0 14 0.001
+"../source/Percussion/BDrumNewhit_v5_rr2_Sum.wav" 60 60 60 73 90 1 6 0 0 14 0.001
+"../source/Percussion/BDrumNewhit_v6_rr1_Sum.wav" 60 60 60 91 108 0 6 0 0 10 0.001
+"../source/Percussion/BDrumNewhit_v6_rr2_Sum.wav" 60 60 60 91 108 1 6 0 0 10 0.001
+"../source/Percussion/BDrumNewhit_v7_rr1_Sum.wav" 60 60 60 109 127 0 6 0 0 7 0.001
+"../source/Percussion/BDrumNewhit_v7_rr2_Sum.wav" 60 60 60 109 127 1 6 0 0 7 0.001

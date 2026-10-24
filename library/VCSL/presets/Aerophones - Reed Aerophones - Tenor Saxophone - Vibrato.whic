@@ -1,0 +1,23 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Reed Aerophones/Tenor Saxophone - Vibrato.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+19
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_A#1_var2.wav" 46 44 47 1 127 0 0.5 0 6.0 13.918139 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_C2_var4.wav" 48 48 49 1 127 0 0.5 15 0.0 17.629777 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_D2_var2.wav" 50 50 51 1 127 0 0.5 45 -2.0 17.60241 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_E2_var2.wav" 52 52 53 1 127 0 0.5 3903 0.0 12.647922 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_F#2_var3.wav" 54 54 56 1 127 0 0.5 0 3.0 14.183489 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_A#2_var4.wav" 58 57 59 1 127 0 0.5 1901 4.0 22.455735 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_C3_var1.wav" 60 60 61 1 127 0 0.5 0 1.0 22.718749 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_D3_var1.wav" 62 62 63 1 127 0 0.5 0 -2.0 21.156322 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_E3_var3.wav" 64 64 65 1 127 0 0.5 0 -1.0 18.068063 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_F#3_var2.wav" 66 66 68 1 127 0 0.5 819 7.0 17.089534 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_A#3_var3.wav" 70 69 71 1 127 0 0.5 1055 4.0 14.97823 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_C4_var2.wav" 72 72 73 1 127 0 0.5 0 0.0 15.509365 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_D4_var1.wav" 74 74 75 1 127 0 0.5 284 -4.0 20.29982 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_E4_var4.wav" 76 76 77 1 127 0 0.5 0 1.0 14.68648 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_G4_var3.wav" 79 78 79 1 127 0 0.5 114 3.0 13.361822 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_G#4_var3.wav" 80 80 81 1 127 0 0.5 0 0.0 19.007297 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_A#4_var2.wav" 82 82 83 1 127 0 0.5 0 3.0 16.746317 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_C5_var2.wav" 84 84 85 1 127 0 0.5 0 -2.0 18.647163 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Vibrato/BrettTenor_Vib_Main_D5_var3.wav" 86 86 89 1 127 0 0.5 0 2.0 12.443134 0.004

@@ -1,0 +1,10 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Claves.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+6
+"../source/Idiophones/Struck Idiophones/Claves/Claves1_Hit_v1_rr1_Mid.wav" 60 60 60 1 65 0 15.0 202 0.0 27.978784 0.004
+"../source/Idiophones/Struck Idiophones/Claves/Claves1_Hit_v2_rr1_Mid.wav" 60 60 60 66 99 0 15.0 190 0.0 16.154272 0.004
+"../source/Idiophones/Struck Idiophones/Claves/Claves1_Hit_v3_rr1_Mid.wav" 60 60 60 100 127 0 15.0 196 0.0 9.424839 0.004
+"../source/Idiophones/Struck Idiophones/Claves/Claves2_Hit_v1_rr1_Mid.wav" 61 61 61 1 65 0 15.0 188 0.0 24.449649 0.004
+"../source/Idiophones/Struck Idiophones/Claves/Claves2_Hit_v2_rr1_Mid.wav" 61 61 61 66 99 0 15.0 188 0.0 14.402755 0.004
+"../source/Idiophones/Struck Idiophones/Claves/Claves2_Hit_v3_rr1_Mid.wav" 61 61 61 100 127 0 15.0 190 0.0 10.961643 0.004

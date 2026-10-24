@@ -1,0 +1,52 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Flute; variant Woodwinds/Flute/stac; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+48
+"../source/Woodwinds/Flute/stac/LDFlute_stac_A3_v1_rr1.wav" 69 69 70 1 42 0 3 0 0 17 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_A3_v1_rr2.wav" 69 69 70 1 42 1 3 0 0 17 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_A3_v2_rr1.wav" 69 69 70 43 84 0 3 0 0 10 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_A3_v2_rr2.wav" 69 69 70 43 84 1 3 0 0 10 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_A3_v3_rr1.wav" 69 69 70 85 127 0 3 0 0 3 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_A3_v3_rr2.wav" 69 69 70 85 127 1 3 0 0 3 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_C4_v1_rr1.wav" 72 71 74 1 31 0 3 0 0 18 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_C4_v1_rr2.wav" 72 71 74 1 31 1 3 0 0 18 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_C4_v2_rr1.wav" 72 71 74 32 63 0 3 0 0 13 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_C4_v2_rr2.wav" 72 71 74 32 63 1 3 0 0 13 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_C4_v3_rr1.wav" 72 71 74 64 95 0 3 0 0 8 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_C4_v3_rr2.wav" 72 71 74 64 95 1 3 0 0 8 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_C4_v4_rr1.wav" 72 71 74 96 127 0 3 0 0 3 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_C4_v4_rr2.wav" 72 71 74 96 127 1 3 0 0 3 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_E4_v1_rr1.wav" 76 75 78 1 42 0 3 0 0 17 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_E4_v1_rr2.wav" 76 75 78 1 42 1 3 0 0 17 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_E4_v2_rr1.wav" 76 75 78 43 84 0 3 0 0 10 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_E4_v2_rr2.wav" 76 75 78 43 84 1 3 0 0 10 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_E4_v3_rr1.wav" 76 75 78 85 127 0 3 0 0 3 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_E4_v3_rr2.wav" 76 75 78 85 127 1 3 0 0 3 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_A4_v1_rr1.wav" 81 79 82 1 42 0 3 0 0 17 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_A4_v1_rr2.wav" 81 79 82 1 42 1 3 0 0 17 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_A4_v2_rr1.wav" 81 79 82 43 84 0 3 0 0 10 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_A4_v2_rr2.wav" 81 79 82 43 84 1 3 0 0 10 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_A4_v3_rr1.wav" 81 79 82 85 127 0 3 0 0 3 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_A4_v3_rr2.wav" 81 79 82 85 127 1 3 0 0 3 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_C5_v1_rr1.wav" 84 83 86 1 42 0 3 0 0 17 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_C5_v1_rr2.wav" 84 83 86 1 42 1 3 0 0 17 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_C5_v2_rr1.wav" 84 83 86 43 84 0 3 0 0 10 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_C5_v2_rr2.wav" 84 83 86 43 84 1 3 0 0 10 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_C5_v3_rr1.wav" 84 83 86 85 127 0 3 0 0 3 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_C5_v3_rr2.wav" 84 83 86 85 127 1 3 0 0 3 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_E5_v1_rr1.wav" 88 87 90 1 42 0 3 0 0 17 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_E5_v1_rr2.wav" 88 87 90 1 42 1 3 0 0 17 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_E5_v2_rr1.wav" 88 87 90 43 84 0 3 0 0 10 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_E5_v2_rr2.wav" 88 87 90 43 84 1 3 0 0 10 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_E5_v3_rr1.wav" 88 87 90 85 127 0 3 0 0 3 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_E5_v3_rr2.wav" 88 87 90 85 127 1 3 0 0 3 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_A5_v1_rr1.wav" 93 91 94 1 42 0 3 0 0 17 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_A5_v1_rr2.wav" 93 91 94 1 42 1 3 0 0 17 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_A5_v2_rr1.wav" 93 91 94 43 84 0 3 0 0 10 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_A5_v2_rr2.wav" 93 91 94 43 84 1 3 0 0 10 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_A5_v3_rr1.wav" 93 91 94 85 127 0 3 0 0 3 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_A5_v3_rr2.wav" 93 91 94 85 127 1 3 0 0 3 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_C6_v1_rr1.wav" 96 95 96 1 63 0 3 0 0 15 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_C6_v1_rr2.wav" 96 95 96 1 63 1 3 0 0 15 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_C6_v2_rr1.wav" 96 95 96 64 127 0 3 0 0 5 0.001
+"../source/Woodwinds/Flute/stac/LDFlute_stac_C6_v2_rr2.wav" 96 95 96 64 127 1 3 0 0 5 0.001

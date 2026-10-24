@@ -1,0 +1,12 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Membranophones/Struck Membranophones/Bass Drum 1.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+8
+"../source/Membranophones/Struck Membranophones/Bass Drum 1/BDrumNew_hit_v2_rr1_Sum.wav" 60 60 60 1 54 1 2.0 0 0.0 26.890228 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 1/BDrumNew_hit_v2_rr2_Sum.wav" 60 60 60 1 54 2 2.0 0 0.0 28.387244 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 1/BDrumNew_hit_v3_rr1_Sum.wav" 60 60 60 55 83 1 2.0 0 0.0 22.206599 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 1/BDrumNew_hit_v3_rr2_Sum.wav" 60 60 60 55 83 2 2.0 0 0.0 23.787383 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 1/BDrumNew_hit_v5_rr1_Sum.wav" 60 60 60 84 106 1 2.0 0 0.0 13.75485 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 1/BDrumNew_hit_v5_rr2_Sum.wav" 60 60 60 84 106 2 2.0 0 0.0 14.652348 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 1/BDrumNew_hit_v7_rr1_Sum.wav" 60 60 60 107 127 1 2.0 0 0.0 8.122035 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 1/BDrumNew_hit_v7_rr2_Sum.wav" 60 60 60 107 127 2 2.0 0 0.0 7.655661 0.004

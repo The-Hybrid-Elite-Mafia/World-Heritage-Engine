@@ -1,0 +1,90 @@
+//+ Name: Ukulele
+//+ Date: 2026-08-11
+//+ URL: http://freepats.zenvoid.org/
+
+<global>
+ ampeg_release=0.35
+
+<group>
+ loop_mode=no_loop
+<region>
+ lokey=58
+ hikey=60
+ pitch_keycenter=60
+ tune=-5
+ sample=samples/C4.wav
+<region>
+ lokey=61
+ hikey=62
+ pitch_keycenter=62
+ tune=-8
+ sample=samples/D4.wav
+<region>
+ lokey=63
+ hikey=64
+ pitch_keycenter=64
+ tune=-2
+ sample=samples/E4.wav
+<region>
+ lokey=65
+ hikey=66
+ pitch_keycenter=66
+ tune=-11
+ sample=samples/F#4.wav
+<region>
+ key=67
+ tune=-1
+ sample=samples/G4.wav
+<region>
+ lokey=68
+ hikey=69
+ pitch_keycenter=69
+ sample=samples/A4.wav
+<region>
+ lokey=70
+ hikey=71
+ pitch_keycenter=71
+ sample=samples/B4.wav
+<region>
+ lokey=72
+ hikey=73
+ pitch_keycenter=73
+ sample=samples/C#5.wav
+<region>
+ lokey=74
+ hikey=75
+ pitch_keycenter=75
+ tune=3
+ sample=samples/D#5.wav
+<region>
+ lokey=76
+ hikey=77
+ pitch_keycenter=77
+ tune=4
+ sample=samples/F5.wav
+<region>
+ lokey=78
+ hikey=79
+ pitch_keycenter=79
+ tune=6
+ sample=samples/G5.wav
+<region>
+ lokey=80
+ hikey=82
+ pitch_keycenter=81
+ tune=8
+ sample=samples/A5.wav
+<region>
+ lokey=83
+ hikey=86
+ pitch_keycenter=84
+ tune=4
+ sample=samples/C6.wav
+<region>
+ key=47
+ pitch_keycenter=47
+ sample=samples/body-tap.wav
+<region>
+ key=48
+ pitch_keycenter=48
+ sample=samples/chuck.wav

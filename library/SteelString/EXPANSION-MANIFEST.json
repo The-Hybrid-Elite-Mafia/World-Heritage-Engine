@@ -1,0 +1,1575 @@
+{
+  "type": "Steel-string acoustic guitar",
+  "license": "GPL-3.0-or-later WITH FreePats composition exception",
+  "credit": "FSS steel-string acoustic guitar; Gary Campion / FlameStudios Seagull recordings, modified 2016-2020 by Roberto for FreePats. GPL-3.0-or-later WITH FreePats composition exception; see source readme.txt and gpl.txt. https://freepats.zenvoid.org/Guitar/steel-acoustic-guitar.html",
+  "preset": "SteelString/presets/Steel-string acoustic guitar.whic",
+  "sample_count": 59,
+  "zone_count": 59,
+  "mapped_keys": [
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85
+  ],
+  "zones": [
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_40.wav",
+      "root": 40,
+      "low": 39,
+      "high": 40,
+      "vl": 1,
+      "vh": 82,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "lokey": "39",
+        "hikey": "40",
+        "hivel": "82",
+        "pitch_keycenter": "40",
+        "sample": "samples/MV_40.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_40.wav",
+      "root": 40,
+      "low": 39,
+      "high": 40,
+      "vl": 83,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "lokey": "39",
+        "hikey": "40",
+        "lovel": "83",
+        "pitch_keycenter": "40",
+        "sample": "samples/HV_40.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_41.wav",
+      "root": 41,
+      "low": 41,
+      "high": 41,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "41",
+        "sample": "samples/HV_41.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_42.wav",
+      "root": 42,
+      "low": 42,
+      "high": 42,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "42",
+        "sample": "samples/HV_42.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_43.wav",
+      "root": 43,
+      "low": 43,
+      "high": 43,
+      "vl": 1,
+      "vh": 89,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "hivel": "89",
+        "key": "43",
+        "sample": "samples/MV_43.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_43.wav",
+      "root": 43,
+      "low": 43,
+      "high": 43,
+      "vl": 90,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "lovel": "90",
+        "key": "43",
+        "sample": "samples/HV_43.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_44.wav",
+      "root": 44,
+      "low": 44,
+      "high": 44,
+      "vl": 1,
+      "vh": 82,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "44",
+        "hivel": "82",
+        "sample": "samples/MV_44.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_44.wav",
+      "root": 44,
+      "low": 44,
+      "high": 44,
+      "vl": 83,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "44",
+        "lovel": "83",
+        "sample": "samples/HV_44.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_45.wav",
+      "root": 45,
+      "low": 45,
+      "high": 45,
+      "vl": 1,
+      "vh": 99,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "45",
+        "hivel": "99",
+        "sample": "samples/MV_45.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_45.wav",
+      "root": 45,
+      "low": 45,
+      "high": 45,
+      "vl": 100,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "45",
+        "lovel": "100",
+        "sample": "samples/HV_45.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_46.wav",
+      "root": 46,
+      "low": 46,
+      "high": 46,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "46",
+        "sample": "samples/HV_46.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_47.wav",
+      "root": 47,
+      "low": 47,
+      "high": 47,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "47",
+        "sample": "samples/HV_47.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_48.wav",
+      "root": 48,
+      "low": 48,
+      "high": 48,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "48",
+        "sample": "samples/HV_48.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_49.wav",
+      "root": 49,
+      "low": 49,
+      "high": 49,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "49",
+        "sample": "samples/HV_49.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_50.wav",
+      "root": 50,
+      "low": 50,
+      "high": 50,
+      "vl": 1,
+      "vh": 82,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "50",
+        "hivel": "82",
+        "sample": "samples/MV_50.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_50.wav",
+      "root": 50,
+      "low": 50,
+      "high": 50,
+      "vl": 83,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "50",
+        "lovel": "83",
+        "sample": "samples/HV_50.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_51.wav",
+      "root": 51,
+      "low": 51,
+      "high": 51,
+      "vl": 1,
+      "vh": 82,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "51",
+        "hivel": "82",
+        "sample": "samples/MV_51.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_51.wav",
+      "root": 51,
+      "low": 51,
+      "high": 51,
+      "vl": 83,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "51",
+        "lovel": "83",
+        "sample": "samples/HV_51.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_52.wav",
+      "root": 52,
+      "low": 52,
+      "high": 52,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "52",
+        "sample": "samples/HV_52.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_53.wav",
+      "root": 53,
+      "low": 53,
+      "high": 53,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "53",
+        "sample": "samples/HV_53.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_54.wav",
+      "root": 54,
+      "low": 54,
+      "high": 54,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "54",
+        "sample": "samples/MV_54.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_55.wav",
+      "root": 55,
+      "low": 55,
+      "high": 55,
+      "vl": 1,
+      "vh": 82,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "55",
+        "hivel": "82",
+        "sample": "samples/MV_55.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_55.wav",
+      "root": 55,
+      "low": 55,
+      "high": 55,
+      "vl": 83,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "55",
+        "lovel": "83",
+        "sample": "samples/HV_55.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_56.wav",
+      "root": 56,
+      "low": 56,
+      "high": 56,
+      "vl": 1,
+      "vh": 82,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "56",
+        "hivel": "82",
+        "sample": "samples/MV_56.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_56.wav",
+      "root": 56,
+      "low": 56,
+      "high": 56,
+      "vl": 83,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "56",
+        "lovel": "83",
+        "sample": "samples/HV_56.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_57.wav",
+      "root": 57,
+      "low": 57,
+      "high": 57,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "57",
+        "sample": "samples/HV_57.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_58.wav",
+      "root": 58,
+      "low": 58,
+      "high": 58,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "58",
+        "sample": "samples/HV_58.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_59.wav",
+      "root": 59,
+      "low": 59,
+      "high": 59,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "59",
+        "sample": "samples/HV_59.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_60.wav",
+      "root": 60,
+      "low": 60,
+      "high": 60,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "60",
+        "sample": "samples/HV_60.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_61.wav",
+      "root": 61,
+      "low": 61,
+      "high": 61,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "61",
+        "sample": "samples/HV_61.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_62.wav",
+      "root": 62,
+      "low": 62,
+      "high": 62,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "62",
+        "sample": "samples/HV_62.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_63.wav",
+      "root": 63,
+      "low": 63,
+      "high": 63,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "63",
+        "sample": "samples/HV_63.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_64.wav",
+      "root": 64,
+      "low": 64,
+      "high": 64,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "64",
+        "sample": "samples/HV_64.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_65.wav",
+      "root": 65,
+      "low": 65,
+      "high": 65,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "65",
+        "sample": "samples/HV_65.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_66.wav",
+      "root": 66,
+      "low": 66,
+      "high": 66,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "66",
+        "sample": "samples/HV_66.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_67.wav",
+      "root": 67,
+      "low": 67,
+      "high": 67,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "67",
+        "sample": "samples/HV_67.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_68.wav",
+      "root": 68,
+      "low": 68,
+      "high": 68,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "68",
+        "sample": "samples/HV_68.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_69.wav",
+      "root": 69,
+      "low": 69,
+      "high": 69,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "69",
+        "sample": "samples/HV_69.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_70.wav",
+      "root": 70,
+      "low": 70,
+      "high": 70,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "70",
+        "sample": "samples/HV_70.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_71.wav",
+      "root": 71,
+      "low": 71,
+      "high": 71,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "71",
+        "sample": "samples/HV_71.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_72.wav",
+      "root": 72,
+      "low": 72,
+      "high": 72,
+      "vl": 1,
+      "vh": 82,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "72",
+        "hivel": "82",
+        "sample": "samples/MV_72.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_72.wav",
+      "root": 72,
+      "low": 72,
+      "high": 72,
+      "vl": 83,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "72",
+        "lovel": "83",
+        "sample": "samples/HV_72.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_73.wav",
+      "root": 73,
+      "low": 73,
+      "high": 73,
+      "vl": 1,
+      "vh": 82,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "73",
+        "hivel": "82",
+        "sample": "samples/MV_73.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_73.wav",
+      "root": 73,
+      "low": 73,
+      "high": 73,
+      "vl": 83,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "73",
+        "lovel": "83",
+        "sample": "samples/HV_73.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_74.wav",
+      "root": 74,
+      "low": 74,
+      "high": 74,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "74",
+        "sample": "samples/HV_74.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_75.wav",
+      "root": 75,
+      "low": 75,
+      "high": 75,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "75",
+        "sample": "samples/HV_75.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_76.wav",
+      "root": 76,
+      "low": 76,
+      "high": 76,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "76",
+        "sample": "samples/HV_76.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_77.wav",
+      "root": 77,
+      "low": 77,
+      "high": 77,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "77",
+        "sample": "samples/HV_77.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_78.wav",
+      "root": 78,
+      "low": 78,
+      "high": 78,
+      "vl": 1,
+      "vh": 93,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "78",
+        "hivel": "93",
+        "sample": "samples/MV_78.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_78.wav",
+      "root": 78,
+      "low": 78,
+      "high": 78,
+      "vl": 94,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "78",
+        "lovel": "94",
+        "sample": "samples/HV_78.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_79.wav",
+      "root": 79,
+      "low": 79,
+      "high": 79,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "79",
+        "sample": "samples/HV_79.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_80.wav",
+      "root": 80,
+      "low": 80,
+      "high": 80,
+      "vl": 1,
+      "vh": 82,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "80",
+        "hivel": "82",
+        "sample": "samples/MV_80.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_80.wav",
+      "root": 80,
+      "low": 80,
+      "high": 80,
+      "vl": 83,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "80",
+        "lovel": "83",
+        "sample": "samples/HV_80.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_81.wav",
+      "root": 81,
+      "low": 81,
+      "high": 81,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "81",
+        "sample": "samples/MV_81.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_82.wav",
+      "root": 82,
+      "low": 82,
+      "high": 82,
+      "vl": 1,
+      "vh": 82,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "82",
+        "hivel": "82",
+        "sample": "samples/MV_82.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_82.wav",
+      "root": 82,
+      "low": 82,
+      "high": 82,
+      "vl": 83,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "82",
+        "lovel": "83",
+        "sample": "samples/HV_82.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_83.wav",
+      "root": 83,
+      "low": 83,
+      "high": 83,
+      "vl": 1,
+      "vh": 94,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "83",
+        "hivel": "94",
+        "sample": "samples/MV_83.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_83.wav",
+      "root": 83,
+      "low": 83,
+      "high": 83,
+      "vl": 95,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "key": "83",
+        "lovel": "95",
+        "sample": "samples/HV_83.wav"
+      }
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_84.wav",
+      "root": 84,
+      "low": 84,
+      "high": 85,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.9,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.9",
+        "loop_mode": "no_loop",
+        "lokey": "84",
+        "hikey": "85",
+        "pitch_keycenter": "84",
+        "sample": "samples/MV_84.wav"
+      }
+    }
+  ],
+  "source_hashes": [
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_40.wav",
+      "bytes": 1340800,
+      "sha256": "5972700f1b38374cf093f09b915c10cfb85e56248be8787fd10e8d0883c983ec"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_41.wav",
+      "bytes": 851672,
+      "sha256": "9d213a5f111ccdaf495637ce9f77d51f0e23897c13abff97baeac128650b4c75"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_42.wav",
+      "bytes": 566276,
+      "sha256": "e23e980fece66db6b9ad19351ff09eb3a272b72a16dcc87790e7f1b613616f76"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_43.wav",
+      "bytes": 457180,
+      "sha256": "d6b470fddfcccbd93e900a9eb3ffe0ef966415567ed528c257c414c8a91f11da"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_44.wav",
+      "bytes": 393692,
+      "sha256": "262c48f96972de88e97711d6cbbddf4ce033177d5840d6814d2678d5dc5d2751"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_45.wav",
+      "bytes": 611362,
+      "sha256": "e98fdaf2954910a705851268e7d13e4963756234beb26713977e3b4daf66a922"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_46.wav",
+      "bytes": 1030252,
+      "sha256": "dbb5bab6a83c0a9e5c5a4fd832da6d246f38b455bace02f100ac34308e8ba8ba"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_47.wav",
+      "bytes": 740918,
+      "sha256": "ea9be70c9da6756773eeff5ab3f4bef1d6d8a2fbfe645d611a5401837be4bda7"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_48.wav",
+      "bytes": 455076,
+      "sha256": "c842a69db330ea36ac899ca3270e96b0ec8294b02b8f24726f8dcba9ff6e89b5"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_49.wav",
+      "bytes": 605092,
+      "sha256": "fd1edbc653a34fee7c36ec1e03e5f5359e924b52acb75ca0347be0a5c69778f7"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_50.wav",
+      "bytes": 850436,
+      "sha256": "e858cc5ab506ccb96ecb6f24003b5ad76bb535fbceb6281fd8912efc3f73d75a"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_51.wav",
+      "bytes": 543142,
+      "sha256": "7ce60ec2f13587a13b0d29f2254492a07b1488c46fe2489efcc752d585783731"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_52.wav",
+      "bytes": 537586,
+      "sha256": "80f2d3eb711e01da2e8b397a1e5cb2604041939cf1ba10157ad3a2f1fc65dd47"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_53.wav",
+      "bytes": 456688,
+      "sha256": "c53a03452b79b378dd8a566355194b3c8329906da9cf84dd48bd88791e0253c0"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_55.wav",
+      "bytes": 599146,
+      "sha256": "9ea8e841aa91b8c06e45aa87a08677894e0e5d1796c7d3d98ba6a6e2d952f124"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_56.wav",
+      "bytes": 808858,
+      "sha256": "c31a098c4e5d1fe16b5611fc326349cbbf26123d3a5fb1511a417619773a5a30"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_57.wav",
+      "bytes": 228382,
+      "sha256": "bb85c5fcc93773de317c31e227679b2f3bb46efc8356c04a21b196a9ba9e3056"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_58.wav",
+      "bytes": 451234,
+      "sha256": "54f7d36aeaa5e017490920eb30337bf8d3ec61b77e4a0baa447080e7bb01abd2"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_59.wav",
+      "bytes": 347418,
+      "sha256": "3a8344843092dfaddab80079042811237f95bb50090bfe981977bf002527e157"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_60.wav",
+      "bytes": 315090,
+      "sha256": "30ddff98ce8076c20bf835a348bdf9966a7e1abe85cbfea6b51cf4f1e98a5f24"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_61.wav",
+      "bytes": 480748,
+      "sha256": "5e94bf453d49fd5d393c696594c3351f7c7eead22fbbebfa49ab8ae32c865569"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_62.wav",
+      "bytes": 454202,
+      "sha256": "21c8dc48cb68e351bbf951327aa2075bfa0b7c84214cd7611cd238e4c762ce4a"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_63.wav",
+      "bytes": 575644,
+      "sha256": "1555a6d50f9d8a43c78701fbd2ace26555f4be55cd10361e9349f1c06d3c1b7c"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_64.wav",
+      "bytes": 396940,
+      "sha256": "bfee5142af7719dfeb1438b8324ef111e55bccf9a73192f840768a56323c4afa"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_65.wav",
+      "bytes": 394196,
+      "sha256": "54830ca80708f81ac4cfc9ed2ee0e3021a6847be0aaee1a7677edafb212414d1"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_66.wav",
+      "bytes": 370360,
+      "sha256": "c390477a77dc21c195e3aa57e7f18ac0f7a1d4f098307d1661982b6fb9750032"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_67.wav",
+      "bytes": 301956,
+      "sha256": "0f67605caa2972daf3764c0868a2461d15c3c84a5cec3babec903ec94b9d3a90"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_68.wav",
+      "bytes": 526132,
+      "sha256": "49fa9eeccdd8be4e71f8e9cfac69b7a9919c122a5d1d543be55f5558e25a4040"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_69.wav",
+      "bytes": 240484,
+      "sha256": "45ff268800fad7ac691bfe2589e8db683206edc6633ae2028f9c5f8a08a582fa"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_70.wav",
+      "bytes": 332050,
+      "sha256": "629778b212d7866c7673a68000786c5e4a6bd2423942c30cf609e0bb4c50a043"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_71.wav",
+      "bytes": 290352,
+      "sha256": "d404304aff76359c45f4709f297df56ca4c7b12ffab095d29f27504cfa9bc695"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_72.wav",
+      "bytes": 137024,
+      "sha256": "e3b78a80b713ba9c9b7be962347e6c8ae60f93188ba107aa4728676416551646"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_73.wav",
+      "bytes": 242516,
+      "sha256": "fd8025614e8672ba0362a29d5085eef51cbc2587b27e4c23549765930c6ac5f6"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_74.wav",
+      "bytes": 226314,
+      "sha256": "594ffa28cd9ce9bac0c883b79879967fd073df95ffe1df17526e00add79520db"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_75.wav",
+      "bytes": 164128,
+      "sha256": "b425bb0c2d3c23e0df8f1a64b148a45bb3c63b1ab4fb68a8e9a94c3202098b55"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_76.wav",
+      "bytes": 201088,
+      "sha256": "c44bd3a588c931673c8a84a7b5de540504962d91a5a1b7a0fbabd1ef30e2cfdd"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_77.wav",
+      "bytes": 160396,
+      "sha256": "d1a96973bdff226fb724f47600aa3daa94c238ef3294f888104852550952c785"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_78.wav",
+      "bytes": 276462,
+      "sha256": "69a51d5cc910cc29d920c799a47ce067a98fe10a757c6de58f6b256ba78188e9"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_79.wav",
+      "bytes": 262410,
+      "sha256": "c4da0db503d0984e99b69218d4f6c915a365ef8accef5d71de9d428b0dfc5398"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_80.wav",
+      "bytes": 177468,
+      "sha256": "00e00b5e45c901a30f69cf108c456caed3b2a47b18485d979d3c16a127595ffc"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_82.wav",
+      "bytes": 272330,
+      "sha256": "81d0e566bba19e46e6d37c53ade676615f2643bb03c0ef43e891f9c1651caf1d"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_83.wav",
+      "bytes": 179386,
+      "sha256": "6d28c6c940a15c9b39b5bfd6b4c69ab767903a5763ba4dfba06b0170f20e3f35"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_40.wav",
+      "bytes": 1496200,
+      "sha256": "4d58807ea6c6b69ec91f7af6ea1d5361f9c6985b5c7645dabd862c6eb71bc8e8"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_43.wav",
+      "bytes": 396788,
+      "sha256": "c3a0821b9e22087090bb1c1789f1c28a1b9f84620fbb7bbf027732f6f6343beb"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_44.wav",
+      "bytes": 393434,
+      "sha256": "13c27b6d46218eaf17606379e8429ecd58e276dbe587d6940dfae253b9d1682b"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_45.wav",
+      "bytes": 842754,
+      "sha256": "e60b4534a8876e5bfd9a97dc085962131e829737c62c649327dde7021e9ed191"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_50.wav",
+      "bytes": 506498,
+      "sha256": "ea218104711ee612d8dc96d7492a2eb5570dca0415f8d413325d9f109670b9fe"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_51.wav",
+      "bytes": 514778,
+      "sha256": "3e28ba6abb7324624cf4a437082f37e2eee7c05f375c87851a9a6949f7515ead"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_54.wav",
+      "bytes": 290902,
+      "sha256": "4505dde1fbe6c3dc1a06147391b406681ce02f5743c08058035717ad519dc737"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_55.wav",
+      "bytes": 540126,
+      "sha256": "f74587305b4099a6be7f6a70df496513c0d8763d7f51e34bfc599c57fdf34db1"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_56.wav",
+      "bytes": 658776,
+      "sha256": "e9d7f0016622b36c93d9ae56adbf9520119da8f48ef86968b12d23235385fe03"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_72.wav",
+      "bytes": 218090,
+      "sha256": "ed173cf9a236b9f9a0db1b1db7ff7a58087f0403dc92c4a2cbf08ab770abf576"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_73.wav",
+      "bytes": 259444,
+      "sha256": "c89156fde67a05f1137aca0b434253faf51f93fc7000af6f0ca522689256a8b7"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_78.wav",
+      "bytes": 234694,
+      "sha256": "38a520781e958549a0ab0e75420eb5edab17ef8a6a0842538461a1a412d34ab2"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_80.wav",
+      "bytes": 283736,
+      "sha256": "c0a67bb4719b9c4ba19df348d6c21720779f36e8e268b3354e9acb3fd23a8533"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_81.wav",
+      "bytes": 236862,
+      "sha256": "8230e9560f1cd7ffa6c9be46a957e4d3ea35955d92cb3f6c53a08ad640e7f317"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_82.wav",
+      "bytes": 252468,
+      "sha256": "2b4f09b2f86a69cd3bc784391ff07e3dc62d4cb137f7230eb372f0c6d9520037"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_83.wav",
+      "bytes": 202454,
+      "sha256": "b2fc8a4548c2795b1e11fd03621c97fa3a8153c5a71d34bf24dd4235042a5242"
+    },
+    {
+      "path": "source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_84.wav",
+      "bytes": 178332,
+      "sha256": "51eff592505a5ecb491a250284f5e28c06d4102568afd6cd3bf2a572b357e6ff"
+    }
+  ],
+  "modifications": [
+    "Original sample bytes unchanged; original SFZ and notices retained.",
+    "WHIC v4 mapping generated 2026-10-24; numeric SFZ roots/ranges/velocity splits retained; seq_position converted to zero-based deterministic RR.",
+    "App attack uses 3 ms; native SFZ amplitude/velocity defaults may differ. No looping or invented pitches outside explicit source ranges."
+  ]
+}

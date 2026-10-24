@@ -1,0 +1,16 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Edge-blown Aerophones/Baroque Bass Recorder - Sustain.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+12
+"../source/Aerophones/Edge-blown Aerophones/Baroque Bass Recorder/Sustain/BassRecorder_Sus_F#2_rr1_Main.wav" 54 53 55 1 127 0 0.3 1001 0.0 10.067593 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Bass Recorder/Sustain/BassRecorder_Sus_G#2_rr1_Main.wav" 56 56 57 1 127 0 0.3 1169 6.0 15.854692 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Bass Recorder/Sustain/BassRecorder_Sus_A#2_rr1_Main.wav" 58 58 59 1 127 0 0.3 1058 -1.0 22.506099 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Bass Recorder/Sustain/BassRecorder_Sus_C3_rr1_Main.wav" 60 60 61 1 127 0 0.3 709 -3.0 20.370554 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Bass Recorder/Sustain/BassRecorder_Sus_D3_rr1_Main.wav" 62 62 63 1 127 0 0.3 222 -1.0 12.224712 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Bass Recorder/Sustain/BassRecorder_Sus_E3_rr1_Main.wav" 64 64 65 1 127 0 0.3 346 0.0 15.943046 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Bass Recorder/Sustain/BassRecorder_Sus_F#3_rr1_Main.wav" 66 66 67 1 127 0 0.3 360 0.0 19.390317 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Bass Recorder/Sustain/BassRecorder_Sus_G#3_rr1_Main.wav" 68 68 69 1 127 0 0.3 507 0.0 14.098347 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Bass Recorder/Sustain/BassRecorder_Sus_A#3_rr1_Main.wav" 70 70 71 1 127 0 0.3 235 0.0 11.293359 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Bass Recorder/Sustain/BassRecorder_Sus_C4_rr1_Main.wav" 72 72 73 1 127 0 0.3 582 0.0 13.584709 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Bass Recorder/Sustain/BassRecorder_Sus_D4_rr1_Main.wav" 74 74 75 1 127 0 0.3 424 0.0 21.373427 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Bass Recorder/Sustain/BassRecorder_Sus_E4_rr1_Main.wav" 76 76 79 1 127 0 0.3 515 2.0 13.888477 0.004

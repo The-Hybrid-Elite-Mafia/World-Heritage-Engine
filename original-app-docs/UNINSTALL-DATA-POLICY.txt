@@ -1,0 +1,1 @@
+Uninstall removes only unchanged installed program/document files. It retains the complete library, user instruments, external recordings, audio-preferences.conf, changed files and this uninstaller. No recursive data deletion is performed. Original task builds are not touched.

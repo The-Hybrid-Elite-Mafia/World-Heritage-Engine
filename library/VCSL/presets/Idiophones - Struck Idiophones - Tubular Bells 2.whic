@@ -1,0 +1,26 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Tubular Bells 2.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+22
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_C4_v2_1.wav" 60 60 61 1 83 0 30.0 0 0.0 25.057604 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_C4_v4_1.wav" 60 60 61 84 127 0 30.0 0 0.0 8.123357 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_D4_v2_1.wav" 62 62 63 1 83 0 30.0 0 0.0 21.632102 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_D4_v4_2.wav" 62 62 63 84 127 0 30.0 0 0.0 5.638059 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_E4_v2_1.wav" 64 64 64 1 83 0 30.0 0 0.0 15.018009 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_E4_v4_1.wav" 64 64 64 84 127 0 30.0 0 0.0 6.853851 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_F4_v2_2.wav" 65 65 66 1 83 0 30.0 0 0.0 18.4478 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_F4_v4_1.wav" 65 65 66 84 127 0 30.0 0 0.0 3.233612 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_G4_v2_1.wav" 67 67 68 1 83 0 30.0 0 0.0 16.013352 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_G4_v4_1.wav" 67 67 68 84 127 0 30.0 0 0.0 7.086978 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_A4_v2_1.wav" 69 69 70 1 83 0 30.0 0 0.0 18.051383 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_A4_v4_1.wav" 69 69 70 84 127 0 30.0 0 0.0 5.225776 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_B4_v2_1.wav" 71 71 71 1 83 0 30.0 1026 0.0 21.724717 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_B4_v4_1.wav" 71 71 71 84 127 0 30.0 0 0.0 7.30392 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_C5_v2_1.wav" 72 72 73 1 83 0 30.0 0 0.0 32.636954 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_C5_v4_1.wav" 72 72 73 84 127 0 30.0 2727 0.0 6.22251 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_D5_v2_2.wav" 74 74 75 1 83 0 30.0 0 0.0 19.874688 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_D5_v4_1.wav" 74 74 75 84 127 0 30.0 0 0.0 1.64143 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_E5_v2_1.wav" 76 76 76 1 83 0 30.0 0 0.0 20.352581 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_E5_v4_2.wav" 76 76 76 84 127 0 30.0 0 0.0 7.04654 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_F5_v2_2.wav" 77 77 79 1 83 0 30.0 0 0.0 20.739006 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 2/TB_hit_F5_v4_1.wav" 77 77 79 84 127 0 30.0 0 0.0 6.808567 0.004

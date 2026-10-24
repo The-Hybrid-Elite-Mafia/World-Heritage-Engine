@@ -1,0 +1,10 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Mark Trees.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+6
+"../source/Idiophones/Struck Idiophones/Mark Trees/Legacy/windchimes_asc1.wav" 60 60 60 1 127 0 3.0 891 0.0 15.0 0.004
+"../source/Idiophones/Struck Idiophones/Mark Trees/Legacy/windchimes_desc1.wav" 61 61 61 1 127 0 3.0 233 0.0 15.0 0.004
+"../source/Idiophones/Struck Idiophones/Mark Trees/Legacy/windchimes_fastAsc1.wav" 62 62 62 1 127 0 3.0 2248 0.0 15.0 0.004
+"../source/Idiophones/Struck Idiophones/Mark Trees/Legacy/windchimes_random.wav" 63 63 63 1 127 0 3.0 3001 0.0 15.0 0.004
+"../source/Idiophones/Struck Idiophones/Mark Trees/Legacy/windchimes_slowAsc1.wav" 64 64 64 1 127 0 3.0 1814 0.0 15.0 0.004
+"../source/Idiophones/Struck Idiophones/Mark Trees/Legacy/windchimes_slowDesc1.wav" 65 65 65 1 127 0 3.0 1608 0.0 15.0 0.004

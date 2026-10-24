@@ -1,0 +1,19 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Plucked Idiophones/Kalimba, Kenya.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+15
+"../source/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_B2_k8_vl3_rr2.wav" 59 59 60 1 127 0 15.0 0 0.0 8.057059 0.004
+"../source/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_C#3_k7_vl3_rr2.wav" 61 61 62 1 127 0 15.0 0 -30.0 4.773361 0.004
+"../source/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_D#3_k6_vl3_rr2.wav" 63 63 64 1 127 1 15.0 0 7.0 9.083731 0.004
+"../source/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_D#3_k9_vl3_rr2.wav" 63 63 64 1 127 2 15.0 0 5.0 0.989334 0.004
+"../source/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_F#3_k10_vl3_rr2.wav" 66 65 67 1 127 1 15.0 0 0.0 10.554622 0.004
+"../source/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_F#3_k5_vl3_rr2.wav" 66 65 67 1 127 2 15.0 0 -38.0 8.274535 0.004
+"../source/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_G#3_k4_vl3_rr2.wav" 68 68 69 1 127 1 15.0 0 -38.0 -1.418293 0.004
+"../source/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_G#3_k11_vl3_rr2.wav" 68 68 69 1 127 2 15.0 0 -41.0 5.528248 0.004
+"../source/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_B3_k3_vl3_rr2.wav" 71 70 72 1 127 1 15.0 0 -21.0 3.556468 0.004
+"../source/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_B3_k12_vl3_rr2.wav" 71 70 72 1 127 2 15.0 0 -8.0 6.591513 0.004
+"../source/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_C#4_k2_vl3_rr2.wav" 73 73 74 1 127 0 15.0 0 -1.0 2.96738 0.004
+"../source/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_D#4_k13_vl3_rr2.wav" 75 75 76 1 127 0 15.0 0 0.0 12.403903 0.004
+"../source/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_F#4_k14_vl3_rr2.wav" 78 77 79 1 127 0 15.0 0 -43.0 2.831477 0.004
+"../source/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_A4_k1_vl3_rr2.wav" 81 80 82 1 127 0 15.0 0 44.0 4.2803 0.004
+"../source/Idiophones/Plucked Idiophones/Kalimba, Kenya/Mbira6_Normal_MainSpirit_B4_k15_vl3_rr2.wav" 83 83 84 1 127 0 15.0 0 0.0 10.0 0.004

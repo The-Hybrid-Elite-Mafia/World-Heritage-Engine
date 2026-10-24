@@ -1,0 +1,44 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Reed Aerophones/Tenor Saxophone - Staccato.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+40
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_G#1_vl2_rr1.wav" 44 44 45 1 127 0 1.5 87 10.0 13.836573 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_A#1_vl2_rr5.wav" 46 46 47 1 127 0 1.5 0 11.0 14.05288 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_C2_vl2_rr1.wav" 48 48 49 1 127 0 1.5 0 15.0 14.236339 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_D2_vl1_rr5.wav" 50 50 51 1 83 0 1.5 0 6.0 18.555118 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_D2_vl2_rr4.wav" 50 50 51 84 127 0 1.5 0 13.0 14.821673 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_E2_vl1_rr2.wav" 52 52 53 1 83 0 1.5 0 10.0 17.049388 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_E2_vl2_rr1.wav" 52 52 53 84 127 0 1.5 0 15.0 13.594091 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_F#2_vl1_rr4.wav" 54 54 55 1 83 0 1.5 158 10.0 18.796892 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_F#2_vl2_rr7.wav" 54 54 55 84 127 0 1.5 0 6.0 14.752491 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_G#2_vl1_rr1.wav" 56 56 56 1 83 0 1.5 0 8.0 19.225746 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_G#2_vl2_rr1.wav" 56 56 56 84 127 0 1.5 0 8.0 14.708068 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_A2_vl1_rr1.wav" 57 57 58 1 83 0 1.5 0 8.0 16.487304 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_A2_vl2_rr4.wav" 57 57 58 84 127 0 1.5 0 11.0 13.9238 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_C3_vl1_rr4.wav" 60 59 61 1 83 0 1.5 195 4.0 20.834429 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_C3_vl2_rr4.wav" 60 59 61 84 127 0 1.5 0 8.0 15.740983 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_D3_vl1_rr1.wav" 62 62 63 1 83 0 1.5 166 3.0 21.242213 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_D3_vl2_rr5.wav" 62 62 63 84 127 0 1.5 0 8.0 14.972777 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_E3_vl1_rr4.wav" 64 64 65 1 83 0 1.5 0 1.0 13.623085 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_E3_vl2_rr3.wav" 64 64 65 84 127 0 1.5 136 4.0 10.977176 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_F#3_vl1_rr3.wav" 66 66 67 1 83 0 1.5 0 4.0 18.11754 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_F#3_vl2_rr6.wav" 66 66 67 84 127 0 1.5 398 3.0 15.761636 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_G#3_vl1_rr1.wav" 68 68 69 1 83 0 1.5 0 1.0 18.514504 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_G#3_vl2_rr1.wav" 68 68 69 84 127 0 1.5 451 0.0 15.144105 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_A#3_vl1_rr3.wav" 70 70 71 1 83 0 1.5 0 -4.0 17.093417 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_A#3_vl2_rr4.wav" 70 70 71 84 127 0 1.5 217 -2.0 14.87914 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_C4_vl1_rr7.wav" 72 72 73 1 83 0 1.5 0 0.0 20.185497 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_C4_vl2_rr3.wav" 72 72 73 84 127 0 1.5 426 -2.0 14.447735 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_D4_vl1_rr4.wav" 74 74 75 1 83 0 1.5 0 -7.0 22.484957 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_D4_vl2_rr2.wav" 74 74 75 84 127 0 1.5 296 0.0 18.726766 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_E4_vl1_rr1.wav" 76 76 76 1 83 0 1.5 0 3.0 16.47039 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_E4_vl2_rr4.wav" 76 76 76 84 127 0 1.5 286 3.0 11.090801 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_F4_vl1_rr1.wav" 77 77 78 1 83 0 1.5 0 8.0 14.902416 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_F4_vl2_rr1.wav" 77 77 78 84 127 0 1.5 204 9.0 12.957412 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_G#4_vl2_rr2.wav" 80 79 80 1 127 0 1.5 109 7.0 17.094118 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_A4_vl1_rr5.wav" 81 81 82 1 83 0 1.5 0 0.0 20.414745 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_A4_vl2_rr3.wav" 81 81 82 84 127 0 1.5 108 6.0 15.595984 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_C5_vl1_rr4.wav" 84 83 85 1 83 0 1.5 0 2.0 16.038694 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_C5_vl2_rr1.wav" 84 83 85 84 127 0 1.5 185 1.0 13.584064 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_D5_vl2_rr3.wav" 86 86 87 1 127 0 1.5 30 -1.0 13.347111 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Staccato/BrettTenor_Staccato_Main_E5_vl2_rr1.wav" 88 88 89 1 127 0 1.5 7 -2.0 12.863302 0.004

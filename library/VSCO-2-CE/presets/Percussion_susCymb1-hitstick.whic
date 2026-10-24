@@ -1,0 +1,12 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Cymbals; variant Percussion/susCymb1-hitstick; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+8
+"../source/Percussion/susCymb1-hitstick_pp_rr1.wav" 60 60 60 1 31 0 6 0 0 25 0.001
+"../source/Percussion/susCymb1-hitstick_pp_rr2.wav" 60 60 60 1 31 1 6 0 0 25 0.001
+"../source/Percussion/susCymb1-hitstick_mp_rr1.wav" 60 60 60 32 63 0 6 0 0 18 0.001
+"../source/Percussion/susCymb1-hitstick_mp_rr2.wav" 60 60 60 32 63 1 6 0 0 18 0.001
+"../source/Percussion/susCymb1-hitstick_f_rr1.wav" 60 60 60 64 95 0 6 0 0 11 0.001
+"../source/Percussion/susCymb1-hitstick_f_rr2.wav" 60 60 60 64 95 1 6 0 0 11 0.001
+"../source/Percussion/susCymb1-hitstick_fff_rr1.wav" 60 60 60 96 127 0 6 0 0 4 0.001
+"../source/Percussion/susCymb1-hitstick_fff_rr2.wav" 60 60 60 96 127 1 6 0 0 4 0.001

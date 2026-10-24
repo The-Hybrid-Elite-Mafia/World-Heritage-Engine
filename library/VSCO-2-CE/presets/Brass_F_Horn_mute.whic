@@ -1,0 +1,21 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; French horn; variant Brass/F Horn/mute; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+17
+"../source/Brass/F Horn/mute/MOHorn_mute_A#1_v1_1.wav" 46 46 48 1 63 0 0.7 0 0 17 0.001
+"../source/Brass/F Horn/mute/MOHorn_mute_A#1_v2_1.wav" 46 46 48 64 127 0 0.7 0 0 6 0.001
+"../source/Brass/F Horn/mute/MOHorn_mute_D#2_v1_1.wav" 51 49 52 1 63 0 0.7 0 0 17 0.001
+"../source/Brass/F Horn/mute/MOHorn_mute_D#2_v2_1.wav" 51 49 52 64 127 0 0.7 0 0 6 0.001
+"../source/Brass/F Horn/mute/MOHorn_mute_F2_v1_1.wav" 53 53 56 1 63 0 0.7 0 0 17 0.001
+"../source/Brass/F Horn/mute/MOHorn_mute_F2_v2_1.wav" 53 53 56 64 127 0 0.7 0 0 6 0.001
+"../source/Brass/F Horn/mute/MOHorn_mute_C3_v1_1.wav" 60 57 61 1 42 0 0.7 0 0 18 0.001
+"../source/Brass/F Horn/mute/MOHorn_mute_C3_v2_1.wav" 60 57 61 43 84 0 0.7 0 0 11 0.001
+"../source/Brass/F Horn/mute/MOHorn_mute_C3_v3_1.wav" 60 57 61 85 127 0 0.7 0 0 4 0.001
+"../source/Brass/F Horn/mute/MOHorn_mute_D#3_v1_1.wav" 63 62 65 1 63 0 0.7 0 0 17 0.001
+"../source/Brass/F Horn/mute/MOHorn_mute_D#3_v2_1.wav" 63 62 65 64 127 0 0.7 0 0 6 0.001
+"../source/Brass/F Horn/mute/MOHorn_mute_G#3_v1_1.wav" 68 66 69 1 63 0 0.7 0 0 17 0.001
+"../source/Brass/F Horn/mute/MOHorn_mute_G#3_v2_1.wav" 68 66 69 64 127 0 0.7 0 0 6 0.001
+"../source/Brass/F Horn/mute/MOHorn_mute_A#3_v1_1.wav" 70 70 72 1 63 0 0.7 0 0 17 0.001
+"../source/Brass/F Horn/mute/MOHorn_mute_A#3_v2_1.wav" 70 70 72 64 127 0 0.7 0 0 6 0.001
+"../source/Brass/F Horn/mute/MOHorn_mute_D4_v1_1.wav" 74 73 75 1 127 0 0.7 0 0 11 0.001
+"../source/Brass/F Horn/mute/MOHorn_mute_F4_v1_1.wav" 77 76 77 1 127 0 0.7 0 0 11 0.001

@@ -1,0 +1,25 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Pipe organ; variant Keys/Organ/Loud/Rode_Man3Open; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+21
+"../source/Keys/Organ/Loud/Rode_Man3Open_01.wav" 36 36 37 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_04.wav" 39 38 40 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_07.wav" 42 41 43 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_10.wav" 45 44 46 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_13.wav" 48 47 49 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_16.wav" 51 50 52 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_19.wav" 54 53 55 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_22.wav" 57 56 58 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_25.wav" 60 59 61 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_28.wav" 63 62 64 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_31.wav" 66 65 67 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_34.wav" 69 68 70 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_37.wav" 72 71 73 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_40.wav" 75 74 76 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_43.wav" 78 77 79 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_46.wav" 81 80 82 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_49.wav" 84 83 85 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_52.wav" 87 86 88 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_55.wav" 90 89 91 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_58.wav" 93 92 94 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Loud/Rode_Man3Open_61.wav" 96 95 96 1 127 0 0.7 0 0 12 0.001

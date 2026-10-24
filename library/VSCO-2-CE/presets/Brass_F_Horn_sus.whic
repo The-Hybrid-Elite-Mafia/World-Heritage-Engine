@@ -1,0 +1,33 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; French horn; variant Brass/F Horn/sus; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+29
+"../source/Brass/F Horn/sus/MOHorn_sus_A0_v1_1.wav" 33 33 34 1 127 0 0.7 0 0 11 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_C1_v1_1.wav" 36 35 37 1 42 0 0.7 0 0 18 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_C1_v2_1.wav" 36 35 37 43 84 0 0.7 0 0 11 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_C1_v3_1.wav" 36 35 37 85 127 0 0.7 0 0 4 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_D#1_v1_1.wav" 39 38 41 1 42 0 0.7 0 0 18 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_D#1_v2_1.wav" 39 38 41 43 84 0 0.7 0 0 11 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_D#1_v3_1.wav" 39 38 41 85 127 0 0.7 0 0 4 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_G1_v1_1.wav" 43 42 44 1 42 0 0.7 0 0 18 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_G1_v2_1.wav" 43 42 44 43 84 0 0.7 0 0 11 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_G1_v3_1.wav" 43 42 44 85 127 0 0.7 0 0 4 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_A#1_v1_1.wav" 46 45 48 1 42 0 0.7 0 0 18 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_A#1_v2_1.wav" 46 45 48 43 84 0 0.7 0 0 11 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_A#1_v3_1.wav" 46 45 48 85 127 0 0.7 0 0 4 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_D2_v1_1.wav" 50 49 51 1 31 0 0.7 0 0 19 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_D2_v2_1.wav" 50 49 51 32 63 0 0.7 0 0 14 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_D2_v3_1.wav" 50 49 51 64 95 0 0.7 0 0 8 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_D2_v4_1.wav" 50 49 51 96 127 0 0.7 0 0 3 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_F2_v1_1.wav" 53 52 55 1 42 0 0.7 0 0 18 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_F2_v2_1.wav" 53 52 55 43 84 0 0.7 0 0 11 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_F2_v3_1.wav" 53 52 55 85 127 0 0.7 0 0 4 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_A2_v1_1.wav" 57 56 58 1 42 0 0.7 0 0 18 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_A2_v2_1.wav" 57 56 58 43 84 0 0.7 0 0 11 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_A2_v3_1.wav" 57 56 58 85 127 0 0.7 0 0 4 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_C3_v1_1.wav" 60 59 67 1 31 0 0.7 0 0 19 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_C3_v2_1.wav" 60 59 67 32 63 0 0.7 0 0 14 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_C3_v3_1.wav" 60 59 67 64 95 0 0.7 0 0 8 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_C3_v4_1.wav" 60 59 67 96 127 0 0.7 0 0 3 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_D4_v1_1.wav" 74 68 75 1 127 0 0.7 0 0 11 0.001
+"../source/Brass/F Horn/sus/MOHorn_sus_F4_v1_1.wav" 77 76 77 1 127 0 0.7 0 0 11 0.001

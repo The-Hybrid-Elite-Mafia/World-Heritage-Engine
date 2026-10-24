@@ -1,0 +1,6 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Timpani; variant Percussion/Timpani/Rolls/Timpani4_Roll; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+2
+"../source/Percussion/Timpani/Rolls/Timpani4_Roll_v3_rr1_Sum.wav" 52 52 52 1 63 0 1 0 0 14 0.005
+"../source/Percussion/Timpani/Rolls/Timpani4_Roll_v5_rr1_Sum.wav" 52 52 52 64 127 0 1 0 0 4 0.005

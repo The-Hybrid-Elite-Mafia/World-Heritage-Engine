@@ -1,0 +1,34 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Marimba.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+30
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_F1_soft_01.wav" 41 41 44 1 41 0 15.0 22 0.0 34.436551 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_F1_med_01.wav" 41 41 44 42 105 0 15.0 0 0.0 23.636466 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_F1_loud_01.wav" 41 41 44 106 127 0 15.0 0 0.0 19.5705 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C2_soft_01.wav" 48 45 51 1 41 0 15.0 57 0.0 37.213197 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C2_med_01.wav" 48 45 51 42 105 0 15.0 43 0.0 25.935313 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C2_loud_01.wav" 48 45 51 106 127 0 15.0 2 0.0 14.443122 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_G2_soft_01.wav" 55 52 57 1 41 0 15.0 121 0.0 39.603034 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_G2_med_01.wav" 55 52 57 42 105 0 15.0 59 0.0 27.614759 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_G2_loud_01.wav" 55 52 57 106 127 0 15.0 34 0.0 17.435073 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_B2_soft_01.wav" 59 58 62 1 41 0 15.0 151 0.0 39.271583 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_B2_med_01.wav" 59 58 62 42 105 0 15.0 113 0.0 27.82766 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_B2_loud_01.wav" 59 58 62 106 127 0 15.0 58 0.0 19.247664 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_F3_soft_01.wav" 65 63 68 1 41 0 15.0 112 0.0 31.390224 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_F3_med_01.wav" 65 63 68 42 105 0 15.0 184 0.0 25.917888 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_F3_loud_01.wav" 65 63 68 106 127 0 15.0 73 0.0 14.853747 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C4_soft_01.wav" 72 69 75 1 41 0 15.0 119 0.0 36.835571 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C4_med_01.wav" 72 69 75 42 105 0 15.0 87 0.0 24.361622 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C4_loud_01.wav" 72 69 75 106 127 0 15.0 58 0.0 14.991565 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_G4_soft_01.wav" 79 76 81 1 41 0 15.0 69 0.0 37.623671 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_G4_med_01.wav" 79 76 81 42 105 0 15.0 48 0.0 28.135008 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_G4_loud_01.wav" 79 76 81 106 127 0 15.0 30 0.0 18.093528 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_B4_soft_01.wav" 83 82 86 1 41 0 15.0 58 0.0 39.827554 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_B4_med_01.wav" 83 82 86 42 105 0 15.0 31 0.0 23.379722 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_B4_loud_01.wav" 83 82 86 106 127 0 15.0 13 0.0 10.981782 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_F5_soft_01.wav" 89 87 92 1 41 0 15.0 0 0.0 56.766884 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_F5_med_01.wav" 89 87 92 42 105 0 15.0 0 0.0 37.067757 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_F5_loud_01.wav" 89 87 92 106 127 0 15.0 0 0.0 20.664081 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C6_soft_01.wav" 96 93 97 1 41 0 15.0 0 0.0 49.199775 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C6_med_01.wav" 96 93 97 42 105 0 15.0 0 0.0 39.395381 0.004
+"../source/Idiophones/Struck Idiophones/Marimba/Marimba_hit_Outrigger_C6_loud_01.wav" 96 93 97 106 127 0 15.0 0 0.0 18.808448 0.004

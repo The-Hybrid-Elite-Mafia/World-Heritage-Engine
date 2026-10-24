@@ -1,0 +1,20 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Double bass; variant Strings/Solo Contrabass/Trem; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+16
+"../source/Strings/Solo Contrabass/Trem/BKCtbss_Trem_E0_v1_rr1.wav" 28 28 29 1 63 0 0.8 0 0 18 0.001
+"../source/Strings/Solo Contrabass/Trem/BKCtbss_Trem_E0_v2_rr1.wav" 28 28 29 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Contrabass/Trem/BKCtbss_Trem_G0_v1_rr1.wav" 31 30 33 1 63 0 0.8 0 0 18 0.001
+"../source/Strings/Solo Contrabass/Trem/BKCtbss_Trem_G0_v2_rr1.wav" 31 30 33 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Contrabass/Trem/BKCtbss_Trem_C1_v1_rr1.wav" 36 34 38 1 63 0 0.8 0 0 18 0.001
+"../source/Strings/Solo Contrabass/Trem/BKCtbss_Trem_C1_v2_rr1.wav" 36 34 38 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Contrabass/Trem/BKCtbss_Trem_E1_v1_rr1.wav" 40 39 42 1 63 0 0.8 0 0 18 0.001
+"../source/Strings/Solo Contrabass/Trem/BKCtbss_Trem_E1_v2_rr1.wav" 40 39 42 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Contrabass/Trem/BKCtbss_Trem_G#1_v1_rr1.wav" 44 43 48 1 63 0 0.8 0 0 18 0.001
+"../source/Strings/Solo Contrabass/Trem/BKCtbss_Trem_G#1_v2_rr1.wav" 44 43 48 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Contrabass/Trem/BKCtbss_Trem_E2_v1_rr1.wav" 52 49 54 1 63 0 0.8 0 0 18 0.001
+"../source/Strings/Solo Contrabass/Trem/BKCtbss_Trem_E2_v2_rr1.wav" 52 49 54 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Contrabass/Trem/BKCtbss_Trem_G#2_v1_rr1.wav" 56 55 57 1 63 0 0.8 0 0 18 0.001
+"../source/Strings/Solo Contrabass/Trem/BKCtbss_Trem_G#2_v2_rr1.wav" 56 55 57 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Contrabass/Trem/BKCtbss_Trem_B2_v1_rr1.wav" 59 58 59 1 63 0 0.8 0 0 18 0.001
+"../source/Strings/Solo Contrabass/Trem/BKCtbss_Trem_B2_v2_rr1.wav" 59 58 59 64 127 0 0.8 0 0 6 0.001

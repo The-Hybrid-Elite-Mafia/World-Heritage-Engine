@@ -1,0 +1,30 @@
+WHIC_PRESET 4
+"Bagpipe; real acoustic recordings; CC0-1.0; https://freepats.zenvoid.org/Ethnic/bagpipe.html; see original README and source SFZ. Finite recorded sustain (no looping)."
+0 0 1 0
+26
+"../source/Bagpipe SFZ+WAV-20260806/samples/drone_G2_1.wav" 43 36 47 1 127 0 0.5 0 0.0 -11.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/drone_G3_3.wav" 55 48 59 1 127 0 0.5 0 0.0 -3.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/F4_31.wav" 65 64 65 1 127 0 0.5 0 40.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/G4_31.wav" 67 66 68 1 127 1 0.5 0 36.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/G4_32.wav" 67 66 68 1 127 2 0.5 0 39.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/A4_31.wav" 69 69 69 1 127 1 0.5 0 30.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/A4_32.wav" 69 69 69 1 127 2 0.5 0 35.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/A#4_31.wav" 70 70 70 1 127 1 0.5 0 40.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/A#4_32.wav" 70 70 70 1 127 2 0.5 0 41.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/B4_31.wav" 71 71 71 1 127 1 0.5 0 43.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/B4_32.wav" 71 71 71 1 127 2 0.5 0 41.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/C5_31.wav" 72 72 72 1 127 1 0.5 0 35.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/C5_32.wav" 72 72 72 1 127 2 0.5 0 35.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/C#5_31.wav" 73 73 73 1 127 1 0.5 0 50.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/C#5_32.wav" 73 73 73 1 127 2 0.5 0 34.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/D5_31.wav" 74 74 74 1 127 1 0.5 0 24.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/D5_32.wav" 74 74 74 1 127 2 0.5 0 25.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/D#5_31.wav" 75 75 75 1 127 1 0.5 0 61.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/D#5_32.wav" 75 75 75 1 127 2 0.5 0 65.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/E5_31.wav" 76 76 76 1 127 1 0.5 0 65.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/E5_32.wav" 76 76 76 1 127 2 0.5 0 62.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/F5_31.wav" 77 77 77 1 127 1 0.5 0 51.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/F5_32.wav" 77 77 77 1 127 2 0.5 0 50.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/F#5_31.wav" 78 78 78 1 127 1 0.5 0 54.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/F#5_32.wav" 78 78 78 1 127 2 0.5 0 49.0 0.0 0.003
+"../source/Bagpipe SFZ+WAV-20260806/samples/G5_31.wav" 79 79 81 1 127 0 0.5 0 31.0 0.0 0.003

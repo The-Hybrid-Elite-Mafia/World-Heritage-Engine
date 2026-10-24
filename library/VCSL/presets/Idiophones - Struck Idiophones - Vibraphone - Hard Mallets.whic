@@ -1,0 +1,26 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Vibraphone - Hard Mallets.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+22
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_F2_v2_rr1_Main.wav" 53 53 55 1 83 0 15.0 111 0.0 15.276129 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_F2_v3_rr1_Main.wav" 53 53 55 84 127 0 15.0 100 0.0 6.83434 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_A2_v2_rr1_Main.wav" 57 56 58 1 83 0 15.0 111 0.0 12.651582 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_A2_v3_rr1_Main.wav" 57 56 58 84 127 0 15.0 111 0.0 4.208335 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_C3_v2_rr1_Main.wav" 60 59 62 1 83 0 15.0 114 0.0 17.606842 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_C3_v3_rr1_Main.wav" 60 59 62 84 127 0 15.0 114 0.0 6.850434 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_E3_v2_rr1_Main.wav" 64 63 65 1 83 0 15.0 115 0.0 13.662226 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_E3_v3_rr1_Main.wav" 64 63 65 84 127 0 15.0 118 0.0 9.723325 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_G3_v2_rr1_Main.wav" 67 66 69 1 83 0 15.0 115 0.0 18.367152 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_G3_v3_rr1_Main.wav" 67 66 69 84 127 0 15.0 110 0.0 10.651992 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_B3_v2_rr1_Main.wav" 71 70 72 1 83 0 15.0 115 0.0 14.935447 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_B3_v3_rr1_Main.wav" 71 70 72 84 127 0 15.0 111 0.0 7.867626 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_D4_v2_rr1_Main.wav" 74 73 75 1 83 0 15.0 115 0.0 11.749742 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_D4_v3_rr1_Main.wav" 74 73 75 84 127 0 15.0 109 0.0 4.157508 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_F4_v2_rr1_Main.wav" 77 76 79 1 83 0 15.0 105 0.0 18.131461 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_F4_v3_rr1_Main.wav" 77 76 79 84 127 0 15.0 98 0.0 6.181621 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_A4_v2_rr1_Main.wav" 81 80 82 1 83 0 15.0 96 0.0 16.835732 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_A4_v3_rr1_Main.wav" 81 80 82 84 127 0 15.0 93 0.0 9.80413 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_C5_v2_rr1_Main.wav" 84 83 86 1 83 0 15.0 91 0.0 13.757376 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_C5_v3_rr1_Main.wav" 84 83 86 84 127 0 15.0 88 0.0 6.30105 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_E5_v2_rr1_Main.wav" 88 87 89 1 83 0 15.0 80 0.0 12.716727 0.004
+"../source/Idiophones/Struck Idiophones/Vibraphone/Hard Mallets/Vibes_hard_E5_v3_rr1_Main.wav" 88 87 89 84 127 0 15.0 82 0.0 5.005945 0.004

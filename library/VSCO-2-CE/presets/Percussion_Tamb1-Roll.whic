@@ -1,0 +1,7 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Tambourine; variant Percussion/Tamb1-Roll; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+3
+"../source/Percussion/Tamb1-Roll_v1_rr1_Sum.wav" 60 60 60 1 42 0 0.3 0 0 23 0.001
+"../source/Percussion/Tamb1-Roll_v2_rr1_Sum.wav" 60 60 60 43 84 0 0.3 0 0 14 0.001
+"../source/Percussion/Tamb1-Roll_v3_rr1_Sum.wav" 60 60 60 85 127 0 0.3 0 0 5 0.001

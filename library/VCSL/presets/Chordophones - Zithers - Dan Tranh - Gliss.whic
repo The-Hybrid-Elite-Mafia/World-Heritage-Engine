@@ -1,0 +1,16 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Chordophones/Zithers/Dan Tranh - Gliss.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+12
+"../source/Chordophones/Zithers/Dan Tranh/Gliss/Gliss_Dwn_Med_mf_1.wav" 60 60 60 1 83 0 0.3 0 0.0 9.72767 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Gliss/Gliss_Dwn_Med_ff_1.wav" 60 60 60 84 127 0 0.3 0 0.0 4.927303 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Gliss/Gliss_Dwn_Slw_ff_1.wav" 61 61 61 1 127 0 0.3 0 0.0 7.0 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Gliss/Gliss_Dwn_Slw_mf_2.wav" 62 62 62 1 127 0 0.3 0 0.0 7.0 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Gliss/Gliss_Dwn_Swl_mf_1.wav" 63 63 63 1 83 0 0.3 491 0.0 10.566689 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Gliss/Gliss_Dwn_Swl_ff_1.wav" 63 63 63 84 127 0 0.3 462 0.0 4.47888 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Gliss/Gliss_Up_Med_mf_1.wav" 64 64 64 1 83 0 0.3 2584 0.0 14.413352 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Gliss/Gliss_Up_Med_ff_1.wav" 64 64 64 84 127 0 0.3 1642 0.0 3.059488 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Gliss/Gliss_Up_Slw_mf_1.wav" 65 65 65 1 127 0 0.3 1353 0.0 7.0 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Gliss/Gliss_Up_Slw_ff_2.wav" 66 66 66 1 127 0 0.3 1071 0.0 7.0 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Gliss/Gliss_Up_Swl_mf_1.wav" 67 67 67 1 83 0 0.3 1367 0.0 13.899337 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Gliss/Gliss_Up_Swl_ff_1.wav" 67 67 67 84 127 0 0.3 980 0.0 3.203966 0.004

@@ -1,0 +1,28 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+24
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_A#1_k12_vl2_rr1.wav" 47 46 47 1 127 0 15.0 0 0.0 0.515072 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_C2_k10_vl2_rr1.wav" 48 48 49 1 127 0 15.0 0 51.0 -3.260362 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_D2_k8_vl2_rr1.wav" 50 50 50 1 127 0 15.0 0 20.0 4.386862 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_D#2_k6_vl2_rr1.wav" 51 51 52 1 127 0 15.0 0 17.0 -1.190269 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_F2_k4_vl2_rr1.wav" 53 53 54 1 127 0 15.0 0 0.0 1.251037 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_G2_k13_vl2_rr1.wav" 55 55 55 1 127 0 15.0 0 0.0 -1.602227 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_G#2_k2_vl2_rr1.wav" 56 56 57 1 127 0 15.0 0 0.0 1.354421 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_A#2_k15_vl2_rr1.wav" 58 58 59 1 127 0 15.0 0 0.0 3.779195 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_C3_k9_vl2_rr1.wav" 60 60 61 1 127 0 15.0 0 0.0 1.386018 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_D3_k11_vl2_rr1.wav" 62 62 62 1 127 0 15.0 0 32.0 -1.345018 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_D#3_k7_vl2_rr1.wav" 63 63 64 1 127 0 15.0 0 0.0 0.072496 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_F3_k5_vl2_rr1.wav" 65 65 66 1 127 0 15.0 0 22.0 -3.294644 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_G3_k3_vl2_rr1.wav" 67 67 67 1 127 1 15.0 0 25.0 2.358162 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_G3_k16_vl2_rr1.wav" 67 67 67 1 127 2 15.0 0 7.0 5.50341 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_G#3_k17_vl2_rr1.wav" 68 68 69 1 127 1 15.0 0 -2.0 3.41308 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_G#3_k1_vl2_rr1.wav" 68 68 69 1 127 2 15.0 0 11.0 -6.332559 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_A#3_k18_vl2_rr1.wav" 70 70 71 1 127 0 15.0 0 28.0 6.639345 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_C4_k19_vl2_rr1.wav" 72 72 72 1 127 0 15.0 0 20.0 1.469104 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_C#4_k14_vl2_rr1.wav" 73 73 73 1 127 0 15.0 0 0.0 1.38616 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_D4_k20_vl2_rr1.wav" 74 74 74 1 127 0 15.0 0 2.0 -3.305207 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_D#4_k21_vl2_rr1.wav" 75 75 76 1 127 0 15.0 0 -2.0 -4.520796 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_F4_k22_vl2_rr1.wav" 77 77 78 1 127 0 15.0 0 14.0 9.859019 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_G4_k23_vl2_rr1.wav" 79 79 80 1 127 0 15.0 0 53.0 4.820332 0.004
+"../source/Idiophones/Plucked Idiophones/Mbira Mavembe (Gandanga), Zimbabwe, Low G/Mbira5_Normal_MainSpirit_A4_k24_vl2_rr1.wav" 81 81 82 1 127 0 15.0 0 82.0 0.669635 0.004

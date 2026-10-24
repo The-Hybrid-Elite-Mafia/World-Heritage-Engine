@@ -1,0 +1,8 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Tambourine 3 - Legacy.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+4
+"../source/Idiophones/Struck Idiophones/Tambourine 3 - Legacy/tambourine_down_rr2.wav" 60 60 60 1 127 1 10.0 0 0.0 14.66964 0.004
+"../source/Idiophones/Struck Idiophones/Tambourine 3 - Legacy/tambourine_down_rr1.wav" 60 60 60 1 127 2 10.0 544 0.0 15.343424 0.004
+"../source/Idiophones/Struck Idiophones/Tambourine 3 - Legacy/tambourine_up_rr1.wav" 61 61 61 1 127 1 10.0 581 0.0 14.192003 0.004
+"../source/Idiophones/Struck Idiophones/Tambourine 3 - Legacy/tambourine_up_rr2.wav" 61 61 61 1 127 2 10.0 0 0.0 15.890942 0.004

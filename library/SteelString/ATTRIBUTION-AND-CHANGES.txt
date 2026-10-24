@@ -1,0 +1,5 @@
+FSS steel-string acoustic guitar; Gary Campion / FlameStudios Seagull recordings, modified 2016-2020 by Roberto for FreePats. GPL-3.0-or-later WITH FreePats composition exception; see source readme.txt and gpl.txt. https://freepats.zenvoid.org/Guitar/steel-acoustic-guitar.html
+
+Original sample bytes unchanged; original SFZ and notices retained.
+WHIC v4 mapping generated 2026-10-24; numeric SFZ roots/ranges/velocity splits retained; seq_position converted to zero-based deterministic RR.
+App attack uses 3 ms; native SFZ amplitude/velocity defaults may differ. No looping or invented pitches outside explicit source ranges.

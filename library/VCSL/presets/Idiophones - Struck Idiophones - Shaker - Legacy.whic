@@ -1,0 +1,6 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Shaker - Legacy.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+2
+"../source/Idiophones/Struck Idiophones/Shaker - Legacy/shake1.wav" 60 60 60 1 127 0 30.0 0 0.0 10.0 0.004
+"../source/Idiophones/Struck Idiophones/Shaker - Legacy/shake2.wav" 61 61 61 1 127 0 30.0 0 0.0 10.0 0.004

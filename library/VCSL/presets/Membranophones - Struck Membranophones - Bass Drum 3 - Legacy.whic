@@ -1,0 +1,43 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Membranophones/Struck Membranophones/Bass Drum 3 - Legacy.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+39
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_ppp_rr3.wav" 60 60 60 1 38 1 30.0 3706 0.0 29.222175 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_ppp_rr2.wav" 60 60 60 1 38 2 30.0 1108 0.0 26.446129 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_ppp_rr1.wav" 60 60 60 1 38 3 30.0 2310 0.0 28.51466 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_pp_rr1.wav" 60 60 60 39 59 1 30.0 3261 0.0 18.857146 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_pp_rr2.wav" 60 60 60 39 59 2 30.0 3537 0.0 18.590412 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_p_rr1.wav" 60 60 60 60 75 0 30.0 3466 0.0 16.138359 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_mp_rr1.wav" 60 60 60 76 90 1 30.0 1998 0.0 11.953494 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_mp_rr2.wav" 60 60 60 76 90 2 30.0 1418 0.0 11.784519 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_f_rr2.wav" 60 60 60 91 103 1 30.0 0 0.0 7.187697 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_f_rr1.wav" 60 60 60 91 103 2 30.0 0 0.0 6.731897 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_ff_rr1.wav" 60 60 60 104 115 0 30.0 3471 0.0 3.738579 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_fff_rr2.wav" 60 60 60 116 127 1 30.0 3571 0.0 1.889414 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_fff_rr1.wav" 60 60 60 116 127 2 30.0 3421 0.0 2.603859 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_muted_ppp_rr2.wav" 61 61 61 1 42 1 30.0 1675 0.0 23.481424 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_muted_ppp_rr1.wav" 61 61 61 1 42 2 30.0 3335 0.0 25.600815 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_muted_pp_rr1.wav" 61 61 61 43 65 1 30.0 2534 0.0 19.779001 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_muted_pp_rr2.wav" 61 61 61 43 65 2 30.0 1146 0.0 19.962114 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_muted_pp_rr3.wav" 61 61 61 43 65 3 30.0 2259 0.0 17.898709 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_muted_mp_rr1.wav" 61 61 61 66 83 1 30.0 3262 0.0 13.198819 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_muted_mp_rr2.wav" 61 61 61 66 83 2 30.0 2930 0.0 14.413053 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_muted_mf_rr1.wav" 61 61 61 84 99 0 30.0 4016 0.0 11.326365 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_muted_ff_rr1.wav" 61 61 61 100 113 0 30.0 3504 0.0 3.298858 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_muted_fff_rr2.wav" 61 61 61 114 127 1 30.0 3087 0.0 0.578025 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_muted_fff_rr1.wav" 61 61 61 114 127 2 30.0 2950 0.0 2.750955 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_roll_long1.wav" 62 62 62 1 127 0 2.0 26852 0.0 10.0 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_roll_quieter.wav" 63 63 63 1 127 0 2.0 12987 0.0 10.0 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_roll_short_rr1.wav" 64 64 64 1 127 1 30.0 1797 0.0 7.338554 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_roll_short_rr2.wav" 64 64 64 1 127 2 30.0 5669 0.0 10.0 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_roll-quietest.wav" 65 65 65 1 127 0 2.0 1384 0.0 10.0 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_roll1.wav" 66 66 66 1 127 0 2.0 11152 0.0 10.0 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum_special_sidehit.wav" 67 67 67 1 127 0 30.0 3981 0.0 10.0 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum2_ppp_rr1.wav" 68 68 68 1 83 1 30.0 228 0.0 11.632748 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum2_ppp_rr2.wav" 68 68 68 1 83 2 30.0 205 0.0 11.471378 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum2_pp_rr2.wav" 68 68 68 84 127 1 30.0 2097 0.0 9.399886 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum2_pp_rr1.wav" 68 68 68 84 127 2 30.0 4689 0.0 8.022555 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum3_ppp_rr1.wav" 69 69 69 1 54 0 30.0 2001 0.0 20.135809 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum3_p_rr1.wav" 69 69 69 55 83 0 30.0 2861 0.0 13.384059 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum3_mp_rr1.wav" 69 69 69 84 106 0 30.0 3610 0.0 8.720541 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 3 - Legacy/bdrum3_fff_rr1.wav" 69 69 69 107 127 0 30.0 3410 0.0 4.644141 0.004

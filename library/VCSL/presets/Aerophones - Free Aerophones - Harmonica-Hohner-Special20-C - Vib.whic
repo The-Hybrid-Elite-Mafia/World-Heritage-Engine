@@ -1,0 +1,14 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Free Aerophones/Harmonica-Hohner-Special20-C - Vib.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+10
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-C/Sustains/Vib/Hohner-Special20_Vib_C3.wav" 60 60 62 1 127 0 0.1 0 1.0 6.683441 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-C/Sustains/Vib/Hohner-Special20_Vib_E3.wav" 64 63 65 1 127 0 0.1 0 0.0 5.012055 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-C/Sustains/Vib/Hohner-Special20_Vib_G3.wav" 67 66 69 1 127 0 0.1 0 0.0 4.50989 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-C/Sustains/Vib/Hohner-Special20_Vib_C4.wav" 72 70 74 1 127 0 0.1 0 0.0 4.168285 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-C/Sustains/Vib/Hohner-Special20_Vib_E4.wav" 76 75 77 1 127 0 0.1 6 0.0 6.322042 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-C/Sustains/Vib/Hohner-Special20_Vib_G4.wav" 79 78 81 1 127 0 0.1 0 2.0 8.300912 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-C/Sustains/Vib/Hohner-Special20_Vib_C5.wav" 84 82 86 1 127 0 0.1 61 0.0 6.608128 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-C/Sustains/Vib/Hohner-Special20_Vib_E5.wav" 88 87 89 1 127 0 0.1 0 2.0 3.734681 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-C/Sustains/Vib/Hohner-Special20_Vib_G5.wav" 91 90 93 1 127 0 0.1 0 -3.0 5.496405 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-C/Sustains/Vib/Hohner-Special20_Vib_C6.wav" 96 94 97 1 127 0 0.1 0 0.0 2.642989 0.004

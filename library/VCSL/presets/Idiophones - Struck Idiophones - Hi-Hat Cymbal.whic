@@ -1,0 +1,19 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Hi-Hat Cymbal.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+15
+"../source/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_Close_rr1_Mid.wav" 44 44 44 1 127 1 30.0 327 0.0 8.918635 0.004
+"../source/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_Close_rr2_Mid.wav" 44 44 44 1 127 2 30.0 985 0.0 11.235394 0.004
+"../source/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v1_rr1_Mid.wav" 42 42 42 1 54 1 30.0 144 0.0 36.400292 0.004
+"../source/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v1_rr2_Mid.wav" 42 42 42 1 54 2 30.0 124 0.0 35.805442 0.004
+"../source/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v2_rr1_Mid.wav" 42 42 42 55 83 1 30.0 150 0.0 28.626433 0.004
+"../source/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v2_rr2_Mid.wav" 42 42 42 55 83 2 30.0 169 0.0 28.024771 0.004
+"../source/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v3_rr1_Mid.wav" 42 42 42 84 106 1 30.0 166 0.0 10.05556 0.004
+"../source/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v3_rr2_Mid.wav" 42 42 42 84 106 2 30.0 165 0.0 15.57605 0.004
+"../source/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v4_rr1_Mid.wav" 42 42 42 107 127 1 30.0 185 0.0 5.0 0.004
+"../source/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitC_v4_rr2_Mid.wav" 42 42 42 107 127 2 30.0 179 0.0 9.0 0.004
+"../source/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitLoose_rr1_Mid.wav" 43 43 43 1 127 1 30.0 185 0.0 9.953157 0.004
+"../source/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitLoose_rr2_Mid.wav" 43 43 43 1 127 2 30.0 179 0.0 10.047097 0.004
+"../source/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitO_rr1_Mid.wav" 46 46 46 1 127 1 30.0 194 0.0 10.895746 0.004
+"../source/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitO_rr2_Mid.wav" 46 46 46 1 127 2 30.0 198 0.0 9.188054 0.004
+"../source/Idiophones/Struck Idiophones/Hi-Hat Cymbal/HiHat_HitOC_rr5_Mid.wav" 45 45 45 1 127 0 30.0 190 0.0 10.0 0.004

@@ -1,0 +1,51 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Chordophones/Zithers/Dan Tranh - Normal.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+47
+"../source/Chordophones/Zithers/Dan Tranh/Normal/B1_mf_1.wav" 47 47 48 1 65 0 0.3 57 0.0 12.783462 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/B1_f_1.wav" 47 47 48 66 99 0 0.3 36 0.0 8.726367 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/B1_ff_1.wav" 47 47 48 100 127 0 0.3 0 0.0 6.627402 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/C#2_mf_1.wav" 49 49 50 1 65 0 0.3 0 0.0 14.113073 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/C#2_f_1.wav" 49 49 50 66 99 0 0.3 0 0.0 3.632683 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/C#2_ff_1.wav" 49 49 50 100 127 0 0.3 0 0.0 6.134271 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/D#2_mf_1.wav" 51 51 52 1 65 0 0.3 0 0.0 14.582257 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/D#2_f_1.wav" 51 51 52 66 99 0 0.3 0 0.0 5.316299 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/D#2_ff_1.wav" 51 51 52 100 127 0 0.3 0 0.0 9.763545 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/F#2_mf_1.wav" 54 53 55 1 65 0 0.3 0 0.0 15.210251 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/F#2_f_1.wav" 54 53 55 66 99 0 0.3 0 0.0 5.620624 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/F#2_ff_1.wav" 54 53 55 100 127 0 0.3 0 0.0 1.926453 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/G#2_mf_1.wav" 56 56 57 1 65 0 0.3 0 0.0 17.780498 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/G#2_f_1.wav" 56 56 57 66 99 0 0.3 0 0.0 13.431067 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/G#2_ff_1.wav" 56 56 57 100 127 0 0.3 0 0.0 1.435711 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/B2_f_1.wav" 59 58 60 66 99 0 0.3 0 0.0 4.811172 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/B2_ff_1.wav" 59 58 60 100 127 0 0.3 0 0.0 -0.284319 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/C#3_mf_1.wav" 61 61 62 1 65 0 0.3 0 0.0 16.373772 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/C#3_f_1.wav" 61 61 62 66 99 0 0.3 20 0.0 7.866961 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/C#3_ff_1.wav" 61 61 62 100 127 0 0.3 0 0.0 2.482393 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/D#3_mf_1.wav" 63 63 64 1 65 0 0.3 0 0.0 16.910632 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/D#3_f_1.wav" 63 63 64 66 99 0 0.3 0 0.0 7.931979 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/D#3_ff_1.wav" 63 63 64 100 127 0 0.3 0 0.0 3.371601 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/F#3_mf_1.wav" 66 65 67 1 65 0 0.3 0 0.0 11.534837 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/F#3_f_1.wav" 66 65 67 66 99 0 0.3 125 0.0 7.970867 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/F#3_ff_1.wav" 66 65 67 100 127 0 0.3 0 0.0 2.706688 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/G#3_mf_1.wav" 68 68 69 1 65 0 0.3 0 0.0 15.113542 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/G#3_f_1.wav" 68 68 69 66 99 0 0.3 305 0.0 7.417834 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/G#3_ff_1.wav" 68 68 69 100 127 0 0.3 0 0.0 2.211536 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/B3_mf_1.wav" 71 70 72 1 65 0 0.3 0 0.0 16.929678 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/B3_f_1.wav" 71 70 72 66 99 0 0.3 11 0.0 11.869125 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/B3_ff_1.wav" 71 70 72 100 127 0 0.3 0 0.0 5.056018 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/C#4_mf_1.wav" 73 73 74 1 65 0 0.3 0 0.0 13.109338 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/C#4_f_1.wav" 73 73 74 66 99 0 0.3 0 0.0 4.20811 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/C#4_ff_1.wav" 73 73 74 100 127 0 0.3 0 0.0 0.951614 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/D#4_mf_1.wav" 75 75 76 1 65 0 0.3 0 0.0 15.373498 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/D#4_f_1.wav" 75 75 76 66 99 0 0.3 0 0.0 10.655267 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/D#4_ff_1.wav" 75 75 76 100 127 0 0.3 0 0.0 -2.879946 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/F#4_mf_1.wav" 78 77 79 1 65 0 0.3 0 0.0 17.162218 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/F#4_f_1.wav" 78 77 79 66 99 0 0.3 0 0.0 9.024345 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/F#4_ff_1.wav" 78 77 79 100 127 0 0.3 0 0.0 8.937271 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/G#4_mf_1.wav" 80 80 81 1 65 0 0.3 0 0.0 10.92911 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/G#4_f_1.wav" 80 80 81 66 99 0 0.3 0 0.0 4.987312 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/G#4_ff_1.wav" 80 80 81 100 127 0 0.3 0 0.0 9.797802 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/B4_mf_1.wav" 83 82 84 1 65 0 0.3 0 0.0 19.152715 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/B4_f_1.wav" 83 82 84 66 99 0 0.3 0 0.0 7.415859 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Normal/B4_ff_1.wav" 83 82 84 100 127 0 0.3 0 0.0 4.731953 0.004

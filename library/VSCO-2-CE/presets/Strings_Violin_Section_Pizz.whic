@@ -1,0 +1,48 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Violin; variant Strings/Violin Section/Pizz; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+44
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_G2_v1_rr1.wav" 55 55 56 1 63 0 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_G2_v1_rr2.wav" 55 55 56 1 63 1 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_G2_v2_rr1.wav" 55 55 56 64 127 0 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_G2_v2_rr2.wav" 55 55 56 64 127 1 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_A2_v1_rr1.wav" 57 57 58 1 63 0 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_A2_v1_rr2.wav" 57 57 58 1 63 1 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_A2_v2_rr1.wav" 57 57 58 64 127 0 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_A2_v2_rr2.wav" 57 57 58 64 127 1 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_B2_v1_rr1.wav" 59 59 60 1 63 0 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_B2_v1_rr2.wav" 59 59 60 1 63 1 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_B2_v2_rr1.wav" 59 59 60 64 127 0 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_B2_v2_rr2.wav" 59 59 60 64 127 1 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_D3_v1_rr1.wav" 62 61 64 1 63 0 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_D3_v1_rr2.wav" 62 61 64 1 63 1 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_D3_v2_rr1.wav" 62 61 64 64 127 0 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_D3_v2_rr2.wav" 62 61 64 64 127 1 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_F#3_v1_rr1.wav" 66 65 67 1 63 0 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_F#3_v1_rr2.wav" 66 65 67 1 63 1 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_F#3_v2_rr1.wav" 66 65 67 64 127 0 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_F#3_v2_rr2.wav" 66 65 67 64 127 1 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_A3_v1_rr1.wav" 69 68 70 1 63 0 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_A3_v1_rr2.wav" 69 68 70 1 63 1 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_A3_v2_rr1.wav" 69 68 70 64 127 0 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_A3_v2_rr2.wav" 69 68 70 64 127 1 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_C4_v1_rr1.wav" 72 71 74 1 63 0 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_C4_v1_rr2.wav" 72 71 74 1 63 1 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_C4_v2_rr1.wav" 72 71 74 64 127 0 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_C4_v2_rr2.wav" 72 71 74 64 127 1 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_E4_v1_rr1.wav" 76 75 77 1 63 0 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_E4_v1_rr2.wav" 76 75 77 1 63 1 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_E4_v2_rr1.wav" 76 75 77 64 127 0 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_E4_v2_rr2.wav" 76 75 77 64 127 1 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_G4_v1_rr1.wav" 79 78 81 1 63 0 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_G4_v1_rr2.wav" 79 78 81 1 63 1 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_G4_v2_rr1.wav" 79 78 81 64 127 0 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_G4_v2_rr2.wav" 79 78 81 64 127 1 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_B4_v1_rr1.wav" 83 82 84 1 63 0 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_B4_v1_rr2.wav" 83 82 84 1 63 1 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_B4_v2_rr1.wav" 83 82 84 64 127 0 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_B4_v2_rr2.wav" 83 82 84 64 127 1 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_D5_v1_rr1.wav" 86 85 86 1 63 0 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_D5_v1_rr2.wav" 86 85 86 1 63 1 4 0 0 17 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_D5_v2_rr1.wav" 86 85 86 64 127 0 4 0 0 6 0.001
+"../source/Strings/Violin Section/Pizz/VlnEns_Pizz_D5_v2_rr2.wav" 86 85 86 64 127 1 4 0 0 6 0.001

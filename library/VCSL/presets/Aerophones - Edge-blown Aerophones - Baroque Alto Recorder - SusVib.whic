@@ -1,0 +1,16 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Edge-blown Aerophones/Baroque Alto Recorder - SusVib.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+12
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/SusVib/AltRecorder_SusVib_F3_rr1_Main.wav" 65 65 66 1 127 0 0.3 1109 -4.0 19.202355 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/SusVib/AltRecorder_SusVib_G#3_rr1_Main.wav" 68 67 69 1 127 0 0.3 1213 0.0 20.467137 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/SusVib/AltRecorder_SusVib_A#3_rr1_Main.wav" 70 70 71 1 127 0 0.3 303 -2.0 16.342269 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/SusVib/AltRecorder_SusVib_C4_rr1_Main.wav" 72 72 73 1 127 0 0.3 278 -1.0 17.459752 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/SusVib/AltRecorder_SusVib_D4_rr1_Main.wav" 74 74 75 1 127 0 0.3 592 -2.0 15.680772 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/SusVib/AltRecorder_SusVib_E4_rr1_Main.wav" 76 76 77 1 127 0 0.3 526 -2.0 9.886365 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/SusVib/AltRecorder_SusVib_F#4_rr1_Main.wav" 78 78 79 1 127 0 0.3 358 -1.0 15.601894 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/SusVib/AltRecorder_SusVib_G#4_rr1_Main.wav" 80 80 81 1 127 0 0.3 507 0.0 21.85899 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/SusVib/AltRecorder_SusVib_A#4_rr1_Main.wav" 82 82 83 1 127 0 0.3 485 -1.0 13.899695 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/SusVib/AltRecorder_SusVib_C5_rr1_Main.wav" 84 84 85 1 127 0 0.3 348 0.0 13.480815 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/SusVib/AltRecorder_SusVib_D5_rr1_Main.wav" 86 86 87 1 127 0 0.3 512 0.0 15.156688 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/SusVib/AltRecorder_SusVib_E5_rr1_Main.wav" 88 88 91 1 127 0 0.3 460 0.0 14.513495 0.004

@@ -1,0 +1,30 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Chordophones/Zithers/Harpsichord, English - Normal.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+26
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_A#0_rr1.wav" 34 34 35 1 127 0 0.35 199 0.0 1.463223 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_C1_rr1.wav" 36 36 37 1 127 0 0.35 74 0.0 2.983084 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_D1_rr1.wav" 38 38 39 1 127 0 0.35 44 0.0 -0.380202 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_E1_rr1.wav" 40 40 41 1 127 0 0.35 247 0.0 -1.794991 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_F#1_rr1.wav" 42 42 43 1 127 0 0.35 166 0.0 0.237349 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_G#1_rr1.wav" 44 44 45 1 127 0 0.35 0 0.0 1.375547 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_A#1_rr1.wav" 46 46 48 1 127 0 0.35 118 0.0 -2.0 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_D2_rr1.wav" 50 49 51 1 127 0 0.35 32 0.0 -3.0 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_E2_rr1.wav" 52 52 53 1 127 0 0.35 272 0.0 -0.434658 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_F#2_rr1.wav" 54 54 55 1 127 0 0.35 0 0.0 -3.782582 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_G#2_rr1.wav" 56 56 57 1 127 0 0.35 119 0.0 9.310829 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_A#2_rr1.wav" 58 58 59 1 127 0 0.35 99 0.0 -0.330946 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_C3_rr1.wav" 60 60 61 1 127 0 0.35 171 0.0 -2.336396 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_D3_rr1.wav" 62 62 63 1 127 0 0.35 0 0.0 -1.330219 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_E3_rr1.wav" 64 64 65 1 127 0 0.35 3 0.0 0.643452 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_F#3_rr1.wav" 66 66 67 1 127 0 0.35 0 0.0 2.831589 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_G#3_rr1.wav" 68 68 69 1 127 0 0.35 0 0.0 2.334975 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_A#3_rr1.wav" 70 70 71 1 127 0 0.35 0 0.0 -1.0 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_C4_rr1.wav" 72 72 73 1 127 0 0.35 0 0.0 2.014088 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_D4_rr1.wav" 74 74 75 1 127 0 0.35 0 0.0 -1.028456 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_E4_rr1.wav" 76 76 77 1 127 0 0.35 0 0.0 -0.01335 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_F#4_rr1.wav" 78 78 79 1 127 0 0.35 0 0.0 -0.542239 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_G#4_rr1.wav" 80 80 81 1 127 0 0.35 0 0.0 1.370039 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_A#4_rr1.wav" 82 82 83 1 127 0 0.35 0 0.0 0.034822 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_C5_rr1.wav" 84 84 86 1 127 0 0.35 0 0.0 0.0 0.004
+"../source/Chordophones/Zithers/Harpsichord, English/Sustains/Normal/ZuckermannKitHarpsi_Normal_Sus_E5_rr1.wav" 88 87 89 1 127 0 0.35 0 0.0 6.511423 0.004

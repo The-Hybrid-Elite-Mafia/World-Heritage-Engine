@@ -1,0 +1,31 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Edge-blown Aerophones/Renaissance Organ - Full.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+27
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_C1_rr1.wav" 36 36 37 1 127 0 0.3 0 -1.0 6.507564 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_D1_rr1.wav" 38 38 39 1 127 0 0.3 0 9.0 6.46937 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_E1_rr1.wav" 40 40 41 1 127 0 0.3 0 0.0 5.269064 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_F#1_rr1.wav" 42 42 43 1 127 0 0.3 74 0.0 7.876962 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_G#1_rr1.wav" 44 44 45 1 127 0 0.3 0 0.0 6.253375 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_A#1_rr1.wav" 46 46 47 1 127 0 0.3 110 0.0 2.176338 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_C2_rr1.wav" 48 48 49 1 127 0 0.3 0 0.0 7.2086 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_D2_rr1.wav" 50 50 51 1 127 0 0.3 0 0.0 8.393714 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_E2_rr1.wav" 52 52 53 1 127 0 0.3 113 0.0 4.574863 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_F#2_rr1.wav" 54 54 55 1 127 0 0.3 31 0.0 5.144534 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_G#2_rr1.wav" 56 56 57 1 127 0 0.3 0 0.0 9.815986 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_A#2_rr1.wav" 58 58 59 1 127 0 0.3 7 0.0 8.574263 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_C3_rr1.wav" 60 60 61 1 127 0 0.3 0 0.0 2.153268 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_D3_rr1.wav" 62 62 63 1 127 0 0.3 0 0.0 5.201705 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_E3_rr1.wav" 64 64 65 1 127 0 0.3 0 0.0 7.601673 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_F#3_rr1.wav" 66 66 67 1 127 0 0.3 0 1.0 5.788157 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_G#3_rr1.wav" 68 68 69 1 127 0 0.3 0 0.0 7.749759 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_A#3_rr1.wav" 70 70 71 1 127 0 0.3 0 0.0 8.233512 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_C4_rr1.wav" 72 72 73 1 127 0 0.3 0 2.0 7.091627 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_D4_rr1.wav" 74 74 75 1 127 0 0.3 0 0.0 1.83903 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_E4_rr1.wav" 76 76 77 1 127 0 0.3 0 0.0 5.519128 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_F#4_rr1.wav" 78 78 79 1 127 0 0.3 0 0.0 8.466648 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_G#4_rr1.wav" 80 80 81 1 127 0 0.3 0 -2.0 6.196929 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_A#4_rr1.wav" 82 82 83 1 127 0 0.3 0 -5.0 5.259417 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_C5_rr1.wav" 84 84 85 1 127 0 0.3 0 0.0 6.167979 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_D5_rr1.wav" 86 86 87 1 127 0 0.3 0 0.0 10.184464 0.004
+"../source/Aerophones/Edge-blown Aerophones/Renaissance Organ/Full/RenOrgan_Full_Room_E5_rr1.wav" 88 88 89 1 127 0 0.3 0 4.0 4.317221 0.004

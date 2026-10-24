@@ -1,0 +1,13 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Anvil.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+9
+"../source/Idiophones/Struck Idiophones/Anvil/Anvil_Hit1_v1_rr1_Mid.wav" 60 60 60 1 65 0 15.0 261 0.0 38.328723 0.004
+"../source/Idiophones/Struck Idiophones/Anvil/Anvil_Hit1_v2_rr1_Mid.wav" 60 60 60 66 99 0 15.0 253 0.0 15.879058 0.004
+"../source/Idiophones/Struck Idiophones/Anvil/Anvil_Hit1_v3_rr1_Mid.wav" 60 60 60 100 127 0 15.0 258 0.0 4.720475 0.004
+"../source/Idiophones/Struck Idiophones/Anvil/Anvil_Hit2_v1_rr1_Mid.wav" 61 61 61 1 65 0 15.0 262 0.0 33.896046 0.004
+"../source/Idiophones/Struck Idiophones/Anvil/Anvil_Hit2_v2_rr1_Mid.wav" 61 61 61 66 99 0 15.0 259 0.0 18.08902 0.004
+"../source/Idiophones/Struck Idiophones/Anvil/Anvil_Hit2_v3_rr1_Mid.wav" 61 61 61 100 127 0 15.0 260 0.0 4.311018 0.004
+"../source/Idiophones/Struck Idiophones/Anvil/Anvil_Hit3_v1_rr1_Mid.wav" 62 62 62 1 65 0 15.0 263 0.0 27.353874 0.004
+"../source/Idiophones/Struck Idiophones/Anvil/Anvil_Hit3_v2_rr1_Mid.wav" 62 62 62 66 99 0 15.0 261 0.0 20.951849 0.004
+"../source/Idiophones/Struck Idiophones/Anvil/Anvil_Hit3_v3_rr1_Mid.wav" 62 62 62 100 127 0 15.0 260 0.0 4.137325 0.004

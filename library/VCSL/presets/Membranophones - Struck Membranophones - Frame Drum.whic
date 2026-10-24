@@ -1,0 +1,22 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Membranophones/Struck Membranophones/Frame Drum.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+18
+"../source/Membranophones/Struck Membranophones/Frame Drum/HDrumL_Hand_rr1_Sum.wav" 60 60 60 1 127 0 15.0 0 0.0 30.0 0.004
+"../source/Membranophones/Struck Membranophones/Frame Drum/HDrumL_Hit_v2_rr1_Sum.wav" 61 61 61 1 83 1 15.0 0 0.0 34.044099 0.004
+"../source/Membranophones/Struck Membranophones/Frame Drum/HDrumL_Hit_v2_rr2_Sum.wav" 61 61 61 1 83 2 15.0 0 0.0 29.462923 0.004
+"../source/Membranophones/Struck Membranophones/Frame Drum/HDrumL_Hit_v3_rr1_Sum.wav" 61 61 61 84 127 1 15.0 0 0.0 14.272388 0.004
+"../source/Membranophones/Struck Membranophones/Frame Drum/HDrumL_Hit_v3_rr2_Sum.wav" 61 61 61 84 127 2 15.0 0 0.0 16.298092 0.004
+"../source/Membranophones/Struck Membranophones/Frame Drum/HDrumL_HitMuted_v2_rr1_Sum.wav" 62 62 62 1 83 1 15.0 0 0.0 29.227229 0.004
+"../source/Membranophones/Struck Membranophones/Frame Drum/HDrumL_HitMuted_v2_rr2_Sum.wav" 62 62 62 1 83 2 15.0 0 0.0 28.632901 0.004
+"../source/Membranophones/Struck Membranophones/Frame Drum/HDrumL_HitMuted_v3_rr1_Sum.wav" 62 62 62 84 127 1 15.0 0 0.0 16.598735 0.004
+"../source/Membranophones/Struck Membranophones/Frame Drum/HDrumL_HitMuted_v3_rr2_Sum.wav" 62 62 62 84 127 2 15.0 0 0.0 14.870966 0.004
+"../source/Membranophones/Struck Membranophones/Frame Drum/HDrumS_Hand_v1_rr1_Sum.wav" 63 63 63 1 127 0 15.0 0 0.0 30.0 0.004
+"../source/Membranophones/Struck Membranophones/Frame Drum/HDrumS_Hit_v2_rr1_Sum.wav" 64 64 64 1 83 1 15.0 0 0.0 26.649276 0.004
+"../source/Membranophones/Struck Membranophones/Frame Drum/HDrumS_Hit_v2_rr2_Sum.wav" 64 64 64 1 83 2 15.0 0 0.0 27.960777 0.004
+"../source/Membranophones/Struck Membranophones/Frame Drum/HDrumS_Hit_v3_rr1_Sum.wav" 64 64 64 84 127 1 15.0 0 0.0 16.893624 0.004
+"../source/Membranophones/Struck Membranophones/Frame Drum/HDrumS_Hit_v3_rr2_Sum.wav" 64 64 64 84 127 2 15.0 0 0.0 15.365214 0.004
+"../source/Membranophones/Struck Membranophones/Frame Drum/HDrumS_HitMuted_v2_rr1_Sum.wav" 65 65 65 1 83 1 15.0 0 0.0 34.616063 0.004
+"../source/Membranophones/Struck Membranophones/Frame Drum/HDrumS_HitMuted_v2_rr2_Sum.wav" 65 65 65 1 83 2 15.0 0 0.0 28.429733 0.004
+"../source/Membranophones/Struck Membranophones/Frame Drum/HDrumS_HitMuted_v3_rr1_Sum.wav" 65 65 65 84 127 1 15.0 2 0.0 14.308959 0.004
+"../source/Membranophones/Struck Membranophones/Frame Drum/HDrumS_HitMuted_v3_rr2_Sum.wav" 65 65 65 84 127 2 15.0 0 0.0 16.422145 0.004

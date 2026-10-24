@@ -1,0 +1,17 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Snare drum; variant VSCO 1 Percussion/drums/snare/drum3_marching/snare3; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+13
+"../source/VSCO 1 Percussion/drums/snare/drum3_marching/snare3_ppp_1.wav" 60 60 60 1 21 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/snare/drum3_marching/snare3_ppp_2.wav" 60 60 60 1 21 1 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/snare/drum3_marching/snare3_ppp_3.wav" 60 60 60 1 21 2 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/snare/drum3_marching/snare3_pp_1.wav" 60 60 60 22 42 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/snare/drum3_marching/snare3_pp_2.wav" 60 60 60 22 42 1 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/snare/drum3_marching/snare3_p_1.wav" 60 60 60 43 63 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/snare/drum3_marching/snare3_p_2.wav" 60 60 60 43 63 1 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/snare/drum3_marching/snare3_p_3.wav" 60 60 60 43 63 2 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/snare/drum3_marching/snare3_p_4.wav" 60 60 60 43 63 3 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/snare/drum3_marching/snare3_mp_1.wav" 60 60 60 64 84 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/snare/drum3_marching/snare3_f_1.wav" 60 60 60 85 105 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/snare/drum3_marching/snare3_f_2.wav" 60 60 60 85 105 1 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/snare/drum3_marching/snare3_fff_1.wav" 60 60 60 106 127 0 0.05 0 0 0 0.003

@@ -1,0 +1,26 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Tenor drum; variant VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+22
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_pp_1.wav" 60 60 60 1 18 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_p_1.wav" 60 60 60 19 36 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_p_2.wav" 60 60 60 19 36 1 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_p_3.wav" 60 60 60 19 36 2 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_mp_1.wav" 60 60 60 37 54 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_mp_2.wav" 60 60 60 37 54 1 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_mf_1.wav" 60 60 60 55 72 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_mf_2.wav" 60 60 60 55 72 1 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_mf_3.wav" 60 60 60 55 72 2 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_f_1.wav" 60 60 60 73 90 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_f_2.wav" 60 60 60 73 90 1 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_f_3.wav" 60 60 60 73 90 2 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_ff_1.wav" 60 60 60 91 108 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_ff_2.wav" 60 60 60 91 108 1 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_ff_3.wav" 60 60 60 91 108 2 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_ff_4.wav" 60 60 60 91 108 3 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_ff_5.wav" 60 60 60 91 108 4 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_ff_6.wav" 60 60 60 91 108 5 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_fff_1.wav" 60 60 60 109 127 0 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_fff_2.wav" 60 60 60 109 127 1 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_fff_3.wav" 60 60 60 109 127 2 0.05 0 0 0 0.003
+"../source/VSCO 1 Percussion/drums/tenor/tenor_higher/tenorH_fff_4.wav" 60 60 60 109 127 3 0.05 0 0 0 0.003

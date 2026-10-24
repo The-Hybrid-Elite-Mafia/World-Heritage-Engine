@@ -1,0 +1,16 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Lip Aerophones/Didgeridoo.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+12
+"../source/Aerophones/Lip Aerophones/Didgeridoo/Didgeridoo1_Bark1_Main_rr3.wav" 60 60 60 1 127 0 1.0 0 0.0 5.0 0.004
+"../source/Aerophones/Lip Aerophones/Didgeridoo/Didgeridoo1_BarkDown2_Main.wav" 61 61 61 1 127 0 1.0 0 0.0 5.0 0.004
+"../source/Aerophones/Lip Aerophones/Didgeridoo/Didgeridoo1_Phrase1_Main.wav" 62 62 62 1 127 0 1.0 0 0.0 5.0 0.004
+"../source/Aerophones/Lip Aerophones/Didgeridoo/Didgeridoo1_Phrase3_Main.wav" 63 63 63 1 127 0 1.0 0 0.0 5.0 0.004
+"../source/Aerophones/Lip Aerophones/Didgeridoo/Didgeridoo1_Phrase5_Main.wav" 64 64 64 1 127 0 1.0 0 0.0 5.0 0.004
+"../source/Aerophones/Lip Aerophones/Didgeridoo/Didgeridoo1_Phrase6_Main.wav" 65 65 65 1 127 0 1.0 0 0.0 5.0 0.004
+"../source/Aerophones/Lip Aerophones/Didgeridoo/Didgeridoo1_Phrase8_Main.wav" 66 66 66 1 127 0 1.0 0 0.0 5.0 0.004
+"../source/Aerophones/Lip Aerophones/Didgeridoo/Didgeridoo1_Short1_Main_rr2.wav" 67 67 67 1 127 0 1.0 0 0.0 5.0 0.004
+"../source/Aerophones/Lip Aerophones/Didgeridoo/Didgeridoo1_Sus2_Main.wav" 68 68 68 1 127 0 1.0 0 0.0 5.0 0.004
+"../source/Aerophones/Lip Aerophones/Didgeridoo/Didgeridoo1_Sus3_Main.wav" 69 69 69 1 127 0 1.0 0 0.0 5.0 0.004
+"../source/Aerophones/Lip Aerophones/Didgeridoo/Didgeridoo1_Sus8_Main.wav" 70 70 70 1 127 0 1.0 0 0.0 5.0 0.004
+"../source/Aerophones/Lip Aerophones/Didgeridoo/Didgeridoo1_Tap1_Main_rr16.wav" 71 71 71 1 127 0 1.0 0 0.0 5.0 0.004

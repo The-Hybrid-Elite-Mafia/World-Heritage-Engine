@@ -1,0 +1,14 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Woodblock.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+10
+"../source/Idiophones/Struck Idiophones/Woodblock/wood_click_pp_rr1.wav" 60 60 60 1 54 1 30.0 145 0.0 19.123732 0.004
+"../source/Idiophones/Struck Idiophones/Woodblock/wood_click_pp_rr3.wav" 60 60 60 1 54 2 30.0 502 0.0 14.9865 0.004
+"../source/Idiophones/Struck Idiophones/Woodblock/wood_click_pp_rr2.wav" 60 60 60 1 54 3 30.0 1345 0.0 20.148577 0.004
+"../source/Idiophones/Struck Idiophones/Woodblock/wood_click_mp.wav" 60 60 60 55 83 0 30.0 899 0.0 14.659738 0.004
+"../source/Idiophones/Struck Idiophones/Woodblock/wood_click_f_rr1.wav" 60 60 60 84 106 1 30.0 51 0.0 7.087696 0.004
+"../source/Idiophones/Struck Idiophones/Woodblock/wood_click_f_rr2.wav" 60 60 60 84 106 2 30.0 512 0.0 7.973201 0.004
+"../source/Idiophones/Struck Idiophones/Woodblock/wood_click_ff.wav" 60 60 60 107 127 0 30.0 505 0.0 1.937063 0.004
+"../source/Idiophones/Struck Idiophones/Woodblock/wood_click2_mp.wav" 61 61 61 1 127 0 30.0 176 0.0 10.0 0.004
+"../source/Idiophones/Struck Idiophones/Woodblock/wood_click3_vl1.wav" 62 62 62 1 83 0 30.0 710 0.0 11.269818 0.004
+"../source/Idiophones/Struck Idiophones/Woodblock/wood_click3_vl2.wav" 62 62 62 84 127 0 30.0 435 0.0 8.892363 0.004

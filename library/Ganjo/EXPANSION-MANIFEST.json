@@ -1,0 +1,1634 @@
+{
+  "type": "Six-string guitar-banjo",
+  "license": "CC0-1.0",
+  "credit": "SX six-string guitar-banjo; recorded, edited and mapped by itsclipping. CC0 1.0. https://github.com/sfzinstruments/ganjo release v1.000. Not a five-string bluegrass banjo.",
+  "preset": "Ganjo/presets/Six-string guitar-banjo.whic",
+  "sample_count": 58,
+  "zone_count": 58,
+  "mapped_keys": [
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72
+  ],
+  "zones": [
+    {
+      "path": "source/ganjo/Common/Banjo_Common - D#3.wav",
+      "root": 39,
+      "low": 38,
+      "high": 39,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - D#3.wav",
+        "lokey": "38",
+        "hikey": "39",
+        "pitch_keycenter": "39"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - E3.wav",
+      "root": 40,
+      "low": 40,
+      "high": 40,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - E3.wav",
+        "lokey": "40",
+        "hikey": "40",
+        "pitch_keycenter": "40"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - F3.wav",
+      "root": 41,
+      "low": 41,
+      "high": 41,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - F3.wav",
+        "lokey": "41",
+        "hikey": "41",
+        "pitch_keycenter": "41"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - F#3.wav",
+      "root": 42,
+      "low": 42,
+      "high": 42,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - F#3.wav",
+        "lokey": "42",
+        "hikey": "42",
+        "seq_length": "2",
+        "pitch_keycenter": "42"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - F#3_2.wav",
+      "root": 42,
+      "low": 42,
+      "high": 42,
+      "vl": 1,
+      "vh": 127,
+      "rr": 1,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - F#3_2.wav",
+        "lokey": "42",
+        "hikey": "42",
+        "seq_length": "2",
+        "seq_position": "2",
+        "pitch_keycenter": "42"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G3.wav",
+      "root": 43,
+      "low": 43,
+      "high": 43,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - G3.wav",
+        "lokey": "43",
+        "hikey": "43",
+        "pitch_keycenter": "43"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#3.wav",
+      "root": 44,
+      "low": 44,
+      "high": 44,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - G#3.wav",
+        "lokey": "44",
+        "hikey": "44",
+        "seq_length": "2",
+        "pitch_keycenter": "44"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#3_2.wav",
+      "root": 44,
+      "low": 44,
+      "high": 44,
+      "vl": 1,
+      "vh": 127,
+      "rr": 1,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - G#3_2.wav",
+        "lokey": "44",
+        "hikey": "44",
+        "seq_length": "2",
+        "seq_position": "2",
+        "pitch_keycenter": "44"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A3.wav",
+      "root": 45,
+      "low": 45,
+      "high": 45,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - A3.wav",
+        "lokey": "45",
+        "hikey": "45",
+        "seq_length": "2",
+        "pitch_keycenter": "45"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A3_2.wav",
+      "root": 45,
+      "low": 45,
+      "high": 45,
+      "vl": 1,
+      "vh": 127,
+      "rr": 1,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - A3_2.wav",
+        "lokey": "45",
+        "hikey": "45",
+        "seq_length": "2",
+        "seq_position": "2",
+        "pitch_keycenter": "45"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#3.wav",
+      "root": 46,
+      "low": 46,
+      "high": 46,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - A#3.wav",
+        "lokey": "46",
+        "hikey": "46",
+        "pitch_keycenter": "46"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - B3.wav",
+      "root": 47,
+      "low": 47,
+      "high": 47,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - B3.wav",
+        "lokey": "47",
+        "hikey": "47",
+        "pitch_keycenter": "47"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - C#4.wav",
+      "root": 49,
+      "low": 48,
+      "high": 49,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - C#4.wav",
+        "lokey": "48",
+        "hikey": "49",
+        "seq_length": "2",
+        "pitch_keycenter": "49"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - C#4_2.wav",
+      "root": 49,
+      "low": 48,
+      "high": 49,
+      "vl": 1,
+      "vh": 127,
+      "rr": 1,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - C#4_2.wav",
+        "lokey": "48",
+        "hikey": "49",
+        "seq_length": "2",
+        "seq_position": "2",
+        "pitch_keycenter": "49"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - D4.wav",
+      "root": 50,
+      "low": 50,
+      "high": 50,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - D4.wav",
+        "lokey": "50",
+        "hikey": "50",
+        "pitch_keycenter": "50"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - D#4.wav",
+      "root": 51,
+      "low": 51,
+      "high": 51,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - D#4.wav",
+        "lokey": "51",
+        "hikey": "51",
+        "pitch_keycenter": "51"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - E4.wav",
+      "root": 52,
+      "low": 52,
+      "high": 52,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - E4.wav",
+        "lokey": "52",
+        "hikey": "52",
+        "pitch_keycenter": "52"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - F4.wav",
+      "root": 53,
+      "low": 53,
+      "high": 53,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - F4.wav",
+        "lokey": "53",
+        "hikey": "53",
+        "pitch_keycenter": "53"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - F#4_2.wav",
+      "root": 54,
+      "low": 54,
+      "high": 54,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - F#4_2.wav",
+        "lokey": "54",
+        "hikey": "54",
+        "seq_length": "5",
+        "pitch_keycenter": "54"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - F#4_3.wav",
+      "root": 54,
+      "low": 54,
+      "high": 54,
+      "vl": 1,
+      "vh": 127,
+      "rr": 1,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - F#4_3.wav",
+        "lokey": "54",
+        "hikey": "54",
+        "seq_length": "5",
+        "seq_position": "2",
+        "pitch_keycenter": "54"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - F#4_5.wav",
+      "root": 54,
+      "low": 54,
+      "high": 54,
+      "vl": 1,
+      "vh": 127,
+      "rr": 2,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - F#4_5.wav",
+        "lokey": "54",
+        "hikey": "54",
+        "seq_length": "5",
+        "seq_position": "3",
+        "pitch_keycenter": "54"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - F#4_6.wav",
+      "root": 54,
+      "low": 54,
+      "high": 54,
+      "vl": 1,
+      "vh": 127,
+      "rr": 3,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - F#4_6.wav",
+        "lokey": "54",
+        "hikey": "54",
+        "seq_length": "5",
+        "seq_position": "4",
+        "pitch_keycenter": "54"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - F#4_7.wav",
+      "root": 54,
+      "low": 54,
+      "high": 54,
+      "vl": 1,
+      "vh": 127,
+      "rr": 4,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - F#4_7.wav",
+        "lokey": "54",
+        "hikey": "54",
+        "seq_length": "5",
+        "seq_position": "5",
+        "pitch_keycenter": "54"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G4.wav",
+      "root": 55,
+      "low": 55,
+      "high": 55,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - G4.wav",
+        "lokey": "55",
+        "hikey": "55",
+        "seq_length": "2",
+        "pitch_keycenter": "55"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G4_2.wav",
+      "root": 55,
+      "low": 55,
+      "high": 55,
+      "vl": 1,
+      "vh": 127,
+      "rr": 1,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - G4_2.wav",
+        "lokey": "55",
+        "hikey": "55",
+        "seq_length": "2",
+        "seq_position": "2",
+        "pitch_keycenter": "55"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#4.wav",
+      "root": 56,
+      "low": 56,
+      "high": 56,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - G#4.wav",
+        "lokey": "56",
+        "hikey": "56",
+        "seq_length": "6",
+        "pitch_keycenter": "56"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#4_2.wav",
+      "root": 56,
+      "low": 56,
+      "high": 56,
+      "vl": 1,
+      "vh": 127,
+      "rr": 1,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - G#4_2.wav",
+        "lokey": "56",
+        "hikey": "56",
+        "seq_length": "6",
+        "seq_position": "2",
+        "pitch_keycenter": "56"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#4_3.wav",
+      "root": 56,
+      "low": 56,
+      "high": 56,
+      "vl": 1,
+      "vh": 127,
+      "rr": 2,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - G#4_3.wav",
+        "lokey": "56",
+        "hikey": "56",
+        "seq_length": "6",
+        "seq_position": "3",
+        "pitch_keycenter": "56"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#4_4.wav",
+      "root": 56,
+      "low": 56,
+      "high": 56,
+      "vl": 1,
+      "vh": 127,
+      "rr": 3,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - G#4_4.wav",
+        "lokey": "56",
+        "hikey": "56",
+        "seq_length": "6",
+        "seq_position": "4",
+        "pitch_keycenter": "56"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#4_5.wav",
+      "root": 56,
+      "low": 56,
+      "high": 56,
+      "vl": 1,
+      "vh": 127,
+      "rr": 4,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - G#4_5.wav",
+        "lokey": "56",
+        "hikey": "56",
+        "seq_length": "6",
+        "seq_position": "5",
+        "pitch_keycenter": "56"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#4_6.wav",
+      "root": 56,
+      "low": 56,
+      "high": 56,
+      "vl": 1,
+      "vh": 127,
+      "rr": 5,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - G#4_6.wav",
+        "lokey": "56",
+        "hikey": "56",
+        "seq_length": "6",
+        "seq_position": "6",
+        "pitch_keycenter": "56"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A4.wav",
+      "root": 57,
+      "low": 57,
+      "high": 57,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - A4.wav",
+        "lokey": "57",
+        "hikey": "57",
+        "seq_length": "3",
+        "pitch_keycenter": "57"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A4_2.wav",
+      "root": 57,
+      "low": 57,
+      "high": 57,
+      "vl": 1,
+      "vh": 127,
+      "rr": 1,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - A4_2.wav",
+        "lokey": "57",
+        "hikey": "57",
+        "seq_length": "3",
+        "seq_position": "2",
+        "pitch_keycenter": "57"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A4_3.wav",
+      "root": 57,
+      "low": 57,
+      "high": 57,
+      "vl": 1,
+      "vh": 127,
+      "rr": 2,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - A4_3.wav",
+        "lokey": "57",
+        "hikey": "57",
+        "seq_length": "3",
+        "seq_position": "3",
+        "pitch_keycenter": "57"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4.wav",
+      "root": 58,
+      "low": 58,
+      "high": 58,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - A#4.wav",
+        "lokey": "58",
+        "hikey": "58",
+        "seq_length": "11",
+        "pitch_keycenter": "58"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_2.wav",
+      "root": 58,
+      "low": 58,
+      "high": 58,
+      "vl": 1,
+      "vh": 127,
+      "rr": 1,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - A#4_2.wav",
+        "lokey": "58",
+        "hikey": "58",
+        "seq_length": "11",
+        "seq_position": "2",
+        "pitch_keycenter": "58"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_3.wav",
+      "root": 58,
+      "low": 58,
+      "high": 58,
+      "vl": 1,
+      "vh": 127,
+      "rr": 2,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - A#4_3.wav",
+        "lokey": "58",
+        "hikey": "58",
+        "seq_length": "11",
+        "seq_position": "3",
+        "pitch_keycenter": "58"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_4.wav",
+      "root": 58,
+      "low": 58,
+      "high": 58,
+      "vl": 1,
+      "vh": 127,
+      "rr": 3,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - A#4_4.wav",
+        "lokey": "58",
+        "hikey": "58",
+        "seq_length": "11",
+        "seq_position": "4",
+        "pitch_keycenter": "58"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_5.wav",
+      "root": 58,
+      "low": 58,
+      "high": 58,
+      "vl": 1,
+      "vh": 127,
+      "rr": 4,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - A#4_5.wav",
+        "lokey": "58",
+        "hikey": "58",
+        "seq_length": "11",
+        "seq_position": "5",
+        "pitch_keycenter": "58"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_6.wav",
+      "root": 58,
+      "low": 58,
+      "high": 58,
+      "vl": 1,
+      "vh": 127,
+      "rr": 5,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - A#4_6.wav",
+        "lokey": "58",
+        "hikey": "58",
+        "seq_length": "11",
+        "seq_position": "6",
+        "pitch_keycenter": "58"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_7.wav",
+      "root": 58,
+      "low": 58,
+      "high": 58,
+      "vl": 1,
+      "vh": 127,
+      "rr": 6,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - A#4_7.wav",
+        "lokey": "58",
+        "hikey": "58",
+        "seq_length": "11",
+        "seq_position": "7",
+        "pitch_keycenter": "58"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_8.wav",
+      "root": 58,
+      "low": 58,
+      "high": 58,
+      "vl": 1,
+      "vh": 127,
+      "rr": 7,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - A#4_8.wav",
+        "lokey": "58",
+        "hikey": "58",
+        "seq_length": "11",
+        "seq_position": "8",
+        "pitch_keycenter": "58"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_9.wav",
+      "root": 58,
+      "low": 58,
+      "high": 58,
+      "vl": 1,
+      "vh": 127,
+      "rr": 8,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - A#4_9.wav",
+        "lokey": "58",
+        "hikey": "58",
+        "seq_length": "11",
+        "seq_position": "9",
+        "pitch_keycenter": "58"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_10.wav",
+      "root": 58,
+      "low": 58,
+      "high": 58,
+      "vl": 1,
+      "vh": 127,
+      "rr": 9,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - A#4_10.wav",
+        "lokey": "58",
+        "hikey": "58",
+        "seq_length": "11",
+        "seq_position": "10",
+        "pitch_keycenter": "58"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_11.wav",
+      "root": 58,
+      "low": 58,
+      "high": 58,
+      "vl": 1,
+      "vh": 127,
+      "rr": 10,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - A#4_11.wav",
+        "lokey": "58",
+        "hikey": "58",
+        "seq_length": "11",
+        "seq_position": "11",
+        "pitch_keycenter": "58"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - B4.wav",
+      "root": 59,
+      "low": 59,
+      "high": 59,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - B4.wav",
+        "lokey": "59",
+        "hikey": "59",
+        "seq_length": "5",
+        "pitch_keycenter": "59"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - B4_2.wav",
+      "root": 59,
+      "low": 59,
+      "high": 59,
+      "vl": 1,
+      "vh": 127,
+      "rr": 1,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - B4_2.wav",
+        "lokey": "59",
+        "hikey": "59",
+        "seq_length": "5",
+        "seq_position": "2",
+        "pitch_keycenter": "59"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - B4_3.wav",
+      "root": 59,
+      "low": 59,
+      "high": 59,
+      "vl": 1,
+      "vh": 127,
+      "rr": 2,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - B4_3.wav",
+        "lokey": "59",
+        "hikey": "59",
+        "seq_length": "5",
+        "seq_position": "3",
+        "pitch_keycenter": "59"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - B4_4.wav",
+      "root": 59,
+      "low": 59,
+      "high": 59,
+      "vl": 1,
+      "vh": 127,
+      "rr": 3,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - B4_4.wav",
+        "lokey": "59",
+        "hikey": "59",
+        "seq_length": "5",
+        "seq_position": "4",
+        "pitch_keycenter": "59"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - B4_5.wav",
+      "root": 59,
+      "low": 59,
+      "high": 59,
+      "vl": 1,
+      "vh": 127,
+      "rr": 4,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - B4_5.wav",
+        "lokey": "59",
+        "hikey": "59",
+        "seq_length": "5",
+        "seq_position": "5",
+        "pitch_keycenter": "59"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - C5.wav",
+      "root": 60,
+      "low": 60,
+      "high": 60,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - C5.wav",
+        "lokey": "60",
+        "hikey": "60"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - C#5.wav",
+      "root": 61,
+      "low": 61,
+      "high": 62,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - C#5.wav",
+        "lokey": "61",
+        "hikey": "62",
+        "pitch_keycenter": "61"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - D#5_2.wav",
+      "root": 63,
+      "low": 63,
+      "high": 65,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - D#5_2.wav",
+        "lokey": "63",
+        "hikey": "65",
+        "pitch_keycenter": "63"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G5.wav",
+      "root": 67,
+      "low": 66,
+      "high": 67,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - G5.wav",
+        "lokey": "66",
+        "hikey": "67",
+        "pitch_keycenter": "67"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#5.wav",
+      "root": 68,
+      "low": 68,
+      "high": 69,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - G#5.wav",
+        "lokey": "68",
+        "hikey": "69",
+        "seq_length": "2",
+        "pitch_keycenter": "68"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#5_2.wav",
+      "root": 68,
+      "low": 68,
+      "high": 69,
+      "vl": 1,
+      "vh": 127,
+      "rr": 1,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - G#5_2.wav",
+        "lokey": "68",
+        "hikey": "69",
+        "seq_length": "2",
+        "seq_position": "2",
+        "pitch_keycenter": "68"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#5.wav",
+      "root": 70,
+      "low": 70,
+      "high": 70,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - A#5.wav",
+        "lokey": "70",
+        "hikey": "70",
+        "pitch_keycenter": "70"
+      }
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - B5.wav",
+      "root": 71,
+      "low": 71,
+      "high": 72,
+      "vl": 1,
+      "vh": 127,
+      "rr": 0,
+      "release": 0.25,
+      "offset": 0,
+      "tune": 0,
+      "gain": 0,
+      "attack": 0.003,
+      "source_opcodes": {
+        "ampeg_release": "0.25",
+        "sample": "Common\\Banjo_Common - B5.wav",
+        "lokey": "71",
+        "hikey": "72",
+        "pitch_keycenter": "71"
+      }
+    }
+  ],
+  "source_hashes": [
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#3.wav",
+      "bytes": 378460,
+      "sha256": "7060b2e293692c1128b7e788410f145610aeaba3bf079924b549fc59ebfe8c18"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4.wav",
+      "bytes": 329396,
+      "sha256": "58eb20472e647f731ce77167a1dfb7eb1f2a207fbb7b7e6413f7d06f5f66b641"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_10.wav",
+      "bytes": 549900,
+      "sha256": "d319b1a25708dce64e7ea24d93b12049c005c1a5f5057e796f4670cfd43421d2"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_11.wav",
+      "bytes": 183740,
+      "sha256": "9166a6c245f640f7617c551a0032f4dbc36178544ca0612aaa6b1a5b7d19cb1b"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_2.wav",
+      "bytes": 413548,
+      "sha256": "1f4bc139e21b8e2b2789dcc480d0916d9d7ffc6b9953f147a0627fcc5c8eb37a"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_3.wav",
+      "bytes": 174428,
+      "sha256": "8b6cd06728abdeb1764de1e352657c9cbdb1757a003b6b29d569f419c8103beb"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_4.wav",
+      "bytes": 247460,
+      "sha256": "c095d2f8d8225c036a88e3f58c99276772620cc7680f0d248562a64bb262cc7b"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_5.wav",
+      "bytes": 429924,
+      "sha256": "a8051d00a75d20d1f0b7a82e6cf1001e3b9d657ef6ad7bc638f778193ac3f61d"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_6.wav",
+      "bytes": 342780,
+      "sha256": "e1da530986b4890237e6cbfa25eac70aefa435460231ede4cc2f1108fa2993ad"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_7.wav",
+      "bytes": 556492,
+      "sha256": "b4327f1327a194e6a75e73939ab80ae62b113f2338e49579b475c3677588af47"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_8.wav",
+      "bytes": 563308,
+      "sha256": "e8fcf4036c2754dea1d868f06994e6f4acb05e5ed3d45a35ba045ebcbffdc45f"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#4_9.wav",
+      "bytes": 524324,
+      "sha256": "351d43ac17657004e5a7ef8728c858df0de7c489fd147c361e21db92f8456266"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A#5.wav",
+      "bytes": 534948,
+      "sha256": "2af149184e943a66b0913950946170db0ce7af0d8f9efafdbbfd820b2bd3ba93"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A3.wav",
+      "bytes": 441572,
+      "sha256": "4bf313ada6ac3dc5c447e2f8cc41f609c89147e360e24dba81b20b594c86ad25"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A3_2.wav",
+      "bytes": 452916,
+      "sha256": "5b11421f8d2ec69760277ac7e0e3743658c39fb41a78f712408b0b2d53baad14"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A4.wav",
+      "bytes": 233364,
+      "sha256": "fd31432fb20652fe9a21516ff0a552c2c32752e36a0e3d33b83b05a512f09de4"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A4_2.wav",
+      "bytes": 225100,
+      "sha256": "706210283d0a8f64701155ce15773313adb9bcea6d8bd54f5e3ee20f30af227e"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - A4_3.wav",
+      "bytes": 383116,
+      "sha256": "39cb758e96509c1ddeb1b71bd57f65c970b6579bbb638da5b59bae2509958c1c"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - B3.wav",
+      "bytes": 381100,
+      "sha256": "fddf1c9e1794a3582181976d83ec8ada29dae9ba08676e4e3553a83861df9c3e"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - B4.wav",
+      "bytes": 229996,
+      "sha256": "61888e9e14dbd4a678e118e094393bb419b8e9dbd8e766c95f72e8be7d149f2b"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - B4_2.wav",
+      "bytes": 236988,
+      "sha256": "0e4325607caae3c5ada593b752bc7e2540e0c73ceb7628ab754be9becf31d9a6"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - B4_3.wav",
+      "bytes": 244036,
+      "sha256": "b6adbc2e6baae238b321f65793d438bb12cf5a0eccfbfda3cb5c351b2b104ef7"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - B4_4.wav",
+      "bytes": 435012,
+      "sha256": "ff66e32355136a1444b3b364853c3ba1d4279d0f3f1ef0dc9bdee7b9e7402618"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - B4_5.wav",
+      "bytes": 425596,
+      "sha256": "5f590551c8c122c8a918838f63ecf5a235b41d8c4ddbea6b38bd3802e3ce2f0b"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - B5.wav",
+      "bytes": 317772,
+      "sha256": "45f1f6755c1d892786bde903c789b0051ffafc167dbf282cf1b87eb2a12e76ae"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - C#4.wav",
+      "bytes": 420500,
+      "sha256": "070cd8c909036d6dd48bdabeabb832ed8c640dfc10eab67f19a6d845e1613ec0"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - C#4_2.wav",
+      "bytes": 411412,
+      "sha256": "09273e62f5fd48cb0dc4fec783ebc5f85c4798bac578eabb4d1b595909f324a5"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - C#5.wav",
+      "bytes": 249636,
+      "sha256": "22a2168943ac0224b9a27f2574cb7825c1d2d6795a57e666f3eeaa6bafe8e321"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - C5.wav",
+      "bytes": 172580,
+      "sha256": "3d877d95e205f06eb8b81e7d1bef0158a61417e13e140ed9e7c0781018fbc795"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - D#3.wav",
+      "bytes": 514132,
+      "sha256": "c2448880433c4ef4cf3d0f4de6bfac5dda17e5b7eaeacb28e8c91322efccb186"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - D#4.wav",
+      "bytes": 442492,
+      "sha256": "e7bb5ce87d2a74b7e7d5cd5e213beb22e31c5a3db73e1d7f153a9ecff9f0e293"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - D#5_2.wav",
+      "bytes": 621460,
+      "sha256": "c3a5b0dc0d8c373afb5bd4c4c4690da8734cb4a998b71a43f94a1407c98bbdfe"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - D4.wav",
+      "bytes": 460324,
+      "sha256": "6a1dc3895786eb7a2ddd41664e28577bf6334f43de2ebd11f917b125dc89355e"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - E3.wav",
+      "bytes": 263556,
+      "sha256": "f2f72ceca428b717b60af936d0616eec98d3cf1d838ab32f94a03dbf3ef35cb5"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - E4.wav",
+      "bytes": 305716,
+      "sha256": "c5d755bd77593b58f1b0eb7c4eb6a73ffa3a1015ff6b1a35cd99ae4b99f60c94"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - F#3.wav",
+      "bytes": 708556,
+      "sha256": "47e7795f2100e50fd9a0e2a633070502ebb7659ad911fada600b9c44678cc2dd"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - F#3_2.wav",
+      "bytes": 689044,
+      "sha256": "aea7a0991a1a5646dfd42528ec8f70393e35543875a81b4795ec2cbf930bd1f7"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - F#4_2.wav",
+      "bytes": 577468,
+      "sha256": "25eec6703d4727a0781f16a857b1b6b50e9af4f51e893d3cb9691218399fcdd7"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - F#4_3.wav",
+      "bytes": 243108,
+      "sha256": "6e09f9eb9c72b88bd37025246703434a8ea4bd61b0d92b166c395c0f502d2224"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - F#4_5.wav",
+      "bytes": 484948,
+      "sha256": "274e404ca4ae26e127589360aaf049cf5e757c207e315c4679a84bf6073dbe30"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - F#4_6.wav",
+      "bytes": 545204,
+      "sha256": "feee2b707e8645c28fe603dbfb3b21eb1cb94efc430c2c521286b41712445689"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - F#4_7.wav",
+      "bytes": 534684,
+      "sha256": "8d0b0b23d08a3f9841e4c401de328f58cff9b98cd23707316eb273ddde3c6c6b"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - F3.wav",
+      "bytes": 338084,
+      "sha256": "df45b5a48f908271526d811b6618edf9a887b8a32a8893625337b11345fbb6f7"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - F4.wav",
+      "bytes": 411876,
+      "sha256": "6a6923e3fa830210b9ebe109c85b9671a387e49576c72725d2a985d0059a55f6"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#3.wav",
+      "bytes": 434332,
+      "sha256": "7ccc5f2c77a46eb12fa49424108a45f4e7302cb11d97b25d172e725e27141124"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#3_2.wav",
+      "bytes": 558492,
+      "sha256": "cfee54a48b1c6fc5ad9e7d6ad57c5aca19da3a327217c458e8c506cd06d6cd01"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#4.wav",
+      "bytes": 339284,
+      "sha256": "f9854ef58ca223f7b7e978af70c2ac2475d72e1ddf074f8f2cdddbbe6a1c7b3b"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#4_2.wav",
+      "bytes": 193900,
+      "sha256": "3a230540719e122465da845feae1e852a5df0a69843e193055056c7b1c48e2f3"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#4_3.wav",
+      "bytes": 211348,
+      "sha256": "c6ce887464bb9a48703a5a4dfd7d51c5717634b2d03800455eeb8740544fb9c7"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#4_4.wav",
+      "bytes": 443036,
+      "sha256": "41ee647fe5c4ffca63fa86261ad8d6854ebfe247cd1f61b6168d3f430b9c8b95"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#4_5.wav",
+      "bytes": 517196,
+      "sha256": "dc773f8fa56c771858cf99061bde6ea5bf076a6c19952488d93f834bba112619"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#4_6.wav",
+      "bytes": 507124,
+      "sha256": "07bbecc68bf166d0af2112bff8d5a716404727123591b1bc1a77f88be7104aa0"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#5.wav",
+      "bytes": 229268,
+      "sha256": "766d45c05afb1fcbac3ca899384eaa852ee0b8a58fe99dfd8dedcdabdca76f15"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G#5_2.wav",
+      "bytes": 569436,
+      "sha256": "02a0d87a20028682c59443b006b74827f5a837a68ecbcbb4bac8bd77fe1e8de8"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G3.wav",
+      "bytes": 320924,
+      "sha256": "9a2ea983af8e54e970dc8e4577656ff978f3f927f87648d1fcd727b5c6560d2d"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G4.wav",
+      "bytes": 341316,
+      "sha256": "548f5ad1d45cd4243cee1acc511ffe258db990eebe52f2bfc41fa1e8438a18cd"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G4_2.wav",
+      "bytes": 222020,
+      "sha256": "fe32bd591e214c8ed722566e6a1f5b71c5a89775b7c4c32f64d0ac9aaf5ccca3"
+    },
+    {
+      "path": "source/ganjo/Common/Banjo_Common - G5.wav",
+      "bytes": 206300,
+      "sha256": "0d10f756de3e96f692a485719b434c65626608bdd8de0a2432adec094eb8bbe2"
+    }
+  ],
+  "modifications": [
+    "Original sample bytes unchanged; original SFZ and notices retained.",
+    "WHIC v4 mapping generated 2026-10-24; numeric SFZ roots/ranges/velocity splits retained; seq_position converted to zero-based deterministic RR.",
+    "App attack uses 3 ms; native SFZ amplitude/velocity defaults may differ. No looping or invented pitches outside explicit source ranges."
+  ]
+}

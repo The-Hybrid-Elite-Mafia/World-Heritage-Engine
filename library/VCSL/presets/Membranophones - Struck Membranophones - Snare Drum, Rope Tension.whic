@@ -1,0 +1,36 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Membranophones/Struck Membranophones/Snare Drum, Rope Tension.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+32
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/RopeSnare_sidestick_Main_vl2_rr1.wav" 60 60 60 1 127 1 30.0 0 0.0 13.907062 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/RopeSnare_sidestick_Main_vl2_rr2.wav" 60 60 60 1 127 2 30.0 0 0.0 16.250529 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/RopeSnare_stick_Main_vl1_rr1.wav" 61 61 61 1 127 1 30.0 0 0.0 14.396458 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/RopeSnare_stick_Main_vl1_rr2.wav" 61 61 61 1 127 2 30.0 0 0.0 15.648631 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Hi/RopeSnare_hi_sn_Main_vl1_rr2.wav" 62 62 62 1 54 1 30.0 0 0.0 30.498324 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Hi/RopeSnare_hi_sn_Main_vl1_rr1.wav" 62 62 62 1 54 2 30.0 0 0.0 30.998015 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Hi/RopeSnare_hi_sn_Main_vl2_rr1.wav" 62 62 62 55 83 1 30.0 0 0.0 20.410655 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Hi/RopeSnare_hi_sn_Main_vl2_rr2.wav" 62 62 62 55 83 2 30.0 0 0.0 19.979349 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Hi/RopeSnare_hi_sn_Main_vl3_rr3.wav" 62 62 62 84 106 1 30.0 0 0.0 13.988846 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Hi/RopeSnare_hi_sn_Main_vl3_rr1.wav" 62 62 62 84 106 2 30.0 0 0.0 12.65999 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Hi/RopeSnare_hi_sn_Main_vl4_rr1.wav" 62 62 62 107 127 1 30.0 0 0.0 9.726213 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Hi/RopeSnare_hi_sn_Main_vl4_rr2.wav" 62 62 62 107 127 2 30.0 0 0.0 7.744172 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_ns_Main_vl1_rr3.wav" 63 63 63 1 65 1 30.0 0 0.0 25.307972 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_ns_Main_vl1_rr2.wav" 63 63 63 1 65 2 30.0 0 0.0 24.581553 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_ns_Main_vl2_rr1.wav" 63 63 63 66 99 1 30.0 0 0.0 15.32412 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_ns_Main_vl2_rr2.wav" 63 63 63 66 99 2 30.0 0 0.0 16.82076 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_ns_Main_vl3_rr2.wav" 63 63 63 100 127 1 30.0 0 0.0 10.207446 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_ns_Main_vl3_rr1.wav" 63 63 63 100 127 2 30.0 0 0.0 9.645401 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_sn_Main_vl1_rr2.wav" 64 64 64 1 65 1 30.0 0 0.0 26.757192 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_sn_Main_vl1_rr1.wav" 64 64 64 1 65 2 30.0 0 0.0 27.080819 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_sn_Main_vl2_rr1.wav" 64 64 64 66 99 1 30.0 0 0.0 20.23957 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_sn_Main_vl2_rr2.wav" 64 64 64 66 99 2 30.0 0 0.0 19.887382 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_sn_Main_vl3_rr3.wav" 64 64 64 100 127 1 30.0 0 0.0 8.583144 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_sn_Main_vl3_rr1.wav" 64 64 64 100 127 2 30.0 0 0.0 7.83083 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_tsn_Main_vl1_rr1.wav" 65 65 65 1 54 1 30.0 0 0.0 30.608351 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_tsn_Main_vl1_rr2.wav" 65 65 65 1 54 2 30.0 0 0.0 30.272346 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_tsn_Main_vl2_rr2.wav" 65 65 65 55 83 1 30.0 0 0.0 17.138129 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_tsn_Main_vl2_rr1.wav" 65 65 65 55 83 2 30.0 0 0.0 17.506109 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_tsn_Main_vl3_rr1.wav" 65 65 65 84 106 1 30.0 0 0.0 13.115312 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_tsn_Main_vl3_rr2.wav" 65 65 65 84 106 2 30.0 0 0.0 12.087756 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_tsn_Main_vl4_rr4.wav" 65 65 65 107 127 1 30.0 0 0.0 10.961503 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Rope Tension/Low/RopeSnare_low_tsn_Main_vl4_rr1.wav" 65 65 65 107 127 2 30.0 0 0.0 9.433595 0.004

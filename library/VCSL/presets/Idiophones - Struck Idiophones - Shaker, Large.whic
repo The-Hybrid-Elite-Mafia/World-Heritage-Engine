@@ -1,0 +1,10 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Shaker, Large.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+6
+"../source/Idiophones/Struck Idiophones/Shaker, Large/LShaker_Hit_rr1_Mid.wav" 60 60 60 1 127 1 30.0 0 0.0 9.123735 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Large/LShaker_Hit_rr2_Mid.wav" 60 60 60 1 127 2 30.0 0 0.0 10.974688 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Large/LShaker_Shake1D_rr2_Mid.wav" 61 61 61 1 127 1 30.0 1551 0.0 10.875816 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Large/LShaker_Shake1D_rr3_Mid.wav" 61 61 61 1 127 2 30.0 1073 0.0 9.204462 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Large/LShaker_Shake1U_rr1_Mid.wav" 62 62 62 1 127 1 30.0 786 0.0 10.942608 0.004
+"../source/Idiophones/Struck Idiophones/Shaker, Large/LShaker_Shake1U_rr4_Mid.wav" 62 62 62 1 127 2 30.0 780 0.0 9.149745 0.004

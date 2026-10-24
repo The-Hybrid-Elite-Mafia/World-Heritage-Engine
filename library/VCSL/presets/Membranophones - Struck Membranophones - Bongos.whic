@@ -1,0 +1,32 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Membranophones/Struck Membranophones/Bongos.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+28
+"../source/Membranophones/Struck Membranophones/Bongos/BongoH_Hit1_v1_rr1_Mid.wav" 60 60 60 1 65 1 15.0 176 0.0 28.295637 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoH_Hit1_v1_rr2_Mid.wav" 60 60 60 1 65 2 15.0 237 0.0 28.343337 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoH_Hit1_v2_rr1_Mid.wav" 60 60 60 66 99 1 15.0 255 0.0 17.762512 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoH_Hit1_v2_rr2_Mid.wav" 60 60 60 66 99 2 15.0 221 0.0 22.893477 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoH_Hit1_v3_rr1_Mid.wav" 60 60 60 100 127 1 15.0 217 0.0 6.251612 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoH_Hit1_v3_rr2_Mid.wav" 60 60 60 100 127 2 15.0 229 0.0 10.391412 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoH_HitMuted1_v1_rr1_Mid.wav" 61 61 61 1 65 1 15.0 212 0.0 22.559064 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoH_HitMuted1_v1_rr2_Mid.wav" 61 61 61 1 65 2 15.0 219 0.0 21.860126 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoH_HitMuted1_v2_rr1_Mid.wav" 61 61 61 66 99 1 15.0 228 0.0 14.379947 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoH_HitMuted1_v2_rr2_Mid.wav" 61 61 61 66 99 2 15.0 230 0.0 14.428135 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoH_HitMuted1_v3_rr1_Mid.wav" 61 61 61 100 127 1 15.0 239 0.0 10.966565 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoH_HitMuted1_v3_rr2_Mid.wav" 61 61 61 100 127 2 15.0 246 0.0 12.113683 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoH_Roll_v2_rr1_Mid.wav" 62 62 62 1 83 0 0.3 228 0.0 22.386031 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoH_Roll_v3_rr1_Mid.wav" 62 62 62 84 127 0 0.3 225 0.0 11.066895 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoL_Hit1_v1_rr1_Mid.wav" 63 63 63 1 65 1 15.0 101 0.0 26.852326 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoL_Hit1_v1_rr2_Mid.wav" 63 63 63 1 65 2 15.0 92 0.0 33.187404 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoL_Hit1_v2_rr1_Mid.wav" 63 63 63 66 99 1 15.0 228 0.0 20.928589 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoL_Hit1_v2_rr2_Mid.wav" 63 63 63 66 99 2 15.0 222 0.0 15.312665 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoL_Hit1_v3_rr1_Mid.wav" 63 63 63 100 127 1 15.0 294 0.0 9.962652 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoL_Hit1_v3_rr2_Mid.wav" 63 63 63 100 127 2 15.0 228 0.0 7.52195 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoL_HitMuted2_v1_rr1_Mid.wav" 64 64 64 1 65 1 15.0 146 0.0 33.269921 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoL_HitMuted2_v1_rr2_Mid.wav" 64 64 64 1 65 2 15.0 185 0.0 38.308005 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoL_HitMuted2_v2_rr1_Mid.wav" 64 64 64 66 99 1 15.0 220 0.0 15.741241 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoL_HitMuted2_v2_rr2_Mid.wav" 64 64 64 66 99 2 15.0 216 0.0 17.323109 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoL_HitMuted2_v3_rr1_Mid.wav" 64 64 64 100 127 1 15.0 220 0.0 9.821489 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoL_HitMuted2_v3_rr2_Mid.wav" 64 64 64 100 127 2 15.0 213 0.0 7.724366 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoL_Roll_v2_rr1_Mid.wav" 65 65 65 1 83 0 0.3 277 0.0 24.431426 0.004
+"../source/Membranophones/Struck Membranophones/Bongos/BongoL_Roll_v3_rr1_Mid.wav" 65 65 65 84 127 0 0.3 257 0.0 10.585396 0.004

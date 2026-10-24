@@ -1,0 +1,22 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Tubular Bells 1.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+18
+"../source/Idiophones/Struck Idiophones/Tubular Bells 1/chimes_C3_pp_rr2.wav" 60 60 61 1 83 0 30.0 0 0.0 11.162765 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 1/chimes_C3_f_rr1.wav" 60 60 61 84 127 0 30.0 0 0.0 0.742311 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 1/chimes_D3_pp_rr3.wav" 62 62 63 1 83 0 30.0 0 0.0 21.025757 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 1/chimes_D3_ff_rr1.wav" 62 62 63 84 127 0 30.0 0 0.0 -0.566385 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 1/chimes_E3_pp_rr1.wav" 64 64 65 1 83 0 30.0 0 0.0 23.63232 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 1/chimes_E3_ff_rr2.wav" 64 64 65 84 127 0 30.0 0 0.0 2.281207 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 1/chimes_F#3_p_rr1.wav" 66 66 67 1 83 0 30.0 0 0.0 14.124176 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 1/chimes_F#3_fff_rr1.wav" 66 66 67 84 127 0 30.0 0 0.0 -4.305226 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 1/chimes_G#3_p_rr2.wav" 68 68 69 1 83 0 30.0 0 0.0 13.654877 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 1/chimes_G#3_ff_rr1.wav" 68 68 69 84 127 0 30.0 0 0.0 -0.750025 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 1/chimes_A#3_pp_rr1.wav" 70 70 71 1 83 0 30.0 0 0.0 23.199458 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 1/chimes_A#3_ff_rr1.wav" 70 70 71 84 127 0 30.0 0 0.0 0.111465 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 1/chimes_C4_p_rr1.wav" 72 72 73 1 83 0 30.0 0 0.0 15.478304 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 1/chimes_C4_ff_rr2.wav" 72 72 73 84 127 0 30.0 0 0.0 -2.775858 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 1/chimes_D4_p_rr1.wav" 74 74 75 1 83 0 30.0 0 0.0 17.448292 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 1/chimes_D4_ff_rr2.wav" 74 74 75 84 127 0 30.0 0 0.0 -0.922908 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 1/chimes_E4_pp_rr3.wav" 76 76 77 1 83 0 30.0 0 0.0 25.822036 0.004
+"../source/Idiophones/Struck Idiophones/Tubular Bells 1/chimes_E4_ff_rr2.wav" 76 76 77 84 127 0 30.0 0 0.0 0.331229 0.004

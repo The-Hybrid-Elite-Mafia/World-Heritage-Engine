@@ -1,0 +1,19 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Xylophone - Hard Mallets.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+15
+"../source/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_G3_ff_01_far.wav" 55 55 57 1 127 0 15.0 0 0.0 7.024612 0.004
+"../source/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_C4_pp_01_far.wav" 60 58 63 1 83 0 15.0 0 0.0 7.802567 0.004
+"../source/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_C4_ff_01_far.wav" 60 58 63 84 127 0 15.0 0 0.0 3.587269 0.004
+"../source/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_G4_pp_01_far.wav" 67 64 69 1 83 0 15.0 0 0.0 14.082654 0.004
+"../source/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_G4_ff_01_far.wav" 67 64 69 84 127 0 15.0 0 0.0 2.837808 0.004
+"../source/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_C5_pp_01_far.wav" 72 70 75 1 83 0 15.0 0 0.0 5.417107 0.004
+"../source/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_C5_ff_01_far.wav" 72 70 75 84 127 0 15.0 0 0.0 -1.58031 0.004
+"../source/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_G5_pp_01_far.wav" 79 76 81 1 83 0 15.0 0 0.0 6.652552 0.004
+"../source/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_G5_ff_01_far.wav" 79 76 81 84 127 0 15.0 0 0.0 3.385382 0.004
+"../source/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_C6_pp_01_far.wav" 84 82 87 1 83 0 15.0 0 0.0 9.663269 0.004
+"../source/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_C6_ff_01_far.wav" 84 82 87 84 127 0 15.0 0 0.0 2.663283 0.004
+"../source/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_G6_pp_01_far.wav" 91 88 93 1 83 0 15.0 0 0.0 16.305668 0.004
+"../source/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_G6_ff_01_far.wav" 91 88 93 84 127 0 15.0 0 0.0 1.258899 0.004
+"../source/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_C7_pp_01_far.wav" 96 94 97 1 83 0 15.0 0 0.0 11.737296 0.004
+"../source/Idiophones/Struck Idiophones/Xylophone/Hard Mallets/Xylo_Hard_C7_ff_01_far.wav" 96 94 97 84 127 0 15.0 0 0.0 6.870141 0.004

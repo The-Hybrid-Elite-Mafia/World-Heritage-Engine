@@ -1,0 +1,26 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Membranophones/Struck Membranophones/Bass Drum 2.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+22
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_cresc_med.wav" 60 60 60 1 127 0 2.0 37876 0.0 9.0 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_cresc_short.wav" 61 61 61 1 127 0 2.0 45785 0.0 10.0 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_hit_pp1.wav" 62 62 62 1 47 1 30.0 2477 0.0 20.701792 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_hit_pp2.wav" 62 62 62 1 47 2 30.0 1825 0.0 20.922248 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_hit_mp1.wav" 62 62 62 48 72 1 30.0 1930 0.0 17.628073 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_hit_mp2.wav" 62 62 62 48 72 2 30.0 3653 0.0 17.880009 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_hit_mf1.wav" 62 62 62 73 93 1 30.0 2180 0.0 13.218842 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_hit_mf2.wav" 62 62 62 73 93 2 30.0 2060 0.0 14.496991 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_hit_f.wav" 62 62 62 94 110 0 30.0 1011 0.0 11.533501 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_hit_ff.wav" 62 62 62 111 127 0 30.0 0 0.0 10.183017 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_roll_pp.wav" 63 63 63 1 54 0 2.0 1563 0.0 30.144799 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_roll_mp.wav" 63 63 63 55 83 0 2.0 0 0.0 18.674417 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_roll_mf.wav" 63 63 63 84 106 0 2.0 0 0.0 12.196516 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_roll_ff.wav" 63 63 63 107 127 0 2.0 0 0.0 9.947226 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_roll_fast_pp.wav" 64 64 64 1 54 0 2.0 0 0.0 17.599351 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_roll_fast_mp.wav" 64 64 64 55 83 0 2.0 0 0.0 17.357367 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_roll_fast_mf.wav" 64 64 64 84 106 0 2.0 0 0.0 15.925822 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_roll_fast_f.wav" 64 64 64 107 127 0 2.0 0 0.0 10.931566 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_rub10.wav" 67 67 67 1 127 0 2.0 2659 0.0 19.0 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_rub12.wav" 68 68 68 1 127 0 2.0 1187 0.0 15.0 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_rub2.wav" 69 69 69 1 127 0 2.0 19 0.0 30.0 0.004
+"../source/Membranophones/Struck Membranophones/Bass Drum 2/bassdrum_rub7.wav" 70 70 70 1 127 0 2.0 28 0.0 25.0 0.004

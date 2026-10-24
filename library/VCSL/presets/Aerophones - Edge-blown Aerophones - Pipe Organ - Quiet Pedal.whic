@@ -1,0 +1,15 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Edge-blown Aerophones/Pipe Organ - Quiet Pedal.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+11
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet Pedal/NT5_PedalQuiet_C1_rr1.wav" 36 36 37 1 127 0 0.5 4130 -4.0 20.541636 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet Pedal/NT5_PedalQuiet_D#1_rr1.wav" 39 38 40 1 127 0 0.5 1055 -7.0 22.724474 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet Pedal/NT5_PedalQuiet_F#1_rr1.wav" 42 41 43 1 127 0 0.5 3513 3.0 16.660325 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet Pedal/NT5_PedalQuiet_A1_rr1.wav" 45 44 46 1 127 0 0.5 2252 1.0 22.504928 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet Pedal/NT5_PedalQuiet_C2_rr1.wav" 48 47 49 1 127 0 0.5 2494 1.0 18.409594 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet Pedal/NT5_PedalQuiet_D#2_rr1.wav" 51 50 52 1 127 0 0.5 2806 1.0 21.468793 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet Pedal/NT5_PedalQuiet_F#2_rr1.wav" 54 53 55 1 127 0 0.5 2303 0.0 21.340178 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet Pedal/NT5_PedalQuiet_A2_rr1.wav" 57 56 58 1 127 0 0.5 2340 1.0 21.720253 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet Pedal/NT5_PedalQuiet_C3_rr1.wav" 60 59 61 1 127 0 0.5 2318 1.0 17.193041 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet Pedal/NT5_PedalQuiet_D#3_rr1.wav" 63 62 64 1 127 0 0.5 2342 -2.0 18.320441 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Quiet Pedal/NT5_PedalQuiet_F#3_rr1.wav" 66 65 67 1 127 0 0.5 2217 0.0 25.002938 0.004

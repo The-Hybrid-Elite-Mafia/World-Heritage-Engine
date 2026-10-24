@@ -1,0 +1,22 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Oboe; variant Woodwinds/Oboe/Sus; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+18
+"../source/Woodwinds/Oboe/Sus/Oboe_Sus_A#2_v1_Main.wav" 58 58 60 1 63 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Oboe/Sus/Oboe_Sus_A#2_v3_Main.wav" 58 58 60 64 127 0 0.7 0 0 4 0.001
+"../source/Woodwinds/Oboe/Sus/Oboe_Sus_D3_v1_Main.wav" 62 61 63 1 63 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Oboe/Sus/Oboe_Sus_D3_v3_Main.wav" 62 61 63 64 127 0 0.7 0 0 4 0.001
+"../source/Woodwinds/Oboe/Sus/Oboe_Sus_F3_v1_Main.wav" 65 64 67 1 63 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Oboe/Sus/Oboe_Sus_F3_v3_Main.wav" 65 64 67 64 127 0 0.7 0 0 4 0.001
+"../source/Woodwinds/Oboe/Sus/Oboe_Sus_A#3_v1_Main.wav" 70 68 72 1 63 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Oboe/Sus/Oboe_Sus_A#3_v3_Main.wav" 70 68 72 64 127 0 0.7 0 0 4 0.001
+"../source/Woodwinds/Oboe/Sus/Oboe_Sus_D4_v1_Main.wav" 74 73 75 1 63 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Oboe/Sus/Oboe_Sus_D4_v3_Main.wav" 74 73 75 64 127 0 0.7 0 0 4 0.001
+"../source/Woodwinds/Oboe/Sus/Oboe_Sus_F4_v1_Main.wav" 77 76 79 1 63 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Oboe/Sus/Oboe_Sus_F4_v3_Main.wav" 77 76 79 64 127 0 0.7 0 0 4 0.001
+"../source/Woodwinds/Oboe/Sus/Oboe_Sus_A#4_v1_Main.wav" 82 80 84 1 63 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Oboe/Sus/Oboe_Sus_A#4_v3_Main.wav" 82 80 84 64 127 0 0.7 0 0 4 0.001
+"../source/Woodwinds/Oboe/Sus/Oboe_Sus_D5_v1_Main.wav" 86 85 87 1 63 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Oboe/Sus/Oboe_Sus_D5_v3_Main.wav" 86 85 87 64 127 0 0.7 0 0 4 0.001
+"../source/Woodwinds/Oboe/Sus/Oboe_Sus_F5_v1_Main.wav" 89 88 89 1 63 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Oboe/Sus/Oboe_Sus_F5_v3_Main.wav" 89 88 89 64 127 0 0.7 0 0 4 0.001

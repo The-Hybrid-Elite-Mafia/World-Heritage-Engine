@@ -1,0 +1,36 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Chordophones/Zithers/Harpsichord, Italian.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+32
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_F#0_1.wav" 30 29 31 1 127 0 0.4 0 0.0 -2.183331 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_G#0_1.wav" 32 32 33 1 127 0 0.4 0 0.0 -0.765383 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_A#0_1.wav" 34 34 34 1 127 0 0.4 0 0.0 2.364178 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_B0_1.wav" 35 35 36 1 127 0 0.4 0 0.0 -0.235304 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_C#1_1.wav" 37 37 38 1 127 0 0.4 0 0.0 0.080562 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_D#1_1.wav" 39 39 39 1 127 0 0.4 0 0.0 1.442325 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_E1_1.wav" 40 40 41 1 127 0 0.4 0 0.0 1.680567 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_F#1_1.wav" 42 42 43 1 127 0 0.4 0 0.0 -1.290875 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_G#1_1.wav" 44 44 45 1 127 0 0.4 0 0.0 0.485404 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_A#1_1.wav" 46 46 46 1 127 0 0.4 0 0.0 4.273035 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_B1_1.wav" 47 47 48 1 127 0 0.4 0 0.0 1.449992 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_C#2_1.wav" 49 49 50 1 127 0 0.4 0 0.0 1.297853 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_D#2_1.wav" 51 51 51 1 127 0 0.4 0 0.0 -2.465111 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_E2_1.wav" 52 52 53 1 127 0 0.4 0 0.0 0.776047 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_F#2_1.wav" 54 54 55 1 127 0 0.4 0 0.0 -0.638076 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_G#2_1.wav" 56 56 57 1 127 0 0.4 0 0.0 0.211363 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_A#2_1.wav" 58 58 58 1 127 0 0.4 0 0.0 0.710134 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_B2_1.wav" 59 59 60 1 127 0 0.4 0 0.0 -0.141863 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_C#3_1.wav" 61 61 62 1 127 0 0.4 0 0.0 0.0 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_D#3_1.wav" 63 63 63 1 127 0 0.4 0 0.0 6.414295 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_E3_1.wav" 64 64 65 1 127 0 0.4 0 0.0 1.220549 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_F#3_1.wav" 66 66 67 1 127 0 0.4 0 0.0 -1.0 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_G#3_1.wav" 68 68 69 1 127 0 0.4 0 0.0 -1.555624 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_A#3_1.wav" 70 70 70 1 127 0 0.4 0 0.0 0.625871 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_B3_1.wav" 71 71 72 1 127 0 0.4 0 0.0 1.47501 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_C#4_1.wav" 73 73 74 1 127 0 0.4 0 0.0 2.706051 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_D#4_1.wav" 75 75 75 1 127 0 0.4 0 0.0 -1.083115 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_E4_1.wav" 76 76 77 1 127 0 0.4 0 0.0 1.717492 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_F#4_1.wav" 78 78 79 1 127 0 0.4 0 0.0 -3.509136 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_G#4_1.wav" 80 80 81 1 127 0 0.4 0 0.0 -2.177641 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_A#4_1.wav" 82 82 82 1 127 0 0.4 0 0.0 6.354469 0.004
+"../source/Chordophones/Zithers/Harpsichord, Italian/Sustains/stop1/Harpsichord_stop1_B4_1.wav" 83 83 84 1 127 0 0.4 0 0.0 1.133087 0.004

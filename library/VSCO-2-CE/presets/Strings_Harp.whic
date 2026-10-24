@@ -1,0 +1,27 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Harp; variant Strings/Harp; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+23
+"../source/Strings/Harp/KSHarp_E1_f.wav" 28 28 29 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_G1_mp.wav" 31 30 33 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_B1_mf.wav" 35 34 36 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_D2_mf.wav" 38 37 39 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_F2_mf.wav" 41 40 43 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_A2_mf.wav" 45 44 46 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_C3_mf.wav" 48 47 50 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_E3_mf.wav" 52 51 53 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_G3_mf.wav" 55 54 57 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_B3_mf.wav" 59 58 60 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_D4_mf.wav" 62 61 63 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_F4_mf.wav" 65 64 67 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_A4_mf.wav" 69 68 70 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_C5_mf.wav" 72 71 74 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_E5_mf.wav" 76 75 77 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_G5_mf.wav" 79 78 81 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_B5_mf.wav" 83 82 84 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_D6_mf.wav" 86 85 87 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_F6_mf.wav" 89 88 91 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_A6_mf.wav" 93 92 94 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_B6_mf.wav" 95 95 96 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_D7_f.wav" 98 97 99 1 127 0 12 0 0 10 0.001
+"../source/Strings/Harp/KSHarp_F7_f.wav" 101 100 101 1 127 0 12 0 0 10 0.001

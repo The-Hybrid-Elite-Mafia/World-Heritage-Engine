@@ -1,0 +1,17 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Free Aerophones/Harmonica-Hohner-Super64 - Accented.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+13
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Accented/Hohner-Super64_Accented_C2.wav" 48 48 50 1 127 0 0.1 46 0.0 5.631504 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Accented/Hohner-Super64_Accented_E2.wav" 52 51 53 1 127 0 0.1 0 0.0 5.539772 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Accented/Hohner-Super64_Accented_G2.wav" 55 54 57 1 127 0 0.1 0 0.0 4.251149 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Accented/Hohner-Super64_Accented_C3.wav" 60 58 62 1 127 0 0.1 0 0.0 6.593665 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Accented/Hohner-Super64_Accented_E3.wav" 64 63 65 1 127 0 0.1 0 0.0 6.490837 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Accented/Hohner-Super64_Accented_G3.wav" 67 66 69 1 127 0 0.1 0 0.0 3.820164 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Accented/Hohner-Super64_Accented_C4.wav" 72 70 74 1 127 0 0.1 0 0.0 3.474043 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Accented/Hohner-Super64_Accented_E4.wav" 76 75 77 1 127 0 0.1 0 0.0 3.213282 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Accented/Hohner-Super64_Accented_G4.wav" 79 78 81 1 127 0 0.1 0 0.0 8.207255 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Accented/Hohner-Super64_Accented_C5.wav" 84 82 86 1 127 0 0.1 0 0.0 6.466968 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Accented/Hohner-Super64_Accented_E5.wav" 88 87 89 1 127 0 0.1 0 0.0 4.605333 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Accented/Hohner-Super64_Accented_G5.wav" 91 90 93 1 127 0 0.1 0 0.0 5.655453 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Accented/Hohner-Super64_Accented_C6.wav" 96 94 97 1 127 0 0.1 0 -1.0 3.101017 0.1

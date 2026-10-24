@@ -1,0 +1,28 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Membranophones/Struck Membranophones/Snare Drum, Modern 2.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+24
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_HitNS_v2_rr1_Mid.wav" 60 60 60 1 65 1 15.0 199 0.0 22.85761 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_HitNS_v2_rr2_Mid.wav" 60 60 60 1 65 2 15.0 206 0.0 21.859782 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_HitNS_v4_rr1_Mid.wav" 60 60 60 66 99 1 15.0 211 0.0 14.657715 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_HitNS_v4_rr2_Mid.wav" 60 60 60 66 99 2 15.0 208 0.0 12.858739 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_HitNS_v5_rr1_Mid.wav" 60 60 60 100 127 1 15.0 212 0.0 12.259584 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_HitNS_v5_rr2_Mid.wav" 60 60 60 100 127 2 15.0 212 0.0 11.768738 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_HitSN_v2_rr1_Mid.wav" 61 61 61 1 54 1 15.0 199 0.0 23.589461 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_HitSN_v2_rr2_Mid.wav" 61 61 61 1 54 2 15.0 203 0.0 25.528138 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_HitSN_v3_rr1_Mid.wav" 61 61 61 55 83 1 15.0 204 0.0 19.429641 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_HitSN_v3_rr2_Mid.wav" 61 61 61 55 83 2 15.0 207 0.0 19.737717 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_HitSN_v4_rr1_Mid.wav" 61 61 61 84 106 1 15.0 207 0.0 13.834479 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_HitSN_v4_rr2_Mid.wav" 61 61 61 84 106 2 15.0 206 0.0 12.816525 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_HitSN_v5_rr1_Mid.wav" 61 61 61 107 127 1 15.0 211 0.0 9.653849 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_HitSN_v5_rr2_Mid.wav" 61 61 61 107 127 2 15.0 212 0.0 9.561457 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_Xstick_v2_rr1_Mid.wav" 62 62 62 1 127 1 15.0 176 0.0 14.450128 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_Xstick_v2_rr2_Mid.wav" 62 62 62 1 127 2 15.0 190 0.0 15.58705 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_rollNS_v3_rr1_Mid.wav" 63 63 63 1 83 0 0.3 222 0.0 19.20208 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_rollNS_v4_rr1_Mid.wav" 63 63 63 84 127 0 0.3 204 0.0 12.180086 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_rollSN_v3_rr1_Mid.wav" 64 64 64 1 83 0 0.3 209 0.0 19.037785 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_rollSN_v4_rr1_Mid.wav" 64 64 64 84 127 0 0.3 180 0.0 12.254301 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_stick_v3_rr1_Mid.wav" 65 65 65 1 127 1 15.0 186 0.0 14.009209 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_stick_v3_rr2_Mid.wav" 65 65 65 1 127 2 15.0 186 0.0 16.118537 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_taps_v4_rr1_Mid.wav" 66 66 66 1 127 1 15.0 164 0.0 15.097087 0.004
+"../source/Membranophones/Struck Membranophones/Snare Drum, Modern 2/Snare3M_taps_v4_rr2_Mid.wav" 66 66 66 1 127 2 15.0 163 0.0 14.903986 0.004

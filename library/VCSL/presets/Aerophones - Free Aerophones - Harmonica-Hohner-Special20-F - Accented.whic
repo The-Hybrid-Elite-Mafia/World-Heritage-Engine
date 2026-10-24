@@ -1,0 +1,14 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F - Accented.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+10
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Accented/Hohner-Special20-F_Accented_F3.wav" 65 65 67 1 127 0 0.1 0 0.0 4.58336 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Accented/Hohner-Special20-F_Accented_A3.wav" 69 68 70 1 127 0 0.1 0 0.0 5.015732 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Accented/Hohner-Special20-F_Accented_C4.wav" 72 71 74 1 127 0 0.1 0 0.0 6.354124 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Accented/Hohner-Special20-F_Accented_F4.wav" 77 75 79 1 127 0 0.1 0 0.0 4.159331 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Accented/Hohner-Special20-F_Accented_A4.wav" 81 80 82 1 127 0 0.1 0 0.0 6.67494 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Accented/Hohner-Special20-F_Accented_C5.wav" 84 83 86 1 127 0 0.1 0 -1.0 8.024193 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Accented/Hohner-Special20-F_Accented_F5.wav" 89 87 91 1 127 0 0.1 0 0.0 2.803541 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Accented/Hohner-Special20-F_Accented_A5.wav" 93 92 94 1 127 0 0.1 0 0.0 12.704512 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Accented/Hohner-Special20-F_Accented_C6.wav" 96 95 98 1 127 0 0.1 0 -2.0 3.763967 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Accented/Hohner-Special20-F_Accented_F6.wav" 101 99 102 1 127 0 0.1 0 0.0 0.808872 0.1

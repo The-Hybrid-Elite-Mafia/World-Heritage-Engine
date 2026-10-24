@@ -1,0 +1,9 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Agogo Bells.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+5
+"../source/Idiophones/Struck Idiophones/Agogo Bells/Agogo_High_v1_rr1_Mid.wav" 60 60 60 1 65 0 15.0 186 0.0 26.922982 0.004
+"../source/Idiophones/Struck Idiophones/Agogo Bells/Agogo_High_v2_rr1_Mid.wav" 60 60 60 66 99 0 15.0 187 0.0 15.4345 0.004
+"../source/Idiophones/Struck Idiophones/Agogo Bells/Agogo_High_v3_rr1_Mid.wav" 60 60 60 100 127 0 15.0 189 0.0 9.916934 0.004
+"../source/Idiophones/Struck Idiophones/Agogo Bells/Agogo_Low_v1_rr1_Mid.wav" 61 61 61 1 83 0 15.0 200 0.0 21.735236 0.004
+"../source/Idiophones/Struck Idiophones/Agogo Bells/Agogo_Low_v2_rr1_Mid.wav" 61 61 61 84 127 0 15.0 200 0.0 11.252457 0.004

@@ -1,0 +1,50 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Reed Aerophones/Tenor Saxophone - Non-Vibrato.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+46
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_G#1_vl2_rr1.wav" 44 44 45 1 83 0 0.5 209 0.0 15.269631 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_G#1_vl3_rr1.wav" 44 44 45 84 127 0 0.5 0 0.0 11.778965 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_A#1_vl2_rr1.wav" 46 46 47 1 83 0 0.5 0 0.0 18.889603 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_A#1_vl3_rr1.wav" 46 46 47 84 127 0 0.5 0 0.0 14.377502 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_C2_vl2_rr1.wav" 48 48 49 1 83 0 0.5 0 0.0 20.279898 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_C2_vl3_rr1.wav" 48 48 49 84 127 0 0.5 0 0.0 15.859574 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_D2_vl2_rr1.wav" 50 50 51 1 83 0 0.5 8 0.0 20.156827 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_D2_vl3_rr1.wav" 50 50 51 84 127 0 0.5 0 0.0 14.317251 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_E2_vl2_rr1.wav" 52 52 53 1 83 0 0.5 3973 0.0 16.93419 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_E2_vl3_rr1.wav" 52 52 53 84 127 0 0.5 0 0.0 13.516671 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_F#2_vl2_rr1.wav" 54 54 55 1 83 0 0.5 0 0.0 16.728741 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_F#2_vl3_rr1.wav" 54 54 55 84 127 0 0.5 0 0.0 12.917373 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_G#2_vl2_rr1.wav" 56 56 57 1 83 0 0.5 75 0.0 17.850437 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_G#2_vl3_rr1.wav" 56 56 57 84 127 0 0.5 0 0.0 12.560748 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_A#2_vl2_rr1.wav" 58 58 59 1 83 0 0.5 0 0.0 22.285937 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_A#2_vl3_rr1.wav" 58 58 59 84 127 0 0.5 0 0.0 11.056091 0.05
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_C3_vl2_rr1.wav" 60 60 61 1 83 0 0.5 0 0.0 26.522308 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_C3_vl3_rr1.wav" 60 60 61 84 127 0 0.5 0 0.0 13.353727 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_D3_vl2_rr1.wav" 62 62 63 1 83 0 0.5 0 0.0 20.592076 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_D3_vl3_rr1.wav" 62 62 63 84 127 0 0.5 0 0.0 11.485603 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_E3_vl2_rr1.wav" 64 64 65 1 83 0 0.5 0 0.0 20.465358 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_E3_vl3_rr1.wav" 64 64 65 84 127 0 0.5 0 0.0 10.349553 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_F#3_vl2_rr1.wav" 66 66 67 1 83 0 0.5 0 0.0 19.020688 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_F#3_vl3_rr1.wav" 66 66 67 84 127 0 0.5 0 0.0 14.90505 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_G#3_vl2_rr1.wav" 68 68 69 1 83 0 0.5 0 0.0 17.640456 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_G#3_vl3_rr1.wav" 68 68 69 84 127 0 0.5 0 0.0 14.40004 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_A#3_vl2_rr1.wav" 70 70 71 1 83 0 0.5 531 0.0 18.394528 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_A#3_vl3_rr1.wav" 70 70 71 84 127 0 0.5 0 0.0 14.924914 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_C4_vl2_rr1.wav" 72 72 73 1 83 0 0.5 185 0.0 20.642238 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_C4_vl3_rr1.wav" 72 72 73 84 127 0 0.5 0 0.0 16.900022 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_D4_vl2_rr1.wav" 74 74 75 1 83 0 0.5 0 0.0 21.787309 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_D4_vl3_rr1.wav" 74 74 75 84 127 0 0.5 0 0.0 14.588001 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_E4_vl2_rr1.wav" 76 76 77 1 83 0 0.5 0 0.0 14.930283 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_E4_vl3_rr1.wav" 76 76 77 84 127 0 0.5 0 0.0 14.441164 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_F#4_vl2_rr1.wav" 78 78 79 1 83 0 0.5 0 0.0 18.577912 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_F#4_vl3_rr1.wav" 78 78 79 84 127 0 0.5 0 0.0 16.177482 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_G#4_vl2_rr1.wav" 80 80 81 1 83 0 0.5 132 0.0 13.435248 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_G#4_vl3_rr1.wav" 80 80 81 84 127 0 0.5 0 0.0 15.438978 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_A#4_vl2_rr1.wav" 82 82 83 1 83 0 0.5 203 0.0 18.390762 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_A#4_vl3_rr1.wav" 82 82 83 84 127 0 0.5 0 0.0 14.721455 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_C5_vl2_rr1.wav" 84 84 85 1 83 0 0.5 55 0.0 17.140016 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_C5_vl3_rr1.wav" 84 84 85 84 127 0 0.5 0 0.0 15.008689 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_D5_vl2_rr1.wav" 86 86 87 1 83 0 0.5 194 0.0 14.486302 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_D5_vl3_rr1.wav" 86 86 87 84 127 0 0.5 0 0.0 14.45671 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_E5_vl2_rr1.wav" 88 88 89 1 83 0 0.5 0 0.0 18.457505 0.004
+"../source/Aerophones/Reed Aerophones/Tenor Saxophone/Non-Vibrato/BrettTenor_NV_Main_E5_vl3_rr1.wav" 88 88 89 84 127 0 0.5 0 0.0 11.546265 0.004

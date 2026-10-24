@@ -1,0 +1,52 @@
+WHIC_PRESET 4
+"Nylon-string acoustic guitar; real acoustic recordings; CC0-1.0; https://freepats.zenvoid.org/Guitar/acoustic-guitar.html; see original README and source SFZ. Finite recorded sustain (no looping)."
+0 0 1 0
+48
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/G1.wav" 31 29 31 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/G#1.wav" 32 32 32 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/A1.wav" 33 33 33 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/A#1.wav" 34 34 34 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/B1.wav" 35 35 35 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/C2.wav" 36 36 36 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/C#2.wav" 37 37 37 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/D2.wav" 38 38 38 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/D#2.wav" 39 39 39 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/E2.wav" 40 40 40 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/F2.wav" 41 41 41 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/G2.wav" 43 42 43 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/A2.wav" 45 44 45 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/B2.wav" 47 46 47 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/C3.wav" 48 48 48 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/D3.wav" 50 49 50 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/E3.wav" 52 51 52 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/F3.wav" 53 53 53 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/F#3.wav" 54 54 54 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/G3.wav" 55 55 55 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/G#3.wav" 56 56 56 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/A3.wav" 57 57 57 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/A#3.wav" 58 58 58 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/B3.wav" 59 59 59 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/C4.wav" 60 60 60 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/C#4.wav" 61 61 61 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/D4.wav" 62 62 62 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/D#4.wav" 63 63 63 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/E4.wav" 64 64 64 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/F4.wav" 65 65 65 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/F#4.wav" 66 66 66 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/G4.wav" 67 67 67 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/A4.wav" 69 68 69 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/A#4.wav" 70 70 70 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/B4.wav" 71 71 71 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/C5.wav" 72 72 72 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/C#5.wav" 73 73 73 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/D5.wav" 74 74 74 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/D#5.wav" 75 75 75 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/E5.wav" 76 76 76 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/F5.wav" 77 77 77 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/F#5.wav" 78 78 78 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/G5.wav" 79 79 79 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/G#5.wav" 80 80 80 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/A5.wav" 81 81 81 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/A#5.wav" 82 82 82 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/B5.wav" 83 83 83 1 127 0 1.5 0 0.0 0.0 0.003
+"../source/SpanishClassicalGuitar-SFZ-20190618/samples/C6.wav" 84 84 88 1 127 0 1.5 0 0.0 0.0 0.003

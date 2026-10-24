@@ -1,0 +1,21 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Brake Drum.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+17
+"../source/Idiophones/Struck Idiophones/Brake Drum/BrakeDrum1_Bowed_rr2_Mid.wav" 60 60 60 1 127 0 1.0 14267 0.0 15.0 0.004
+"../source/Idiophones/Struck Idiophones/Brake Drum/BrakeDrum1_Hammer_v1_rr1_Mid.wav" 61 61 61 1 65 0 10.0 264 0.0 16.845433 0.004
+"../source/Idiophones/Struck Idiophones/Brake Drum/BrakeDrum1_Hammer_v2_rr1_Mid.wav" 61 61 61 66 99 0 10.0 265 0.0 9.21482 0.004
+"../source/Idiophones/Struck Idiophones/Brake Drum/BrakeDrum1_Hammer_v3_rr1_Mid.wav" 61 61 61 100 127 0 10.0 262 0.0 6.768522 0.004
+"../source/Idiophones/Struck Idiophones/Brake Drum/BrakeDrum1_Susp_v1_rr1_Mid.wav" 62 62 62 1 83 0 10.0 261 0.0 12.875476 0.004
+"../source/Idiophones/Struck Idiophones/Brake Drum/BrakeDrum1_Susp_v3_rr1_Mid.wav" 62 62 62 84 127 0 10.0 262 0.0 7.84338 0.004
+"../source/Idiophones/Struck Idiophones/Brake Drum/BrakeDrum1_YarnM_v1_rr1_Mid.wav" 63 63 63 1 65 0 10.0 322 0.0 28.362513 0.004
+"../source/Idiophones/Struck Idiophones/Brake Drum/BrakeDrum1_YarnM_v2_rr1_Mid.wav" 63 63 63 66 99 0 10.0 281 0.0 16.931477 0.004
+"../source/Idiophones/Struck Idiophones/Brake Drum/BrakeDrum1_YarnM_v3_rr1_Mid.wav" 63 63 63 100 127 0 10.0 265 0.0 2.291335 0.004
+"../source/Idiophones/Struck Idiophones/Brake Drum/BrakeDrum2_Bowed_rr1_Mid.wav" 64 64 64 1 127 0 1.0 2510 0.0 15.0 0.004
+"../source/Idiophones/Struck Idiophones/Brake Drum/BrakeDrum2_Hammer1_v1_rr1_Mid.wav" 65 65 65 1 83 0 10.0 260 0.0 15.213525 0.004
+"../source/Idiophones/Struck Idiophones/Brake Drum/BrakeDrum2_Hammer1_v2_rr1_Mid.wav" 65 65 65 84 127 0 10.0 266 0.0 6.764771 0.004
+"../source/Idiophones/Struck Idiophones/Brake Drum/BrakeDrum2_Hammer3_v1_rr1_Mid.wav" 66 66 66 1 65 0 10.0 262 0.0 20.044582 0.004
+"../source/Idiophones/Struck Idiophones/Brake Drum/BrakeDrum2_Hammer3_v2_rr1_Mid.wav" 66 66 66 66 99 0 10.0 263 0.0 11.953069 0.004
+"../source/Idiophones/Struck Idiophones/Brake Drum/BrakeDrum2_Hammer3_v3_rr1_Mid.wav" 66 66 66 100 127 0 10.0 257 0.0 4.485669 0.004
+"../source/Idiophones/Struck Idiophones/Brake Drum/BrakeDrum2_Susp_v1_rr1_Mid.wav" 67 67 67 1 83 0 10.0 267 0.0 15.947215 0.004
+"../source/Idiophones/Struck Idiophones/Brake Drum/BrakeDrum2_Susp_v2_rr1_Mid.wav" 67 67 67 84 127 0 10.0 258 0.0 6.502775 0.004

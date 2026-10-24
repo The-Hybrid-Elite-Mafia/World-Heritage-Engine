@@ -1,0 +1,14 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Edge-blown Aerophones/Ocarina, Small - Sustain.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+10
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Small/Sustain/ocarina_A#4_sustain0.wav" 82 81 83 1 127 0 0.3 0 3.0 19.05497 0.004
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Small/Sustain/ocarina_C5_sustain0.wav" 84 84 85 1 127 0 0.3 0 -1.0 14.823864 0.004
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Small/Sustain/ocarina_D5_sustain0.wav" 86 86 87 1 127 0 0.3 43 1.0 8.340011 0.004
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Small/Sustain/ocarina_E5_sustain0.wav" 88 88 88 1 127 0 0.3 0 -2.0 12.871617 0.004
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Small/Sustain/ocarina_F5_sustain0.wav" 89 89 90 1 127 0 0.3 6 0.0 13.849319 0.004
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Small/Sustain/ocarina_G5_sustain0.wav" 91 91 91 1 127 0 0.3 148 -1.0 11.793637 0.004
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Small/Sustain/ocarina_G#5_sustain0.wav" 92 92 92 1 127 0 0.3 61 -3.0 12.093048 0.004
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Small/Sustain/ocarina_A5_sustain0.wav" 93 93 93 1 127 0 0.3 387 1.0 9.436424 0.004
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Small/Sustain/ocarina_A#5_sustain0.wav" 94 94 94 1 127 0 0.3 0 1.0 13.342204 0.004
+"../source/Aerophones/Edge-blown Aerophones/Ocarina, Small/Sustain/ocarina_B5_sustain0.wav" 95 95 97 1 127 0 0.3 408 0.0 12.71332 0.004

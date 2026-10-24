@@ -1,0 +1,16 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Edge-blown Aerophones/Baroque Alto Recorder - Sustain.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+12
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/Sustain/AltRecorder_Sus_F3_rr1_Main.wav" 65 65 66 1 127 0 0.3 1002 -2.0 20.328033 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/Sustain/AltRecorder_Sus_G#3_rr1_Main.wav" 68 67 69 1 127 0 0.3 879 -1.0 20.195551 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/Sustain/AltRecorder_Sus_A#3_rr1_Main.wav" 70 70 71 1 127 0 0.3 515 0.0 12.123615 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/Sustain/AltRecorder_Sus_C4_rr1_Main.wav" 72 72 73 1 127 0 0.3 749 0.0 14.493999 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/Sustain/AltRecorder_Sus_D4_rr1_Main.wav" 74 74 75 1 127 0 0.3 579 0.0 20.070692 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/Sustain/AltRecorder_Sus_E4_rr1_Main.wav" 76 76 77 1 127 0 0.3 413 0.0 12.613586 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/Sustain/AltRecorder_Sus_F#4_rr1_Main.wav" 78 78 79 1 127 0 0.3 289 0.0 11.872402 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/Sustain/AltRecorder_Sus_G#4_rr1_Main.wav" 80 80 81 1 127 0 0.3 666 0.0 17.61394 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/Sustain/AltRecorder_Sus_A#4_rr1_Main.wav" 82 82 83 1 127 0 0.3 354 0.0 17.193745 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/Sustain/AltRecorder_Sus_C5_rr1_Main.wav" 84 84 85 1 127 0 0.3 397 -1.0 14.707178 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/Sustain/AltRecorder_Sus_D5_rr1_Main.wav" 86 86 87 1 127 0 0.3 357 0.0 17.42289 0.004
+"../source/Aerophones/Edge-blown Aerophones/Baroque Alto Recorder/Sustain/AltRecorder_Sus_E5_rr1_Main.wav" 88 88 91 1 127 0 0.3 81 0.0 11.459237 0.004

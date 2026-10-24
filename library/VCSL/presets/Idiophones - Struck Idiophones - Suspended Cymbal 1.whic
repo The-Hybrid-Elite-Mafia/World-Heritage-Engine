@@ -1,0 +1,26 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Suspended Cymbal 1.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+22
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_bow_13.wav" 60 60 60 1 127 0 2.0 5998 0.0 15.0 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_bow_17.wav" 61 61 61 1 127 0 2.0 22047 0.0 15.0 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_bow_20.wav" 62 62 62 1 127 0 2.0 17468 0.0 15.0 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_bow_7.wav" 63 63 63 1 127 0 2.0 2142 0.0 15.0 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_cresc_1.5s.wav" 64 64 64 1 127 0 2.0 3896 0.0 15.0 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_cresc_2s.wav" 65 65 65 1 127 0 2.0 0 0.0 15.0 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_cresc_4s.wav" 66 66 66 1 127 0 2.0 7169 0.0 15.0 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_cresc_7.5s.wav" 67 67 67 1 127 0 2.0 1020 0.0 15.0 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_hit_pp1.wav" 68 68 68 1 54 0 30.0 0 0.0 33.583718 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_hit_mp1.wav" 68 68 68 55 83 0 30.0 0 0.0 21.924355 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_hit_f1.wav" 68 68 68 84 106 0 30.0 107 0.0 14.217464 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_hit_fff1.wav" 68 68 68 107 127 0 30.0 0 0.0 7.625253 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_hit_bell_pp1.wav" 69 69 69 1 65 0 30.0 0 0.0 22.699881 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_hit_bell_mf1.wav" 69 69 69 66 99 0 30.0 0 0.0 18.547773 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_hit_bell_fff1.wav" 69 69 69 100 127 0 30.0 0 0.0 9.319426 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_hit_stick_pp1.wav" 70 70 70 1 65 0 30.0 0 0.0 21.976082 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_hit_stick_mp1.wav" 70 70 70 66 99 0 30.0 0 0.0 15.240628 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_hit_stick_f1.wav" 70 70 70 100 127 0 30.0 0 0.0 11.030114 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_roll_mp1_nloop.wav" 71 71 71 1 65 0 2.0 0 0.0 22.527333 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_roll_f1_nloop.wav" 71 71 71 66 99 0 2.0 143 0.0 13.679318 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_roll_ff2_nloop.wav" 71 71 71 100 127 0 2.0 0 0.0 11.982349 0.004
+"../source/Idiophones/Struck Idiophones/Suspended Cymbal 1/susCymb1_scrape_1.wav" 72 72 72 1 127 0 30.0 0 0.0 15.0 0.004

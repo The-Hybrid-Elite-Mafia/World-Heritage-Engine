@@ -1,0 +1,24 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F - Stac.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+20
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_F3_rr1.wav" 65 65 67 1 127 1 0.3 0 27.0 -2.923059 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_F3_rr2.wav" 65 65 67 1 127 2 0.3 0 31.0 -2.167214 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_A3_rr1.wav" 69 68 70 1 127 1 0.3 0 16.0 2.262859 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_A3_rr2.wav" 69 68 70 1 127 2 0.3 0 12.0 1.328793 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_C4_rr1.wav" 72 71 74 1 127 1 0.3 0 12.0 6.632705 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_C4_rr2.wav" 72 71 74 1 127 2 0.3 0 13.0 1.788988 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_F4_rr1.wav" 77 75 79 1 127 1 0.3 0 9.0 1.75508 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_F4_rr2.wav" 77 75 79 1 127 2 0.3 0 6.0 -1.952939 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_A4_rr1.wav" 81 80 82 1 127 1 0.3 0 3.0 1.972835 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_A4_rr2.wav" 81 80 82 1 127 2 0.3 0 2.0 -3.788678 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_C5_rr1.wav" 84 83 86 1 127 1 0.3 0 11.0 5.889447 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_C5_rr2.wav" 84 83 86 1 127 2 0.3 0 8.0 3.307069 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_F5_rr1.wav" 89 87 91 1 127 1 0.3 0 -1.0 -2.36205 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_F5_rr2.wav" 89 87 91 1 127 2 0.3 0 0.0 0.129213 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_A5_rr1.wav" 93 92 94 1 127 1 0.3 0 2.0 0.639743 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_A5_rr2.wav" 93 92 94 1 127 2 0.3 0 0.0 -2.301942 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_C6_rr1.wav" 96 95 98 1 127 1 0.3 0 1.0 5.399755 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_C6_rr2.wav" 96 95 98 1 127 2 0.3 0 -1.0 -1.619612 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_F6_rr1.wav" 101 99 102 1 127 1 0.3 0 0.0 -4.510287 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/Stac/Hohner-Special20-F_Stac_F6_rr2.wav" 101 99 102 1 127 2 0.3 0 0.0 1.549506 0.004

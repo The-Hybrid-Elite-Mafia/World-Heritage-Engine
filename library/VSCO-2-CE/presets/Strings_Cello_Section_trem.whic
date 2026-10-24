@@ -1,0 +1,29 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Cello; variant Strings/Cello Section/trem; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+25
+"../source/Strings/Cello Section/trem/trem_C1_v2_1.wav" 36 36 38 1 127 0 0.8 0 0 4 0.001
+"../source/Strings/Cello Section/trem/trem_E1_v1_1.wav" 40 39 41 1 63 0 0.8 0 0 26 0.001
+"../source/Strings/Cello Section/trem/trem_E1_v2_1.wav" 40 39 41 64 127 0 0.8 0 0 4 0.001
+"../source/Strings/Cello Section/trem/trem_G1_v1_1.wav" 43 42 45 1 63 0 0.8 0 0 26 0.001
+"../source/Strings/Cello Section/trem/trem_G1_v2_1.wav" 43 42 45 64 127 0 0.8 0 0 4 0.001
+"../source/Strings/Cello Section/trem/trem_B1_v1_1.wav" 47 46 48 1 127 0 0.8 0 0 30 0.001
+"../source/Strings/Cello Section/trem/trem_D2_v1_1.wav" 50 49 51 1 63 0 0.8 0 0 26 0.001
+"../source/Strings/Cello Section/trem/trem_D2_v2_1.wav" 50 49 51 64 127 0 0.8 0 0 4 0.001
+"../source/Strings/Cello Section/trem/trem_F2_v1_1.wav" 53 52 55 1 63 0 0.8 0 0 26 0.001
+"../source/Strings/Cello Section/trem/trem_F2_v2_1.wav" 53 52 55 64 127 0 0.8 0 0 4 0.001
+"../source/Strings/Cello Section/trem/trem_A2_v1_1.wav" 57 56 58 1 63 0 0.8 0 0 26 0.001
+"../source/Strings/Cello Section/trem/trem_A2_v2_1.wav" 57 56 58 64 127 0 0.8 0 0 4 0.001
+"../source/Strings/Cello Section/trem/trem_B2_v2_1.wav" 59 59 59 1 127 0 0.8 0 0 8 0.001
+"../source/Strings/Cello Section/trem/trem_C3_v1_1.wav" 60 60 62 1 63 0 0.8 0 0 26 0.001
+"../source/Strings/Cello Section/trem/trem_C3_v2_1.wav" 60 60 62 64 127 0 0.8 0 0 4 0.001
+"../source/Strings/Cello Section/trem/trem_E3_v1_1.wav" 64 63 65 1 63 0 0.8 0 0 26 0.001
+"../source/Strings/Cello Section/trem/trem_E3_v2_1.wav" 64 63 65 64 127 0 0.8 0 0 4 0.001
+"../source/Strings/Cello Section/trem/trem_G3_v1_1.wav" 67 66 69 1 63 0 0.8 0 0 26 0.001
+"../source/Strings/Cello Section/trem/trem_G3_v2_1.wav" 67 66 69 64 127 0 0.8 0 0 4 0.001
+"../source/Strings/Cello Section/trem/trem_B3_v1_1.wav" 71 70 72 1 63 0 0.8 0 0 26 0.001
+"../source/Strings/Cello Section/trem/trem_B3_v2_1.wav" 71 70 72 64 127 0 0.8 0 0 4 0.001
+"../source/Strings/Cello Section/trem/trem_D4_v1_1.wav" 74 73 75 1 63 0 0.8 0 0 26 0.001
+"../source/Strings/Cello Section/trem/trem_D4_v2_1.wav" 74 73 75 64 127 0 0.8 0 0 4 0.001
+"../source/Strings/Cello Section/trem/trem_F4_v1_1.wav" 77 76 77 1 63 0 0.8 0 0 26 0.001
+"../source/Strings/Cello Section/trem/trem_F4_v2_1.wav" 77 76 77 64 127 0 0.8 0 0 4 0.001

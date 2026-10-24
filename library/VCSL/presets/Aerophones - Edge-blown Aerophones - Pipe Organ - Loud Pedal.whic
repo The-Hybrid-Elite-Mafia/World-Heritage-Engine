@@ -1,0 +1,15 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Edge-blown Aerophones/Pipe Organ - Loud Pedal.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+11
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Loud Pedal/Rode_Pedal_C1.wav" 36 36 37 1 127 0 0.5 2663 0.0 9.912506 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Loud Pedal/Rode_Pedal_D#1.wav" 39 38 40 1 127 0 0.5 2961 0.0 9.577327 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Loud Pedal/Rode_Pedal_F#1.wav" 42 41 43 1 127 0 0.5 2806 0.0 8.849503 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Loud Pedal/Rode_Pedal_A1.wav" 45 44 46 1 127 0 0.5 2177 3.0 10.569999 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Loud Pedal/Rode_Pedal_C2.wav" 48 47 49 1 127 0 0.5 2231 0.0 10.934211 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Loud Pedal/Rode_Pedal_D#2.wav" 51 50 52 1 127 0 0.5 1925 0.0 9.609162 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Loud Pedal/Rode_Pedal_F#2.wav" 54 53 55 1 127 0 0.5 2169 0.0 11.134386 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Loud Pedal/Rode_Pedal_A2.wav" 57 56 58 1 127 0 0.5 2093 0.0 8.833623 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Loud Pedal/Rode_Pedal_C3.wav" 60 59 61 1 127 0 0.5 1851 3.0 11.568898 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Loud Pedal/Rode_Pedal_D#3.wav" 63 62 64 1 127 0 0.5 1937 0.0 10.394812 0.004
+"../source/Aerophones/Edge-blown Aerophones/Pipe Organ/Loud Pedal/Rode_Pedal_F#3.wav" 66 65 67 1 127 0 0.5 1982 0.0 9.422045 0.004

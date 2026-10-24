@@ -1,0 +1,26 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Membranophones/Struck Membranophones/Tom 2.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+22
+"../source/Membranophones/Struck Membranophones/Tom 2/TomL_rimFLS_rr4_Mid.wav" 60 60 60 1 127 1 30.0 248 0.0 16.558329 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/TomL_rimFLS_rr2_Mid.wav" 60 60 60 1 127 2 30.0 280 0.0 13.679178 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/TomL_rimS_v2_rr1_Mid.wav" 61 61 61 1 83 1 30.0 232 0.0 25.994356 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/TomL_rimS_v2_rr2_Mid.wav" 61 61 61 1 83 2 30.0 232 0.0 25.029617 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/TomL_rimS_v4_rr2_Mid.wav" 61 61 61 84 127 1 30.0 235 0.0 10.852674 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/TomL_rimS_v4_rr1_Mid.wav" 61 61 61 84 127 2 30.0 233 0.0 9.938949 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/Mallet/TomL_HitM_v2_rr1_Mid.wav" 62 62 62 1 65 1 30.0 274 0.0 20.263943 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/Mallet/TomL_HitM_v2_rr2_Mid.wav" 62 62 62 1 65 2 30.0 266 0.0 21.036573 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/Mallet/TomL_HitM_v3_rr1_Mid.wav" 62 62 62 66 99 1 30.0 286 0.0 14.337448 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/Mallet/TomL_HitM_v3_rr2_Mid.wav" 62 62 62 66 99 2 30.0 286 0.0 14.466031 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/Mallet/TomL_HitM_v4_rr2_Mid.wav" 62 62 62 100 127 1 30.0 281 0.0 12.231865 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/Mallet/TomL_HitM_v4_rr1_Mid.wav" 62 62 62 100 127 2 30.0 286 0.0 11.848382 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/Mallet/TomL_RollM_v1_rr1_Mid.wav" 63 63 63 1 83 0 1.0 464 0.0 32.391583 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/Mallet/TomL_RollM_v2_rr1_Mid.wav" 63 63 63 84 127 0 1.0 250 0.0 11.750926 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/Stick/TomL_HitS_v2_rr1_Mid.wav" 64 64 64 1 65 1 30.0 263 0.0 19.793185 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/Stick/TomL_HitS_v2_rr2_Mid.wav" 64 64 64 1 65 2 30.0 277 0.0 20.361585 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/Stick/TomL_HitS_v3_rr1_Mid.wav" 64 64 64 66 99 1 30.0 273 0.0 14.284009 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/Stick/TomL_HitS_v3_rr2_Mid.wav" 64 64 64 66 99 2 30.0 278 0.0 14.405493 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/Stick/TomL_HitS_v4_rr2_Mid.wav" 64 64 64 100 127 1 30.0 281 0.0 12.492462 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/Stick/TomL_HitS_v4_rr1_Mid.wav" 64 64 64 100 127 2 30.0 281 0.0 12.119414 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/Stick/TomL_RollS_v1_rr1_Mid.wav" 65 65 65 1 83 0 1.0 266 0.0 29.04998 0.004
+"../source/Membranophones/Struck Membranophones/Tom 2/Stick/TomL_RollS_v2_rr1_Mid.wav" 65 65 65 84 127 0 1.0 271 0.0 12.137985 0.004

@@ -1,0 +1,55 @@
+WHIC_PRESET 4
+"Hang; real acoustic recordings; CC0-1.0; https://freepats.zenvoid.org/ChromaticPercussion/hang.html; see original README and source SFZ. Finite recorded sustain (no looping)."
+0 0 1 0
+51
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/A3_01.wav" 57 57 57 1 127 0 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/A3_02.wav" 57 57 57 1 127 1 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/A3_03.wav" 57 57 57 1 127 2 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/A3_04.wav" 57 57 57 1 127 3 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/A3_05.wav" 57 57 57 1 127 4 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/D4_01.wav" 62 62 62 1 127 0 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/D4_02.wav" 62 62 62 1 127 1 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/D4_03.wav" 62 62 62 1 127 2 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/D4_04.wav" 62 62 62 1 127 3 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/D4_05.wav" 62 62 62 1 127 4 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/D4_06.wav" 62 62 62 1 127 5 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/D4_07.wav" 62 62 62 1 127 6 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/E4_01.wav" 64 64 64 1 127 0 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/E4_02.wav" 64 64 64 1 127 1 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/E4_03.wav" 64 64 64 1 127 2 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/E4_04.wav" 64 64 64 1 127 3 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/E4_05.wav" 64 64 64 1 127 4 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/E4_06.wav" 64 64 64 1 127 5 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/F4_01.wav" 65 65 65 1 127 0 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/F4_02.wav" 65 65 65 1 127 1 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/F4_03.wav" 65 65 65 1 127 2 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/F4_04.wav" 65 65 65 1 127 3 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/F4_05.wav" 65 65 65 1 127 4 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/F4_06.wav" 65 65 65 1 127 5 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/G4_01.wav" 67 67 67 1 127 0 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/G4_02.wav" 67 67 67 1 127 1 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/G4_03.wav" 67 67 67 1 127 2 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/G4_04.wav" 67 67 67 1 127 3 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/G4_05.wav" 67 67 67 1 127 4 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/G4_06.wav" 67 67 67 1 127 5 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/A4_01.wav" 69 69 69 1 127 0 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/A4_02.wav" 69 69 69 1 127 1 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/A4_03.wav" 69 69 69 1 127 2 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/A4_04.wav" 69 69 69 1 127 3 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/A4_05.wav" 69 69 69 1 127 4 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/A4_06.wav" 69 69 69 1 127 5 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/Bb4_01.wav" 70 70 70 1 127 0 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/Bb4_02.wav" 70 70 70 1 127 1 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/Bb4_03.wav" 70 70 70 1 127 2 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/Bb4_04.wav" 70 70 70 1 127 3 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/Bb4_05.wav" 70 70 70 1 127 4 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/C5_01.wav" 72 72 72 1 127 0 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/C5_02.wav" 72 72 72 1 127 1 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/C5_03.wav" 72 72 72 1 127 2 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/C5_04.wav" 72 72 72 1 127 3 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/C5_05.wav" 72 72 72 1 127 4 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/D5_01.wav" 74 74 74 1 127 0 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/D5_02.wav" 74 74 74 1 127 1 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/D5_03.wav" 74 74 74 1 127 2 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/D5_04.wav" 74 74 74 1 127 3 8.0 0 0.0 0.0 0.003
+"../source/Hang-D-minor SFZ+WAV-20220330/samples/D5_05.wav" 74 74 74 1 127 4 8.0 0 0.0 0.0 0.003

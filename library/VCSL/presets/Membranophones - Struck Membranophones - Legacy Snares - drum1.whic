@@ -1,0 +1,44 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Membranophones/Struck Membranophones/Legacy Snares - drum1.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+40
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_pppp_rr1.wav" 60 60 60 1 35 1 30.0 586 0.0 31.336926 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_pppp_rr2.wav" 60 60 60 1 35 2 30.0 0 0.0 27.690364 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_ppp_rr1.wav" 60 60 60 36 54 1 30.0 1586 0.0 21.834297 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_ppp_rr2.wav" 60 60 60 36 54 2 30.0 918 0.0 20.57219 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_ppp_rr3.wav" 60 60 60 36 54 3 30.0 854 0.0 19.45561 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_pp_rr1.wav" 60 60 60 55 70 0 30.0 831 0.0 17.732623 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_p_rr1.wav" 60 60 60 71 83 0 30.0 1060 0.0 13.180912 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_mp_rr1.wav" 60 60 60 84 95 1 30.0 1181 0.0 11.429781 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_mp_rr2.wav" 60 60 60 84 95 2 30.0 707 0.0 11.737079 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_f_rr1.wav" 60 60 60 96 106 1 30.0 1206 0.0 6.686279 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_f_rr2.wav" 60 60 60 96 106 2 30.0 1068 0.0 10.935251 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_f_rr3.wav" 60 60 60 96 106 3 30.0 835 0.0 7.491266 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_ff_rr1.wav" 60 60 60 107 117 1 30.0 369 0.0 2.264737 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_ff_rr2.wav" 60 60 60 107 117 2 30.0 835 0.0 7.491266 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_fff_rr1.wav" 60 60 60 118 127 1 30.0 1131 0.0 -1.180496 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_fff_rr2.wav" 60 60 60 118 127 2 30.0 1172 0.0 0.500529 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_click.wav" 61 61 61 1 127 0 30.0 969 0.0 9.0 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_click2.wav" 62 62 62 1 127 0 30.0 1154 0.0 9.0 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_click3.wav" 63 63 63 1 127 0 30.0 1039 0.0 9.0 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_click4.wav" 64 64 64 1 127 0 30.0 1281 0.0 9.0 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_nosnare_ppp_rr1.wav" 65 65 65 1 38 1 30.0 1069 0.0 28.474588 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_nosnare_ppp_rr2.wav" 65 65 65 1 38 2 30.0 678 0.0 25.628766 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_nosnare_ppp_rr3.wav" 65 65 65 1 38 3 30.0 768 0.0 26.220401 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_nosnare_pp_rr1.wav" 65 65 65 39 59 0 30.0 638 0.0 20.786906 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_nosnare_mp_rr1.wav" 65 65 65 60 75 1 30.0 595 0.0 15.980903 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_nosnare_mp_rr2.wav" 65 65 65 60 75 2 30.0 885 0.0 15.457318 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_nosnare_mf_rr1.wav" 65 65 65 76 90 1 30.0 968 0.0 8.04766 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_nosnare_mf_rr2.wav" 65 65 65 76 90 2 30.0 1004 0.0 5.24691 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_nosnare_f_rr2.wav" 65 65 65 91 103 1 30.0 887 0.0 5.589807 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_nosnare_f_rr3.wav" 65 65 65 91 103 2 30.0 621 0.0 5.057979 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_nosnare_ff_rr1.wav" 65 65 65 104 115 0 30.0 1058 0.0 2.029882 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_nosnare_fff_rr1.wav" 65 65 65 116 127 1 30.0 1341 0.0 -0.290324 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_nosnare_fff_rr2.wav" 65 65 65 116 127 2 30.0 1729 0.0 10.849091 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_nosnare_fff_rr3.wav" 65 65 65 116 127 3 30.0 1096 0.0 9.637091 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_rim_fff_rr1.wav" 66 66 66 1 127 0 30.0 1108 0.0 9.0 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_rimshot_mf.wav" 67 67 67 1 65 0 30.0 1060 0.0 16.316985 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_rimshot_f.wav" 67 67 67 66 99 0 30.0 997 0.0 10.503038 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_rimshot_fff_rr1.wav" 67 67 67 100 127 0 30.0 1336 0.0 4.248004 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_mp_snare.wav" 68 68 68 1 127 0 30.0 794 0.0 9.0 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Snares/drum1/snare1_mp_snare2.wav" 69 69 69 1 127 0 30.0 1220 0.0 9.0 0.004

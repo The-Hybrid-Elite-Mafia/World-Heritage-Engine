@@ -1,0 +1,11 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Gong 1.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+7
+"../source/Idiophones/Struck Idiophones/Gong 1/gong_p.wav" 60 60 60 1 54 0 2.0 0 0.0 16.259536 0.004
+"../source/Idiophones/Struck Idiophones/Gong 1/gong_mf.wav" 60 60 60 55 83 0 2.0 1082 0.0 6.612755 0.004
+"../source/Idiophones/Struck Idiophones/Gong 1/gong_f.wav" 60 60 60 84 106 0 2.0 1502 0.0 3.076233 0.004
+"../source/Idiophones/Struck Idiophones/Gong 1/gong_fff.wav" 60 60 60 107 127 0 2.0 1021 0.0 0.660906 0.004
+"../source/Idiophones/Struck Idiophones/Gong 1/gong_2_mp.wav" 61 61 61 1 83 0 2.0 0 0.0 8.546455 0.004
+"../source/Idiophones/Struck Idiophones/Gong 1/gong_2_f.wav" 61 61 61 84 127 0 2.0 647 0.0 2.488936 0.004
+"../source/Idiophones/Struck Idiophones/Gong 1/gong_scrape_mf.wav" 62 62 62 1 127 0 2.0 889 0.0 5.0 0.004

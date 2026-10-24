@@ -1,0 +1,36 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Chordophones/Zithers/Dan Tranh - Vibrato.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+32
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/B1_vib_mf_1.wav" 47 47 48 1 83 0 0.3 0 0.0 9.186992 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/B1_vib_ff_1.wav" 47 47 48 84 127 0 0.3 0 0.0 2.479436 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/C#2_vib_mf_1.wav" 49 49 50 1 83 0 0.3 0 0.0 13.51665 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/C#2_vib_ff_1.wav" 49 49 50 84 127 0 0.3 0 0.0 2.824378 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/D#2_vib_mf_1.wav" 51 51 52 1 83 0 0.3 0 0.0 11.979011 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/D#2_vib_ff_1.wav" 51 51 52 84 127 0 0.3 0 0.0 6.568752 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/F#2_vib_mf_1.wav" 54 53 55 1 83 0 0.3 0 0.0 10.471185 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/F#2_vib_ff_1.wav" 54 53 55 84 127 0 0.3 0 0.0 5.925591 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/G#2_vib_mf_1.wav" 56 56 57 1 83 0 0.3 0 0.0 12.02218 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/G#2_vib_ff_1.wav" 56 56 57 84 127 0 0.3 0 0.0 5.306525 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/B2_vib_mf_1.wav" 59 58 60 1 83 0 0.3 0 0.0 7.396207 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/B2_vib_ff_1.wav" 59 58 60 84 127 0 0.3 0 0.0 3.784322 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/C#3_vib_mf_1.wav" 61 61 62 1 83 0 0.3 0 0.0 10.180746 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/C#3_vib_ff_1.wav" 61 61 62 84 127 0 0.3 0 0.0 3.06974 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/D#3_vib_mf_1.wav" 63 63 64 1 83 0 0.3 0 0.0 8.616542 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/D#3_vib_ff_1.wav" 63 63 64 84 127 0 0.3 0 0.0 8.167113 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/F#3_vib_mf_1.wav" 66 65 67 1 83 0 0.3 0 0.0 7.750037 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/F#3_vib_ff_1.wav" 66 65 67 84 127 0 0.3 0 0.0 3.421064 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/G#3_vib_mf_1.wav" 68 68 69 1 83 0 0.3 0 0.0 16.710668 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/G#3_vib_ff_1.wav" 68 68 69 84 127 0 0.3 0 0.0 7.202122 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/B3_vib_mf_1.wav" 71 70 72 1 83 0 0.3 0 0.0 8.402727 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/B3_vib_ff_1.wav" 71 70 72 84 127 0 0.3 0 0.0 4.086441 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/C#4_vib_mf_1.wav" 73 73 74 1 83 0 0.3 0 0.0 7.582071 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/C#4_vib_ff_1.wav" 73 73 74 84 127 0 0.3 0 0.0 1.243081 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/D#4_vib_mf_1.wav" 75 75 76 1 83 0 0.3 0 0.0 11.445219 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/D#4_vib_ff_1.wav" 75 75 76 84 127 0 0.3 0 0.0 6.280831 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/F#4_vib_mf_1.wav" 78 77 79 1 83 0 0.3 0 0.0 9.1419 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/F#4_vib_ff_1.wav" 78 77 79 84 127 0 0.3 0 0.0 10.779761 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/G#4_vib_mf_1.wav" 80 80 81 1 83 0 0.3 0 0.0 9.329041 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/G#4_vib_ff_1.wav" 80 80 81 84 127 0 0.3 0 0.0 5.833394 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/B4_vib_mf_1.wav" 83 82 84 1 83 0 0.3 0 0.0 16.983931 0.004
+"../source/Chordophones/Zithers/Dan Tranh/Vibrato/B4_vib_ff_1.wav" 83 82 84 84 127 0 0.3 0 0.0 2.122931 0.004

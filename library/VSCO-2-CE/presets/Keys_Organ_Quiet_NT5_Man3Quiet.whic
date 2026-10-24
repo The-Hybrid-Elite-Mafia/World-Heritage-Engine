@@ -1,0 +1,25 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Pipe organ; variant Keys/Organ/Quiet/NT5_Man3Quiet; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+21
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_122_rr1.wav" 36 36 37 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_125_rr1.wav" 39 38 40 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_128_rr1.wav" 42 41 43 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_131_rr1.wav" 45 44 46 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_134_rr1.wav" 48 47 49 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_137_rr1.wav" 51 50 52 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_140_rr1.wav" 54 53 55 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_143_rr1.wav" 57 56 58 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_146_rr1.wav" 60 59 61 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_149_rr1.wav" 63 62 64 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_152_rr1.wav" 66 65 67 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_155_rr1.wav" 69 68 70 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_158_rr1.wav" 72 71 73 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_161_rr1.wav" 75 74 76 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_164_rr1.wav" 78 77 79 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_167_rr1.wav" 81 80 82 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_170_rr1.wav" 84 83 85 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_173_rr1.wav" 87 86 88 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_176_rr1.wav" 90 89 91 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_179_rr1.wav" 93 92 94 1 127 0 0.7 0 0 12 0.001
+"../source/Keys/Organ/Quiet/NT5_Man3Quiet_182_rr1.wav" 96 95 96 1 127 0 0.7 0 0 12 0.001

@@ -1,0 +1,12 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Ratchet.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+8
+"../source/Idiophones/Struck Idiophones/Ratchet/Ratchet1_Crank_rr1_Mid.wav" 60 60 60 1 127 1 1.0 222 0.0 14.781365 0.004
+"../source/Idiophones/Struck Idiophones/Ratchet/Ratchet1_Crank_rr3_Mid.wav" 60 60 60 1 127 2 1.0 179 0.0 15.22428 0.004
+"../source/Idiophones/Struck Idiophones/Ratchet/Ratchet1_Fast_rr1_Mid.wav" 61 61 61 1 127 0 1.0 179 0.0 15.0 0.004
+"../source/Idiophones/Struck Idiophones/Ratchet/Ratchet1_Slow_rr1_Mid.wav" 62 62 62 1 127 0 1.0 181 0.0 15.0 0.004
+"../source/Idiophones/Struck Idiophones/Ratchet/Ratchet2_Crank_v1_rr1_Mid.wav" 63 63 63 1 127 1 1.0 180 0.0 18.576494 0.004
+"../source/Idiophones/Struck Idiophones/Ratchet/Ratchet2_Crank_v1_rr2_Mid.wav" 63 63 63 1 127 2 1.0 188 0.0 12.474019 0.004
+"../source/Idiophones/Struck Idiophones/Ratchet/Ratchet2_Fast_rr1_Mid.wav" 64 64 64 1 127 0 1.0 207 0.0 15.0 0.004
+"../source/Idiophones/Struck Idiophones/Ratchet/Ratchet2_Slow_rr1_Mid.wav" 65 65 65 1 127 0 1.0 186 0.0 15.0 0.004

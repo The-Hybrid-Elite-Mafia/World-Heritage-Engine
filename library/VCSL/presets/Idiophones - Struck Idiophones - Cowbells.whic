@@ -1,0 +1,17 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Cowbells.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+13
+"../source/Idiophones/Struck Idiophones/Cowbells/Cowbell1_Hit_v2_rr1_Mid.wav" 60 60 60 1 65 0 15.0 277 0.0 15.528839 0.004
+"../source/Idiophones/Struck Idiophones/Cowbells/Cowbell1_Hit_v3_rr1_Mid.wav" 60 60 60 66 99 0 15.0 270 0.0 8.904143 0.004
+"../source/Idiophones/Struck Idiophones/Cowbells/Cowbell1_Hit_v4_rr1_Mid.wav" 60 60 60 100 127 0 15.0 282 0.0 -1.296265 0.004
+"../source/Idiophones/Struck Idiophones/Cowbells/Cowbell1_Muted_v2_rr1_Mid.wav" 61 61 61 1 83 0 15.0 204 0.0 10.619632 0.004
+"../source/Idiophones/Struck Idiophones/Cowbells/Cowbell1_Muted_v3_rr1_Mid.wav" 61 61 61 84 127 0 15.0 204 0.0 1.616052 0.004
+"../source/Idiophones/Struck Idiophones/Cowbells/Cowbell1_Normal_v2_rr1_Mid.wav" 62 62 62 1 83 0 15.0 216 0.0 11.418282 0.004
+"../source/Idiophones/Struck Idiophones/Cowbells/Cowbell1_Normal_v3_rr1_Mid.wav" 62 62 62 84 127 0 15.0 221 0.0 1.34956 0.004
+"../source/Idiophones/Struck Idiophones/Cowbells/Cowbell2_Double_v2_rr1_Mid.wav" 63 63 63 1 83 0 15.0 203 0.0 9.597518 0.004
+"../source/Idiophones/Struck Idiophones/Cowbells/Cowbell2_Double_v3_rr1_Mid.wav" 63 63 63 84 127 0 15.0 203 0.0 2.009533 0.004
+"../source/Idiophones/Struck Idiophones/Cowbells/Cowbell2_Muted_v2_rr1_Mid.wav" 64 64 64 1 83 0 15.0 192 0.0 12.705018 0.004
+"../source/Idiophones/Struck Idiophones/Cowbells/Cowbell2_Muted_v3_rr1_Mid.wav" 64 64 64 84 127 0 15.0 190 0.0 0.982222 0.004
+"../source/Idiophones/Struck Idiophones/Cowbells/Cowbell2_Normal_v2_rr1_Mid.wav" 65 65 65 1 83 0 15.0 229 0.0 10.661886 0.004
+"../source/Idiophones/Struck Idiophones/Cowbells/Cowbell2_Normal_v3_rr1_Mid.wav" 65 65 65 84 127 0 15.0 235 0.0 1.601115 0.004

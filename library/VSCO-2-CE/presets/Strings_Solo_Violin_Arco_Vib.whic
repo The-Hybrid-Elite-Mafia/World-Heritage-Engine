@@ -1,0 +1,34 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Violin; variant Strings/Solo Violin/Arco Vib; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+30
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_G3_p.wav" 55 55 56 1 63 0 0.8 0 0 21 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_G3_f.wav" 55 55 56 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_A3_p.wav" 57 57 58 1 63 0 0.8 0 0 21 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_A3_f.wav" 57 57 58 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_C4_p.wav" 60 59 62 1 63 0 0.8 0 -20 21 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_C4_f.wav" 60 59 62 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_E4_p.wav" 64 63 65 1 63 0 0.8 0 0 21 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_E4_f.wav" 64 63 65 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_G4_p.wav" 67 66 68 1 63 0 0.8 0 0 21 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_G4_f.wav" 67 66 68 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_A4_p.wav" 69 69 70 1 63 0 0.8 0 0 21 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_A4_f.wav" 69 69 70 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_C5_p.wav" 72 71 74 1 63 0 0.8 0 0 21 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_C5_f.wav" 72 71 74 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_E5_p.wav" 76 75 77 1 63 0 0.8 0 0 21 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_E5_f.wav" 76 75 77 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_G5_p.wav" 79 78 80 1 63 0 0.8 0 0 21 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_G5_f.wav" 79 78 80 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_A5_p.wav" 81 81 82 1 63 0 0.8 0 0 21 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_A5_f.wav" 81 81 82 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_C6_p.wav" 84 83 86 1 63 0 0.8 0 0 21 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_C6_f.wav" 84 83 86 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_E6_p.wav" 88 87 89 1 63 0 0.8 0 0 21 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_E6_f.wav" 88 87 89 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_G6_p.wav" 91 90 92 1 63 0 0.8 0 0 21 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_G6_f.wav" 91 90 92 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_A6_p.wav" 93 93 94 1 63 0 0.8 0 0 21 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_A6_f.wav" 93 93 94 64 127 0 0.8 0 0 6 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_C7_p.wav" 96 95 96 1 63 0 0.8 0 0 21 0.001
+"../source/Strings/Solo Violin/Arco Vib/LLVln_ArcoVib_C7_f.wav" 96 95 96 64 127 0 0.8 0 0 6 0.001

@@ -1,0 +1,17 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Free Aerophones/Harmonica-Hohner-Super64 - Normal.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+13
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Normal/Hohner-Super64_Normal _C2.wav" 48 48 50 1 127 0 0.1 0 0.0 2.05455 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Normal/Hohner-Super64_Normal _E2.wav" 52 51 53 1 127 0 0.1 0 1.0 6.192994 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Normal/Hohner-Super64_Normal _G2.wav" 55 54 57 1 127 0 0.1 0 3.0 6.435344 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Normal/Hohner-Super64_Normal _C3.wav" 60 58 62 1 127 0 0.1 0 1.0 7.608488 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Normal/Hohner-Super64_Normal _E3.wav" 64 63 65 1 127 0 0.1 0 0.0 4.290834 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Normal/Hohner-Super64_Normal _G3.wav" 67 66 69 1 127 0 0.1 0 0.0 5.303144 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Normal/Hohner-Super64_Normal _C4.wav" 72 70 74 1 127 0 0.1 0 0.0 3.088584 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Normal/Hohner-Super64_Normal _E4.wav" 76 75 77 1 127 0 0.1 0 1.0 7.983352 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Normal/Hohner-Super64_Normal _G4.wav" 79 78 81 1 127 0 0.1 167 0.0 2.653258 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Normal/Hohner-Super64_Normal _C5.wav" 84 82 86 1 127 0 0.1 0 0.0 5.396118 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Normal/Hohner-Super64_Normal _E5.wav" 88 87 89 1 127 0 0.1 0 0.0 6.78543 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Normal/Hohner-Super64_Normal _G5.wav" 91 90 93 1 127 0 0.1 0 0.0 7.347265 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Super64/Sustains/Normal/Hohner-Super64_Normal _C6.wav" 96 94 97 1 127 0 0.1 0 0.0 1.651734 0.004

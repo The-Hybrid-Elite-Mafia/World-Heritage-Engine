@@ -1,0 +1,8 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Friction Idiophones/Wine Glasses - Slow.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+4
+"../source/Idiophones/Friction Idiophones/Wine Glasses/Sustains/Slow/glass1_D#4_Slow_1_Main.wav" 75 74 76 1 127 0 0.5 0 -28.0 31.221411 0.004
+"../source/Idiophones/Friction Idiophones/Wine Glasses/Sustains/Slow/glass2_F#4_Slow_1_Main.wav" 78 77 80 1 127 0 0.5 0 10.0 32.071659 0.004
+"../source/Idiophones/Friction Idiophones/Wine Glasses/Sustains/Slow/glass3_A#4_Slow_1_Main.wav" 82 81 84 1 127 0 0.5 0 -53.0 27.662424 0.004
+"../source/Idiophones/Friction Idiophones/Wine Glasses/Sustains/Slow/glass4_D5_Slow_2_Main.wav" 86 85 87 1 127 0 0.5 0 -5.0 29.998107 0.004

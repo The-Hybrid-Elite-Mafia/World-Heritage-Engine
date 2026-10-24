@@ -1,0 +1,48 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Violin; variant Strings/Solo Violin/Pizz; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+44
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_G3_p_RR1.wav" 55 55 56 1 63 0 4 0 0 21 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_G3_f_RR1.wav" 55 55 56 64 127 0 4 0 0 6 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_G3_f_RR2.wav" 55 55 56 64 127 1 4 0 0 12 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_A3_p_RR1.wav" 57 57 58 1 63 0 4 0 0 21 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_A3_p_RR2.wav" 57 57 58 1 63 1 4 0 0 21 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_A3_f_RR1.wav" 57 57 58 64 127 0 4 0 0 6 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_A3_f_RR2.wav" 57 57 58 64 127 1 4 0 0 6 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_C4_p_RR1.wav" 60 59 62 1 63 0 4 0 0 21 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_C4_p_RR2.wav" 60 59 62 1 63 1 4 0 0 21 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_C4_f_RR1.wav" 60 59 62 64 127 0 4 0 0 6 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_C4_f_RR2.wav" 60 59 62 64 127 1 4 0 0 6 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_E4_p_RR1.wav" 64 63 65 1 63 0 4 0 0 21 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_E4_p_RR2.wav" 64 63 65 1 63 1 4 0 0 21 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_E4_f_RR1.wav" 64 63 65 64 127 0 4 0 0 6 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_E4_f_RR2.wav" 64 63 65 64 127 1 4 0 0 6 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_G4_p_RR1.wav" 67 66 68 1 63 0 4 0 0 21 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_G4_p_RR2.wav" 67 66 68 1 63 1 4 0 0 21 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_G4_f_RR1.wav" 67 66 68 64 127 0 4 0 0 6 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_G4_f_RR2.wav" 67 66 68 64 127 1 4 0 0 6 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_A4_p_RR1.wav" 69 69 70 1 63 0 4 0 0 21 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_A4_p_RR2.wav" 69 69 70 1 63 1 4 0 0 21 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_A4_f_RR1.wav" 69 69 70 64 127 0 4 0 0 6 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_A4_f_RR2.wav" 69 69 70 64 127 1 4 0 0 6 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_C5_p_RR1.wav" 72 71 74 1 63 0 4 0 0 21 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_C5_p_RR2.wav" 72 71 74 1 63 1 4 0 0 21 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_C5_f_RR1.wav" 72 71 74 64 127 0 4 0 0 6 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_C5_f_RR2.wav" 72 71 74 64 127 1 4 0 0 6 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_E5_p_RR1.wav" 76 75 77 1 63 0 4 0 0 21 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_E5_p_RR2.wav" 76 75 77 1 63 1 4 0 0 21 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_E5_f_RR1.wav" 76 75 77 64 127 0 4 0 0 6 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_E5_f_RR2.wav" 76 75 77 64 127 1 4 0 0 6 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_G5_p_RR1.wav" 79 78 80 1 63 0 4 0 0 21 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_G5_p_RR2.wav" 79 78 80 1 63 1 4 0 0 21 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_G5_f_RR1.wav" 79 78 80 64 127 0 4 0 0 6 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_G5_f_RR2.wav" 79 78 80 64 127 1 4 0 0 6 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_A5_p_RR1.wav" 81 81 84 1 63 0 4 0 0 21 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_A5_p_RR2.wav" 81 81 84 1 63 1 4 0 0 21 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_A5_f_RR1.wav" 81 81 84 64 127 0 4 0 0 6 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_A5_f_RR2.wav" 81 81 84 64 127 1 4 0 0 6 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_E6_f_RR1.wav" 88 85 90 1 127 0 4 0 0 12 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_E6_f_RR2.wav" 88 85 90 1 127 1 4 0 0 12 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_A6_f_RR1.wav" 93 91 94 1 127 0 4 0 0 12 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_A6_f_RR2.wav" 93 91 94 1 127 1 4 0 0 12 0.001
+"../source/Strings/Solo Violin/Pizz/LLVln_Pizz_C7_f.wav" 96 95 96 1 127 0 4 0 0 12 0.001

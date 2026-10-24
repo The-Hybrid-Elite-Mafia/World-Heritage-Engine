@@ -1,0 +1,14 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F - HandVib.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+10
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/HandVib/Hohner-Special20-F_HandVib_F3.wav" 65 65 67 1 127 0 0.1 0 0.0 6.983731 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/HandVib/Hohner-Special20-F_HandVib_A3.wav" 69 68 70 1 127 0 0.1 0 0.0 11.233406 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/HandVib/Hohner-Special20-F_HandVib_C4.wav" 72 71 74 1 127 0 0.1 0 0.0 13.67484 0.1
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/HandVib/Hohner-Special20-F_HandVib_F4.wav" 77 75 79 1 127 0 0.1 0 0.0 7.858103 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/HandVib/Hohner-Special20-F_HandVib_A4.wav" 81 80 82 1 127 0 0.1 0 0.0 14.108568 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/HandVib/Hohner-Special20-F_HandVib_C5.wav" 84 83 86 1 127 0 0.1 0 0.0 16.506399 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/HandVib/Hohner-Special20-F_HandVib_F5.wav" 89 87 91 1 127 0 0.1 0 0.0 8.598776 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/HandVib/Hohner-Special20-F_HandVib_A5.wav" 93 92 94 1 127 0 0.1 0 0.0 13.976601 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/HandVib/Hohner-Special20-F_HandVib_C6.wav" 96 95 98 1 127 0 0.1 782 0.0 4.614296 0.004
+"../source/Aerophones/Free Aerophones/Harmonica-Hohner-Special20-F/Sustains/HandVib/Hohner-Special20-F_HandVib_F6.wav" 101 99 102 1 127 0 0.1 0 0.0 12.859392 0.004

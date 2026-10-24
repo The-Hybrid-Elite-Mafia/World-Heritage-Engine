@@ -1,0 +1,17 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Flute; variant Woodwinds/Flute/susvib; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+13
+"../source/Woodwinds/Flute/susvib/LDFlute_susvib_C3_v1_1.wav" 60 60 62 1 127 0 0.7 0 0 8 0.001
+"../source/Woodwinds/Flute/susvib/LDFlute_susvib_E3_v1_1.wav" 64 63 66 1 127 0 0.7 0 0 8 0.001
+"../source/Woodwinds/Flute/susvib/LDFlute_susvib_A3_v1_1.wav" 69 67 70 1 127 0 0.7 0 0 8 0.001
+"../source/Woodwinds/Flute/susvib/LDFlute_susvib_C4_v1_1.wav" 72 71 74 1 127 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Flute/susvib/LDFlute_susvib_C4_v1_2.wav" 72 71 74 1 127 1 0.7 0 0 4 0.001
+"../source/Woodwinds/Flute/susvib/LDFlute_susvib_E4_v1_1.wav" 76 75 78 1 127 0 0.7 0 0 12 0.001
+"../source/Woodwinds/Flute/susvib/LDFlute_susvib_E4_v1_2.wav" 76 75 78 1 127 1 0.7 0 0 4 0.001
+"../source/Woodwinds/Flute/susvib/LDFlute_susvib_A4_v1_1.wav" 81 79 82 1 127 0 0.7 0 0 8 0.001
+"../source/Woodwinds/Flute/susvib/LDFlute_susvib_C5_v1_1.wav" 84 83 86 1 127 0 0.7 0 0 8 0.001
+"../source/Woodwinds/Flute/susvib/LDFlute_susvib_E5_v1_1.wav" 88 87 90 1 127 0 0.7 0 0 4 0.001
+"../source/Woodwinds/Flute/susvib/LDFlute_susvib_E5_v1_2.wav" 88 87 90 1 127 1 0.7 0 0 4 0.001
+"../source/Woodwinds/Flute/susvib/LDFlute_susvib_A5_v1_1.wav" 93 91 94 1 127 0 0.7 0 0 8 0.001
+"../source/Woodwinds/Flute/susvib/LDFlute_susvib_C6_v1_1.wav" 96 95 96 1 127 0 0.7 0 0 2 0.001

@@ -1,0 +1,1429 @@
+2b2edcaaa4c7f59ed82ed9257ccf0eb504cac9771744b31d48df3d53c64af647  ./README.md
+49fcc91297f561e72ee35e2c20cdbae7646bcab856b1b34b13bd601c460de7ea  ./THIRD_PARTY_NOTICES.md
+0a2e91b3376568abe7a5b4f948ccc1cf56bf12874e9cef9972698eae94b6dace  ./library/COLLECTION-COVERAGE.json
+3cf45149c5c16f136d04a1abc14a5ecf68b20eda540c376edef6105f7fa5f8c9  ./library/COVERAGE.md
+53e95130c82a90482c15e3a21f7fc46c8af252aaba59ac2b9f5832f53c357b6e  ./library/FreePats/COVERAGE.json
+b99fcaa85b915a58f23600ea74da8c500652ef840cc94f5854957d47ee3d509b  ./library/FreePats/presets/Bagpipe.whic
+02f5dbe12755df766ceea997ba2819754389fc98c1975a7df21d09ddbd117ce2  ./library/FreePats/presets/Button accordion.whic
+3dcb74acd9927fdcbd9492edd505e9379a93ce0fb92df88a02c69931655212ea  ./library/FreePats/presets/Hang.whic
+c4ec72eca08babec68132afcf1fde7437e79855fa96136c419a8d045c63584f0  ./library/FreePats/presets/Jaw harp.whic
+ac0e17368d774c4c05aa79ed1bb0883e1477c84a3cf9da505468e3a65ebb9796  ./library/FreePats/presets/Nylon-string acoustic guitar.whic
+6aead782f2c94cd2412a69f4bb16a6e60fa09bec7d6e4518d2e798f8fe6e796c  ./library/FreePats/presets/Ukulele.whic
+9354aa645c52db7b640fab8dea26ea675743bd1f00c66c3b9ce921dc0032a19a  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/Bagpipe 20260806.sfz
+a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/LICENSE.txt
+c2f97afd45331aee70f120746aa4c0c0e017b03731a0e8196c60c53cddd317dc  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/README.txt
+6cd6bdaef5f9da74004edd40624eae48c2c9e2b5e8bfe08683433a4435225fca  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/A#4_31.wav
+9a63aac95d94672bb3fbd457a1ad9b1d65c56e9f9f6f05477ae7958b84cb624a  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/A#4_32.wav
+2f3b8c04d4d478c3926575a07bd085a694906340acfc3137b1aef860ae89f48c  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/A4_31.wav
+302514a1b0adb9c8a2a64b28048194d6ee9f6a1d42045eba1f983c05b9fbeb0f  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/A4_32.wav
+412dfa849a08c2c0037d0fc5f4846db34b6c8ba619b61f02737d84cb6ae852e9  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/B4_31.wav
+1f230f44422545525f73cbc18d26fb1ee51d50602ddeadb1ff886e54f12f6b05  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/B4_32.wav
+fc6bd3eef322dfcb8d5a4c44e38b5423b0537e753076deb01d5d5744f86ba918  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/C#5_31.wav
+2f613f18a16b144d7d2e957f935baacad410d3c6ce8c175d23ad86f9f26c7e67  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/C#5_32.wav
+06e923a43e5367e632f0af535d2003d1a22d66de914a82ceea1c6aa5b395c7c1  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/C5_31.wav
+25fb22fd121a4519f42f72e4a750ad940fa9daeca878caf7ea829bcbc9d0486f  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/C5_32.wav
+ba98101f1b7c8a7fd0f397104d8703ca75d6ed2363edee7d06798c9679c57ec2  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/D#5_31.wav
+7848967c14c42e34abd1ca364611ce0610ece271c170ea7bf488ca96833e0f8f  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/D#5_32.wav
+be9c5f96f2b06675b9a976d414b9ccc6e513bbbee29e12561e69b7dbe5c8e7d4  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/D5_31.wav
+a6e0342eeb3612efa6a8759f7be22df294ac7287cadb607792187c2e9ce7f8c1  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/D5_32.wav
+5894015c1da26875a62431b1da2f168ce75815dda0b0adbdc1a30f9be7bca320  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/E5_31.wav
+ec86a9f638707e03381cc37b942c497d7725961688f72c0ad6f5a5c306b33129  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/E5_32.wav
+a1c06f6f2f9d57dfe55ddda5d1f7eb55e03d2e246e8f8548f6d7d3c05f82945c  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/F#5_31.wav
+5020d1a350b81562aa4ca5a135edb79a9d0b2d1dc7373cff5081b0292c482ab9  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/F#5_32.wav
+53bcfc79028e3022e3413d938a9ff2974a40942d9ce4b6b602606bdafbf20b46  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/F4_31.wav
+3d49ea1cef24298ce38675f1e00c968d94bb6fe221d5627d07c7cf57bc7a60b7  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/F5_31.wav
+37d5ec3ae977317015401bf5bb9baebefb265f972681dca25e04586f1bb3ab20  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/F5_32.wav
+727fd22c6a209032b5ff5ccc3b1e6ee787ee55e971d15453c41a67e13994a97e  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/G4_31.wav
+30d2cf5740f7b965b995506f59c833a0ff7965c581d87e69e016147e41510b11  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/G4_32.wav
+761d6e31567d833b4a3e75d22b3479571067cb5a196e490bc784d449a00bcf23  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/G5_31.wav
+892e360d0198c3b4b133aa6d4e0e39aa1019b04d8b13a6eef0e694590768d6b4  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/drone_G2_1.wav
+f59b460e0c6ba56ad34f055255d13b7068f2f80e241cc5ba0cc83bca9e29ba26  ./library/FreePats/source/Bagpipe SFZ+WAV-20260806/samples/drone_G3_3.wav
+6ab0c206056d5ae8128852ca02f56c9b8c57b1d97ca70e71c7952273f0862e25  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/Button Accordion HN A4.wav
+31e4764b94bbabd267befa7ee443339a7adaaa93cf7ef5723b15d0e20015114c  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/Button Accordion HN A5.wav
+ad48094d7eacc3f067ac7b311399150f03b47bc50980b3f0ebe0f7ea0f866e38  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/Button Accordion HN B3.wav
+9ee3e460fe290c73db230eb2ea2f78a991c51068ceb718d05e82da15707c64e4  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/Button Accordion HN B4.wav
+9b47cd343277f3c935c8e65e52ce0fa4160f7e0fdf1f6640ed52f3a633ff63da  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/Button Accordion HN B5.wav
+230994c5f31e48b6b02c9dcc68e132013e55553e7e3f12034cda48182e31bf3f  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/Button Accordion HN C5.wav
+6a6600ef43d1585f5be5e90da653d8df39a1308e8d82c103ce294fb09a5ee536  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/Button Accordion HN C6.wav
+cf13f830383a2ad05d3cce36a8e58d92832cae9fe7a08741a2d61e3dd70d319e  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/Button Accordion HN D4.wav
+75728b97300911ff3e5def3238fe315dafd195b366bed62676585c58d3863e8b  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/Button Accordion HN D5.wav
+e9f387da591c170b57b3dc1e5e6dbc2ed6e65ad79a13863571775438b07fc965  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/Button Accordion HN D6.wav
+6ef64febe988d8dd1975702bcdc9854cb954755873138604b0828d7512c4bcc8  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/Button Accordion HN E5.wav
+0247c3b93a45344c5940bc2d1bac2102c00eacd5f1081973e3c5e2bfadb69f94  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/Button Accordion HN E6.wav
+6aa275c9c46985789d6c9b67837794f51dd0ecc58c71de348647b8ff87544bb5  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/Button Accordion HN F#4.wav
+9d73e844125e36025a81a580f09da0b02797e09f79e12387cf556a53cb2b5148  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/Button Accordion HN F#5.wav
+3c04ca7bdb56df5b9bcbe9b4e8638b8daef2cbecc7c893ed559e5227e5531837  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/Button Accordion HN G4.wav
+45cf33eed9642eeabe0bef2c6180ad6bdd893b2a88abce006c67287afebbd447  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/Button Accordion HN G5.wav
+ca4320e380efcbeb8b7a2224af7f50cdf91f5bbb6c5b484339a00c4affa82512  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/Button Accordion HN G6.wav
+a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/LICENSE.txt
+234be27a92630a0699d30b3f20d9752a9632edb29e0563896a9873819fc12a7d  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/PRESET Button Accordion HN tuned.sfz
+e1c60cd66b0d6167eb29f581b43a141fd39dd6abe90e68b69fed7fd625e66957  ./library/FreePats/source/Button Accordion HN SFZ+WAV-20240329/README.txt
+90412aa8ce47dd2370f6f93a0caeb8ca273fa3b2b4ca834cc949590a6fd27ab5  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/Hang-D-minor 20220330.sfz
+a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/LICENSE.txt
+a16b2943cc2e21aca4f835f6c694b026439fbaf445d32962c4a3d148247e87b8  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/README.txt
+5ecc30586aec12b092b7b5d8693dafc774e6430fb9d7c152cb71623962011db0  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/A3_01.wav
+0a85fec38a8ca2e2f84325658450f5dcc5ade63ec7215c8468069b484dda97f2  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/A3_02.wav
+27ad8cd2f9cbc0cc9ec11c931891a1d446226f247fd5f98af5ac5b2bef98c9d3  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/A3_03.wav
+1c7446e52ec7161aa2794425bf9d03a37ca8257ba1612602022665506fa79b56  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/A3_04.wav
+666f7449acca24164c8db3ebdbb9e621bac703cc43099a57747dd413a46d93d1  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/A3_05.wav
+84db6abe8d6cf150d57fb741b1306206d5cdf0e73838f831b0f95648adade772  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/A4_01.wav
+5590e7818cf6154e1220a6670f8186e6c1b247e9f7c25d66ea5747fb5122cc22  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/A4_02.wav
+5d59932854031aa592aea4e0ffc7813fe72bff8bedd014683c8b286e7975c9a3  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/A4_03.wav
+0d329ff588d7ea235f0e10db76ca3fe758451e0004ba6d89e5e7d243a1d89547  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/A4_04.wav
+469a26a31dcfb79d4ec87004a31f31f6fcfea455fa6c9ea3009f2333fae35dc1  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/A4_05.wav
+0e506d2074d4a9bc5534df058cd28614d8482e7c1fd7f9e2da08a53a49310cc6  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/A4_06.wav
+4bce39112316b394b47b206bdf8bbd74d006440555aaecee2b441f0d1ffffc7d  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/Bb4_01.wav
+36525dd5f2be614eac023cb45c7b3a1e9a1965b954283c1bc15998ed3219a0c5  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/Bb4_02.wav
+71b50db8f8b4d81ddf397151222c7da1faf18229267086228486fe5009faa892  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/Bb4_03.wav
+cd5577eeeec9bdb1037f395fba3a3dc2713aaecfa938295e49640f965bee62dc  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/Bb4_04.wav
+51342116bce593173e28921a3417c0cc4d4c12d3e4067b6041bd99f266adb29a  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/Bb4_05.wav
+730d422e0b05e2cedced02e1995d49e0316c6ee7f6885a7b793a2fb92aa2b46b  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/C5_01.wav
+3542f59280deb43b59d566f7880eeb7491ac962cecaf0bc1386414e82191fa3b  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/C5_02.wav
+6c1aae1844e56fb96efbc426712a6945a15aad140456315fbf9973d857f9bb64  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/C5_03.wav
+9185e6be28967dd62f6c0aca0df6a1e96aa58be95970d1b880f23f103d2b409e  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/C5_04.wav
+d3837d3fbac05b95ba8abcedaaca46487cfd73ad5c0a6bf6e572fd9607150a12  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/C5_05.wav
+0b181061e61eb5273c7d95ec84f3963b9adc64724b678f2175e7eef598fffb00  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/D4_01.wav
+2cc2609e05fa2b7710590f0dce919dd1f44d8a5e4f77685e08a3a2599ad14960  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/D4_02.wav
+89272f76c0b8a96e98544539bca587f92ac4959ec06171cab0d1e8ca943c47fd  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/D4_03.wav
+65343d8ac051e82f5f36fc29c10eeff08f69da8e5ea5e03b4108759948feea6f  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/D4_04.wav
+7fc8d5d4d2f220ebb2867e77a73d56b6dc5d4a5f138d644ddf04d87a6e388b6e  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/D4_05.wav
+f66b7db1ea382c6be7f656a00e5cb71cfc1cecf58be4f9ca66ce6d5bd961a922  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/D4_06.wav
+c106d9c3cffe140ef3663e8835f08f01fdbc8f3b360ada25e1bef0d22d17ed08  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/D4_07.wav
+1ac3c2841429e9b8357d466876718a9a2bf6ff7fc4b35540befeebc11be05cee  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/D5_01.wav
+6f2fe412568526246b7838b249c1c6021663b5f3111c09bfc421a4154c3af50d  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/D5_02.wav
+11525fa4e9a76751764eed3ae5a19f062ec7adb7dee27d7cc121031b009b467c  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/D5_03.wav
+3767f917d162543d973de99dc05c49da70292f3a8cd1bb6e35e4e0f84d590888  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/D5_04.wav
+d94693e52f6cb901dc4ec69bf143152d7e21f597eaf2be78012689593b65454b  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/D5_05.wav
+c95be9ba859fcd988ad5b5a15cf57e7bdb67e85d4ceb2848a4342a27771f64c9  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/E4_01.wav
+c10aee4a984a91c2e8bbf96aec71083b54ad0ab8a48fa4e2bd8726b19d38e334  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/E4_02.wav
+088de04f7c447f15cc6c689b60034fb98fbcfb76e99c8380ce21d5830ab14b2c  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/E4_03.wav
+5534d7dffb212230d39b8e08143ce53ce13d2b3ac1f5f43c6831e54f5a038387  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/E4_04.wav
+5371138429d70e79df7f38e3856699ec2676e77d1ee9741cc544c812a2d7a08c  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/E4_05.wav
+21ace01b20c700060097172a015d98bd60333291b010f0a32460d3623c454a66  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/E4_06.wav
+627843c7a7a83b7419f7b0d6c5ff6db7a9817b8a85611655a6e93b057d17287a  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/F4_01.wav
+25837d480f311c27617538856958b5bd149ba573e50c6db5d043418f4b839f8e  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/F4_02.wav
+848cbaf9b2a1571f542ba379b9affbdd1813dcb44e0619c919376940e726b868  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/F4_03.wav
+16b400ea66641b6555d84b2fadbc91e0657945d5da63f28ecfd09fd185854a96  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/F4_04.wav
+b8bf135765936441ba1172ba76a4c7ee8e2c91308db93702676074dee3b19cab  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/F4_05.wav
+489e51b2ae98882ba75213b28ac9be9a8068b60f1a3444be74f19471dedcb940  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/F4_06.wav
+172f5e2ec171222ee9258e752d905835fe03c5f94e2a1fec0190cb8957c2a96e  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/G4_01.wav
+f06c658be8c0d8b3eaab021d564c8254c3ec2e0d22492f40ec9bf43e28690144  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/G4_02.wav
+6b7148c0ed249a62b6f81f92367e4aacd5ba01a1e47053efef5b7bb6a4f40974  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/G4_03.wav
+2300ea2d0b2c51076e314fb91fb55088946421a58d033b3fa557a4f19b9e264e  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/G4_04.wav
+2370931d79a65461438eb35456f860dbe6ea9b8b5c6aa4d08a0069c483f1ee21  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/G4_05.wav
+839b663fa8909309fda662d33e7d7dd0a277ec72d4661412cc2f0c0ac6956f85  ./library/FreePats/source/Hang-D-minor SFZ+WAV-20220330/samples/G4_06.wav
+0c3fe9fbb405028eba5c418b2b70b710703bf107056aac670dbb30b850c6a363  ./library/FreePats/source/JawHarp-SFZ-20200606/JawHarp-20200606.sfz
+a9ce1feca04477b9e2c51ed9e22cf251758604a63f04f65a12cb1556875394d5  ./library/FreePats/source/JawHarp-SFZ-20200606/readme.txt
+f41212a23f3da7adc88bf745128da4553207b1df519fad47b0760f3b210563a8  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp1.wav
+656c7b5d0936e25ffff0dbd6d25485e9247ee61cbf3ae97db8559ca0b34a556f  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp10.wav
+938e46b83272c4efe2af5915988cf7e1516d781956dd5b45be8e7a1c3f226a38  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp11.wav
+69b61c58e454c1601a04dcdcc52920b6d642889a232c46857b4bf64f5efc3ae6  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp12.wav
+8d9da5e86cdd3d5c89a33e9ac8607b449f3257f273fb1ec3e60aee22df7b7773  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp13.wav
+fa460cd2e8894ba6d9fa5e024b357e686d73f1cd560b39e2dc2577a3ccf64de7  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp14.wav
+ca83a52c06f4fdf81101e3f2961d07ca4d5a86493e8e8644f007912abe18d42c  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp15.wav
+f9f52bfb701d37d458af5a62a12d614310dcb79b42c7d2d86c4bb68eaa9191d6  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp16.wav
+59d8f28c4740a4a419d5b5c72600b60b892b1deab3c0e94cfa8cbf6cfb8f2631  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp17.wav
+e0753b83bb1360aa42b691395d8f30c1a22918e2a322264804d0827b2bb44812  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp18.wav
+c9aa51a0558a089ba5a1c677397bc8f62bf68f82d13fe850b8745aa49f493049  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp19.wav
+9bd91b7b1c9b1dd3373f13f9cef844dca44b0849e573647a0cec41f2c83fc590  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp2.wav
+cd958459f77f017c26d8d8acca3959eac844ceaac635efced7509e6aad1bc90a  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp20.wav
+57d94159e703bdba8f59152503164220e43ab3c0fe8e1aabb6212e86e2ac6d29  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp21.wav
+7e20b0c8972f5e94e75d097ea0cdf4a65702b777cdabb9f9adb76075c03c1f04  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp22.wav
+178eaa45873c8969874cb0b10dbb412abf81cbab3182bc8be47add95d46f74db  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp23.wav
+3a26a17f926886030eefe6986f215f0a18ef9fb4856958643f6be4a28f5846aa  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp24.wav
+e1d009f4d1a71a5675b6bd98b0ef3b058d18ce25a44de24cb15774044900c033  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp25.wav
+672c00280a8744dac7b3a3978fe4d4c44e294e1a5f6fcc88eef2c57ed41ebc4c  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp26.wav
+2ba72843512f5f1f9dc67bd4248bf27e16c4a88ba35e64594a228b2a86745f84  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp27.wav
+5c7b4633db5e40f00bf27b43652a218809af40a0be6d98493968f6f0333cd328  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp28.wav
+02e3894a4fa807cab786f5962b3ceda141fcce1c690532d1b17d1dd6b8ba6e1d  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp29.wav
+899dcc9ccce833b324c11579a8e4623137bd1cfd69a15631d26e731b02153f03  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp3.wav
+6962d60da33247bbe9aa3c3c6098e569100ca3c935a83c533c6be8e98d160312  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp30.wav
+e9253e42a0ac3818423375e41c8c045795c4c22ecab0c407ed845c3442932b65  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp31.wav
+19dea1b97f5561bf3ccfcf16f92975aac0830037cdc20b1ec97a9e4423c3a0c9  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp32.wav
+d382ec67289418b593a594a0958e8770b31d528f7581ef622dda7c7d2ab86abf  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp33.wav
+64530484801d93bdb2c1f933b099a144b4d1feb8c269b26dea65ab1479851b82  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp34.wav
+f928d217135cb51447b68202961583a711ba8b5117f8ef6bb5f3c13e156265a1  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp35.wav
+c09634b01f572307134545548f7742f1bd67d4ff8ffae4deea1d712203226038  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp36.wav
+23c95e9f502ee04f6bc271db0621e365e763a8f33ad5a372de2edf9f9ea68232  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp37.wav
+992dd54912b2fecb9be0f1cc7c87d5befa8c7df6c02b79750e4e99d9117e835b  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp38.wav
+f0a1b88c25a7e46a77d7995bd87a13479ca4fad99c17c864ef35ac3a13f6a380  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp39.wav
+155882c41c8b48ba6059c03612ca0da899218e68c24d5dfc708c5812bc6ac1c2  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp4.wav
+76449208143e634fd7a4e606231dd46b52b99725395d3ff227a092941ea7ce42  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp40.wav
+6a7a2feb27f273b832f47074b836bdfe9ccb0928f06d6e634f52edd20afe6136  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp41.wav
+d34dfe531739c96c3576751ca1a07bb8a32afe5305a6022eeeab61583b77f63c  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp42.wav
+494e4494a6ebcfe5d1bf1558f33565521d91c5f59dfc1dcfc5032c5b43511de0  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp43.wav
+69ff7e4ec27492fb5c269d490395b3c240172c825542f80b5dc761b9227ad56e  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp44.wav
+d943695a474848519f60e0275d454951a157a9f8898c7ef9f2ffb782f3ecb2d5  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp45.wav
+5dfd4c9d8ef7382f8365b8aa9fedc1775409e68cf8241dd7c0f64984a79e0311  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp46.wav
+d8518af7d91c56acaaecf7e19e3f817d73302dd462bc3bc1bf955af906b8855c  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp47.wav
+4b127783f6ec811635e69b998b514093640cac27f5bb7aa369d2fabfe4da0df0  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp48.wav
+4f7e9394e77d79a2dfd84a639f8b0e4b90c20088bee1f2b30e08d5c6ed92e617  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp5.wav
+964ceae36ab63a9d1c0c465714fdd2c6ea98c037214a4aaa394a25e261792a52  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp6.wav
+97e5eeb4fe38266d8bccee2dc3e0e8ea5bbe68297de62034dd37530c87284632  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp7.wav
+93e77bd2c22bb09eeed8eaa75a4af9848545ec80b20acad37a8e5606548e8986  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp8.wav
+b17d2e1ba1b57d60f0a163adff2bd716d277b0b6b885e5d901ea3b801debc5a5  ./library/FreePats/source/JawHarp-SFZ-20200606/samples/jaw_harp9.wav
+1506fd8ae2806843b29d236f7f52ada92af876bd92028f9cb090ab168d6abb22  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/SpanishClassicalGuitar-20190618.sfz
+a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/cc0.txt
+4791887358f865119705b0c2dd9b604be626a06462d37d287edd1b2607d80efb  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/readme.txt
+c6669c8d12f6e828f37df9ab6bbc4bd155c26a94383b564556ee2fef020e6d04  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/A#1.wav
+64b0721878e1affa39f7c03382d1a95caa14316fa691dc499968d4a8d34ead78  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/A#3.wav
+743ee18e7f01b14e270698681ae1837506a7a1ef3d0f160c30dacadcf5786d60  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/A#4.wav
+88ac184123e4fd187ccceda8e66f8137005313802cc09f594a7ecbfda7dc465d  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/A#5.wav
+c61f9a23baccce2dbe7c52f8390c9b5a7b8cb3e17e74f6695df5b88bea4ad4b0  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/A1.wav
+1ed5725737f894444461e8778340c223e5ff1e0578ca08cd823582949d628db7  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/A2.wav
+a44a5f172bbd11dec66d4ac57b67ddbdecc0328883a9114fd0b676868f09d671  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/A3.wav
+4347049a573a20e970c05913d7fce065adfd5365eaa651156004550e8ef5d175  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/A4.wav
+39d1cc6d041796e2bdb57f973b9f6bf80c6b19bd296ae99a6202065896677190  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/A5.wav
+e076472f52a4da0b1dbb672649c3a3f9919174e14f31a359aebfd559d4195c17  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/B1.wav
+aa5fa8000f0714a6e201617551add81f771af07eaf2340a3c68d12bbd388ed86  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/B2.wav
+7e2c073fa60c7732024b07979286a7956ba7bbfd12c9a07ee032f3014073bdbb  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/B3.wav
+71c6336d7fee2f24f00b4b9b9bbe6de2c77daeb6ff5d1d87813aa93e0973a873  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/B4.wav
+9ef813bc3570c8042f06598df755ffa8ee049206e3dd14588c27b05557a49748  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/B5.wav
+978cd852a9e3e4ae658fed42f77ca7c5b9225e8efadd5d1b9ce4b18bbf7449b5  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/C#2.wav
+b2b3dfdd7a2c883a97653be084e3237cacc716267b7c73eb18e2b8daa9b8a811  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/C#4.wav
+586b35854d1a75ce32c8dd0faae5affd4b7d8e22b32276188b3c46ce3db1feab  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/C#5.wav
+ff911e7712198dcaf3677f19ec6c11e8522b9dfe42e5e9151c9ff32c4f413541  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/C2.wav
+d7b5d1f1bf9a1852859376a4e2ed462d5339b9128f8c682a3eed7661dea41c65  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/C3.wav
+b37fb9279079aa3334cd217bb4e0eba8e2618219c9cd646c793fab685a4bed46  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/C4.wav
+d3b547c93fa6711647eaf921ec06f05171103f6ef04af3db2d52289a37e36764  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/C5.wav
+a297c63a94eb823a2f7515b20c36c1760990cb33c699d3fe2d0b3b7da0135007  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/C6.wav
+4ed852bdaa965ef7eaf319fcc656f754f090043e9004ea47dd2fd4180f2a8f69  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/D#2.wav
+251b7e827972bf3406e204ae158d1f7db8b9ea8ba503373438234bd0d02e4c80  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/D#4.wav
+012aef2b8ad3999aa472d57482047f90aea09ff8fb82cf1d4773a58e94152b6a  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/D#5.wav
+6cb6ebcb818ccb5d6e72467d05c9fe82f4bd89cdfe21280e3ae65d224b52788e  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/D2.wav
+ad05903b63e490bacbd8f90d2ee4c3e763bf5675840ceef7374616c51421139a  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/D3.wav
+7301c859f712429a36baf56c37bc7f7808f2a913ae22e033c45938aede13c5f0  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/D4.wav
+1380dff1a61f6364c8971a39b11e734a98c4358492307febaa9341fb114bfb28  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/D5.wav
+22a7c914051a82b2a461f998bcefccb9868e67887af036270664c370913732a0  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/E2.wav
+3b84c5f8d76f61b242e812c86bd0a876b065a8ff576a0769801bb2f690bff90b  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/E3.wav
+b58da5a2a380a2facf051c71b8178711a676d6b8b1021e0ffc3691841fe34e3a  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/E4.wav
+1eaf4b6548d96781caf3b26a3a1a569ca097d3bbdfbc8e6fc58ffe15f3febd56  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/E5.wav
+c89e24f62497a67a5d8223a1b1af7eea20b47639c29a4b5a3536d5d88de89cf8  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/F#3.wav
+5809556edc5a2de5bd0fbd5ec5985ea21f47805d1328a88ec3bb53104badca72  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/F#4.wav
+3da6b8bc2bd4d56253937de6c68f8a4e985563b95e23f82a9b7efec69374131a  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/F#5.wav
+81131f7e292a74893641777f5fe754873466e8e44a030dc57fd631c749ce8c2c  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/F2.wav
+e5fa4e9722a5042aa89b60bcdbb0756aaf8396ffdb18589d3a4368400cc09ee7  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/F3.wav
+ef6f34ad82b29469a535b38573ff478159cdf0abcf5ad354173304b3e014daad  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/F4.wav
+84f1e8db070649fbc2abcd525612b5bb49c8371ba196a421a70efec7a5518e61  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/F5.wav
+844071e2067cb915f14c7844b820a708834678910fa4f02b839bdfdd7f3a8d77  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/G#1.wav
+b26c8dcd839bf926d131a7276f35947794a6e4c28b469bbaa0fdaedc259fab69  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/G#3.wav
+08704c9c1bdaecdb16d1b7b33586508d96f7ed523e0c28247af566bdaeb4fd04  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/G#5.wav
+ddf726f93811ee23babfbfc248f8188c292f9c62d056faca05a0392c621db5da  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/G1.wav
+06114b39af585030ba24c90a0cf213973e88c823fda2fc8ba976ddb74cf6aacc  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/G2.wav
+c2d1a00e90a4ce14756a45836be5a9f4bb379c4ac72f6a124f4227426e9e1541  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/G3.wav
+b1d36a1cc9863eed45bef4b7027c9b651ba8284dd7b325cba998fdb17638d02b  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/G4.wav
+5612e7b0f421da28e673e7a02169777418dccb805d494e83ffda4dbbd3504fbc  ./library/FreePats/source/SpanishClassicalGuitar-SFZ-20190618/samples/G5.wav
+a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499  ./library/FreePats/source/Ukulele SFZ+WAV-20260811/LICENSE.txt
+5f3286dee9c8d0dc2dd943298f5f85b0a1feff5d37dc7192b992724509ece2d4  ./library/FreePats/source/Ukulele SFZ+WAV-20260811/README.txt
+a1fa353fadf4c3a2a8956e92495ad22163b8e63ade113870bf63201e57d3cd7b  ./library/FreePats/source/Ukulele SFZ+WAV-20260811/Ukulele 20260811.sfz
+429f53c747c1ef547f7d5b802bb3ada653105f41504fd7192eb4912d772e3cd6  ./library/FreePats/source/Ukulele SFZ+WAV-20260811/samples/A4.wav
+b5074361436e208b801a786397d936983954a599eb240bea6c707536f8bc3a09  ./library/FreePats/source/Ukulele SFZ+WAV-20260811/samples/A5.wav
+f1f6e6d775473739089aa6aee00bbf498565c5572a0928b0c0bca75567273f53  ./library/FreePats/source/Ukulele SFZ+WAV-20260811/samples/B4.wav
+2793bc5c66dedaf7397c48f11c8cbe25d60fcdbbf1821a84c3445cb0ce446df7  ./library/FreePats/source/Ukulele SFZ+WAV-20260811/samples/C#5.wav
+8e3417d3ce2e9cb9848f6d887669f5b259a4a261ade531bf5d437a6d510323f2  ./library/FreePats/source/Ukulele SFZ+WAV-20260811/samples/C4.wav
+a13b5f4ea48508ebad9f0aef6ba44c9d9f8691273fdf4195d7bb0145d7320bd4  ./library/FreePats/source/Ukulele SFZ+WAV-20260811/samples/C6.wav
+06a4a54c251ba43eab4f82618bae958907c7d8792bfee559a599cb56296eb114  ./library/FreePats/source/Ukulele SFZ+WAV-20260811/samples/D#5.wav
+02e3306ffec64c77367a433fa7349fb61ec86bc26fea2b8dcd738d65340f5f7b  ./library/FreePats/source/Ukulele SFZ+WAV-20260811/samples/D4.wav
+0be6e08e7ff3ac9e16c5df9015f84007a981730bd4d1c13bb03ed36461bff608  ./library/FreePats/source/Ukulele SFZ+WAV-20260811/samples/E4.wav
+1456e243f501205c59b3cebbb7a0d165c76889ecd231282bb27a2fd358c04165  ./library/FreePats/source/Ukulele SFZ+WAV-20260811/samples/F#4.wav
+bd0fe4813d71ef72501f64dbdd431a6ce01aa7f9a26228327d8477cc23d1decf  ./library/FreePats/source/Ukulele SFZ+WAV-20260811/samples/F5.wav
+24879ab753503f06d76785620f2a5927543c455d521200aadc1e82646660003f  ./library/FreePats/source/Ukulele SFZ+WAV-20260811/samples/G4.wav
+aa8143aa8f7af79b2316e0aa45ccb26e868570917c4f0ba690069958a52b5d49  ./library/FreePats/source/Ukulele SFZ+WAV-20260811/samples/G5.wav
+679140f0ac65656b61abf25e84ee358ebe5712b36e8cd5c5f999f64f0418d8c4  ./library/FreePats/source/Ukulele SFZ+WAV-20260811/samples/body-tap.wav
+f3359f5d170387d55d1ba48af7d3d47bb416b0d882f225968f3c274a43fe5971  ./library/FreePats/source/Ukulele SFZ+WAV-20260811/samples/chuck.wav
+6277fd8982bbc68b63e2c7aa257a87fad34cc7dce47c43c5e045ac3aadc27757  ./library/Ganjo/ATTRIBUTION-AND-CHANGES.txt
+9bb6e9adceaa6fd0c28d3db9dca89de2f10a028eda90414b0c022e776f1dc2a7  ./library/Ganjo/EXPANSION-MANIFEST.json
+dc9dfce3d58325115827ab09e18ddedce502c3b075b7f0db897da845f27cba83  ./library/Ganjo/presets/Six-string guitar-banjo.whic
+7060b2e293692c1128b7e788410f145610aeaba3bf079924b549fc59ebfe8c18  ./library/Ganjo/source/ganjo/Common/Banjo_Common - A#3.wav
+58eb20472e647f731ce77167a1dfb7eb1f2a207fbb7b7e6413f7d06f5f66b641  ./library/Ganjo/source/ganjo/Common/Banjo_Common - A#4.wav
+d319b1a25708dce64e7ea24d93b12049c005c1a5f5057e796f4670cfd43421d2  ./library/Ganjo/source/ganjo/Common/Banjo_Common - A#4_10.wav
+9166a6c245f640f7617c551a0032f4dbc36178544ca0612aaa6b1a5b7d19cb1b  ./library/Ganjo/source/ganjo/Common/Banjo_Common - A#4_11.wav
+1f4bc139e21b8e2b2789dcc480d0916d9d7ffc6b9953f147a0627fcc5c8eb37a  ./library/Ganjo/source/ganjo/Common/Banjo_Common - A#4_2.wav
+8b6cd06728abdeb1764de1e352657c9cbdb1757a003b6b29d569f419c8103beb  ./library/Ganjo/source/ganjo/Common/Banjo_Common - A#4_3.wav
+c095d2f8d8225c036a88e3f58c99276772620cc7680f0d248562a64bb262cc7b  ./library/Ganjo/source/ganjo/Common/Banjo_Common - A#4_4.wav
+a8051d00a75d20d1f0b7a82e6cf1001e3b9d657ef6ad7bc638f778193ac3f61d  ./library/Ganjo/source/ganjo/Common/Banjo_Common - A#4_5.wav
+e1da530986b4890237e6cbfa25eac70aefa435460231ede4cc2f1108fa2993ad  ./library/Ganjo/source/ganjo/Common/Banjo_Common - A#4_6.wav
+b4327f1327a194e6a75e73939ab80ae62b113f2338e49579b475c3677588af47  ./library/Ganjo/source/ganjo/Common/Banjo_Common - A#4_7.wav
+e8fcf4036c2754dea1d868f06994e6f4acb05e5ed3d45a35ba045ebcbffdc45f  ./library/Ganjo/source/ganjo/Common/Banjo_Common - A#4_8.wav
+351d43ac17657004e5a7ef8728c858df0de7c489fd147c361e21db92f8456266  ./library/Ganjo/source/ganjo/Common/Banjo_Common - A#4_9.wav
+2af149184e943a66b0913950946170db0ce7af0d8f9efafdbbfd820b2bd3ba93  ./library/Ganjo/source/ganjo/Common/Banjo_Common - A#5.wav
+4bf313ada6ac3dc5c447e2f8cc41f609c89147e360e24dba81b20b594c86ad25  ./library/Ganjo/source/ganjo/Common/Banjo_Common - A3.wav
+5b11421f8d2ec69760277ac7e0e3743658c39fb41a78f712408b0b2d53baad14  ./library/Ganjo/source/ganjo/Common/Banjo_Common - A3_2.wav
+fd31432fb20652fe9a21516ff0a552c2c32752e36a0e3d33b83b05a512f09de4  ./library/Ganjo/source/ganjo/Common/Banjo_Common - A4.wav
+706210283d0a8f64701155ce15773313adb9bcea6d8bd54f5e3ee20f30af227e  ./library/Ganjo/source/ganjo/Common/Banjo_Common - A4_2.wav
+39cb758e96509c1ddeb1b71bd57f65c970b6579bbb638da5b59bae2509958c1c  ./library/Ganjo/source/ganjo/Common/Banjo_Common - A4_3.wav
+fddf1c9e1794a3582181976d83ec8ada29dae9ba08676e4e3553a83861df9c3e  ./library/Ganjo/source/ganjo/Common/Banjo_Common - B3.wav
+61888e9e14dbd4a678e118e094393bb419b8e9dbd8e766c95f72e8be7d149f2b  ./library/Ganjo/source/ganjo/Common/Banjo_Common - B4.wav
+0e4325607caae3c5ada593b752bc7e2540e0c73ceb7628ab754be9becf31d9a6  ./library/Ganjo/source/ganjo/Common/Banjo_Common - B4_2.wav
+b6adbc2e6baae238b321f65793d438bb12cf5a0eccfbfda3cb5c351b2b104ef7  ./library/Ganjo/source/ganjo/Common/Banjo_Common - B4_3.wav
+ff66e32355136a1444b3b364853c3ba1d4279d0f3f1ef0dc9bdee7b9e7402618  ./library/Ganjo/source/ganjo/Common/Banjo_Common - B4_4.wav
+5f590551c8c122c8a918838f63ecf5a235b41d8c4ddbea6b38bd3802e3ce2f0b  ./library/Ganjo/source/ganjo/Common/Banjo_Common - B4_5.wav
+45f1f6755c1d892786bde903c789b0051ffafc167dbf282cf1b87eb2a12e76ae  ./library/Ganjo/source/ganjo/Common/Banjo_Common - B5.wav
+070cd8c909036d6dd48bdabeabb832ed8c640dfc10eab67f19a6d845e1613ec0  ./library/Ganjo/source/ganjo/Common/Banjo_Common - C#4.wav
+09273e62f5fd48cb0dc4fec783ebc5f85c4798bac578eabb4d1b595909f324a5  ./library/Ganjo/source/ganjo/Common/Banjo_Common - C#4_2.wav
+22a2168943ac0224b9a27f2574cb7825c1d2d6795a57e666f3eeaa6bafe8e321  ./library/Ganjo/source/ganjo/Common/Banjo_Common - C#5.wav
+3d877d95e205f06eb8b81e7d1bef0158a61417e13e140ed9e7c0781018fbc795  ./library/Ganjo/source/ganjo/Common/Banjo_Common - C5.wav
+c2448880433c4ef4cf3d0f4de6bfac5dda17e5b7eaeacb28e8c91322efccb186  ./library/Ganjo/source/ganjo/Common/Banjo_Common - D#3.wav
+e7bb5ce87d2a74b7e7d5cd5e213beb22e31c5a3db73e1d7f153a9ecff9f0e293  ./library/Ganjo/source/ganjo/Common/Banjo_Common - D#4.wav
+946371632900964f9d3734ecb9b667bd91ff6aad820a19de4c24d4f9f4586683  ./library/Ganjo/source/ganjo/Common/Banjo_Common - D#5.wav
+c3a5b0dc0d8c373afb5bd4c4c4690da8734cb4a998b71a43f94a1407c98bbdfe  ./library/Ganjo/source/ganjo/Common/Banjo_Common - D#5_2.wav
+6a1dc3895786eb7a2ddd41664e28577bf6334f43de2ebd11f917b125dc89355e  ./library/Ganjo/source/ganjo/Common/Banjo_Common - D4.wav
+f2f72ceca428b717b60af936d0616eec98d3cf1d838ab32f94a03dbf3ef35cb5  ./library/Ganjo/source/ganjo/Common/Banjo_Common - E3.wav
+c5d755bd77593b58f1b0eb7c4eb6a73ffa3a1015ff6b1a35cd99ae4b99f60c94  ./library/Ganjo/source/ganjo/Common/Banjo_Common - E4.wav
+47e7795f2100e50fd9a0e2a633070502ebb7659ad911fada600b9c44678cc2dd  ./library/Ganjo/source/ganjo/Common/Banjo_Common - F#3.wav
+aea7a0991a1a5646dfd42528ec8f70393e35543875a81b4795ec2cbf930bd1f7  ./library/Ganjo/source/ganjo/Common/Banjo_Common - F#3_2.wav
+d9cca6e0ded4e40b72a04671663482a3db0dfbb60eb054ff1825b209af7d85da  ./library/Ganjo/source/ganjo/Common/Banjo_Common - F#4.wav
+25eec6703d4727a0781f16a857b1b6b50e9af4f51e893d3cb9691218399fcdd7  ./library/Ganjo/source/ganjo/Common/Banjo_Common - F#4_2.wav
+6e09f9eb9c72b88bd37025246703434a8ea4bd61b0d92b166c395c0f502d2224  ./library/Ganjo/source/ganjo/Common/Banjo_Common - F#4_3.wav
+13165a5a7f565321a36aa54a35a560f0708874baf10dc90b11c1c7f7c3100530  ./library/Ganjo/source/ganjo/Common/Banjo_Common - F#4_4.wav
+274e404ca4ae26e127589360aaf049cf5e757c207e315c4679a84bf6073dbe30  ./library/Ganjo/source/ganjo/Common/Banjo_Common - F#4_5.wav
+feee2b707e8645c28fe603dbfb3b21eb1cb94efc430c2c521286b41712445689  ./library/Ganjo/source/ganjo/Common/Banjo_Common - F#4_6.wav
+8d0b0b23d08a3f9841e4c401de328f58cff9b98cd23707316eb273ddde3c6c6b  ./library/Ganjo/source/ganjo/Common/Banjo_Common - F#4_7.wav
+df45b5a48f908271526d811b6618edf9a887b8a32a8893625337b11345fbb6f7  ./library/Ganjo/source/ganjo/Common/Banjo_Common - F3.wav
+6a6923e3fa830210b9ebe109c85b9671a387e49576c72725d2a985d0059a55f6  ./library/Ganjo/source/ganjo/Common/Banjo_Common - F4.wav
+7ccc5f2c77a46eb12fa49424108a45f4e7302cb11d97b25d172e725e27141124  ./library/Ganjo/source/ganjo/Common/Banjo_Common - G#3.wav
+cfee54a48b1c6fc5ad9e7d6ad57c5aca19da3a327217c458e8c506cd06d6cd01  ./library/Ganjo/source/ganjo/Common/Banjo_Common - G#3_2.wav
+f9854ef58ca223f7b7e978af70c2ac2475d72e1ddf074f8f2cdddbbe6a1c7b3b  ./library/Ganjo/source/ganjo/Common/Banjo_Common - G#4.wav
+3a230540719e122465da845feae1e852a5df0a69843e193055056c7b1c48e2f3  ./library/Ganjo/source/ganjo/Common/Banjo_Common - G#4_2.wav
+c6ce887464bb9a48703a5a4dfd7d51c5717634b2d03800455eeb8740544fb9c7  ./library/Ganjo/source/ganjo/Common/Banjo_Common - G#4_3.wav
+41ee647fe5c4ffca63fa86261ad8d6854ebfe247cd1f61b6168d3f430b9c8b95  ./library/Ganjo/source/ganjo/Common/Banjo_Common - G#4_4.wav
+dc773f8fa56c771858cf99061bde6ea5bf076a6c19952488d93f834bba112619  ./library/Ganjo/source/ganjo/Common/Banjo_Common - G#4_5.wav
+07bbecc68bf166d0af2112bff8d5a716404727123591b1bc1a77f88be7104aa0  ./library/Ganjo/source/ganjo/Common/Banjo_Common - G#4_6.wav
+766d45c05afb1fcbac3ca899384eaa852ee0b8a58fe99dfd8dedcdabdca76f15  ./library/Ganjo/source/ganjo/Common/Banjo_Common - G#5.wav
+02a0d87a20028682c59443b006b74827f5a837a68ecbcbb4bac8bd77fe1e8de8  ./library/Ganjo/source/ganjo/Common/Banjo_Common - G#5_2.wav
+9a2ea983af8e54e970dc8e4577656ff978f3f927f87648d1fcd727b5c6560d2d  ./library/Ganjo/source/ganjo/Common/Banjo_Common - G3.wav
+548f5ad1d45cd4243cee1acc511ffe258db990eebe52f2bfc41fa1e8438a18cd  ./library/Ganjo/source/ganjo/Common/Banjo_Common - G4.wav
+fe32bd591e214c8ed722566e6a1f5b71c5a89775b7c4c32f64d0ac9aaf5ccca3  ./library/Ganjo/source/ganjo/Common/Banjo_Common - G4_2.wav
+0d10f756de3e96f692a485719b434c65626608bdd8de0a2432adec094eb8bbe2  ./library/Ganjo/source/ganjo/Common/Banjo_Common - G5.wav
+51f9585c6e5807db129aa9aabe9762e98680a2ecaf1be51376fbad68f05007ad  ./library/Ganjo/source/ganjo/Common/placeholder.txt
+a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499  ./library/Ganjo/source/ganjo/LICENSE.md
+d62ac7d28ca7db3613902c4ba641133826dcfa0ec947a5347b2c5839fd3daf34  ./library/Ganjo/source/ganjo/README.md
+2815e768c8908397d039af88a11dc9b9a60f0783f2a3efef59a1435813a2d39b  ./library/Ganjo/source/ganjo/ganjo.png
+9717cacbd1f12c55233b5edc85d10fad02229b231b7bd3188c4e7bf5227f3214  ./library/Ganjo/source/ganjo/ganjo.sfz
+bf3913111918d21cc92ce3257fcc249f6aac09d51a511c6297e1a92918d42a90  ./library/SteelString/ATTRIBUTION-AND-CHANGES.txt
+823332eb6fc3e3d5a5852db23128117054a2044a0d1c5f79d267f15a9a9b196d  ./library/SteelString/EXPANSION-MANIFEST.json
+3d467166d277709ef85954f640612587f245c9296bc4c1b7838e7f0b64242bb2  ./library/SteelString/presets/Steel-string acoustic guitar.whic
+7741fcc4b267f8e76c162273b27675aecf26d6cdad662977b7daf4ac3b63dcdc  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/FSS-SteelStringGuitar-20200521.sfz
+8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/gpl.txt
+c89ddce8b0c8f1f685c2ece7f0878eabb7d0c8e4e375fac7a637f398befa62b5  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/readme.txt
+5972700f1b38374cf093f09b915c10cfb85e56248be8787fd10e8d0883c983ec  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_40.wav
+9d213a5f111ccdaf495637ce9f77d51f0e23897c13abff97baeac128650b4c75  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_41.wav
+e23e980fece66db6b9ad19351ff09eb3a272b72a16dcc87790e7f1b613616f76  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_42.wav
+d6b470fddfcccbd93e900a9eb3ffe0ef966415567ed528c257c414c8a91f11da  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_43.wav
+262c48f96972de88e97711d6cbbddf4ce033177d5840d6814d2678d5dc5d2751  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_44.wav
+e98fdaf2954910a705851268e7d13e4963756234beb26713977e3b4daf66a922  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_45.wav
+dbb5bab6a83c0a9e5c5a4fd832da6d246f38b455bace02f100ac34308e8ba8ba  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_46.wav
+ea9be70c9da6756773eeff5ab3f4bef1d6d8a2fbfe645d611a5401837be4bda7  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_47.wav
+c842a69db330ea36ac899ca3270e96b0ec8294b02b8f24726f8dcba9ff6e89b5  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_48.wav
+fd1edbc653a34fee7c36ec1e03e5f5359e924b52acb75ca0347be0a5c69778f7  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_49.wav
+e858cc5ab506ccb96ecb6f24003b5ad76bb535fbceb6281fd8912efc3f73d75a  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_50.wav
+7ce60ec2f13587a13b0d29f2254492a07b1488c46fe2489efcc752d585783731  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_51.wav
+80f2d3eb711e01da2e8b397a1e5cb2604041939cf1ba10157ad3a2f1fc65dd47  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_52.wav
+c53a03452b79b378dd8a566355194b3c8329906da9cf84dd48bd88791e0253c0  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_53.wav
+9ea8e841aa91b8c06e45aa87a08677894e0e5d1796c7d3d98ba6a6e2d952f124  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_55.wav
+c31a098c4e5d1fe16b5611fc326349cbbf26123d3a5fb1511a417619773a5a30  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_56.wav
+bb85c5fcc93773de317c31e227679b2f3bb46efc8356c04a21b196a9ba9e3056  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_57.wav
+54f7d36aeaa5e017490920eb30337bf8d3ec61b77e4a0baa447080e7bb01abd2  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_58.wav
+3a8344843092dfaddab80079042811237f95bb50090bfe981977bf002527e157  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_59.wav
+30ddff98ce8076c20bf835a348bdf9966a7e1abe85cbfea6b51cf4f1e98a5f24  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_60.wav
+5e94bf453d49fd5d393c696594c3351f7c7eead22fbbebfa49ab8ae32c865569  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_61.wav
+21c8dc48cb68e351bbf951327aa2075bfa0b7c84214cd7611cd238e4c762ce4a  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_62.wav
+1555a6d50f9d8a43c78701fbd2ace26555f4be55cd10361e9349f1c06d3c1b7c  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_63.wav
+bfee5142af7719dfeb1438b8324ef111e55bccf9a73192f840768a56323c4afa  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_64.wav
+54830ca80708f81ac4cfc9ed2ee0e3021a6847be0aaee1a7677edafb212414d1  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_65.wav
+c390477a77dc21c195e3aa57e7f18ac0f7a1d4f098307d1661982b6fb9750032  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_66.wav
+0f67605caa2972daf3764c0868a2461d15c3c84a5cec3babec903ec94b9d3a90  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_67.wav
+49fa9eeccdd8be4e71f8e9cfac69b7a9919c122a5d1d543be55f5558e25a4040  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_68.wav
+45ff268800fad7ac691bfe2589e8db683206edc6633ae2028f9c5f8a08a582fa  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_69.wav
+629778b212d7866c7673a68000786c5e4a6bd2423942c30cf609e0bb4c50a043  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_70.wav
+d404304aff76359c45f4709f297df56ca4c7b12ffab095d29f27504cfa9bc695  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_71.wav
+e3b78a80b713ba9c9b7be962347e6c8ae60f93188ba107aa4728676416551646  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_72.wav
+fd8025614e8672ba0362a29d5085eef51cbc2587b27e4c23549765930c6ac5f6  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_73.wav
+594ffa28cd9ce9bac0c883b79879967fd073df95ffe1df17526e00add79520db  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_74.wav
+b425bb0c2d3c23e0df8f1a64b148a45bb3c63b1ab4fb68a8e9a94c3202098b55  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_75.wav
+c44bd3a588c931673c8a84a7b5de540504962d91a5a1b7a0fbabd1ef30e2cfdd  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_76.wav
+d1a96973bdff226fb724f47600aa3daa94c238ef3294f888104852550952c785  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_77.wav
+69a51d5cc910cc29d920c799a47ce067a98fe10a757c6de58f6b256ba78188e9  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_78.wav
+c4da0db503d0984e99b69218d4f6c915a365ef8accef5d71de9d428b0dfc5398  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_79.wav
+00e00b5e45c901a30f69cf108c456caed3b2a47b18485d979d3c16a127595ffc  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_80.wav
+81d0e566bba19e46e6d37c53ade676615f2643bb03c0ef43e891f9c1651caf1d  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_82.wav
+6d28c6c940a15c9b39b5bfd6b4c69ab767903a5763ba4dfba06b0170f20e3f35  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/HV_83.wav
+4d58807ea6c6b69ec91f7af6ea1d5361f9c6985b5c7645dabd862c6eb71bc8e8  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_40.wav
+c3a0821b9e22087090bb1c1789f1c28a1b9f84620fbb7bbf027732f6f6343beb  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_43.wav
+13c27b6d46218eaf17606379e8429ecd58e276dbe587d6940dfae253b9d1682b  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_44.wav
+e60b4534a8876e5bfd9a97dc085962131e829737c62c649327dde7021e9ed191  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_45.wav
+ea218104711ee612d8dc96d7492a2eb5570dca0415f8d413325d9f109670b9fe  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_50.wav
+3e28ba6abb7324624cf4a437082f37e2eee7c05f375c87851a9a6949f7515ead  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_51.wav
+4505dde1fbe6c3dc1a06147391b406681ce02f5743c08058035717ad519dc737  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_54.wav
+f74587305b4099a6be7f6a70df496513c0d8763d7f51e34bfc599c57fdf34db1  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_55.wav
+e9d7f0016622b36c93d9ae56adbf9520119da8f48ef86968b12d23235385fe03  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_56.wav
+ed173cf9a236b9f9a0db1b1db7ff7a58087f0403dc92c4a2cbf08ab770abf576  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_72.wav
+c89156fde67a05f1137aca0b434253faf51f93fc7000af6f0ca522689256a8b7  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_73.wav
+38a520781e958549a0ab0e75420eb5edab17ef8a6a0842538461a1a412d34ab2  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_78.wav
+c0a67bb4719b9c4ba19df348d6c21720779f36e8e268b3354e9acb3fd23a8533  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_80.wav
+8230e9560f1cd7ffa6c9be46a957e4d3ea35955d92cb3f6c53a08ad640e7f317  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_81.wav
+2b4f09b2f86a69cd3bc784391ff07e3dc62d4cb137f7230eb372f0c6d9520037  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_82.wav
+b2fc8a4548c2795b1e11fd03621c97fa3a8153c5a71d34bf24dd4235042a5242  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_83.wav
+51eff592505a5ecb491a250284f5e28c06d4102568afd6cd3bf2a572b357e6ff  ./library/SteelString/source/FSS-SteelStringGuitar-SFZ-20200521/samples/MV_84.wav
+2ca880e0104b1a57e1a616bcee37a4deb272b690c4f15178eb547fbdbb6de101  ./library/Tabla/ATTRIBUTION-AND-CHANGES.txt
+8ceb07912bf94c6e5a5acb2bea344de8c568be3a404610f12518d861d87cb8d7  ./library/Tabla/EXPANSION-MANIFEST.json
+ea163b24cdb5808067d7e90a0d3b54636bde5426654412c7067d15436aade6ef  ./library/Tabla/presets/Tabla.whic
+9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411  ./library/Tabla/source/CC-BY-4.0.txt
+a24cac52ce077f5472366e3171caf722b01995e809ead0bf8e99b2ad135da480  ./library/Tabla/source/Da_Test01.wav
+6a332f7ee9d5a96b4c71b9a8d62c47eefa7a013f8dafe37bd6f0d41dcf7a2e92  ./library/Tabla/source/Da_Test02.wav
+fe64386295ff944ad3e23fef00284b4d3730f9a6a2e4c32c843d8f2b54729f88  ./library/Tabla/source/Da_Test03.wav
+b76b8451db353186490caf50e44cb391eb3c7c8466a7a48643eb5d34a5013825  ./library/Tabla/source/Da_Test04.wav
+70d0dbacd9ae15892381e99abdebbb29fb1b5f34d54b309ec1a12f7546ba30d6  ./library/Tabla/source/Da_Test05.wav
+c66530b9dd1ff6096d1f49cbf12f8f89880bdb8b0ef0b46073b17293cc83f2c6  ./library/Tabla/source/Da_Test06.wav
+d851256ac87b882b9f4818fd0a6c4fd48130b207412505c56515247e6c7dff8f  ./library/Tabla/source/Da_Test07.wav
+0d7aaf22f4013b70f2efacc4e36ab078286ef6dc3526df98cf52e22f14fa1c4b  ./library/Tabla/source/Da_Test08.wav
+7017999f062f3e0bb06b73a8af1ee0fca20023e0e90b7bdeec6eb02d9cdbe2ed  ./library/Tabla/source/Da_Test09.wav
+e254c8abb616cb8f5f111119ef7a8f0ce2027a1ae7a444808d2dc9ef1a4b8146  ./library/Tabla/source/Da_Test10.wav
+2df3cacd32ab916941f3a1f75dd2a8f1da828ae9b1e13e4587c9e8baa26613d7  ./library/Tabla/source/Da_Test11.wav
+d7a50c4391f5fe640f95ecb70514fafc87706001125c6150a52d18789433beb1  ./library/Tabla/source/Da_Test12.wav
+522be5177ce6262d7c7fce9506b6efbc60e83ff0676c935b4e197f9e25566b6b  ./library/Tabla/source/Da_Test13.wav
+1bccccf4146a14208149e2edc2e7ff6df92a739dc0145c1b3fe8939f3ea104dc  ./library/Tabla/source/Da_Test14.wav
+4e87478e17a8076c49e571f4f1ebfc1b2417c6e8e0a85f70f26412edda4fb617  ./library/Tabla/source/Da_Test15.wav
+b2045bf4aedfaccb7e821473a6d6460a8f97ca7399e0657145e87d073ae0ceef  ./library/Tabla/source/Da_Test16.wav
+2e07f1f8f58e98b798d61bb56b236c0ea17938ac6e79617726b1dd79d7e7af41  ./library/Tabla/source/Da_Test17.wav
+b0bfb05ada686870cc36c3b06fe31c4e7452d65efb0453d61faf4df0b66ff716  ./library/Tabla/source/Da_Test18.wav
+79070920df5fe474283768c2a1e5c202a3de5298e01c055f2b09a7d6d71903c8  ./library/Tabla/source/Da_Test19.wav
+a5b136c67cdd7e5ea5a3e41719ed32db42a642081af06cdf163f441306106f6f  ./library/Tabla/source/Da_Test20.wav
+7aeeb52838412ef08d2efc6be7333b96c8ecb1e95faf7e058e491a519857a558  ./library/Tabla/source/Da_Test21.wav
+addb0c992ae7c08460e6ed5ed8f9b2e490d26faab0cc8dd763214404f5c124b3  ./library/Tabla/source/Da_Test22.wav
+64718101c510e2b97b6403b7fc0f7a47a0b4f3cce1039a7fd9c6c4c528376efd  ./library/Tabla/source/Da_Test23.wav
+2be5a7e5cf5aeab9278b1722750c78c07b93800123b5c1a5ae9670351a6e1acc  ./library/Tabla/source/Da_Test24.wav
+3a0c06fac6ea74e0f4b522b16f8f011666d972ac69a7171da4bb50388028aba7  ./library/Tabla/source/Da_Test25.wav
+5ba24e2af2fab310f941cc516b1e7abe44509308744155934af2c7561776736a  ./library/Tabla/source/Da_Test26.wav
+7ff75caba8af5cea436e918c5028b4081190588a97a58c83692bc4e9fdd7724c  ./library/Tabla/source/Da_Test27.wav
+515209db7c443b308b3267d9aaa78514ef0c27eb17089d85ab29395b02ebf56f  ./library/Tabla/source/Da_Test28.wav
+85d1f708d710ec64371358a3a5f57fda75c9805e49155a888c2d329a0ed7f0c4  ./library/Tabla/source/Da_Test29.wav
+d7fc867c6777b09c27b7cd1db0942a0b43919516a13b141fb55b6099ac35fe80  ./library/Tabla/source/Da_Test30.wav
+063ede388b1684bdf150183f69930b7cea160cb583b25fabdb32f78415371093  ./library/Tabla/source/Da_Test31.wav
+fd51328014f9e3e876c6f1647239bd3a810941ecf2c7ea1fbdb66abbdb4ac731  ./library/Tabla/source/Da_Test32.wav
+58c078b780de0d2f535c9f2dd3c276332fefa9611a323a7534b4e3357077ca9e  ./library/Tabla/source/Da_Test33.wav
+6d034fe90238f71701c48d2cc9b31c7ea24e71c0bdda34c8b2d43e6e0bbceee4  ./library/Tabla/source/Da_Test34.wav
+3b7eecc65f36628abf7de1619a3fe638b76ca8e7a3f67a9f15157c2a6a445d3b  ./library/Tabla/source/Da_Test35.wav
+a66ed6cf8beb829c7f575d6b056afc732925ffafb3529cbd2cc51f61187a3c7a  ./library/Tabla/source/Da_Test36.wav
+ca688af9f5a37a6364839a1ae2168a3488afb390b154dc586f2c04f33720657d  ./library/Tabla/source/Da_Test37.wav
+779b960e1ef574bb9967b117480c713c4ddfa49921a092e8f34791f671d03a04  ./library/Tabla/source/Da_Test38.wav
+a4635a4ec1516cf65de237257010951da574a06d2b256897f24f3df05f4e5b77  ./library/Tabla/source/Da_Test39.wav
+c594e6c146cdf394252dc3055477e08ab1068688e34346afee76e99062eeb406  ./library/Tabla/source/Da_Test40.wav
+a78a247a53d1df63aff06b8a82ee98cb26c01efde13fca1b7ba608747e11234b  ./library/Tabla/source/Da_Test41.wav
+3c9485191ea8d7808ce273262fe1f3518b82f242a42b9648c94b38298bb714d5  ./library/Tabla/source/Da_Test42.wav
+4fdeea474022299766d4b1a38940d1bf211f27849820697686404c3c57ec05d1  ./library/Tabla/source/Da_Test43.wav
+2e368d2cedcae78a831da72e91ca23e994ce7de6c77aee5871c0875b23577de9  ./library/Tabla/source/Da_Test44.wav
+25aa77e5cd0c753184c004116e4fdb24e4ef6584e6e8cb15f3523370ac643a01  ./library/Tabla/source/Da_Test45.wav
+e657375f0a9a1a2a1287c258520bbce5045429ae747294078ebdb02871752a57  ./library/Tabla/source/Da_Test46.wav
+faa2c878d6d00fb5dc23016939d380c9a0035ca43b3e46142774bc7a4de1bbed  ./library/Tabla/source/Da_Test47.wav
+6e3d7dd50c28cd9dc8eeab58e4ec0263b936252ed141a5be622a419a708cfb99  ./library/Tabla/source/Da_Test48.wav
+45ddd88a66551837d265668f86c7e69c8a79a25ee5ac592d32b55808faee3d96  ./library/Tabla/source/Da_Test49.wav
+9af5f21b6afb7d48d05ff9be45f620393b9b045c4d91491858ccc4a49cf270cc  ./library/Tabla/source/Da_Test50.wav
+7bd541e125fafe39cc2bad5a4b340b8f9be465d35a79b51d9c368417894d9b37  ./library/Tabla/source/Dh_Test01.wav
+76f5ffe1afb89b616588b348a4202182bc2a18dcef61dbb2701eee7cc50cd26b  ./library/Tabla/source/Dh_Test02.wav
+0c0a4567240e7340b8c37220ba68f68677856a80a04397d9cd5ed0ed5def80e0  ./library/Tabla/source/Dh_Test03.wav
+c4546d2617df6a0d78bee06525356122bdac7d3066db06d0d1c2b5c93a56f7f0  ./library/Tabla/source/Dh_Test04.wav
+8bdff08a98c7432ec3af1eaf8a4d8cda86293b9d90ae03e4669e4d6fc670ba8f  ./library/Tabla/source/Dh_Test05.wav
+337a4e6621b94e8fe68f7b54b64396c70cb17cd006968c695a775e08a0059413  ./library/Tabla/source/Dh_Test06.wav
+974a4707efda77672a77d3ec925999decb90064ff87ea9ac5377e0ee81158216  ./library/Tabla/source/Dh_Test07.wav
+bd9951493d6fd3a44152480ddc495be982bb44fd72ae0fed5501fe3473fd2081  ./library/Tabla/source/Dh_Test08.wav
+d695015d5de27e791cd21022d1ceabc1cbd356ee1ed306ed8eab1cda145ea84d  ./library/Tabla/source/Dh_Test09.wav
+5f73a2cb89076c945a1a5af9e1f729431760807dd80007ef995ed272431f010a  ./library/Tabla/source/Dh_Test10.wav
+e2920f52bb455de6b21cdb9eda9fc764b0ecb153cb29675cb69736b24fa91197  ./library/Tabla/source/Dh_Test11.wav
+4e9d794e969e96bb4cbcbe7d527d8b1ea2d1d5ec62c41f0f5babeb57e4d32d6c  ./library/Tabla/source/Dh_Test12.wav
+9457f021cca96d40a9f45b2f3c856e57012a535b2552db3b03300849ae6b8a47  ./library/Tabla/source/Dh_Test13.wav
+eec97c81b8bca7a98abeaab47a7b246ab291c9a97175aed576d08d5d4fd3f127  ./library/Tabla/source/Dh_Test14.wav
+d4ef0609cc166e0b20fcdea33ec6476550a17aacbdb1e79c382b9c6eda2a8852  ./library/Tabla/source/Dh_Test15.wav
+646bca1d794b5493e223706626fdbf8d4c29003ab05b6ddbcae5ec01da3d7316  ./library/Tabla/source/Dh_Test16.wav
+cff626e84379d0fb14ee5954a82935f2bb763216b397494f4cc763f20eba22b7  ./library/Tabla/source/Dh_Test17.wav
+9acf6021a75b34a5adb65634468e666c6ade264f321f08ef457855518c25de2d  ./library/Tabla/source/Dh_Test18.wav
+ed1b0d32849f43280a551b5fdc33369a031390d4abdc6947ba19dc2ee71ee796  ./library/Tabla/source/Dh_Test19.wav
+8f792d61717d49bb94cc9d8e97fa806ca406d5158ec2d9c037d7da129aefdff3  ./library/Tabla/source/Dh_Test20.wav
+6cfa8c0c924ec95ee523bf28c073b082196fb567a98211d745eef3f9da23d401  ./library/Tabla/source/Dh_Test21.wav
+de58634188d04346199e44b3ac68a3a2a76786e8b38a8a24f28a0c4ff6c7f311  ./library/Tabla/source/Dh_Test22.wav
+1309d52dede90a75a9e8ecf8a7d056e78c4badff19c6e7a1f6fc5e19dc1830d7  ./library/Tabla/source/Dh_Test23.wav
+65dd1b57b50e3058deadd5edfd34e8ba0461d594b19bee1d4202b738698cc9f9  ./library/Tabla/source/Dh_Test24.wav
+3ba40fdebd281cad552852339d90f476045a2c53240c7622ef25790a256246bf  ./library/Tabla/source/Dh_Test25.wav
+35d77bb012754ae6f828d27a1f1233ff3d15facf2141fc145759480177ddac1f  ./library/Tabla/source/Dh_Test26.wav
+ae79da5ca26bd0def74577b5e3e6c667809e09b16ddd5f2f8d0f58c16db75c71  ./library/Tabla/source/Dh_Test27.wav
+d2df4a78ea984aa17958eaafd78306d30bb015533d7639e0d3fab8cab0216880  ./library/Tabla/source/Dh_Test28.wav
+a7ed2022d55cc8f5f05a0f8c2ea65705d4f3c174f4be2efe4c2d21d93782906c  ./library/Tabla/source/Dh_Test29.wav
+3b8a7e54cbd65683a74cf3f15e76f31e8897dab024d2a15066d45f6e157dc7e3  ./library/Tabla/source/Dh_Test30.wav
+225efd5663bf15cd773bfff0124bc813dc3ccbf79b022dbca10954de49b02ae8  ./library/Tabla/source/Dh_Test31.wav
+ea58a31564c2249b8b179d65052b8058815dd363423a632f4cf39b56dbee8156  ./library/Tabla/source/Dh_Test32.wav
+65aa5653e92844d8e6115ef934b2df2ee69b47b09092edf62b8c03d6452a2a77  ./library/Tabla/source/Dh_Test33.wav
+c24194afcde52c8b6ba88f9b5fac098b5cde3aeb4547adec7da5dc3ec735f0da  ./library/Tabla/source/Dh_Test34.wav
+0b37cba2dae9eaf2209ce81aa49b388442c878f3735b6375f003278e0aff9639  ./library/Tabla/source/Dh_Test35.wav
+1446fd8bab9e6b89da76f8e3eb8292d359271d9c484f75a5c8ab6994c417b1a3  ./library/Tabla/source/Dh_Test36.wav
+dc5fe2d08086272dac14a1f61468df10a965d4d8e39afd37556a7f807956880d  ./library/Tabla/source/Dh_Test37.wav
+c4f5ea941e6773674531a2dfe7189d6004ca0f20947a90100ac7c1aed924b48c  ./library/Tabla/source/Dh_Test38.wav
+510396acb54028293c173b434ad5abb6e2963c778a92a5a344c8570fd98f710e  ./library/Tabla/source/Dh_Test39.wav
+2b9650b0eed123155899e2e47aa6eed94dcbc64cd1b672375fa637fcdb889025  ./library/Tabla/source/Dh_Test40.wav
+b4328b45f3dd91d22997832ce9f5b576f13f5f9f56b3322715f74289b4b2f78c  ./library/Tabla/source/Dh_Test41.wav
+ea6ecbc04d26c6002ef76f37ebc774be42324ba3d051212c1b388999b5eb1c02  ./library/Tabla/source/Dh_Test42.wav
+5f632374cd3f999970319a5eaa6589e712e47137917c464d9895221994b78cc9  ./library/Tabla/source/Dh_Test43.wav
+12d19ebb1dbf066f9d2fe3a4331c00f65a24369a27efbea9657c548aecebca3a  ./library/Tabla/source/Dh_Test44.wav
+c168608cd9fcb7594e13925eac3ca1ae034c9b91e7636e97b07342fc6b57addd  ./library/Tabla/source/Dh_Test45.wav
+81cd2b7d5f38c3aa42405135ef3458bc1bc66f4639b958fc9dba77dfd0b5a46f  ./library/Tabla/source/Dh_Test46.wav
+c4ca9b67bbcf6a9b2ddb000bb95f0825480d8b4d319b09585e2bb268b83f808d  ./library/Tabla/source/Dh_Test47.wav
+ce8ccb735c55385c20d770dcd94ad0c15c52bee4a8bb8b91829a9389a1727908  ./library/Tabla/source/Dh_Test48.wav
+d775193f013166b0889c363c3d01fa0fdef3db49d1ec95cfb37bbb724d7bd937  ./library/Tabla/source/Dh_Test49.wav
+7302adbe35884d74ed7fac6ea543759767b372cd118e7025be977f6d343aca6b  ./library/Tabla/source/Dh_Test50.wav
+19fb94768e9e1a62c65e114e3fd1defb89f3c6f4670df429655c45cae27a2f9a  ./library/Tabla/source/Di_Test01.wav
+ac01bda9a1b6fbbcac4443950a6198270c7b4bb67b19885c2e8758d0579c88ad  ./library/Tabla/source/Di_Test02.wav
+a4c928735ae0a5f3c3774248420c04d7daa622c6404b11b4eb8c7a4f8d0b6181  ./library/Tabla/source/Di_Test03.wav
+d8c4d07a21f2cc1517a5c90d5f78ac6d2dfc5e4a7ae1d28eeb4a638826810e15  ./library/Tabla/source/Di_Test04.wav
+10f0a666be93aed161410d7cf3dada81a06c32af6e8e1452917fc3482c050a0c  ./library/Tabla/source/Di_Test05.wav
+c9555c79bc51c43abf4659c775b424e2668b40fcd3c35d3f0432b99dc23383e4  ./library/Tabla/source/Di_Test06.wav
+79f11934a23891a0f467f7bf904f07077221b6f69fe705e9d303562530588e75  ./library/Tabla/source/Di_Test07.wav
+e0c6ada14669a55ab3ca6978b104328988fb0c0d9d869cc86f00b44a1fdbebe5  ./library/Tabla/source/Di_Test08.wav
+c180fdc2386b466c01d5688680196573957709f71b2b14a6b503613b3e44630c  ./library/Tabla/source/Di_Test09.wav
+36fd52b64ecf13d2ef337546092bf439ae3edaaf82b23c1491153dc3c4a001da  ./library/Tabla/source/Di_Test10.wav
+1959b4476cc3cd6dafdec5d4c3a1bd697188b1a973cbfdcba70ec9133763b4b3  ./library/Tabla/source/Di_Test11.wav
+bc9ff477e2152c959754c3f8819134017e1e3297166a9647b84fd2c54e781eb8  ./library/Tabla/source/Di_Test12.wav
+be1ee50f07f1f72b2462db0444eecc897ae2f7defdb1287a1232273384fdce67  ./library/Tabla/source/Di_Test13.wav
+d24ffcfb980441c096be401c4639e9d038acf845d21b6f662e4665fe77436344  ./library/Tabla/source/Di_Test14.wav
+c5a9cd31668278468cc9b71005e4b9ccb37bd666640176d684dcbebf6d849061  ./library/Tabla/source/Di_Test15.wav
+10630a577dd669233431b617c5a399c0bf3a8351c6c126950b31ad7695be81f0  ./library/Tabla/source/Di_Test16.wav
+9a21f04d199597ef12da3ff17366461f6792a45f6b46e3b7d82ef33c019115d2  ./library/Tabla/source/Di_Test17.wav
+9a13af9ad2a7a36c8f19d096716bba527eea6fcb61bd2b6e91be1fc2fdb3ad96  ./library/Tabla/source/Di_Test18.wav
+0013b8ddfc99b13657e87b6aff1b5eb809408085ffd4ab6b83397abcb739881b  ./library/Tabla/source/Di_Test19.wav
+f63902ce8eacf13a7aa584ac6c79319688134d42496b43fe18be17ce6e14b220  ./library/Tabla/source/Di_Test20.wav
+1bb83e62e8bf153bcc8ef23faf53d8aed96364911b944fda5a76448cf1138041  ./library/Tabla/source/Di_Test21.wav
+8ade52fbd71c9de7a56a2273eab1ea180440d9af763516a9911206fbb1936516  ./library/Tabla/source/Di_Test22.wav
+9c685a7a832dd42d3faaa62b2c0f1a3931584072c7d866ee618a12c73ac084ff  ./library/Tabla/source/Di_Test23.wav
+e3ece58e56dc9e0a04a1fcbf74e19a4d4924a9b0926279024049abe5bc00eb20  ./library/Tabla/source/Di_Test24.wav
+6d450a9f8e91ad2bcf24b09a60ec2829599a20f1386581052064108a8a1dfacd  ./library/Tabla/source/Di_Test25.wav
+cf5be1d3afac3ca53cea0fb511121cdd83bf31529f6da1a0062210f902e436d6  ./library/Tabla/source/Di_Test26.wav
+8f718fa8f51ea0a9b464f562cc16f87d28dace7629c500f4706d0576df76442b  ./library/Tabla/source/Di_Test27.wav
+31ebb3c2755e7e3d7591f8b57ce11c601ddf59b7efff40b9b0791ae220b0f806  ./library/Tabla/source/Di_Test28.wav
+e65117737ae98a2ced86e2b65c9c99047df1c289c056e58e86b61c94abdeb626  ./library/Tabla/source/Di_Test29.wav
+5081d87afd8eedbd66fde06857b3ea3a17902d898faef321aa32c539859e99a8  ./library/Tabla/source/Di_Test30.wav
+cfefeb783358d6410c5b8073fdd63ed0d9f5b9a2489cda2efd912ecf35d979e3  ./library/Tabla/source/Di_Test31.wav
+51ed08d724ab3ad8ae0a4a673bf42b6e79bde6026ab343b37cb78a271bfcf57f  ./library/Tabla/source/Di_Test32.wav
+e5ef4fc4ac619097e1d3742bf6070c321e2ad6cfc8595f083cdb9beffcbafb6b  ./library/Tabla/source/Di_Test33.wav
+cff314ad1acfdfbff9fc2553a1d9cc747b43e6018ec61f5e73dd376df725572c  ./library/Tabla/source/Di_Test34.wav
+52dc3e70ce91f7c64cc50f3a49bcb462472013c0d6c93d24c77f203dde687e9b  ./library/Tabla/source/Di_Test35.wav
+0c45905cf38dda80019b53b1d8456dc6b7d4c538689997c27fd0a62561fe5537  ./library/Tabla/source/Di_Test36.wav
+f5b122fd06fbb1cb415f6827ebb34b5a873791582a42e498694140256bbc0b90  ./library/Tabla/source/Di_Test37.wav
+c37c3e4b90e2740f1e12eff83c53aab7d9a75ee5f372e65a22fbbbd8515bae3f  ./library/Tabla/source/Di_Test38.wav
+dcd175eca66196882cf3055e831b398e789baa611f171bb8b441f888d532c73f  ./library/Tabla/source/Di_Test39.wav
+b6840fc0f0116a7e2be1dbcf21a508c8ee50c46d1770e2bdfb92da56f9a0199c  ./library/Tabla/source/Di_Test40.wav
+37f872f089e2ecdc4f00b930eb926e3f27645cefb7575ba32667ed16c551fab5  ./library/Tabla/source/Di_Test41.wav
+601b25520140f01d5ffc32795831763f3e4f9c82570ea682b3961c508494fb27  ./library/Tabla/source/Di_Test42.wav
+cf248190eb47804c03cd4ea2552982448d6ba3176e4639aceae9c77596afcd46  ./library/Tabla/source/Di_Test43.wav
+bb8065c8b0284014f1b6bc78391753f0035fe29aa66ae16bb199b6bad664eb9a  ./library/Tabla/source/Di_Test44.wav
+753542447c03357bc880fa1f1753fe430f25904f3f35d0abec0102e3d44c5d50  ./library/Tabla/source/Di_Test45.wav
+d1e0f63aee3d3a026ce59a6d3366155ffec89b4f3a97123aeaf97b9eceb00e29  ./library/Tabla/source/Di_Test46.wav
+98f0c363d18558b4ac13a3758e57e4551c00e98dde4ed510ee4f1f3e6da7030b  ./library/Tabla/source/Di_Test47.wav
+90ed11def798e5dbd33140f6ff48079857733aadbb2962cec153fd2e499f7adf  ./library/Tabla/source/Di_Test48.wav
+17697a577519c5b1fb9cb961aece4e3f7b493b1224b03aec9e9f59c7ecf26faf  ./library/Tabla/source/Di_Test49.wav
+6aa808ddd304475c716d30c54af7cd375d9ca34a0cbe95c1eb7471c1b4bcdf41  ./library/Tabla/source/Di_Test50.wav
+d12ee1ff41c38e5666ac6a3b2238016aeb00c00854f5a05912021933b84d868d  ./library/Tabla/source/Ge_Test01.wav
+c8937d7bb38afee08ab23e0288bb71c2ff71510df38f92626baf66bd46bb42b8  ./library/Tabla/source/Ge_Test02.wav
+a405252c21fbeae2c8b4a13a72e41cdca8485d21c46e3b048ad27b665e40349a  ./library/Tabla/source/Ge_Test03.wav
+1efe9bd8c446b8eb633b2b2c9712b5ba29177d56bf77740cc8ec01180fd0c4a0  ./library/Tabla/source/Ge_Test04.wav
+8fce03285754f1d07227fb30d27bbb37acaaa94f1c5d0b9f59f57670582142d2  ./library/Tabla/source/Ge_Test05.wav
+2aeab8e9455a02a0d8888bcef77cd2e6852dfd0d036ff4428209b9ed565bab16  ./library/Tabla/source/Ge_Test06.wav
+131448e09be7aaaa5562ac21db9e3a32278e13a2fed0c2ed90ee65715ab1ac76  ./library/Tabla/source/Ge_Test07.wav
+a71ae37b060cead11e7ee4de138d8531f320084131da1b95eb8af1ae042ee01f  ./library/Tabla/source/Ge_Test08.wav
+da4acbbc695d54d365c8f27aa8f2e33a23fb666a44a0b5004f231e5179576cfc  ./library/Tabla/source/Ge_Test09.wav
+195c89d4d5d71f422ae297858b81ff94031556018f64f34cd77af13b1f4763c5  ./library/Tabla/source/Ge_Test10.wav
+a9aa078731ee3ca23a966f45124e005455def1cbaa2727feb1609d89dda9145e  ./library/Tabla/source/Ge_Test11.wav
+9e7402f5e1fdba2532ca89d42439dabc35847291582ebda561cd222bfeae1cbd  ./library/Tabla/source/Ge_Test12.wav
+6aa5123d675c67b9539d422157ba2d4033a9e240168d2fb91499dfd59c5b8893  ./library/Tabla/source/Ge_Test13.wav
+709ae5c8ced0c53e3e41e17d11741806389e1110ead52086b58d6f365e6160b0  ./library/Tabla/source/Ge_Test14.wav
+bf1e2c587bac96f2e61d616dfd693292554092cf6c326d4b0e587a9b770ea14f  ./library/Tabla/source/Ge_Test15.wav
+9fab9de925d745f46a8dc141bfddd3aa6d9c8fcf179d321a5d0755e54e165958  ./library/Tabla/source/Ge_Test16.wav
+760d6e46d80130006b11f31e97ab039924db96385153bbbc0eddc3d51bef8a62  ./library/Tabla/source/Ge_Test17.wav
+766b455e24100042d0db2c9bd37b0d4954af59848c46fd68fcd13a5d1fa152da  ./library/Tabla/source/Ge_Test18.wav
+36dfb2b69e64deae60b019baac5d1356a2a6c5991c24d29262f45386c4a5ed87  ./library/Tabla/source/Ge_Test19.wav
+6e322fa893c1a371d2c247c3b45810d4817ed20baed19080036e83d03476a364  ./library/Tabla/source/Ge_Test20.wav
+eb200631235e0826e79fb96a461b3b2fb1aaf84c32e99b7987a9feb48c98e5d7  ./library/Tabla/source/Ge_Test21.wav
+27e59cf084e4f05499d397a2422064bc4217a92359ad77d7d8cc00fba56abcf2  ./library/Tabla/source/Ge_Test22.wav
+e30338135f9ac380a8a16f9ec879d2c62f0ca892e1517bf93739b5f51f543ab6  ./library/Tabla/source/Ge_Test23.wav
+77742816c713df5c57a2e789923ec8d43839f3b999ebc7050da439bc2337a067  ./library/Tabla/source/Ge_Test24.wav
+b6b3d3a20c90875f79532150ef64300fb934b7ab7d5bb89c45c2124fe7ee5d55  ./library/Tabla/source/Ge_Test25.wav
+70bfe4d8b9961c8132aae97b842881ae1c14359c4d9706d286d59bbad5074cbd  ./library/Tabla/source/Ge_Test26.wav
+c01020edb6fb0f6cc32df8c593b04780d452bfd35736d2c28cabe0dd30ca3d3f  ./library/Tabla/source/Ge_Test27.wav
+c88457c0e5a4edcd49daa53cef15bed9c4c18340cc6773c919561d9b60413eb5  ./library/Tabla/source/Ge_Test28.wav
+17cb84da83d8d53cf3b5427f860bbf4f1c782d3f3609f89178a0cc2a94b06135  ./library/Tabla/source/Ge_Test29.wav
+aa0a0299511a353822c8f29c5747a0ae29ef505e19c65351b6a0053ec6dc752e  ./library/Tabla/source/Ge_Test30.wav
+0e509ad381484013903ce18f0204a799ed38a7cc70a1c37c6202cbaa8ac1fde6  ./library/Tabla/source/Ge_Test31.wav
+2cf18a2fbde4f75cd1974d42db1f45b97a84ef47136c81254bdbb2a7ad22bc2f  ./library/Tabla/source/Ge_Test32.wav
+c795f99408d4dc81aac77224ca70ff024f23317d4ce48f98958d1a2548090e1d  ./library/Tabla/source/Ge_Test33.wav
+10c77e16a77b9484d4e75eafc7d3d62813ce9557201c08006e6a320f26d393c4  ./library/Tabla/source/Ge_Test34.wav
+8e184cb7190bf2e82cb8f903bb36034f5f35ee64bd157f60358ec418b359b0a9  ./library/Tabla/source/Ge_Test35.wav
+7e61193082ec1fd87f0ba2bd3a185dc6c78653b1ffe24a0bef21e07b147ac558  ./library/Tabla/source/Ge_Test36.wav
+8395a657acc6df1d562c212c89807c256c501d9aae5739b222f6c3f5dfc33936  ./library/Tabla/source/Ge_Test37.wav
+36b1f9db00c469804e545565b2ef947fa8ba1a22f2402d068b249b9565281005  ./library/Tabla/source/Ge_Test38.wav
+16171c5d30e2441362d729d8f3d6cf303bf54c521d79abb68f9203fd055a8ea0  ./library/Tabla/source/Ge_Test39.wav
+fdc73cb683bdab37eff62a96dbe70e5335b49cda9f66e957ef54621af40d22b1  ./library/Tabla/source/Ge_Test40.wav
+91ee320160ad8615143e4404d344bf561c32e68edbb95b3de022645e66d6a1db  ./library/Tabla/source/Ge_Test41.wav
+8f05c48c91f8e9e473a5d125f607f249544240e10454b0e6ece7d786684f620c  ./library/Tabla/source/Ge_Test42.wav
+bc2b7c3645dcbdb88fa931c2c29bb5262cc1e50c6c196a1e94e0c17d4a01726e  ./library/Tabla/source/Ge_Test43.wav
+16819c41797243571c46be3bde3668317b8061f57161caa6d11b632d86336a3b  ./library/Tabla/source/Ge_Test44.wav
+831e7fb34895bfb14ca6146df7153ca5ca98a40d8034b0171f2fa0f8c896e4d3  ./library/Tabla/source/Ge_Test45.wav
+513cb759a85a08db84782146c2a959155eb5c79db9ba9281551acad4db97319d  ./library/Tabla/source/Ge_Test46.wav
+e97c74e67df4618b7e9c6111b1de43e278d29a6d2c4700bdf6c58faf84d5a518  ./library/Tabla/source/Ge_Test47.wav
+c4782724a0e82e886ede3ec2b624bed02f393c9b9ab140f643250b28e02babd5  ./library/Tabla/source/Ge_Test48.wav
+3eaec62e052a3be4f6b5f161788bd80fb4e5f46ff5cd94fe58e0b892742f39e3  ./library/Tabla/source/Ge_Test49.wav
+6e58368d58289b53786c56bd43a349a74badef82eb77c96667182fa412135049  ./library/Tabla/source/Ge_Test50.wav
+5a328a6bcfbe809739c158fe21f47f13b70020953d9ecbc3a553a4d95c122d88  ./library/Tabla/source/Ka_Test01.wav
+7c3575246888d41d5a8b587bb385af795d581d7397fec15512598782fe2c28da  ./library/Tabla/source/Ka_Test02.wav
+5abc64f0c904f4db7710ff8a2664a02e53e409404e3d708b6a1245c43d72ee83  ./library/Tabla/source/Ka_Test03.wav
+b3f51fd158115787c982aee2517a7c8fb64b9a801e5c0f0ae9279c9c2f420cc0  ./library/Tabla/source/Ka_Test04.wav
+0eab8ba5be5dd1ae155d19f13d9a2bf2ee10925890060ba2b86f356bf0bf827a  ./library/Tabla/source/Ka_Test05.wav
+985e9752ca403e159ff7111d7480a676eaf4c0c01d55497720599ecdcd5031c8  ./library/Tabla/source/Ka_Test06.wav
+89091e29538f22f0dbcef44c073eb00f0f03a9f1571a582c5c66ecb3f351414f  ./library/Tabla/source/Ka_Test07.wav
+7aff8f2eb6bf00c04683219b175bc257822c3d90f2093887164c2f52137f1540  ./library/Tabla/source/Ka_Test08.wav
+c43085bbba91484baffe6944c3188d7d2d1973eece15b698b6b7c816d2def51d  ./library/Tabla/source/Ka_Test09.wav
+6fc70954efd7a9b8dbc44a8cfe8d603401277389f935050688e0e656fd0616f7  ./library/Tabla/source/Ka_Test10.wav
+9a9457882d493efb9f5307759a743fa0f782880c6f62440f9b3a0c40dee72d89  ./library/Tabla/source/Ka_Test11.wav
+3c33dd778d4b389b1797a9cedb61446c730e79baebfa71dcae70f8a71188502d  ./library/Tabla/source/Ka_Test12.wav
+94ceca8c8eb70624f88734ab1d0dfe5dc268e8d029612bc854fd7ab041341c6a  ./library/Tabla/source/Ka_Test13.wav
+9f23b3ec36abfc3f9b7a198852767573580da5a9c0dac0b0e8f504660220cae4  ./library/Tabla/source/Ka_Test14.wav
+928eef5b45fc6d78e6295efa94478318328e30af8066039fc892a478486a8f95  ./library/Tabla/source/Ka_Test15.wav
+de8912b1ddd912d0529322886b2c917ea1c1c0fc621d32838c1aa489bb4f8222  ./library/Tabla/source/Ka_Test16.wav
+36c58b7bca265d5af5ecbfbf6b13d0680f5526be67b22626f9ca9309cd9fc303  ./library/Tabla/source/Ka_Test17.wav
+0bde9afe4d46a50d8c20c53dc2641c00601d9b75843c25a0ca77cebeb52115a4  ./library/Tabla/source/Ka_Test18.wav
+eb3b988e0a1cb7aa0a5bd9b9148d32b234ba540725b258c978cce201ee275461  ./library/Tabla/source/Ka_Test19.wav
+352e0f650aa396d8936520859cd95efbdee9433dd05a7554f3872b0600081910  ./library/Tabla/source/Ka_Test20.wav
+addda49a1df5d0a8c850162922726ac05e9d0b1d54ec0358716a00b95d18cd58  ./library/Tabla/source/Ka_Test21.wav
+3a8f9370650cde665f9c8e16e04cf5cdfb8840b505ee5ad6cb2b62c9f82cdc7d  ./library/Tabla/source/Ka_Test22.wav
+1d80843872c39e657a36470e8f14f7c174db51d8a254cf41385a484108c6fe4f  ./library/Tabla/source/Ka_Test23.wav
+c7630884569ab2ba40f59de0201317cee475d263f1c7e3ac884433d8e4d262f7  ./library/Tabla/source/Ka_Test24.wav
+f605a7c400f24783baa5460022ec1315a63eb3b8d89be497c9144a1492345ebb  ./library/Tabla/source/Ka_Test25.wav
+5d1c9e6386dd72a0b3de4479ad1b8164d17841592d956fbbd6ca048730aedf0b  ./library/Tabla/source/Ka_Test26.wav
+7b922eac9e91aa4b8f039532c90ced8d9fc3356548374733c7305e81a6e844d8  ./library/Tabla/source/Ka_Test27.wav
+8b7d75983be30c124dfbda8640d5e9dad40f321903820597c1a352c6de789253  ./library/Tabla/source/Ka_Test28.wav
+4c37bd04c8004f12c0febea13768b17353d2fb3a45ebf0aca0564939ec243616  ./library/Tabla/source/Ka_Test29.wav
+346aa1d8bf7bbaf228f7620b22157326a4ed1c9b33308e01e4c50ec9cf6a28bb  ./library/Tabla/source/Ka_Test30.wav
+c7425b46b4f01ad56c4d159a52d801457cfa337185fe092e6789db7609b875d0  ./library/Tabla/source/Ka_Test31.wav
+b15ad8ffed2b3b9886f7638d0e80abb669f52b902e6eaf2c32b8bd9220d7ef44  ./library/Tabla/source/Ka_Test32.wav
+c7664e1d1f1fa22a38960760c34dac5c18898b1d729c32f08f9767eff66835e7  ./library/Tabla/source/Ka_Test33.wav
+e92d834fa0687d320fd2119816289b20c10bd424162440e8c1a6a6950dc07f52  ./library/Tabla/source/Ka_Test34.wav
+12845a821e3a0ca108bcfd2b35c100c2f9a0b8bb77b7f2abd4d8a3b9e99fb317  ./library/Tabla/source/Ka_Test35.wav
+e618990b92bb2bb6f4ca6c28afc3bc4265db812dcd5f67ec2f245aff8c8948a4  ./library/Tabla/source/Ka_Test36.wav
+7aecabc97c287ee233c51c0e5703395a4d7319d59db62e48cd10a852b330a6ff  ./library/Tabla/source/Ka_Test37.wav
+d687451f8117b9bb846a3985d5db3531e20dd034ed3304caa14f89210048b07a  ./library/Tabla/source/Ka_Test38.wav
+42c7b364bb27df3b724964f5e3d338d7d4c99dc101c995365455482dc14042c7  ./library/Tabla/source/Ka_Test39.wav
+eee2742975560d8c5c74d8c73d2623aadc3922aa0c255f736daaccd3fc3d919c  ./library/Tabla/source/Ka_Test40.wav
+0a61dc2ffbe4582c2d1e7d207ba4e8d55c39975016908d8b01e204a69acfbda7  ./library/Tabla/source/Ka_Test41.wav
+18ff841fd80d4eededadaa83f7a0b29bb55a80b573876a4d820cf6da4ee79e2c  ./library/Tabla/source/Ka_Test42.wav
+7c894c4e0baebceedeb716011076e55578d0a4e5edb097ec8553c5dd79e86046  ./library/Tabla/source/Ka_Test43.wav
+0d155f7302e568d013c8574e3140b680a7b98cdfd1bd29d9d46c091be70cae0c  ./library/Tabla/source/Ka_Test44.wav
+1409e0f072225faa856ebf7304a1da892153f3d38baf27f1a0480ff057f4524c  ./library/Tabla/source/Ka_Test45.wav
+09bb13567f681dc4d2e35fd08c6e062b139c52d532592d926e0d6c8ce840d1ab  ./library/Tabla/source/Ka_Test46.wav
+c3d3ca2fd033606790f3151c8e1df8f63ce17fdd6ea0d9cbf7b6945503b7cf4d  ./library/Tabla/source/Ka_Test47.wav
+8be142670a03f9c3dc4eec8482fc69bc899603e815ae76bbe2ed1f1a0913f29b  ./library/Tabla/source/Ka_Test48.wav
+6c50477335c537bcd36e7787d78f3c8c7f08140c25054b0942f0250836fd741b  ./library/Tabla/source/Ka_Test49.wav
+2e861e6ee56b04b33b5a0562ec83a63e5ac966c47ed48b0c90ddad9ea17aab40  ./library/Tabla/source/Ka_Test50.wav
+16fd44a647804a13db8ca57c459b39876d6357943e2df121ef4546d546da3e43  ./library/Tabla/source/N_Test01.wav
+1da2952315e253ac6b9cce0855feb93ee35c97ceeb2c36e5261692bc2c4257b0  ./library/Tabla/source/N_Test02.wav
+9207f913903d7f64311c0dcbf3ce121bb773bea52738d12d753ff45b251a7946  ./library/Tabla/source/N_Test03.wav
+0d7678dddc717cf17f7657525c75050d21b652417b4d689ff668fa06872fcfe3  ./library/Tabla/source/N_Test04.wav
+ed7475178531df2bdd5a525dfbc1af7bc91e0ecde9eb252d04823bd88f5d1eb1  ./library/Tabla/source/N_Test05.wav
+13efb1d63ca78a4dcddf417db9e1692a4aecadb573fc557d5391f2a1c4bd2df8  ./library/Tabla/source/N_Test06.wav
+a11433308c4db9df81e664dd4f8f56bdfbae3af881eedd3ab47ce5161282beb3  ./library/Tabla/source/N_Test07.wav
+83e8095bee2cf994d0bd01f68c0b5b041b0c8cd06a65759818cf286ed9019ad6  ./library/Tabla/source/N_Test08.wav
+9603a528ef7a11be22828709475a551418113573e36f89f2b0088490ab3712ff  ./library/Tabla/source/N_Test09.wav
+18fe889a5226afa5033265facf1d120e49b79a03e2d08c8c463fd54cca4a299b  ./library/Tabla/source/N_Test10.wav
+f38d0256d40f9cdf2cc0e9d7e594e2c0ee3c17cfe6a369397d9b5964108d4914  ./library/Tabla/source/N_Test11.wav
+7c591edd72ddc077315323004e582c515547e4aa7ba9a58353a240018f12f795  ./library/Tabla/source/N_Test12.wav
+1af880c241af57d17a77e726a1f86231a06c444e509fca768a51a96ee4e0c7da  ./library/Tabla/source/N_Test13.wav
+ce26b6021bc21e4557a9d0fcd0e73ed9fa41dea41e23724f386546d8b34211d4  ./library/Tabla/source/N_Test14.wav
+2550b5bd0bcf66ada0f2d5937c08859d24667a9f28ac42d3a4314a901166e760  ./library/Tabla/source/N_Test15.wav
+65724cc0f22780d7966d34b2a2013dc0a0593705ae09c5aaa6950bacadc2d925  ./library/Tabla/source/N_Test16.wav
+db773b4bb919bc8bc1c3023b95b7b6747d5886b83ed227742fd2d243ed7884e5  ./library/Tabla/source/N_Test17.wav
+de151ddccc98567cb9bacd857e120b4aed94d48b2594c67c64d86ea22896f590  ./library/Tabla/source/N_Test18.wav
+338b2295f45c3534432a2de73b80813efacbc3846825c247a9116f0a650eb158  ./library/Tabla/source/N_Test19.wav
+5801437f36dc979240d4df32a3ad1e602c080069b8059bf7889264bb269e9c3a  ./library/Tabla/source/N_Test20.wav
+d3b963a3456cdfeef8adac6c11dc9c6b3848326261857aeecc7c1152d074406f  ./library/Tabla/source/N_Test21.wav
+9d4a5a61e32a94788bb6dc7af0bbd93eb5d6a68cbed8d1e8eb0395e58603158c  ./library/Tabla/source/N_Test22.wav
+bc06e95f655d8ddee59ab0504ad6969e7b75df4d22b6787cc2bbe804b1fa90b2  ./library/Tabla/source/N_Test23.wav
+eed58d8a21fa085958cc458fde18bc3450945a4605634f28671b5b6261a14278  ./library/Tabla/source/N_Test24.wav
+cb856b2a02901240faf515096107e2075b1bd825d1c6639fcaa8a25a20e3ff21  ./library/Tabla/source/N_Test25.wav
+422c7a8fa45f95022ea76ca0c225a9c9935e660ba53ad3e37f33d82d3016eebc  ./library/Tabla/source/N_Test26.wav
+a859b01af8ab9d5e093ab3c43e2648a94e7aabc2d6a5b1d7b6fb6109bd840d44  ./library/Tabla/source/N_Test27.wav
+5d629ddc48da72ef80c936016e24fd6b55fa8d1d6a3a9c7da6d69de4c0579766  ./library/Tabla/source/N_Test28.wav
+6d4932174a738b15a093c70e969e399c1211ca8a2ae372b62210bc8b9b18e3ea  ./library/Tabla/source/N_Test29.wav
+50d4fea39299ac8c5caf7366e5b914317e5f01680b4c1880c5004cc19ddca5f7  ./library/Tabla/source/N_Test30.wav
+2acd1f0cd219ac8843089d60ff22b8196ff505941ae78e460442f96441ac1b5a  ./library/Tabla/source/N_Test31.wav
+4535113a706a37111790e80fe77f1f09bd839e05b5b084a73f7ec7179aef040d  ./library/Tabla/source/N_Test32.wav
+6f755a59a403cfa425b49791a598c719325cc44efeaf844f9ebba1ec5bbae587  ./library/Tabla/source/N_Test33.wav
+9e339f5c1abfaac8792a63c79821a3396ee2bd99d4ffdd57ce87f79671b2af2b  ./library/Tabla/source/N_Test34.wav
+ee3b821e5aa4f742e09a468f69b682f4c52bcd3066b492a6dfcbf27bc4cfe42c  ./library/Tabla/source/N_Test35.wav
+2c8da9112b1789b347f3caedd671cfd2e9c9302cd397846a3fa14fdd33c4b791  ./library/Tabla/source/N_Test36.wav
+0e535e0af620c4d82142dc8d01d50737c7c3905b7e59e6c3c9cd3a329d613376  ./library/Tabla/source/N_Test37.wav
+a8ed7d2541b03d3106f3fc0c21faa07eac2c0b1d6c5082c1ee18f212f3a841c1  ./library/Tabla/source/N_Test38.wav
+80fe63fbd2754c4d423d208483dda203803604f1fb4821a6ebb88d540ea6315d  ./library/Tabla/source/N_Test39.wav
+603c794a82431da718b4a42021560295a4644f056ced95e8cac1b02b222ea7f6  ./library/Tabla/source/N_Test40.wav
+f89e261c54ca7231d8fe163a52bff57ef552ad687de689948f8ada08edbd2ece  ./library/Tabla/source/N_Test41.wav
+33151068dc8dc816914dac72426f5f7fe53a1ec0e5a6dd05ed2bc06a41365c5b  ./library/Tabla/source/N_Test42.wav
+7ad4596577125174d3deac413eb4cc6c6b2570c5c30b3077a76860afe1e4fb6c  ./library/Tabla/source/N_Test43.wav
+49fb28ba7936d31eed6acb537e4308351d4a2c3035c9c25694253d355623de29  ./library/Tabla/source/N_Test44.wav
+49147a034230d9ecebcdeb4178c6a6aeacbfe4415072ee4d1c6e7a503d5f0a3d  ./library/Tabla/source/N_Test45.wav
+7d39c3d75a2be6fba4492f367a690fbb43b9477f8c8c2ca6a318f0928bf57235  ./library/Tabla/source/N_Test46.wav
+90bc97de2496477854d1ac84b40b723eacb1b3e72160da8580399832abd348e4  ./library/Tabla/source/N_Test47.wav
+9805bb826a2b68dc50f89990013caa77e6f83ddce358048986461b4db8e27310  ./library/Tabla/source/N_Test48.wav
+4a79fdc7a6eee06ac560bcbea1a737bf93ac57d02a42a4eec2f7588630a44778  ./library/Tabla/source/N_Test49.wav
+fb00f773d5687feef89cc0b1a1ce2392696e40f22137c19855cf1b49ba4df2e7  ./library/Tabla/source/N_Test50.wav
+2d24d6d0c0162930e7f41914fc849782e23e382835e2c8fbe9877d04bad68810  ./library/Tabla/source/Na_Test01.wav
+55ffe1fc7387366bb63b6d45e8da0c9694e88ee45c5487006968a34672ceca0f  ./library/Tabla/source/Na_Test02.wav
+3541fd525285c24cbda50fe239fa0f2e0c388fce0630db31c70832302dd6f7ad  ./library/Tabla/source/Na_Test03.wav
+322a00cc8cf924168aae697af1860003dc8cc0def7df117778f97a3d008fe94e  ./library/Tabla/source/Na_Test04.wav
+4825f560f833e534e326749fad77e5136203dd70975218ce6d1073d8e283a1a7  ./library/Tabla/source/Na_Test05.wav
+75f67160d94bc847f75cb97f5c754952408b51f259b96e6b89f12ca807365523  ./library/Tabla/source/Na_Test06.wav
+9922e44daf5799ceef1d7c03f3aaa1ffb2c119e3ef808237ce9ce6723a64d624  ./library/Tabla/source/Na_Test07.wav
+4ec49feb8cb177068835853fb2cf03da2aacecf23081244bf1e1ab92561ddf0f  ./library/Tabla/source/Na_Test08.wav
+d258b5f164c637b387eb6a380f629b340be31f6deb4a161b3f7d56c5a97726f8  ./library/Tabla/source/Na_Test09.wav
+46a0aba007e1f30e4590cf49ff34e9cda093c99e984ecf8ad37a75ffb2056273  ./library/Tabla/source/Na_Test10.wav
+76335744cd2787955358f602bbcae1d1b0e1e67ec00e5b7552ab0003d43d368b  ./library/Tabla/source/Na_Test11.wav
+633d2db155fdf7c8602509992865a99fc2d775a522ac49e74575cce0e1da97ce  ./library/Tabla/source/Na_Test12.wav
+f59c2e3107b7d22e6caafb5b723d90c69c5800d34069a9c855187ca11c30cf03  ./library/Tabla/source/Na_Test13.wav
+bca05cc1a4e15156301af45cbf143616db80a4a6867630275d9f144ac8262b25  ./library/Tabla/source/Na_Test14.wav
+2c4910d22bb20236e1fb61abc927611994db69a7f05357b7e5c83f924c61e8ed  ./library/Tabla/source/Na_Test15.wav
+49a2017f13079dbea293e2de7b39a073a00a68a7443f4f5987892637cd0b763f  ./library/Tabla/source/Na_Test16.wav
+26852e94a4c6d42f728d6a764a75e7808b822e2b78abf5a732cfbe1d903a1288  ./library/Tabla/source/Na_Test17.wav
+6c8c8629e901915e66e488914d933b087654b656791861699c2a90461b82740c  ./library/Tabla/source/Na_Test18.wav
+5d29aee84e1f243d33d31e96267a6e345c2af6240cc05fd17fb17d541a6eb73d  ./library/Tabla/source/Na_Test19.wav
+017bb1839c312331ff3921e2f5fda151175a7ce0581d9eb96629ff150753c446  ./library/Tabla/source/Na_Test20.wav
+013ea9e816c9f6bcb36891c09c2038edf0213f6bfb1f675fe7d9b3bdedd40e45  ./library/Tabla/source/Na_Test21.wav
+954d9386ddc824ed99e83c1ffd6a27733973430f13a6ede467b393d5cd0abb9a  ./library/Tabla/source/Na_Test22.wav
+db095154d094bf3e61a6cff080d6114f7abaab443cd6e444ac62acc19818edc6  ./library/Tabla/source/Na_Test23.wav
+7f3bf8858a7807ba0e63fa2e7965c227741ee7b40b7af820afcb4147f2385c43  ./library/Tabla/source/Na_Test24.wav
+e34b3b5a1401bd80ad8ba704e047eb7a35f11220c7a2befe7c5c65ac7103d0ce  ./library/Tabla/source/Na_Test25.wav
+1515238e3688f3ba43e1325849a7702bed3d4ce83859a5c2de9a93a63975e255  ./library/Tabla/source/Na_Test26.wav
+853a1ae699b0bb2100929a8c50a8bc375370bb3d277308c067051900f8e85458  ./library/Tabla/source/Na_Test27.wav
+079127a7fa2a34442e6f638487d57737d3c0768af890bdad40c688f0c22d07f5  ./library/Tabla/source/Na_Test28.wav
+9c9ab01f527c7ec2f704348b829730109a3aff51f8930d58d25ba2b4754fdca7  ./library/Tabla/source/Na_Test29.wav
+49140297b1ee74e7bf8b4e69e83fd3ff954b85175480c54bc5edcb9e16a26a85  ./library/Tabla/source/Na_Test30.wav
+cf380aab4b790e818c68265a6112b8c676a9f086acb84e7366a0b829780d27dc  ./library/Tabla/source/Na_Test31.wav
+c3c901dd880790b5ff493ca4a0dc65ffae32ae12d73246ef6bd50b0deb12836f  ./library/Tabla/source/Na_Test32.wav
+eaa6a8caed31e408ad95e1b69b59d4d1967acfc3e4385ee520f139ddf3b113ed  ./library/Tabla/source/Na_Test33.wav
+70bd1f6222d60bc785ff53271e5859be463dd1cd87a84df201029f5ea941431c  ./library/Tabla/source/Na_Test34.wav
+3004209a73ffa4f6055f302b073c0b1bc26733fa624d87b713acc10ca105e6af  ./library/Tabla/source/Na_Test35.wav
+f2fc5d628382d49d44ac2d3f87322c356748b11de4184542905b8ba58227b9fa  ./library/Tabla/source/Na_Test36.wav
+8e6204f12f779d1516f98ed62a1228c536fb16aea187df9c0a051b8d55aa67b1  ./library/Tabla/source/Na_Test37.wav
+3cfd9622158f3c10d6ca39f37d49e99054fc95da843ea8f029dd9154ad20f063  ./library/Tabla/source/Na_Test38.wav
+f53eea0dc33588726a47b8dfe4a5c5537449f16726577f04dec2ffe49b55dca8  ./library/Tabla/source/Na_Test39.wav
+a0e2edfc713167fb24bef483f3f662afc61b5bb4baa53b680d9fd51d829aeefb  ./library/Tabla/source/Na_Test40.wav
+63223abaa765f850f6dce9ae4ac27a748a99425b7595ca75f7c276991928655b  ./library/Tabla/source/Na_Test41.wav
+da7d50ccca06d1669be1e9ffae6d6c83f86a99fc35b84f771d746b949d96c56f  ./library/Tabla/source/Na_Test42.wav
+9f4eff68ef400c79f63bfdbc8a3ed288cba52521f87b53b1b5994e6436218cca  ./library/Tabla/source/Na_Test43.wav
+76cdcfa91a8754011f0001bccebe25a0ee73c6abcda80cb526e60e978695d14d  ./library/Tabla/source/Na_Test44.wav
+4b0af98cb860163eebb8e425ec9c088ee11a2ca013b9d529a8048d1fe30547b4  ./library/Tabla/source/Na_Test45.wav
+eb0635ba8abee7e3ed3f527d5fbd04b8e1fb34790938e09cd703fb0c612cc225  ./library/Tabla/source/Na_Test46.wav
+db93300aff092d5d0fbf5e1c6fbf97c6c3e13f916aa5c27eedc95a2b9463f900  ./library/Tabla/source/Na_Test47.wav
+ca788e5217058beff8c004b9ded465b6827fb87714e22097c08cb4202b8ed473  ./library/Tabla/source/Na_Test48.wav
+16cbb1553adc1a6182a43bdb470973cdf893b15175bb7ff9ef42f2c6d357b839  ./library/Tabla/source/Na_Test49.wav
+fd4f7a259fa04ef8a6df9c6582b8dd6cc779a94a357c0cc3f786b22387018143  ./library/Tabla/source/Na_Test50.wav
+f2ee9cd2dc28b2cf06e53074ce122331b163143bc1cdc12da9555bf9ba01304d  ./library/Tabla/source/SOURCE-HASHES.json
+9f308260e3f5fb581992aaf24a60614f65d8db25c28aa6251dc54a169fa94f79  ./library/Tabla/source/T_Test01.wav
+b60e3005cc5d1035e359e7cb742d6379445dd9356589cea1b7ae403d6a6f2a74  ./library/Tabla/source/T_Test02.wav
+14092539d1165244bd873668da9b32ebf7c70728db8eb0aefa7ef128bbf14217  ./library/Tabla/source/T_Test03.wav
+edf22d387c7d5c39998a452539cb17f894db48765ad074e96ab2069d7e7bb1ce  ./library/Tabla/source/T_Test04.wav
+cbc6277f76dc9b395f4819f862c19e8edbc59a03e8448be5bc7e839e269f090d  ./library/Tabla/source/T_Test05.wav
+754dabbddec8b16fc7689b5902d7c476cf83125fb7fe95528a83d317ac03e7c7  ./library/Tabla/source/T_Test06.wav
+fe5371c6bcdacad45cbf275947fc9e3530e669443e62eb88144ce5a70a33b2ee  ./library/Tabla/source/T_Test07.wav
+2e7d8caeb29515802412b25b02dd529ae706c0f33e02d182ea3f2c6f61d2ad69  ./library/Tabla/source/T_Test08.wav
+b3eb603d87abbb556a41e044a5325987780f56fb6a68ed387e772e6362eed280  ./library/Tabla/source/T_Test09.wav
+c2a713fbe0e545d56a81f1cfa591331d2ca7755860abed1bcb90389df5cc36e1  ./library/Tabla/source/T_Test10.wav
+44005db8e6489d85e45f8fd0ae0b05db66cdf2145ef18b0d6d9859c4fb1deb5e  ./library/Tabla/source/T_Test11.wav
+fae95addeea8b3d6252660b32ddc1b56424058ed0a9762051197cbca906a8816  ./library/Tabla/source/T_Test12.wav
+2d89609a77a3a3368a5963e31f02fd4384e1450ce5dd34cc9586729368c80108  ./library/Tabla/source/T_Test13.wav
+bd42173b34fdff3e403a18bd919d38416e1a215bb794edeeb9bcaa52948249fb  ./library/Tabla/source/T_Test14.wav
+d8811660025784f38754f3d718339981706cf2c35cb9172b98dc48779b5a03e2  ./library/Tabla/source/T_Test15.wav
+1dd8d300eccc277b340985a74b326a37de86e40b3c18b3a686b2277a97372006  ./library/Tabla/source/T_Test16.wav
+3ad2389f3519cb703b987390d9be5a1e40be10613ce5c5979f8ddd6e68499cb7  ./library/Tabla/source/T_Test17.wav
+a7b711052822ff41dbc607f787b9bfa5736a2476ca107de0dd59744e99276573  ./library/Tabla/source/T_Test18.wav
+e595b176ae794413992f79e0210fe5ec0f269473c1999e1d58381367265d380a  ./library/Tabla/source/T_Test19.wav
+e0237b79986977c00d908b584766dd267fcdf4f13670bce3103f765fe29d9cc5  ./library/Tabla/source/T_Test20.wav
+b3c8d7b510c82f075d5019815f6a23cb445662e47b24acba565bc5deab03b064  ./library/Tabla/source/T_Test21.wav
+d9973553718bd86bda262e7db829696db9d93aaeabc0eef92e0aff5334c6707d  ./library/Tabla/source/T_Test22.wav
+1559c7274a0cd9533aa7711031723783be48beceb8f2bf0540f12836fa4ea40e  ./library/Tabla/source/T_Test23.wav
+a0621a2a6d2a977929ba292a4a42a5d943ab6e026d8d2d9310dad6728de3afd8  ./library/Tabla/source/T_Test24.wav
+57449882fd9608077caa17ae2a2ec06155935524edda51ccce369481fac51640  ./library/Tabla/source/T_Test25.wav
+b141af8d1e9a78baf7f48fdb9e74fa62ed66beaefddac1849c73b7acf9a6f872  ./library/Tabla/source/T_Test26.wav
+a1ccc2626b442e5530cdfdb219076e6040f96ac7da22f3c332e17c2bac87f6e1  ./library/Tabla/source/T_Test27.wav
+a6910cc8fdc519eed52fb39ea9ff2a252fab29d858112e0f298bec8604453ce4  ./library/Tabla/source/T_Test28.wav
+27879e3ce99c065a6b466442d73a81826b2e5bfc26febfef58b96934247d6202  ./library/Tabla/source/T_Test29.wav
+8326a5d580684d5f0d08a835865ed606006b9269eff44c68603659d1c83f8035  ./library/Tabla/source/T_Test30.wav
+a18faf8efe47d3fceb92bf33553287ca1cfc8668b4faca460407dffba61d2c9c  ./library/Tabla/source/T_Test31.wav
+040bc1da4be69efd87e5581747fa403ae58eb0fb9ac68c8063d9d0e278bf4f05  ./library/Tabla/source/T_Test32.wav
+5ba34b3d5def5d3586210922f3cbc9c15dd1c3938e97892a7f13c1ecdffbd1b3  ./library/Tabla/source/T_Test33.wav
+2ddd75dbbb55460fdffc9801d53315d399343b2b485e6524be1355a6ccd84f9e  ./library/Tabla/source/T_Test34.wav
+0083621827c3f087244afb549761520e711c80919ce60507500158f2f7f84d8d  ./library/Tabla/source/T_Test35.wav
+abea8e28568e9c90a59a130aa9802d9f5cf8925fdcb296b08631faca078944de  ./library/Tabla/source/T_Test36.wav
+23c915b982f1d421bb3c5ae58a719e5f9cc835a8aeaf69dab4e6d75112252723  ./library/Tabla/source/T_Test37.wav
+fb36405fb1901f51deeb657c5be9fb0416079456927ffd57a01539e7e7ec8db3  ./library/Tabla/source/T_Test38.wav
+7e01581bd0da0cd9b49e879022e311ee362b6f4978a60eedc38cf606055a057f  ./library/Tabla/source/T_Test39.wav
+cb067eafdc4dbd35c3321b1ca0a378480bec059228112c794761c91606b866f8  ./library/Tabla/source/T_Test40.wav
+814370ee8ea9fc0aa9166cba10ab9c70f044dd42a81a93d04daedc2b641a62a6  ./library/Tabla/source/T_Test41.wav
+57cb410823d012b639ec587f8e7bf687f289ff411536bfd63a27ea22d175d4c9  ./library/Tabla/source/T_Test42.wav
+94e925181954561a79a39b5e26c29f872f90fad79a2abf170b7d488afc6b03c4  ./library/Tabla/source/T_Test43.wav
+b74e16a1c06ed64785aa3ebe72ece2ab74be4755758c0063178856c8b0cdf688  ./library/Tabla/source/T_Test44.wav
+5792136415377eca17105d700e00251bd0c7a9b3b29e232390d738f76c876324  ./library/Tabla/source/T_Test45.wav
+fc4c8b150ea85dc66c7ff9d06d9eb24ebd266c679f01477f7e8974f5bcf80c35  ./library/Tabla/source/T_Test46.wav
+8bfe72f8f7ecfc77c2a3305c5d666885a98c34026a455bb21ca97aa67310b3c1  ./library/Tabla/source/T_Test47.wav
+474b3497a5a6544a44f709de8b5ccc4dd692d05f164a508a2d0002e8f18e06b7  ./library/Tabla/source/T_Test48.wav
+b889fe0c1abb904fd1b668a0bc9425e78accfc02f967a0c7877dafaef71c19cc  ./library/Tabla/source/T_Test49.wav
+13695fc9776a2e40ff9f521e0a8ae2576871155529d58f2f6d45a75710b3fb2e  ./library/Tabla/source/T_Test50.wav
+6459aecd331445ece0aa2e0a9439824b59424ca5a4c111a3a63d7c445ffd1a57  ./library/Tabla/source/Ta_Test01.wav
+48fcc1464598e079b7369dfe071fd9c9d943131ca6f04b33d50332ce358bf357  ./library/Tabla/source/Ta_Test02.wav
+fda236814f772815a8e15d30c6955ed757ac5483e0221c0368784ecdbaf61c63  ./library/Tabla/source/Ta_Test03.wav
+0d19a48aaa7b67ec80e497e853c3818a398e987275a2970ae1ef27c3b3abda45  ./library/Tabla/source/Ta_Test04.wav
+169e046deaccad86597eb02e2123d92ceffd3d2555089dca4d1809cec13dded0  ./library/Tabla/source/Ta_Test05.wav
+aa352eb22f84b81fc0b215c9989dc0c2f4d2baec2ff0ddef0d6c2fd818063e4e  ./library/Tabla/source/Ta_Test06.wav
+abab123bd8aa980835b411328a5d2b2034cdc914a46303baede2b350b26f8990  ./library/Tabla/source/Ta_Test07.wav
+0e5e37ebe5c20f7e07b59495567c7dff8076bf82e345e7a2ada56587ec816923  ./library/Tabla/source/Ta_Test08.wav
+1fa059a4f51884cd948b33077a38a740ec7402816b6b55daa23a30da98046753  ./library/Tabla/source/Ta_Test09.wav
+5105cb9ecea5dd64b091b7c70e6c0844b96795b5d6f7a83d5e116563ddd6defa  ./library/Tabla/source/Ta_Test10.wav
+d022a09a8a8184cbbfba165f5a850ea72633fdd9034ed1fe6e92e7cc94779435  ./library/Tabla/source/Ta_Test11.wav
+bdb60964daba34a08b4d78f3c4a776dbedb58e13e4242c5c49d1082f321d4c1d  ./library/Tabla/source/Ta_Test12.wav
+eec877ce6af7849bb94a5a2788ca9e32b90c8e1a2631ad5e02ab20d56affa660  ./library/Tabla/source/Ta_Test13.wav
+cd32f3ee7871e828fc77845188290963d8badb3c5c2aef9e7eac71ca60d296d1  ./library/Tabla/source/Ta_Test14.wav
+44a4eed2e593cc1e6bdeee6182158caa624acdf1c192316c08a8c6d0a673bbc1  ./library/Tabla/source/Ta_Test15.wav
+b3b63d8a1b13320f15ec77aaf0d9f672f7f32c3b55f16ae0638c33070d6a986a  ./library/Tabla/source/Ta_Test16.wav
+df7da80fd714d87dc3798971794eaa5064c94c88cde14f1e992498273ee7e54d  ./library/Tabla/source/Ta_Test17.wav
+d1235d34878a8e0fd5765e4fc8c42c380cff59cca1c7836fb8a85e26aaec5a4b  ./library/Tabla/source/Ta_Test18.wav
+1a9fc5a602037612f9e8ed014d18876d53065628d29583a33da16dcb4969adbb  ./library/Tabla/source/Ta_Test19.wav
+1f854c4701d3ac039ba466761492fa6d72b4810a5a5d5a9eb55d8c3d0240c718  ./library/Tabla/source/Ta_Test20.wav
+ebf8bf77b2ffaf1fc6cca92eefaaa78a422c64203a692f63a04e3c45e194bc4d  ./library/Tabla/source/Ta_Test21.wav
+8685c59092ccf2e76e4555b298bca719dbe75c90231c8b32659bb11ab82ce995  ./library/Tabla/source/Ta_Test22.wav
+60e29a481097244eef81443c2bc6dcc9e3a1453dca56730262a096921eb376e5  ./library/Tabla/source/Ta_Test23.wav
+e34d0c7017261b749ba5f9bf782d0313b8016be8cb408b791e5c34fbab82a428  ./library/Tabla/source/Ta_Test24.wav
+fe83e69a7b09a31cab8a6abd389915122e8fc1d7c17fbdbd0786f90d535f8591  ./library/Tabla/source/Ta_Test25.wav
+65c8100b3e162a37ddbad1b70f9663fa0294c44a9499c59c6e6c75840b14b30f  ./library/Tabla/source/Ta_Test26.wav
+e0592fb749fa3d9f15179f91310a3da7cafcc35c19bae40cb09613265d09570a  ./library/Tabla/source/Ta_Test27.wav
+7d5cdeb5f4dae04fdf3df6ae49df6209656049b34fd94516a57c5c419877a75e  ./library/Tabla/source/Ta_Test28.wav
+b8dba7873f59fb60bd122c2375265c4e46958624c23751a068e4e641850aaf7d  ./library/Tabla/source/Ta_Test29.wav
+46d06cae563527d30ccf570614c60681bfd41ee3ab39bc875de4a366f772d0a3  ./library/Tabla/source/Ta_Test30.wav
+a25b988488a74cc0a54b448137ca9593a9cf7cbebc53b57f76f53b6434e75b04  ./library/Tabla/source/Ta_Test31.wav
+8f79a04784775c874614df6868774f3097363749f4b76af0b7d0954aa57ad974  ./library/Tabla/source/Ta_Test32.wav
+5c8abbdff10bb3c87223ce0de86e049d33ee314c37ae8bbc427f42db855e8606  ./library/Tabla/source/Ta_Test33.wav
+d4ef2dc61bdcf442b726a350bf600620839c9a6eb18d29a318383a9d4f0ba0f5  ./library/Tabla/source/Ta_Test34.wav
+49fc7ccd6bdfa1e7c72b40f68359e01ce0868caea38328b2ea0ae24ed55e8da4  ./library/Tabla/source/Ta_Test35.wav
+0db0b1f34fdff39a2921bdd702f800e4791d5eb799080f6f990a6c059bbef573  ./library/Tabla/source/Ta_Test36.wav
+af575a5865178c262e6d1862728b26d9b972dd38824545a21fc484fdac45852a  ./library/Tabla/source/Ta_Test37.wav
+9a2d72c4cb44a5fa46415d95bab0cce39ed7fc6136d6f7b2c10cd448cdfe78a4  ./library/Tabla/source/Ta_Test38.wav
+671d18b04c0c1d90a3f9bf343a7f257133e65ae2e32e5c51d8538a682d71dbae  ./library/Tabla/source/Ta_Test39.wav
+21e3638d17c5a891276b42ee76e7a25f3f309df896a3be1c12c79db2cd9d92f4  ./library/Tabla/source/Ta_Test40.wav
+dd88f6f2b33deaf3e8109e655c99b73bca1123def7333cc73365348d56199050  ./library/Tabla/source/Ta_Test41.wav
+750a648531569f62e72b02d9147839bc7b2681f541873f5c96b48cd13a984e06  ./library/Tabla/source/Ta_Test42.wav
+de60988df5cefe9d5d301aa4bb35546bc7f9865c7367833c34f502c4931314f7  ./library/Tabla/source/Ta_Test43.wav
+fe4f6f19f5bae6be791eac33af9b4ecb3ee0fe054d6476027bc554aa3c4dad65  ./library/Tabla/source/Ta_Test44.wav
+3cd95d17575d90a72e988b9794df1a75be50e235b85dbfdfd9f99e6bba1aa259  ./library/Tabla/source/Ta_Test45.wav
+46393e82e15d54bd7b23abd8060db46bb9d8745d19b12ff46c1552ffa6bf3a12  ./library/Tabla/source/Ta_Test46.wav
+3122b9b452271cf6af6a5e8875b7a6a8b049d2feff238acde022e52360efaa09  ./library/Tabla/source/Ta_Test47.wav
+2b05c4729b7c3538e6c2aa9ed21b9b19c327c9775b453a62fcacbde32b8c1947  ./library/Tabla/source/Ta_Test48.wav
+e919fa2a12e179004c1210893d35b41348161e0c2dfbb14686a375e702e50888  ./library/Tabla/source/Ta_Test49.wav
+f95373a7ee9b6410903c81f2a02905194dc65e7d9fb5e0824b57b949b214e80b  ./library/Tabla/source/Ta_Test50.wav
+b8a467429fd47d8b06d2539caa84001312608189eff7c1ed3300c2ba87fae23b  ./library/Tabla/source/Ti_Test01.wav
+0ac0d658bb72e1ab7d78c1e491bb53f9bc0729e738fbdbb92804a06ce744d82d  ./library/Tabla/source/Ti_Test02.wav
+267483d8e94b9fe6b73380844fc78e482ac5ca20eb581ed5822580e00cf3a808  ./library/Tabla/source/Ti_Test03.wav
+05ee42de3e536c4f1c13fe17306c8c2ff458c60974dcc6a87c76e2995829dcca  ./library/Tabla/source/Ti_Test04.wav
+8260e5c7a6a826cc5cbfc90a63f3a3b3f530b8ccd4e7061dd838d33552e747f8  ./library/Tabla/source/Ti_Test05.wav
+3b954438c0d1c53426f5983ae264dabaaf9898f11a1f7cd62cd89ca4f1fb597b  ./library/Tabla/source/Ti_Test06.wav
+3968e2826ffb6036fec82c78fea98b4b171fdd4e5f9d0752d849c29ced04eca8  ./library/Tabla/source/Ti_Test07.wav
+2c0fd73e61116ee2577041cd58be04a207165ded9ee7e9d2fd8fd923c1e3842f  ./library/Tabla/source/Ti_Test08.wav
+23c9b4a976d44ad5e021aedde1ea2e2038b032313c377bbfa41b4294b1efb0e7  ./library/Tabla/source/Ti_Test09.wav
+03a56dd20975cd822bbe82ad902c83c6b7e7aa6d6e9788e987c6f19c1e43b66c  ./library/Tabla/source/Ti_Test10.wav
+2111c64d3a6b7c64be9d183672c8063ce66239379aad45a59b2b8aadac9716d2  ./library/Tabla/source/Ti_Test11.wav
+7c20e9e358bb388cf784e940144448229049baa5e8ef49fa258a298d4d279e1e  ./library/Tabla/source/Ti_Test12.wav
+98a539e113fdd0714a3d44e1931b9917321a11e99469b2b3b44959a75123e74e  ./library/Tabla/source/Ti_Test13.wav
+4a7355e2860678d2cc5d3204105d5c1d3e136a5b995a19a39f6e991a40ae8a9c  ./library/Tabla/source/Ti_Test14.wav
+a9d92aa031f72651d0728ec3fffbc9ff2d35ed45e0508297721f07a195e5fabf  ./library/Tabla/source/Ti_Test15.wav
+2503d6ee465916cb4624fa2708dd334cb972a5aa5f631b22df853d8fa224206f  ./library/Tabla/source/Ti_Test16.wav
+87aaf64d25e86ac6bfd092d5a9f114d07e716debf28e2e1587ef4a6499d14514  ./library/Tabla/source/Ti_Test17.wav
+4074ec63ddf931f20580658da6910bbd1dd0cca7dcb594aa07d0412d89cc74de  ./library/Tabla/source/Ti_Test18.wav
+ea18eeab0b9fff73f4971436c68d2d3b62d9646e817c0dad452ef7f90f4aa56c  ./library/Tabla/source/Ti_Test19.wav
+3e6cc9bc10bbafa3575b03a289ab67d374fc22c5ed3cbaed7f8dcd3881b79a81  ./library/Tabla/source/Ti_Test20.wav
+0bf04f72b3f050143995386ecbc78d45a6b94b7c0a74f77129dc5c887419d3ca  ./library/Tabla/source/Ti_Test21.wav
+dbedfb231c2794bd82543c1209c08cfd535ea3a7c8e9a1ebbc12d0b396bef853  ./library/Tabla/source/Ti_Test22.wav
+3c24e2a40e0b3d4be1e5ec82db375a90909ca416452d392a8123088b3ee4f04b  ./library/Tabla/source/Ti_Test23.wav
+114b2f3f4a7a2af0377662a9a446a30d4a7b11fbaf33070545f9614629831219  ./library/Tabla/source/Ti_Test24.wav
+e060a03048b086b87a6335e5d5d246f4b293b412f2805754d87324880adad078  ./library/Tabla/source/Ti_Test25.wav
+398c733585c964f98b6407bac297739d8182a8efbd02cb8be769299fb115cea5  ./library/Tabla/source/Ti_Test26.wav
+800083f1752ef9493c588d09a744da1f3116b6fbc8d70b4568acf010dd97f7f0  ./library/Tabla/source/Ti_Test27.wav
+de77960f860df6546a2fda7a0d66f07d1a50b29e698698d7420df25d15549c93  ./library/Tabla/source/Ti_Test28.wav
+99735b4a2a5c2d5c8b44b34ec9165b5c05594632d4426e6c0542ebc1ef37f6d8  ./library/Tabla/source/Ti_Test29.wav
+933e242d5acc9a3046a417a7e9370cd82a1bd8b47cc0f6459c28154083dd072e  ./library/Tabla/source/Ti_Test30.wav
+b81b4920a532d8e0c73376b017fed9174965b24fe67940482b802ce329e1a763  ./library/Tabla/source/Ti_Test31.wav
+b32c1cbd24e72dea093eae06ea5f38394b6e53acad5ee190e1ef0695d8e7ebee  ./library/Tabla/source/Ti_Test32.wav
+e950643603b5843be720988c3a323061c30bd4db80d6ce7a4aba4978e7856299  ./library/Tabla/source/Ti_Test33.wav
+a3bc0e1aa238f18eb314bf2abef8f543a4f521f63b08e75896bb1efae649ed6c  ./library/Tabla/source/Ti_Test34.wav
+cb7e3d321530131c517a3cc96a12366bed368c3c1ed1aa546844ffd260144f1d  ./library/Tabla/source/Ti_Test35.wav
+cf186f79e41c46cd15e3c4189859a676e6b5c34f51b40cccfb194f7ee1c7bc82  ./library/Tabla/source/Ti_Test36.wav
+122f9cd6c27154bb4bfa8593275d401e93a5179fc54d41a443de4a5963c5f3d9  ./library/Tabla/source/Ti_Test37.wav
+c207e96e9be70a7b1d205d8bd78ffbb7c5e36da62d9b1d0e4677eb4ff6b9e969  ./library/Tabla/source/Ti_Test38.wav
+e972197fb5d185c4742e747b35b6f70c3444800a193aa88b74e505860b962735  ./library/Tabla/source/Ti_Test39.wav
+cd994dd5b13addb87fbadfd10c7bac9f246e73f7cb590a0499a21baeb579941b  ./library/Tabla/source/Ti_Test40.wav
+74db09985179351ea3184ee0dd488af8dc635bafcf791bcea4e6f68b4d19de3a  ./library/Tabla/source/Ti_Test41.wav
+545fc24f6dc7eb6e66ff0f704d0a3357ab3b2ecb9397e818e483d8962fd95c32  ./library/Tabla/source/Ti_Test42.wav
+d76533a5678021b11bc124f601399f479a08295379f4720c847a0257b1dbaf2a  ./library/Tabla/source/Ti_Test43.wav
+a304dfda5bec10cf47e6297d1bd59d72d8dc97a6ec83ba469f027f5665cb1e42  ./library/Tabla/source/Ti_Test44.wav
+0bab21929f389fc4be714514327c961cde49626269aef8244d4047414b69e4af  ./library/Tabla/source/Ti_Test45.wav
+120f29b0e80bbbac99d563e8be9ab17d8641f7544fd0c0b43433694cf6ef4378  ./library/Tabla/source/Ti_Test46.wav
+159d1118118d6b4a6b8c140ed08b968e077d1ed4e29eaa87015642adb502758b  ./library/Tabla/source/Ti_Test47.wav
+28c47245bd2d0fc2a54734dac83f8657b686e71f3d731a807bc083772cc77a21  ./library/Tabla/source/Ti_Test48.wav
+ccad3db8c3c6f2e0405709d602ae7f8d12a01c927f9326ba19ca48f522de9e12  ./library/Tabla/source/Ti_Test49.wav
+24f088ae6b7cefe16e1792ef3702cf4e71c3cb71b3271be55b8e1fa7414fd506  ./library/Tabla/source/Ti_Test50.wav
+171181b2fb799367634a6e99134e89888a2b0e4e49e9b32d62aaa03baf149650  ./library/Tabla/source/Tin_Test01.wav
+57f329c9afd1acd3292c2651f65771eb5ef81706c14e211895e44731e07e1d69  ./library/Tabla/source/Tin_Test02.wav
+da783b035abcfa90e9f9f0c4b13225867935e28eab8c2c11ac355b3dcc85797b  ./library/Tabla/source/Tin_Test03.wav
+4438d351195803b4cd6970fb44756821f9b1c4490d07161f0f1fa38ae8fcede1  ./library/Tabla/source/Tin_Test04.wav
+617f31a10dfcec30dc6895e0c7b4689e62268cf174dfb2d267ae0393564db963  ./library/Tabla/source/Tin_Test05.wav
+8140339e1012a1e76770ddd82826cab1d17075fcba406b8790265a312015ecee  ./library/Tabla/source/Tin_Test06.wav
+eaf94c253fc02e9b88e29074b24232f8792d1f72bda1d8172f19e33dcd9b6aea  ./library/Tabla/source/Tin_Test07.wav
+27caa14cd92c4598a96207ce22464defc8ff32c7d45d442967a630be5e098fc3  ./library/Tabla/source/Tin_Test08.wav
+d81c2073689a60d9c699be0651b213bbf98c658ec44e0c747c0bac292d064a91  ./library/Tabla/source/Tin_Test09.wav
+aec4c0831e4e3e2da88f3c18779bab18a979402a4fe42fc88b7a96b3fc15e7db  ./library/Tabla/source/Tin_Test10.wav
+513827a3f6166095858d49b5db543779b25082b081e16222925d636000b463d3  ./library/Tabla/source/Tin_Test11.wav
+0f592a904222d451ceec7cbb2177353b552eba459178b8fc5a59592e338b6ee5  ./library/Tabla/source/Tin_Test12.wav
+bdcb4a5340f977111214e32759b8929235a3001dce8eaa5a968973ccea5e44e3  ./library/Tabla/source/Tin_Test13.wav
+0801511994ec0877d462b748006b736333749c37a6c7f83fe659ba6ce0c90dd1  ./library/Tabla/source/Tin_Test14.wav
+e420d20ac35998ffed3f937f30c415f3fa9e7f88d36d9f5969222aae7037700e  ./library/Tabla/source/Tin_Test15.wav
+8890feb213ebb51f5493e22937774837de41bb2c200b8ff21efe640a59e6d8a1  ./library/Tabla/source/Tin_Test16.wav
+dd4843366c3233711dbbf95363ce1f6150cde84c1ea75690ab3431b91ee664a0  ./library/Tabla/source/Tin_Test17.wav
+f0545d6a0fd079a0b5e283955ba80960b5241de85d1181dd1a887ba31c0de834  ./library/Tabla/source/Tin_Test18.wav
+32794120e93ee71aacd87b03b07c840031567c601448ccc79d48dbdf703c44e2  ./library/Tabla/source/Tin_Test19.wav
+38058ac8c7bc850e0511504896af507b2bc3f596c11502792741c4a45edb2064  ./library/Tabla/source/Tin_Test20.wav
+66ef1173231510f2e91f7f84d802b4f939731fd4cdc044d9b5b30341132317d6  ./library/Tabla/source/Tin_Test21.wav
+3533393a5be4f4cd4bc2fede596f07d31c9bc4a4cd691f71bc7429e23c07647f  ./library/Tabla/source/Tin_Test22.wav
+6992448486878c0fcc6ade19be8412d80d7d29e677e6678a949a0c2a2b4d458a  ./library/Tabla/source/Tin_Test23.wav
+dc9e20d1a8ec379ea9083d395e24df1be38f1f1e528eb8af6284f1360565c632  ./library/Tabla/source/Tin_Test24.wav
+82ef3e1e24a6911b2b917285d149cd48c10b935a909816e2c33d4c4dc0e7821b  ./library/Tabla/source/Tin_Test25.wav
+aa53f3b60d6aca8a35cbf4bcda155680e6089635898eec20aefdbd2fac9fbf92  ./library/Tabla/source/Tin_Test26.wav
+1baa775f6122a5494cb9b5ee91c620cb011acef1936c8a417002cd2dd0c92792  ./library/Tabla/source/Tin_Test27.wav
+ccf84dda6103d166d9e73d995599f5270d8a8fedf4f7fb6a7c032d6f974971fb  ./library/Tabla/source/Tin_Test28.wav
+a441be5ec1cf8aea5da2d8414a12ad89e44b5c557cbaf66d9014fb80318edf63  ./library/Tabla/source/Tin_Test29.wav
+322b4544f171daa95e4fdf5668dbdcf3d6e4c9d5af28df6480579edee5e11da7  ./library/Tabla/source/Tin_Test30.wav
+b8013dfa399e5d06587e7b8c4a009e65dcfdfb36784a667d41729294046bd83b  ./library/Tabla/source/Tin_Test31.wav
+32d787c89a44385038f7953a4b61b1384144f3132107da95399c719f8fbf1f47  ./library/Tabla/source/Tin_Test32.wav
+3e44faee8e2bd9ba28ca5728e2304ca6d8ac592225e4e50fda2fb1d2f7d95f48  ./library/Tabla/source/Tin_Test33.wav
+4e2cd9fb9c52d2430335a7ffae306fcec3094487f1b0cbe7006c99d52eb17836  ./library/Tabla/source/Tin_Test34.wav
+2a6182a60e612a302508adc359797c9d04b0f859e263d36cb98ee1987888a834  ./library/Tabla/source/Tin_Test35.wav
+7d499025d4b9fbc23ef50fd47fde694ebedf146e79d38939651cea9280e5d934  ./library/Tabla/source/Tin_Test36.wav
+e1f73ed03e24442a0b95a8616aa20eecc499150d3f1c3f456e4b0fc6f1d44e34  ./library/Tabla/source/Tin_Test37.wav
+558be67dc636d4ab88c65863515a11edb22532c855855b9d0066a06ca83f183f  ./library/Tabla/source/Tin_Test38.wav
+d463ebb470b3e9d8f5b9e4ac5fc97b026dc3c1c103990c75c6412cda25953cc2  ./library/Tabla/source/Tin_Test39.wav
+9c1aed884268da107ea7d90007a0c029384c613011cf995972479c7c01f5cef4  ./library/Tabla/source/Tin_Test40.wav
+e489a03f26a29eaa760ca9b62b661f08914cc5ee5e40a41dca370fe0a0142d5e  ./library/Tabla/source/Tin_Test41.wav
+7600449b124b1466fd06e80cdd6c0a0d0bab8f3074d098e02e28015950622e91  ./library/Tabla/source/Tin_Test42.wav
+40d25ae6c794193a7871e24c8883945209b07b3efb8255f30e3e668a336db57e  ./library/Tabla/source/Tin_Test43.wav
+65a023200b8045d9dd5c430f48b84ece45dc9526e3987bf87ec80ed2cf58f91b  ./library/Tabla/source/Tin_Test44.wav
+6ea425edcc5d8da9722248ecf78c2cf570453e7fb2caa0b77454cde3ca3d581a  ./library/Tabla/source/Tin_Test45.wav
+74f9f3e798da68d237ead7d1c8ca11f5837095e96f59434214134ec0c6ac0e92  ./library/Tabla/source/Tin_Test46.wav
+d89b782a00710c37a500c23de7f412990f08fbc8f295a3ebb6d37a6bf3bc80af  ./library/Tabla/source/Tin_Test47.wav
+ed72ce8b1bcfcd55764cccb10fbf30121b5a6c70106e8b0892d953003e033e48  ./library/Tabla/source/Tin_Test48.wav
+7284cc84162b2bd1bb539bc4a649d5005bd49d5ea65d5b0ef5aebafc33f140d9  ./library/Tabla/source/Tin_Test49.wav
+0b8c118cc192d4d25a1d7d36062f05697a323e8b359e93b935437dd2ae532a3f  ./library/Tabla/source/Tin_Test50.wav
+06e8fcaaa5d93618d36bb2030c5dfc6178a0dc7d2f9ee87842ecb8e275300851  ./library/Tabla/source/Tr_Test01.wav
+b62f3f33d1c1c98bfe9c0458e906ce78145192445124c917e8ff73020a3977d1  ./library/Tabla/source/Tr_Test02.wav
+3a1dc9def3ae806407d8f85eb1e8368cddd30256a76b6004ef13c459fdeb21c1  ./library/Tabla/source/Tr_Test03.wav
+ad1935cc8b7081d866697eefdd367a21ba87b149d1dce39f053c859cbbed7056  ./library/Tabla/source/Tr_Test04.wav
+1b2a2a7b2537b11866a6e6b67a9d50d485c7b4e48e7b3659ee79ce37b5cb88e2  ./library/Tabla/source/Tr_Test05.wav
+f1643222290d2ac36f8b43d9fbb15167e2d5695081cbdad4d50659aa2caf0b5e  ./library/Tabla/source/Tr_Test06.wav
+0e3c293af04118f09fda6d6e7a1e027bceac303ea595f50f0c8d0121c744cc03  ./library/Tabla/source/Tr_Test07.wav
+a5de56a74763ad50dc46b03cae3d09b1ca58af8d1c1bc2877a4f3349f794b9e3  ./library/Tabla/source/Tr_Test08.wav
+c89027f5fa0745ecb64a2edfe0b5ef8ec6b172489e14d21d7e8860999d0cc8b7  ./library/Tabla/source/Tr_Test09.wav
+59ad3c72639a5c9936cc523869cf0b1dda49f2b01dd36c4ca834c37dcf21fadd  ./library/Tabla/source/Tr_Test10.wav
+91c6e74519098be30ac7798afb9b02587e272a4f49296d1f4f7db113df137e27  ./library/Tabla/source/Tr_Test11.wav
+48d634a423a14925f2adbcc840282ceb48555d3818f894e525152814f9a9acde  ./library/Tabla/source/Tr_Test12.wav
+0d80618e46cbdfd304dc1a288448ee0dd7189f51a0f98e4711225557414ab342  ./library/Tabla/source/Tr_Test13.wav
+9cb4613d42783e39805b47ad4d58d05d1dcf95e69a9d0f398d9e88a4e82e57a7  ./library/Tabla/source/Tr_Test14.wav
+e482ad89a4217c1a849a4cda3a2cbce5a37535d805071946038bd9cd89a1fc62  ./library/Tabla/source/Tr_Test15.wav
+f48de6dd0c2fac7bb36f1c8cbaceb25b78e522210f364acbc6defa1c3a206037  ./library/Tabla/source/Tr_Test16.wav
+e5601132c447e705047545b863bc50e47913dbf1023e5b4527919341c8eec643  ./library/Tabla/source/Tr_Test17.wav
+91e9d18cf056878fea94f84a1942fee86f0641605d38c51d033bfe080717bf30  ./library/Tabla/source/Tr_Test18.wav
+95005c7cb77a563c2da283064653a5459661ded05909b6c41a2d236b48cdd217  ./library/Tabla/source/Tr_Test19.wav
+12a5e0eb4089bba7cc4ed1bddc51bc365080f448455e8cf1d166be9128cf9bba  ./library/Tabla/source/Tr_Test20.wav
+1ab9fa4c5ac0f7084ebf25b4846ba664921e4e72d34acae562acdbd6f392da9c  ./library/Tabla/source/Tr_Test21.wav
+3322e870a1714ded4a73da59f757097e47fae92a80323b5cb6ea85f075b029f6  ./library/Tabla/source/Tr_Test22.wav
+f44c469630417c99bab4861107c904537f100f9b48a2f209ba09ef75688d916a  ./library/Tabla/source/Tr_Test23.wav
+edbfb34fbebad717ef5181e82af2a57561dfca958eb2d1e27dc8de2e8e33b811  ./library/Tabla/source/Tr_Test24.wav
+3bf55ea84b9b2f93d0d52d9e882e392b2d24cc031154d26cb34be4081e15b35c  ./library/Tabla/source/Tr_Test25.wav
+9b074215985909331ff318f5ddca0b9c49452e75a31d5ada97e2b93e5bd3225e  ./library/Tabla/source/Tr_Test26.wav
+d3ce513ecaac3a3b7865099868aa69e544bfffdc73aa404f9633b40929c5be40  ./library/Tabla/source/Tr_Test27.wav
+8a229dcfa21e59909bc44d7271aefeab5c44b55319532abf7e7b344ba373db27  ./library/Tabla/source/Tr_Test28.wav
+a0b1883cb6a94e742afdb69654e6cd4cdc82b7b46f8543854d9acfb332854e19  ./library/Tabla/source/Tr_Test29.wav
+cae2bcf38f21c0dd96243cc2da0f1db4f448a3bc518815128a5fe3f34b7567e0  ./library/Tabla/source/Tr_Test30.wav
+437e86f1ac58319e62ffdef2c48957f09db168707199a7e155c5f1e8cd30969d  ./library/Tabla/source/Tr_Test31.wav
+010155ab5137633f549f13aa7290fcab12471d4cc2d46546e11f767f5d732e2d  ./library/Tabla/source/Tr_Test32.wav
+655fc32a97b820dfac1d21b7640e5a2a3d81863cce48d9167810db2edd635e4b  ./library/Tabla/source/Tr_Test33.wav
+86439caef48ec5fcfef3e30503ef1286763aa608a36f1429fbd7cdbb27a484c8  ./library/Tabla/source/Tr_Test34.wav
+1a1fc5a8364b208e2308297dca2cd616d6104584d864379d1991a75a8fbbf881  ./library/Tabla/source/Tr_Test35.wav
+9ebb0533a34f1d9b3c99939f08e98668689f912bf720fcd194da5ffdd4c0ff8b  ./library/Tabla/source/Tr_Test36.wav
+7ec1fede6109e07eeb87c7654790221299808fdd1aebc63ce3998743529864ab  ./library/Tabla/source/Tr_Test37.wav
+cc37ba922a481a8b2e00b4398c6ce16ba8c6878cf338f770a25b4831dd0db763  ./library/Tabla/source/Tr_Test38.wav
+c7c0ca2c26b2240e2288e71c5bac79a765ac1a0af2a6a722c5a4cdf453041d01  ./library/Tabla/source/Tr_Test39.wav
+54b167a25dbc8a6b36cc0af7329fd365e4d9a8882bd9cdb108cc082cc69c93cf  ./library/Tabla/source/Tr_Test40.wav
+25522d67440d3181e2a23e14893ae7f61e7575e2564ee971c24424553176c9c6  ./library/Tabla/source/Tr_Test41.wav
+e15b5f7c46a2f014bbf55149f161fb68fe4265bdef82e18dd318656fbbb2d5b4  ./library/Tabla/source/Tr_Test42.wav
+f88d4d3b0a9eccd99bbe954cc7cca3486e31f3e3ae5bcb32b32db35af18c5e00  ./library/Tabla/source/Tr_Test43.wav
+b00ae5f70d35ba175ebda9910740a24f1cb7e12c2f015bfcd494011b302cae92  ./library/Tabla/source/Tr_Test44.wav
+c3ec2af0d5c7a1ddbb44cb032a6f14dac3eaf8801dd2c5fcdacdf2c713c2e947  ./library/Tabla/source/Tr_Test45.wav
+8ad4dbf83c215c69b7ddd785c66f975300f409e5e9343ecc3b6018ee3a064909  ./library/Tabla/source/Tr_Test46.wav
+e4f8d099cc528db4b66e177e65e79ab97705109dfa88c99112313d3b60874a6b  ./library/Tabla/source/Tr_Test47.wav
+09488fc3d16fcb7291075b97d8c9e76c32a219688ada2578cbb184a271c05e3c  ./library/Tabla/source/Tr_Test48.wav
+12ef3d99974de091940d6c36ca43cddc1877b297e12a16be8583bf5710345337  ./library/Tabla/source/Tr_Test49.wav
+867d5e8fcf66d4c7d26ccb6dbe4e13bf2c2328ad0d1a30417c7657296adeb124  ./library/Tabla/source/Tr_Test50.wav
+357204d3bd26cd412e5a9d591eb1611907b0d889d43c8960a13e6fd46ee470ce  ./library/Tabla/source/Tu_Test01.wav
+808d9225b70522a1482e2f31cb74738be954dd05d095e36d936a1394c21bd1dc  ./library/Tabla/source/Tu_Test02.wav
+9b6c74f67009fdf7981405ead7e93edbb076bfb4b1c046a4912d87967aa31410  ./library/Tabla/source/Tu_Test03.wav
+0ac6aad8e5e8c3e13f5983ca41a1da46d614c42b2fedc895b646b3dd134894ca  ./library/Tabla/source/Tu_Test04.wav
+d918ae7625ea078bfc4563b87f1e6fab0ba64365a13bc5d8f37a8f3ab61247fb  ./library/Tabla/source/Tu_Test05.wav
+4080fb4be42be681643c65036a5fb6444a061b3517ea6fa6360c21f569874902  ./library/Tabla/source/Tu_Test06.wav
+5bc785c4e75c945ddbec511e2b14c29bfc69c68abaa04c268755e91b71155d6d  ./library/Tabla/source/Tu_Test07.wav
+7c515f13af1d99f4f6c1f206846310de9d99b2ea6d30ab8cbfd8a2f8bb6a7994  ./library/Tabla/source/Tu_Test08.wav
+91af04987a33e42a8e0ee743273ffb6b0c3034415818eafef95bab22b392db05  ./library/Tabla/source/Tu_Test09.wav
+4b6787043cce3bd4cbda06731dd02f4ac32f1372f05af71b672803ae66c6a520  ./library/Tabla/source/Tu_Test10.wav
+d184fa608fcf50b12739f2f0741ad220f50715baef95934daf6a3287c79db4ad  ./library/Tabla/source/Tu_Test11.wav
+47dc44d3bcad4cf0257ffdfc99b6e3a7a1fb850edff3bf3d60b7b0bfab3e0a64  ./library/Tabla/source/Tu_Test12.wav
+3c9e5e44dc904484568a61cffa72b4b7a84536a0a6a60d79f75c9ae3f2c5bf92  ./library/Tabla/source/Tu_Test13.wav
+33001decf785224ee814f6d36ae14149a2fb11c843c4b2f724e526eb35b09060  ./library/Tabla/source/Tu_Test14.wav
+3d7c425a93e76284d413c871062f1209e3c9d16de82dab94b7c996e4ef18e4d2  ./library/Tabla/source/Tu_Test15.wav
+dec37c007c1644c507893a190784c947df2cd9d8a27c16032cecca621ee0269d  ./library/Tabla/source/Tu_Test16.wav
+e1e51549c3dcbbb81d9a58b3958a3027a9372bad05790be866eeced7a074d67d  ./library/Tabla/source/Tu_Test17.wav
+590df58ce86cdde46456efb8e3495022ec1a6f04902eb0ae4b3519757728f742  ./library/Tabla/source/Tu_Test18.wav
+985a50882a0020f63f5711a7490cba08862984fc0d64fad6c5ed35551cedd220  ./library/Tabla/source/Tu_Test19.wav
+57cb1ba8f0bce126a43e323ae72ec71cf13cffa0ff30945cbc272c1f90eacf54  ./library/Tabla/source/Tu_Test20.wav
+498e31afa1e0685e5c5c89f64a8b0c89319b550c461f8ce9b8e7960cad806e30  ./library/Tabla/source/Tu_Test21.wav
+a10c132f67a6793bb40784e038d2f2af7637cd06513f0d04f01135d4eece558f  ./library/Tabla/source/Tu_Test22.wav
+38800f5746a20ff0ba498a21a6b574d7cef0f573f1001fc7f12c792ec07f6d49  ./library/Tabla/source/Tu_Test23.wav
+44c1a98e0272c85f62b3fef7d962f88e14e29a9dd5510c16de0da8e55dad177f  ./library/Tabla/source/Tu_Test24.wav
+4c6ce2021c9e771510dcdfaf3a74359b7d0af6efc617ee0d70ac905734935e44  ./library/Tabla/source/Tu_Test25.wav
+2c7ae85abae814f506c68bd43350fa07b7e617e036b43a6768868ba20b1f80f7  ./library/Tabla/source/Tu_Test26.wav
+2c2c3d36b358cdb14713aae13f2efa2f50f23cd654fedceb004684027e396f2c  ./library/Tabla/source/Tu_Test27.wav
+c096a226b1d9ae62ff73b63b7dccc06524f73ce9eff7c2080564cca117d90346  ./library/Tabla/source/Tu_Test28.wav
+a1332f5c2eaf42db2010f725c06ef1689c0c23b04c0463458edbdf30a691cefb  ./library/Tabla/source/Tu_Test29.wav
+014995de8d20345e91c8efc8ced280ba7f1648f9f3eb81d497393ecd9743c694  ./library/Tabla/source/Tu_Test30.wav
+1e823ff6e212ee804e87060a7b9af2d4bf81947f71ca85a2b1ade0caa0f70107  ./library/Tabla/source/Tu_Test31.wav
+8b4fafa80c082e30562f8602559a147b4ff9fbb0a578ee3922f31d3bea375684  ./library/Tabla/source/Tu_Test32.wav
+bca7db3c41343c2bfd09ec54fd8d876e21e9e176474e5768dd93fe0609eae367  ./library/Tabla/source/Tu_Test33.wav
+195f9ae5d52064f32732ab3141161e77bbee2e861afa296308f05726ac2845af  ./library/Tabla/source/Tu_Test34.wav
+eaad1cd26e3fb3a27d9e17c96fceac78fff2cd3a627fccca6cc3c52cb4492cdb  ./library/Tabla/source/Tu_Test35.wav
+a4135cd1166f3ef8d6753eb9de5d99ce62d64e997463a59a51d7544ace1b97dd  ./library/Tabla/source/Tu_Test36.wav
+6e578f4758e42e2e8eaabcdb22bf1daad246839af5b82bf6b2cdbf4431ebb1c1  ./library/Tabla/source/Tu_Test37.wav
+4885a53a1f9da32672aa992ff8825f9616eabbec0404712dfe16a86d019e71e1  ./library/Tabla/source/Tu_Test38.wav
+e721bf67b1da53a7b4e75664cfe03ef3a089015f53748e5c42b48d91bb5dfb6b  ./library/Tabla/source/Tu_Test39.wav
+0968db534a48129f3a8cf1377baa673fbe8bba22dd8ead9eb9d378a116b569e5  ./library/Tabla/source/Tu_Test40.wav
+593199a671cad502efa8f76545bf08a6435149a9fbcbd42a39b1d6e45a22bfd2  ./library/Tabla/source/Tu_Test41.wav
+7ed883993ef0f8903f50fc1e818662dccd75a738d87d98bef1c2f6e73efb7f80  ./library/Tabla/source/Tu_Test42.wav
+1493edc99eb2c8732e2552ac9e60774b353a3475d4e42dd8320ef5264ba7e248  ./library/Tabla/source/Tu_Test43.wav
+ba9ed2fedc6eba5d94d455d3ebb98d67e1705051796b1670ecbce048d5ce45e5  ./library/Tabla/source/Tu_Test44.wav
+1af1e0c606e8e8cc1a4a763e9193a2c26e9f58c8fe7864cdb3bfa73ecc64f164  ./library/Tabla/source/Tu_Test45.wav
+f214b9842f9570327f1212bf294ac6f60dcf2563c311df9857f6c16c7475b483  ./library/Tabla/source/Tu_Test46.wav
+8d1d71b7449566f6e8eeaa6c61de1f37f4141b1b135b1ad67496ec68a361957e  ./library/Tabla/source/Tu_Test47.wav
+1a3f934664e3b27c8f86e44c28365fd140744efe7513dced03ae41a5d151e9f1  ./library/Tabla/source/Tu_Test48.wav
+b069307c076e8f97e435c38cab4110dc2ec67e0c867e0693529ed347d1171d10  ./library/Tabla/source/Tu_Test49.wav
+842edf975011187a711d9ce7bfc03bc5b415bc241b18cdd6cceeba1a8814612e  ./library/Tabla/source/Tu_Test50.wav
+e0518855cd3462cbb1798ef1ea41d9a3c207c859ba9e26562cc7ed792a2fb478  ./library/Tabla/source/ZENODO-RECORD.json
+ca5477dd2ca2bf63a0cb48aac35de0c899acff4e117f2a83187f572f2982d2b1  ./library/VCSL/COLLECTION-MANIFEST.json
+a7a4dbb6e24850d750ba5ed20a2c6c5852bfdc4ca7b595a3dbd0a093630cec1e  ./library/VCSL/COLLECTION-PLAN.json
+77f744c881c51bba7859c20bcdd33e81af35ee21df987e9ca4a3f1aaff7bbff0  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Ball Whistle.whic
+c9fbf06ddc24e5220073ccbd78a41e3da4b28d86d3506ed5c92eba10d85ed153  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Baroque Alto Recorder - Staccato.whic
+2e9f4a1b298e9a73ffd3dd5fffe463f0ce5f48212689bfb3603e4304829fa654  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Baroque Alto Recorder - SusVib.whic
+ccde83f0cb390013ff9395699ee68fc6c2bdaa5753c1bbc771369469519d922d  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Baroque Alto Recorder - Sustain.whic
+2d60e228a960cb8a48791235159f3fe8088e5944048bdf38505edd202d371ae9  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Baroque Bass Recorder - Staccato.whic
+4bbe8f78b394bc165fca0547e03b4f7420dc77d0f08b2706d69f0ce53d669eeb  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Baroque Bass Recorder - SusVib.whic
+6d9892348b25956311f75bae6752b3232d2e9c32f2ecd4246ac619ed33a2a8af  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Baroque Bass Recorder - Sustain.whic
+281547dcd658a3eb408e41f617c206e092f08bb4822cb2d7cae00743215bfa3c  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Baroque Soprano Recorder - Staccato.whic
+8273e5cb7583bf97e8b6d0bfd35e7719239f966fb37e3efcb3887b02afdccd40  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Baroque Soprano Recorder - Sustain.whic
+83a645fa7ec797e326ac50f86877e92475574e504f891c3cc00b5e0e120ea3c4  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Baroque Tenor Recorder - Staccato.whic
+9105cfd9e0ad166167071abb10d9ba92bbbf7472de91ddbd1dd652fcdd4394ba  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Baroque Tenor Recorder - SusVib.whic
+bb52234b4bbd63934b412752a442ed3bc7cabca8dea7de49bbea5aeb8b4282c7  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Baroque Tenor Recorder - Sustain.whic
+070707fb5f4219110176fee6b4f679644c1a22e10900840ec31a9cf4b6219f4b  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Ocarina, Small - Staccato.whic
+9aca64cafcd7828700da47a57a2c28f7b69c95a4983597aaa96d0413f2cd2a4c  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Ocarina, Small - Sustain.whic
+95ef89e5f7af8ff56b4138fd49fc2c2ba69bcc2e0edd5bfc55dbe0f8fe38ee07  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Ocarina, Typical - Sus.whic
+f0a3b12a7a6cc0d35f90f1466d431493a1430ffc4fb549c5c035985c40d7b321  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Ocarina, Typical - SusVib.whic
+51e92e44337467bf31adc32087c61610296bab5b61564e5f4a873829d70ba20d  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Pipe Organ - Loud Pedal.whic
+1dcada4fd985fde7fe18b67ecb1077a7523990fc6b5f4b2e3b2147e1333d0e36  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Pipe Organ - Loud.whic
+84a141f992cf67e38d17d65e5135f5391f88dfc2311f9681ddd5090315a402a6  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Pipe Organ - Quiet Pedal.whic
+91797322e4fcd233fbd5e2a0f3327a024e66d48dfb7d99d7e0f2751370fd0ff1  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Pipe Organ - Quiet.whic
+016a1f8b0908ab328273037053e84e4f642d9c250943a3dbf09039ee9a57a017  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Renaissance Organ - 4'.whic
+960ee058602493738194facbcf4787303b4168d132e5349bb3af8c4dc9f167e0  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Renaissance Organ - 8'.whic
+18dbc81d607f58c7f0f3d56945e8a06c2f7ea265e3c0956d2eed6ccf85a2a3e5  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Renaissance Organ - Full.whic
+0e22eb50b589c2fee28b40c3393aa72f25f4e95ac21455e9d249560d38970228  ./library/VCSL/presets/Aerophones - Edge-blown Aerophones - Train Whistle, Toy.whic
+b7f378a109860738214fccf136df449c1c82981aaba0b25f1690c21282d691c5  ./library/VCSL/presets/Aerophones - Free Aerophones - Harmonica-Hohner-Special20-C - Normal.whic
+699bcacaee057c38d309e545b0c3497dd16a43ee526a188b8d2435d69e726241  ./library/VCSL/presets/Aerophones - Free Aerophones - Harmonica-Hohner-Special20-C - Soft.whic
+719a83eaf47c49365d6f161fd6d3564889eb7d74c02c8d0103f4e419834d2e48  ./library/VCSL/presets/Aerophones - Free Aerophones - Harmonica-Hohner-Special20-C - Vib.whic
+3ee08bd69b2735b9c8c3f09c7fcfabd278a51ed9cdfec7a337160ebab84b79e6  ./library/VCSL/presets/Aerophones - Free Aerophones - Harmonica-Hohner-Special20-F - Accented.whic
+3cd03f342ff7c17809a2a8f88d35cfc7d7247a83a91e6b5642c38bc5b0ed3e87  ./library/VCSL/presets/Aerophones - Free Aerophones - Harmonica-Hohner-Special20-F - HandVib.whic
+cfeb0118f3d30494a8fdfaa1a50310b437e06da6051be942d6cb2e1c562e8484  ./library/VCSL/presets/Aerophones - Free Aerophones - Harmonica-Hohner-Special20-F - Normal.whic
+84c49a89738e34e8001110307b2325abfcd44417420bcf9598ad470b36daf5b5  ./library/VCSL/presets/Aerophones - Free Aerophones - Harmonica-Hohner-Special20-F - Stac.whic
+167cd080005a52c1aaac782ef3833cc12edf447c126c3cb22a180e022ce489d0  ./library/VCSL/presets/Aerophones - Free Aerophones - Harmonica-Hohner-Special20-F - Vib.whic
+b391462ad07139af4b65397b9eef023384400607967ba1c4d2c4e2d60db99412  ./library/VCSL/presets/Aerophones - Free Aerophones - Harmonica-Hohner-Super64 - Accented.whic
+543f3c1d4df287286ab42acb9385022d4789e200923577e99ac1748efac6da28  ./library/VCSL/presets/Aerophones - Free Aerophones - Harmonica-Hohner-Super64 - Normal.whic
+500e70eb241c8903e1a136f4dd9ccfe23400e58f76f30dd20f0b9e9394d5d8e3  ./library/VCSL/presets/Aerophones - Free Aerophones - Harmonica-Hohner-Super64 - Vib.whic
+6fe4b3fe2fc9b46002b07283a6a37b92b4d658aa6e57de4431b393109a24173c  ./library/VCSL/presets/Aerophones - Lip Aerophones - Didgeridoo.whic
+d0b5cd05604496ce531f7c4ee5097e3307f8d923be422cb6c87447dc1866c459  ./library/VCSL/presets/Aerophones - Reed Aerophones - Saxello - Non-Vibrato.whic
+206122d48ff778149662566bd039e0df3e5484bca8cddf0626af96318fc5e925  ./library/VCSL/presets/Aerophones - Reed Aerophones - Saxello - Staccato.whic
+52173f46d7a8738c6f1e30411735c3640228052bb1e1c4cc059bf297de866de5  ./library/VCSL/presets/Aerophones - Reed Aerophones - Saxello - Vibrato.whic
+2a22c89eb74a4a954742a5c160c08f2902b52a7fd204cea7989d38dca66ae688  ./library/VCSL/presets/Aerophones - Reed Aerophones - Tenor Saxophone - Non-Vibrato.whic
+48b56dbe6635d8c2c85690f0dcee226394b5f8a197ce9a003e88c97ee4b35ea9  ./library/VCSL/presets/Aerophones - Reed Aerophones - Tenor Saxophone - Staccato.whic
+173c502b6c9079cd00e3a73b8abf217818d13143e7c93985443f985023de6c93  ./library/VCSL/presets/Aerophones - Reed Aerophones - Tenor Saxophone - Vibrato.whic
+415af7b4960c4391a29e3ddf7c64dc0df46f4e0d7abb70c42d010b94147b3f83  ./library/VCSL/presets/Chordophones - Composite Chordophones - Folk Harp.whic
+92507927f855eaa7fe0767787b540102132266cf7a11da2ae353d833094b4486  ./library/VCSL/presets/Chordophones - Composite Chordophones - Strumstick.whic
+7fae1c7062a31ca6c8e5f5e4a25a02e25e55f601bb91dadc9157238d04799d66  ./library/VCSL/presets/Chordophones - Zithers - Dan Tranh - FX.whic
+8947795eb03d7f4d67c975ee422a5d8b8d98e0ff016828225acf2d7a92267182  ./library/VCSL/presets/Chordophones - Zithers - Dan Tranh - Gliss.whic
+ba0aa6edea1eff9f4671151fa29b617d6179143236e3a3153c3ff90b1422f43c  ./library/VCSL/presets/Chordophones - Zithers - Dan Tranh - Normal.whic
+43f56a13b8bd8bd93d165e3cddccc941c1ef949849d1c5aab7b2b2f70d6f44b4  ./library/VCSL/presets/Chordophones - Zithers - Dan Tranh - Tremolo.whic
+e9980969c09997dd0b7ce95ef77e1eab146a3bf915ef9e2bd3d22b3dc66fe896  ./library/VCSL/presets/Chordophones - Zithers - Dan Tranh - Vibrato.whic
+203aa666095d8724eb5a711ae2f3a6dcca05fcbad1f9d2703115c14220fd07cc  ./library/VCSL/presets/Chordophones - Zithers - Grand Piano, Kawai - Legacy.whic
+9206dfa01c74a813195fcdb3f1118d642e7f4b3c803c397f364cb6b6e12bc85c  ./library/VCSL/presets/Chordophones - Zithers - Grand Piano, Kawai.whic
+206a90823742c9378cd01ee9a495a9782b627471339b786fdfc943900de83b15  ./library/VCSL/presets/Chordophones - Zithers - Harpsichord, English - Lute.whic
+99813b6f758e09be9d2b5f2fbb3b1d4cc457b9ad93ed8d8f38bd3a95129b3652  ./library/VCSL/presets/Chordophones - Zithers - Harpsichord, English - Normal.whic
+21bd9204bb332968c3faa4072785edfceae72add91febe45493aa106150ca810  ./library/VCSL/presets/Chordophones - Zithers - Harpsichord, Flemish - 4'.whic
+229aeae90ffa537d77ba3da55584eabd0e9b59b1a22336127445e196d342d65f  ./library/VCSL/presets/Chordophones - Zithers - Harpsichord, Flemish - 8'.whic
+9270965f6da3905d00509c9a7fbf83bee47db919ccff7dc83db1a39e2cf75298  ./library/VCSL/presets/Chordophones - Zithers - Harpsichord, French.whic
+1a8440934a2dd7cb039305009d6c0d0563cce5cdbeff1a4607128bbe9c881e70  ./library/VCSL/presets/Chordophones - Zithers - Harpsichord, Italian.whic
+95ca467c3c00bfa560ff6c6abe1b7aa16d89b2b81c5f5cc2b74a034ba389b845  ./library/VCSL/presets/Chordophones - Zithers - Harpsichord, Unk.whic
+086bd9e1af1c70d07f4be3c96ecfe26dc4eadf11d6e3a8d5ee1c7c4ab9ecc935  ./library/VCSL/presets/Chordophones - Zithers - Psaltery, Bowed and Plucked - LongBow.whic
+d5c3d47abedaab69a97d8b6f1e39e0bea67ba92ac93ee1755c0b12ac6e412c0d  ./library/VCSL/presets/Chordophones - Zithers - Psaltery, Bowed and Plucked - Pluck.whic
+a37fa5550ae463709c729eec7dbac1237045a7f9c49a5664e37ae9ee60ea5d84  ./library/VCSL/presets/Chordophones - Zithers - Psaltery, Bowed and Plucked - Spiccato.whic
+a419ca5661c58ebf78d9fc7da9caa903789d2d1af5d3dde299d1546303101d1b  ./library/VCSL/presets/Chordophones - Zithers - Upright Piano, Knight.whic
+229edebff90e26867fe2eb09700ccabd846566b995bf60b40c31a1057c63351e  ./library/VCSL/presets/Chordophones - Zithers - Upright Piano, Yamaha.whic
+e8dd1014c7e26fbae151054316fe99ad01073c4c89b6f69bee077360bd03af9e  ./library/VCSL/presets/Idiophones - Friction Idiophones - Wine Glasses - Fast.whic
+97bdf61f19a1a741d7c98aea5de72155b9584718808c56315f0e37d2f335fad4  ./library/VCSL/presets/Idiophones - Friction Idiophones - Wine Glasses - Slow.whic
+b96bda9cd6f85219c29c576f4741ceb816abd2ef69e8a1a54e99cc7e4d44139a  ./library/VCSL/presets/Idiophones - Plucked Idiophones - Kalimba, Kenya.whic
+43c76af79210daa66d2cfe1533b9291636c7fd617b8d009faa47722ce7096f63  ./library/VCSL/presets/Idiophones - Plucked Idiophones - Kalimba, Tanzania.whic
+817d3d4f48e7a052903c686914feb7bd0883a264b3664035ae4b111348c78d16  ./library/VCSL/presets/Idiophones - Plucked Idiophones - Mbira Mavembe (Gandanga), Zimbabwe, Low G.whic
+996c78772f33e3ed0351383906c3078ad1b356b56af0582fb535921e5c6c14b7  ./library/VCSL/presets/Idiophones - Plucked Idiophones - Mbira dzaVadzimu Nyamaropa, Zimbabwe, Low B.whic
+e097d236b09bad37e179f1a3edd95ece3f9beb672d5c52320667d0f24b2e9dc7  ./library/VCSL/presets/Idiophones - Plucked Idiophones - Nyunga Nyunga, Mozambique, Low F.whic
+3fd233b91fd3fe04d13b576b1cefcfc8696254da28afa8127dd9fae9a231d2be  ./library/VCSL/presets/Idiophones - Struck Idiophones - Agogo Bells.whic
+2c90f2aa9388b87a01924ba5666a950c6fd328426729c57dfbc65b7d3c047216  ./library/VCSL/presets/Idiophones - Struck Idiophones - Anvil.whic
+67f33d69e622306cbe314aaef96446ba405cadb067958c2b5c057e9323bd6ebe  ./library/VCSL/presets/Idiophones - Struck Idiophones - Balafon - Hard Mallet.whic
+09cedc8f793e4c0fa6c83ce72c0dc73f93a89d078f5f6ed5783b914005b6a87a  ./library/VCSL/presets/Idiophones - Struck Idiophones - Balafon - Soft Mallet.whic
+3f5672d701b3e031135d9e82354f52787e8d8e57e121fde84af0740e5d9c00e3  ./library/VCSL/presets/Idiophones - Struck Idiophones - Balafon - Traditional Mallet.whic
+425b3b71158b51ac113f0ae604e15c5143dd357f36d1beda19ea5507c8d746e4  ./library/VCSL/presets/Idiophones - Struck Idiophones - Bell Tree - Individual.whic
+4317cd05b4833475b85875a67ba22ef31243142be448494cf14527d7aaeae8a3  ./library/VCSL/presets/Idiophones - Struck Idiophones - Bell Tree - Legacy.whic
+cb5d439744a4d456fd14d5265e78d1bdd9bcbb268f0d8d62b154cc9bd6c4f869  ./library/VCSL/presets/Idiophones - Struck Idiophones - Bell Tree - Stroke.whic
+721a91fe1668f5fa21a735a1ea1d58291ad0f99fc42ea3361b44a77863f4739b  ./library/VCSL/presets/Idiophones - Struck Idiophones - Brake Drum.whic
+14275d50004d296e3e15b3e5d22d140e5716e56202e376993bc2d183227ffbce  ./library/VCSL/presets/Idiophones - Struck Idiophones - Cabasa.whic
+e080ee6ecd1ae86b35e985aac8a1801fee7cfa9edc37e59e59d14c5340ae76a9  ./library/VCSL/presets/Idiophones - Struck Idiophones - Cajon.whic
+6ed4ed1d13c4bccfe59ee1d815d6ad7cf61b339bac0c602b9ad965d3343199b4  ./library/VCSL/presets/Idiophones - Struck Idiophones - Claps.whic
+cd7f889b523d2a35d4a8d5b687d2885cc0ce63b33759a467cf770b5c639c9cfc  ./library/VCSL/presets/Idiophones - Struck Idiophones - Clash Cymbals 1.whic
+8a90c3911dedebc8519f469b498e590b5351eb77b650dec81df573f336360cba  ./library/VCSL/presets/Idiophones - Struck Idiophones - Clash Cymbals 2.whic
+9e3e112741cc94638d441f20b810cfc08098e8edb39872c8b0cc50d713961677  ./library/VCSL/presets/Idiophones - Struck Idiophones - Claves.whic
+574508d6a0524d92d4290b15c51ca8173b2ef246f67add97e6f5b7d13a57099c  ./library/VCSL/presets/Idiophones - Struck Idiophones - Cowbells.whic
+4481c7280c22e76821f140418db64e09603602eb1557ce7e8c8f32a25e62b6cd  ./library/VCSL/presets/Idiophones - Struck Idiophones - Finger Cymbals.whic
+590f190318f5ba669d92995756e881975a5d6fd4018d7b7747e3c79e445e4613  ./library/VCSL/presets/Idiophones - Struck Idiophones - Flexatone.whic
+21980e1077077e0716aa704b5313b506b2c17188b01a29f1629f7f8a7041830d  ./library/VCSL/presets/Idiophones - Struck Idiophones - Glockenspiel.whic
+04a386a2e5e2a82e0e56a7fe7bc8f5fa2468da9e99db1e2c4a4d094b2df15533  ./library/VCSL/presets/Idiophones - Struck Idiophones - Gong 1.whic
+74f3f9f1dfd7dd2cda73d6a584494b883b77725246036634851d1b0c53af73fc  ./library/VCSL/presets/Idiophones - Struck Idiophones - Guiro - Legacy.whic
+89584f4b3b4e59b2f126e0d4df4d9d8abc092d1f0370ee781217cd2f8834e5b3  ./library/VCSL/presets/Idiophones - Struck Idiophones - Guiro.whic
+010a1c88c59b4ee167e23086d79e16c2ff59cfc40f67187fc72a55a3b3831374  ./library/VCSL/presets/Idiophones - Struck Idiophones - Hand Bells, Nepalese.whic
+c32c7206dfbdd113e653d7635063d31a7e5f56d5d4b60e26fd537360a92a5bde  ./library/VCSL/presets/Idiophones - Struck Idiophones - Hand Chimes.whic
+6e7495a55d754066b61ad4967deb15e671a7843b4278be46910124885574f295  ./library/VCSL/presets/Idiophones - Struck Idiophones - Hi-Hat Cymbal.whic
+3ea5f2c71d0104f0506c7cd934359c7bb530dceb65e49f157b38291e1da42e26  ./library/VCSL/presets/Idiophones - Struck Idiophones - Marimba.whic
+023403bef5d62d712533e87df7f9c9cfa22486a3f5858e6f12f8b7d070f55f9c  ./library/VCSL/presets/Idiophones - Struck Idiophones - Mark Trees.whic
+f1ed38c5e733d76e40aaa6f15639c188eb4e67f429afd78fc47418c2b164b1d6  ./library/VCSL/presets/Idiophones - Struck Idiophones - Ratchet.whic
+060970d9bc6be1a2d07ea0e8c655bd0ebafae350a804bd2e5f0c0f0c1aba52f3  ./library/VCSL/presets/Idiophones - Struck Idiophones - Shaker - Legacy.whic
+245d059b6f3fe832fef2d819e4e0bbe64072f9d9cd6aa4c29d21c195be24f867  ./library/VCSL/presets/Idiophones - Struck Idiophones - Shaker, Large.whic
+00d1ff40de9065e13b5e0f60f2c20f85f12378fe6b9477af28a41661821acc04  ./library/VCSL/presets/Idiophones - Struck Idiophones - Shaker, Small.whic
+9f5af809f282e63cd873e469ca24de727139f73e12dadcef6049013317c1028c  ./library/VCSL/presets/Idiophones - Struck Idiophones - Slapstick.whic
+28b86ae875aec958b313050b38d15fa8345a8c148ecdb7f87a216816e39765cd  ./library/VCSL/presets/Idiophones - Struck Idiophones - Sleigh Bells.whic
+59cf56ee2ac527ae87aaf8fe98f5ad523f06a31208b7d9eeabb27d096f043edc  ./library/VCSL/presets/Idiophones - Struck Idiophones - Slit Drum.whic
+ef2fc39334f48d05e8574cce828d2ff26a2aa4ff95f5dd5d46062004f36a53ea  ./library/VCSL/presets/Idiophones - Struck Idiophones - Suspended Cymbal 1.whic
+b4e6dcced07d4637f80842bc1bd9f36775e8d14342f42fb64e280ad1d26bba67  ./library/VCSL/presets/Idiophones - Struck Idiophones - Suspended Cymbal 2.whic
+e85d48d29340719022043ea62cbfdf8f58e7933a186c131e21a074e88b55943e  ./library/VCSL/presets/Idiophones - Struck Idiophones - Tambourine 1.whic
+a7c621e0d67d1b3fc7aa6083f19ab36439c98dbc983b26c05a8c3f5076307e70  ./library/VCSL/presets/Idiophones - Struck Idiophones - Tambourine 2.whic
+152b276812a576af5412712222b0dadb3cdaf67ac8066594670262db7ee7c534  ./library/VCSL/presets/Idiophones - Struck Idiophones - Tambourine 3 - Legacy.whic
+f85db2b6b639c842b4c713867555cc66180f3c4b06aa3e0a1e6d3914a84569a2  ./library/VCSL/presets/Idiophones - Struck Idiophones - Tambourine 4 - Legacy.whic
+0c4c2d75b70f593ac9216b49400aa428c0a555b815b8d96aec8f3741e00a976c  ./library/VCSL/presets/Idiophones - Struck Idiophones - Tambourine 5 - Legacy.whic
+df8879a03a38fa6544d898a9779e4580aaca61214497d3ae553f917e7acc5fe6  ./library/VCSL/presets/Idiophones - Struck Idiophones - Triangles.whic
+328be6dd4beb4330b4642e1780d6288bb76f5a103fbc3d9bb0345541bf3ff14c  ./library/VCSL/presets/Idiophones - Struck Idiophones - Tubular Bells 1.whic
+8d1bad217690a3a2756a0661131aebbd33104ff0f2c8a29c17a51c360f0b2091  ./library/VCSL/presets/Idiophones - Struck Idiophones - Tubular Bells 2.whic
+123739ec6771eca55cd6727a3556b90a93fb51ded3cb60f5c6b4fb0e6ded8397  ./library/VCSL/presets/Idiophones - Struck Idiophones - Tubular Glockenspiel.whic
+2badffaab52f18afe044a6a3b1cb247e56131217921ae88a0ffa3c3e02905f51  ./library/VCSL/presets/Idiophones - Struck Idiophones - Vibraphone - Bowed.whic
+c4198d1a8e10638ad1dfd50b3568a95781c523de92da33418a08c472709c36b5  ./library/VCSL/presets/Idiophones - Struck Idiophones - Vibraphone - Hard Mallets.whic
+717331ca13c30e473d2c2233dc137fdbb75eff92919d1d8d62dea5919e5bb8f5  ./library/VCSL/presets/Idiophones - Struck Idiophones - Vibraphone - Soft Mallets.whic
+e20e127bd43802ef94069f2fe21c414cf26a510aa5044b2098ad80f0408005a9  ./library/VCSL/presets/Idiophones - Struck Idiophones - Vibraslap.whic
+50b633b84ad7731ec0dd6b3f92e67240d40d3b00bc7d57540f35c961fbaff6f9  ./library/VCSL/presets/Idiophones - Struck Idiophones - Woodblock.whic
+c7cda6986ce2668729165816a37acef70fd22c18d5e64457a0d38f42576827bb  ./library/VCSL/presets/Idiophones - Struck Idiophones - Xylophone - Hard Mallets.whic
+46537173171eb759cd8004edc3915ba4c649ed21d7731b8dd669a2f48a344c47  ./library/VCSL/presets/Idiophones - Struck Idiophones - Xylophone - Medium Mallets.whic
+3320b075698b3663f50ccfa15b8b8b4e7ddcdc5a5f1d83086c82fc79451e6e54  ./library/VCSL/presets/Idiophones - Struck Idiophones - Xylophone - Soft Mallets.whic
+ecb466e12954d319db76b4a349c59f0399c2b476428cae762ec2f36f377b49ea  ./library/VCSL/presets/Membranophones - Other Membranophones - Ocean Drum.whic
+8ba4b94af2d89448158d59d5fdd7d9cadabd778a433de7094d3d4130e7adb2c4  ./library/VCSL/presets/Membranophones - Struck Membranophones - Bass Drum 1.whic
+014a99a23863f90a6b118f3fac064f6e99a669340891a077363fba11c2225f32  ./library/VCSL/presets/Membranophones - Struck Membranophones - Bass Drum 2.whic
+e6bf3bcfdff36d6f93043958b92a751377dfd9db3a305a6999d159ad6644ad5b  ./library/VCSL/presets/Membranophones - Struck Membranophones - Bass Drum 3 - Legacy.whic
+cf3e2e7469c768fa8879ce4c99cfb568954b4c42aa7cfe1a570e446bb86ff53e  ./library/VCSL/presets/Membranophones - Struck Membranophones - Bongos.whic
+c0cbff15daa8b963cf467d3ba92c82bba67a0e4ecca56472dd6ae1434b7c1c1e  ./library/VCSL/presets/Membranophones - Struck Membranophones - Conga.whic
+06d66319d99b579d696e4b2b349ae0f876e6b6c2ee788bc164ecfd53b2faec71  ./library/VCSL/presets/Membranophones - Struck Membranophones - Darbuka.whic
+3719b442ba586bbd8ece63b5159604c52772965220a8a0227132c4f976641e69  ./library/VCSL/presets/Membranophones - Struck Membranophones - Frame Drum.whic
+af669ee85c4178cf359b63cfed605e1e9fc2d0f2ff5727028ca19951fa157ec4  ./library/VCSL/presets/Membranophones - Struck Membranophones - Legacy Snares - OldSnare.whic
+acceaac497731769fd9d0a0db3dd50e917dc449ec26256bd6a17355546751f44  ./library/VCSL/presets/Membranophones - Struck Membranophones - Legacy Snares - drum1.whic
+91ce1c7a5864585322f512290421e277eb630d46494efad5c49f24a9e924a5b3  ./library/VCSL/presets/Membranophones - Struck Membranophones - Legacy Snares - drum2.whic
+1818e9b04d94411e780def6eb1e38dab51a8a90f314af321d97335f023d1d598  ./library/VCSL/presets/Membranophones - Struck Membranophones - Legacy Snares - drum3_marching.whic
+59a835f248f2125b56810845399870de95f525378b04b6e1e7d67f72552859a4  ./library/VCSL/presets/Membranophones - Struck Membranophones - Legacy Toms.whic
+14138f986873ce57f983ccb35bbbcb9fffc473f85d914d57908ebe9c2b9d2000  ./library/VCSL/presets/Membranophones - Struck Membranophones - Snare Drum, Modern 1.whic
+38d105fc844034e5c13639a8463536b5cf1ad2c87a633a59beae71997da8947d  ./library/VCSL/presets/Membranophones - Struck Membranophones - Snare Drum, Modern 2.whic
+041eb3ab1edb078e32d214f8e1ee98015477b886b8998296ad3af5b693ac5fe2  ./library/VCSL/presets/Membranophones - Struck Membranophones - Snare Drum, Modern 3.whic
+4860343686783b563eea8181144ed670a238d722f3eba865614525eeb84b9ff9  ./library/VCSL/presets/Membranophones - Struck Membranophones - Snare Drum, Rope Tension.whic
+45de38a111733582b6af998fc8969f199f1e85de1eb5855a09358d2d4be64bfb  ./library/VCSL/presets/Membranophones - Struck Membranophones - Timpani 1 - Hit.whic
+d66dadde8446e30cba8ba5a03a1d252e258cd4953a844f0ae165ed5a6de98ede  ./library/VCSL/presets/Membranophones - Struck Membranophones - Timpani 1 - Roll.whic
+d2b704f39b4b9b114b439ad208bdc97e711dec5fc81ce75fbabb5c2b328b04e4  ./library/VCSL/presets/Membranophones - Struck Membranophones - Timpani 2 - All Samples.whic
+d41d41719dafe3445ee9107cd0cce3d5235184866f0950ca19da1028cdb3992c  ./library/VCSL/presets/Membranophones - Struck Membranophones - Tom 1.whic
+58df180bcbdff0b8efb776539ec2bd47ca48b0dc8a4f8759ab6605ea354e4544  ./library/VCSL/presets/Membranophones - Struck Membranophones - Tom 2.whic
+6f7214a188f106c917d6503748485413c3e47cf56bce69f82beb9d16aa0894a9  ./library/VCSL/source/README.md
+877aa4e9c655425e5d52bd6c918ec9181b22d9a2f6dc87e751404553f10ac0a9  ./library/VSCO-2-CE/plan.json
+f29ea15a74d173a6eaab483ab5d27dba29d24c6bb80baf0bad1d5d6eab31607e  ./library/VSCO-2-CE/presets/Brass_F_Horn_mute.whic
+4e1464d2d4014e66b9837f95892545eea483781893b96ec107cfd4376bf1c556  ./library/VSCO-2-CE/presets/Brass_F_Horn_stac.whic
+7cf3b4fc346bbd8585cfd5d9a2fa43e55c820f4452761e7cf7abd1e7c6cf4970  ./library/VSCO-2-CE/presets/Brass_F_Horn_sus.whic
+8c7caf321664f0704cfd0df48ca75cc3b1d467750641ba86e5984e7f85397b28  ./library/VSCO-2-CE/presets/Brass_Tenor_Trombone_stac.whic
+b724c0b1f82ade204e8ce54166fbe5a2e2976b6dd19929e1c2ef047cd283df83  ./library/VSCO-2-CE/presets/Brass_Tenor_Trombone_sus.whic
+b5539f1aee6e98906314ec799644e076698b42a054c522d9e4df5fcdaab54b95  ./library/VSCO-2-CE/presets/Brass_Tenor_Trombone_vib.whic
+49d5ca2db4b29c2cd22680575ae89e0f06c7d2a7eb6eeeee9a884262b9ab8ca6  ./library/VSCO-2-CE/presets/Brass_Trumpet_harmonM-sus.whic
+12350f39c59716c7551c361bf20b09562290ece617739f44f8f826eb1478faf1  ./library/VSCO-2-CE/presets/Brass_Trumpet_stac.whic
+c1b97b596222ec05c10ac800552998bf397a13c61bf1bdbe21cdabd062e48f7d  ./library/VSCO-2-CE/presets/Brass_Trumpet_straightM-sus.whic
+12c59bbbc80f77fd322e9f1d80bf5dbcb3c6468770ea6db8db7751d9d344b846  ./library/VSCO-2-CE/presets/Brass_Trumpet_sus.whic
+f3cc7c93d555d8dbc1a06379da7cd79e4f8951e540c7ebc1003cb1b67f31acfa  ./library/VSCO-2-CE/presets/Brass_Trumpet_susvib.whic
+954a3a4ddb4797e97ec37a7655d7de59a86d3680aa53da545023f798b3f40ade  ./library/VSCO-2-CE/presets/Brass_Tuba_stac.whic
+c911ddf39679bfe8ecda3776f9cc177b639a11e08db65fcb844dc684758db4e0  ./library/VSCO-2-CE/presets/Brass_Tuba_sus.whic
+c37cfd11d2ffd240a5feaaed95dff95a12b21876cea666bf2e042fc6fc4f7387  ./library/VSCO-2-CE/presets/Keys_Organ_Loud_Rode_Man3Open.whic
+66c476869b8b8c3c20287a434dd9a8bca26c0eb23056d3410c3041d3840792ce  ./library/VSCO-2-CE/presets/Keys_Organ_Loud_Rode_Pedal.whic
+deeec03fcd9ff15cc204f326a972c03806bc1043d28b1096f655d1b92e184406  ./library/VSCO-2-CE/presets/Keys_Organ_Quiet_NT5_Man3Quiet.whic
+f64951344e412ff530f4b0caf77958a96bd83dbf26d542e72d2e6449eefc90cf  ./library/VSCO-2-CE/presets/Keys_Organ_Quiet_NT5_PedalQuiet.whic
+b79926717417b6df0944e977224df92a62c4b5f3190fc341295e41c7e9322aa9  ./library/VSCO-2-CE/presets/Keys_Upright_Nr1.whic
+0ae3b5db86ea0d4401fff751924baa47b0e3b8966cf9a04b0b4d32fbbebaf303  ./library/VSCO-2-CE/presets/Keys_Upright_Piano.whic
+e2212bf75146ee6225148fa95bf43ffe677775e4da3fa24b09aab4497d54b40a  ./library/VSCO-2-CE/presets/Percussion.whic
+f7c1aca55b63e66fa95292293d9fe800673dfc8898731bcdcb6c077b13474c51  ./library/VSCO-2-CE/presets/Percussion_BDrumNewhit.whic
+4b021f6be6b983988dcb8ba3ecdef58b570e99a9662738474460fa6a9d1a98cc  ./library/VSCO-2-CE/presets/Percussion_BellTree_Stroke1.whic
+9f24b84b0334bb40b25702a68c4d50d8e4179fe4a329f16673fe7927e8eabde5  ./library/VSCO-2-CE/presets/Percussion_BellTree_Stroke2.whic
+08d11b280d2dc0d7633f49b23eef679fd30ff84c0afb1ba62bcd7b255b788314  ./library/VSCO-2-CE/presets/Percussion_BellTree_Stroke3.whic
+a5a8bdb8ca85d7f2978d8f9d34885c4167ea50f161177ec219e50f83905df29e  ./library/VSCO-2-CE/presets/Percussion_BellTree_Stroke4.whic
+5ace53ae5faa68fcc248cf5eaf396802c3abd7d56602174ca54863d6e785f569  ./library/VSCO-2-CE/presets/Percussion_Claves1_Hit.whic
+60b4321a33b446230ccff72bd8c59b0b6ff4fe86e14a64195b02f15a99cf237f  ./library/VSCO-2-CE/presets/Percussion_Conga-HitN.whic
+66441d4871b47bdd9741a4871fa2c81b5c386b23fefd7efdaab4071b671f9946  ./library/VSCO-2-CE/presets/Percussion_Conga-Tap1.whic
+ea342886f92bdf882d6c19c5347df3cc6fed9a1f082c873e242f36469d83ed02  ./library/VSCO-2-CE/presets/Percussion_Cowbell1_Hit.whic
+dd9231ae94e3c8cfda7addcf800613e3e388e8195f086f23446fee2098dc4320  ./library/VSCO-2-CE/presets/Percussion_Glock.whic
+b0e532d68f23eaa9ca2a84948f5b1171265a993bc237c6a3622a388c105992b7  ./library/VSCO-2-CE/presets/Percussion_Guiro-Fast.whic
+ca158c5b2f5c2fabfeb5a577678ef68cedae7490ec63add3292c8da0e58b3a5e  ./library/VSCO-2-CE/presets/Percussion_Guiro-Hit.whic
+a79abe3699170a6576b0735993a681b5083ff3f62511bee0f9a3454eee25826f  ./library/VSCO-2-CE/presets/Percussion_Guiro-M.whic
+1a8f0a75ca63762064b78a33f084edfc32f67052fe66e72d0aab9be57d76549d  ./library/VSCO-2-CE/presets/Percussion_Guiro-Slow.whic
+6b8cf1d02ae2688bfb0716584b1b76a82875b04932d03aa68b4b90fe02dd75d4  ./library/VSCO-2-CE/presets/Percussion_LogDrumHi_MedM.whic
+feddd9ad6d85d5377b7cbc7e44bc494a25f94c4e2b01321e994d324f522f222a  ./library/VSCO-2-CE/presets/Percussion_LogDrumLo_MedM.whic
+8c27fc0c754fe21ea40b3e475fbb8429dfb83c567afb8e29b3c6ecd4d291ecba  ./library/VSCO-2-CE/presets/Percussion_Marimba.whic
+aa8769052998104cac1111b0841fc3f837dd58ad531604510eb65de2ccef9fc0  ./library/VSCO-2-CE/presets/Percussion_Quinto-HitN.whic
+1c40f03f57d84530cf46a1e8f06545fb90453a88cc91bb7334abcb84bf6d3b2d  ./library/VSCO-2-CE/presets/Percussion_Quinto-Tap1.whic
+b4555f933618dd18bfae69d98a0116e26f8fc4a79b94ec94e4576d72dee930ad  ./library/VSCO-2-CE/presets/Percussion_Ratchet1-Crank.whic
+2d313b926d558e101f1c3f1911ad555f159635f605c024f2577eafc0fdb3e16f  ./library/VSCO-2-CE/presets/Percussion_Ratchet1-Fast.whic
+11e45dbe6318ebcee1d982373ceaaef517fa8012bf5a59dd738caaedd52e5f78  ./library/VSCO-2-CE/presets/Percussion_Ratchet1-Slow.whic
+bad71eb8684bc3be42c3549332f63a45ab588a41bffccfb97d9ad04903413b75  ./library/VSCO-2-CE/presets/Percussion_Sleighbells_Hit.whic
+27077db376d95971218cc98e3569f75db752bc4a8d2cf34397e1e522a0a93e5f  ./library/VSCO-2-CE/presets/Percussion_Snare2-HitNS.whic
+0ebeb14f89c732fb850860d86ea8dd353d53cec66d5a21290804801ea91da757  ./library/VSCO-2-CE/presets/Percussion_Snare2-HitSN.whic
+56978158288b87335b31b2a682b04951f0f6c6c1c11bd3096ec9f40dae65f936  ./library/VSCO-2-CE/presets/Percussion_Snare2-rollNS.whic
+866db2755338f42ccd990ba21e04738bfa406bf485a32a4983883530f66c9d35  ./library/VSCO-2-CE/presets/Percussion_Snare2-rollSN.whic
+061235663460ff017d9c0c6f424bb59a8b87aa840a4d813fb94605c881d84ea1  ./library/VSCO-2-CE/presets/Percussion_Snare2-taps.whic
+36927879cfd37a4aefedfd5d83ae850e2ae416d32cce349171e5caadcd10b221  ./library/VSCO-2-CE/presets/Percussion_Tamb1-Hit.whic
+b9fa92a8fca02a80f10d056749d9a033d8bba58cb66c83a3ac09ca79784a0170  ./library/VSCO-2-CE/presets/Percussion_Tamb1-Roll.whic
+e78a8a8313b901923030e452f7800c806943e276df30eaa7b04322286d89401f  ./library/VSCO-2-CE/presets/Percussion_Tamb1-Shake.whic
+8b3088579233fdb6248a719f266fe80e204144b42aacc78a8a559c186b00803d  ./library/VSCO-2-CE/presets/Percussion_Timpani_Rolls_Timpani1_Roll.whic
+1171b76dd58bf00f80c339fc91a56731d93571c8c21d840f3372be273c2e3894  ./library/VSCO-2-CE/presets/Percussion_Timpani_Rolls_Timpani2_Roll.whic
+d2fb221091508df93032836ba2837a0f574ae4322bf6564959a3825783c70785  ./library/VSCO-2-CE/presets/Percussion_Timpani_Rolls_Timpani3_Roll.whic
+4f8e7d3963c319a1ceadbda47c2068419bda3cf1fb35d8ce745e4cfba549f0f0  ./library/VSCO-2-CE/presets/Percussion_Timpani_Rolls_Timpani4_Roll.whic
+44b0700b4342faa42dd43dbcbb1e73e69746550705edc4edc1dca2ef0472af47  ./library/VSCO-2-CE/presets/Percussion_Timpani_Rolls_Timpani5_Roll.whic
+e4bb79ff84f1f4f57375b766304ba1546642b1100e07ce491906a3559fe881e0  ./library/VSCO-2-CE/presets/Percussion_Timpani_Timpani1_Hit.whic
+df9951093bf3a0d89306c43aa68597a534f8a6949099c2edea2b872bd55dc0dd  ./library/VSCO-2-CE/presets/Percussion_Timpani_Timpani2_Hit.whic
+fb950ba38af3a25b749817e63d18098fa0380f73eccf6be3696f4fd86126d2b0  ./library/VSCO-2-CE/presets/Percussion_Timpani_Timpani3_Hit.whic
+70f546ebee92af43ced2b3d8b3b9f7fc4f133fc6cdd889190409919a30140a3a  ./library/VSCO-2-CE/presets/Percussion_Timpani_Timpani4_Hit.whic
+8416850256b495fbb4a51ba389dc8bf9e8bbadf2251e584d7c9f2b1c0d3fb572  ./library/VSCO-2-CE/presets/Percussion_Timpani_Timpani5_Hit.whic
+a6798778896309d156a4fe30771604310fa2f508f2855beb4860830b86654638  ./library/VSCO-2-CE/presets/Percussion_Triangle3-Hit.whic
+e4078f81c32ae736be02cf4e5f540b597cf5bb36abc27696ef0930a682f7a28e  ./library/VSCO-2-CE/presets/Percussion_Triangle3-HitFM.whic
+7c775923366596f7bac229296d61c459e7e760cf3c7ce3a58bc75b538e6dba28  ./library/VSCO-2-CE/presets/Percussion_Triangle3-HitM.whic
+3dcb3397df0bb1baf1e1e348710ffc3b16cffac4335a5e3219b5f6776472b110  ./library/VSCO-2-CE/presets/Percussion_Triangle3-Roll.whic
+6263beb339f8f0c55e8327345324c43111ed3dee811ac7350284724b275ee6f3  ./library/VSCO-2-CE/presets/Percussion_Triangle6-Hit.whic
+79fce30edc7c9df7f4d965e83d8e77b1349e375dd300399df44db475d92ae2b5  ./library/VSCO-2-CE/presets/Percussion_Triangle6-HitFM.whic
+6278d2f4d03d140d00c8a9d7669333f47c7e1179b99e7c99ca0120c3040587cf  ./library/VSCO-2-CE/presets/Percussion_Triangle6-HitM.whic
+5f5d45ac2d3e236133e1e4ffbfdf3a41f869d664c36a98688e8bec8a93aa5d22  ./library/VSCO-2-CE/presets/Percussion_Triangle6-Roll.whic
+35b17ab41cf84d85b87805388b5b632dfc763d4d8779198cad7ecdbb8634895a  ./library/VSCO-2-CE/presets/Percussion_Tumba-HitN.whic
+9825ab2edce0b441cc9254cac48d49d18e9d388f810aeedaf71ffcab10ed2f4b  ./library/VSCO-2-CE/presets/Percussion_Tumba-Tap1.whic
+f9566017bca21c09142574c0009d6e1f047b904bf10142c56adb26431e4cd6b5  ./library/VSCO-2-CE/presets/Percussion_Xylo.whic
+e81717f5dc7ee25d5d50e916dcdc207e11af3564066e4a2b8969cc531a6ad531  ./library/VSCO-2-CE/presets/Percussion_bassdrum_rub1.whic
+50daccd43fe31e07dd8228ba42ffed3210afbc4a5a036d490314d30ca4668554  ./library/VSCO-2-CE/presets/Percussion_bassdrum_rub2.whic
+45cb330e71d3d305f980095a29cd5833ec4cbf9c3c7ff689eb4f72bb073c2129  ./library/VSCO-2-CE/presets/Percussion_bassdrum_rub3.whic
+f6d0f4d3da905136d894d06f7ca7308a642a0110f85a991aaf44445faa134eb2  ./library/VSCO-2-CE/presets/Percussion_bassdrum_rub4.whic
+b39057d6b46ab254f67826513c14d742ce5fa1f6754284eacc22a343d23a2b61  ./library/VSCO-2-CE/presets/Percussion_cymbal-crash1.whic
+61a768370cd1cc2535f21e95f2f5c1244adb8ab34bd9701839b7620752349bc3  ./library/VSCO-2-CE/presets/Percussion_cymbal-crashshort.whic
+1178c52c40d1fc216d34bfd0c29fa1736fcf7f3898a98c7e09cff7f0a05e8d13  ./library/VSCO-2-CE/presets/Percussion_gongHit.whic
+93d8a819b91612d22c7c65103570102e727e25a5f252b1b6807dccd6af89971e  ./library/VSCO-2-CE/presets/Percussion_gongscrape.whic
+ec2529a72e532eca586dcc95410aa1b44ecfee1710285a1ae97ec3ffaa558658  ./library/VSCO-2-CE/presets/Percussion_susCymb1-bow-1.whic
+90159f92044d45ad1835be405f9fa68682fb8f7e0e2c67f9b569f191a8627c27  ./library/VSCO-2-CE/presets/Percussion_susCymb1-bow-2.whic
+4d986a6db1220dce91759b055ed0c463a84aae5b9c766adbc97bfe97da1a21d2  ./library/VSCO-2-CE/presets/Percussion_susCymb1-bow-3.whic
+502455bd84f62e29817255b4dc0ffc16d1271b5b5e45ff1bf3f2e669c37bde1e  ./library/VSCO-2-CE/presets/Percussion_susCymb1-bow-4.whic
+06d5fd854cfa2258ecc8971b0c86e3794da61a2d68961ba369fd4cc3480fe69e  ./library/VSCO-2-CE/presets/Percussion_susCymb1-cresc-Long.whic
+437b143c73fa1d18a18906dbd5dd38c18c14e827c4866eb183fd563fcaceb67f  ./library/VSCO-2-CE/presets/Percussion_susCymb1-cresc-Median.whic
+eb873c500ee2d9717b9b82e459b17d8aaab9894fa3350ad6d867caef1b8e1b14  ./library/VSCO-2-CE/presets/Percussion_susCymb1-cresc-Short.whic
+56dd14310ab5581c41e444486c77669b753630650145b7350064c00c14a8ba13  ./library/VSCO-2-CE/presets/Percussion_susCymb1-hit-bell.whic
+d34afec62aae1e2d8b1ec5fafadf0c5a33a107fd61d086dbd6dbd1cfb7e87623  ./library/VSCO-2-CE/presets/Percussion_susCymb1-hit.whic
+1ddd6c965f356e33d4f7962cbf5f440ccf9d553de1393aa8bb9ac3a357c3e2a5  ./library/VSCO-2-CE/presets/Percussion_susCymb1-hitstick.whic
+6ee9ed3aec51268261c9a691aff95031fd8aec79b683e6ebaa1ec760f589a657  ./library/VSCO-2-CE/presets/Percussion_susCymb1-scrape1.whic
+a2c8888add1671263279d8f765fbd3a2705cd75f0474c4990e80bc487e018478  ./library/VSCO-2-CE/presets/Percussion_susCymb1-scrape2.whic
+91ae4f4ab8ec0d926829cfc8bbdbdb6be1d64ce4349e7f9173af9e860319f570  ./library/VSCO-2-CE/presets/Strings_Cello_Section_pizzT.whic
+bff76283932b8fed652814881772b0a9dffb21f5f3db43642f674446e7b34468  ./library/VSCO-2-CE/presets/Strings_Cello_Section_spic.whic
+83e702e8de4d619b2ac00cd8b7524f956a7292b2c900ec138e5d8e90d90b622a  ./library/VSCO-2-CE/presets/Strings_Cello_Section_susvib.whic
+0a4cbbcc4c920fea5c7bc027f94053d66ff07eabad89e2db10905236c3e17242  ./library/VSCO-2-CE/presets/Strings_Cello_Section_trem.whic
+bb9a598fc8166d7f856758604f44d0dec8c747ee44065e10ca0a0d057e150d59  ./library/VSCO-2-CE/presets/Strings_Harp.whic
+b20cc0bf06fffd8b61de007c42b21ce05f51f1993a1dc27780e94c5641808e13  ./library/VSCO-2-CE/presets/Strings_Solo_Contrabass_Pizz.whic
+87387c344b2511a126283014f40329918279d446df272f8031be7979bf385436  ./library/VSCO-2-CE/presets/Strings_Solo_Contrabass_Spic.whic
+e32e8fd7373ed80f4127624a9219ff7ddd88d0a013e70bce8b88930cdabb64c7  ./library/VSCO-2-CE/presets/Strings_Solo_Contrabass_SusNV.whic
+cd087d92fceb0a54d12e0425f8d3c1820ec26ebc5b3695a3a588629d959cd32d  ./library/VSCO-2-CE/presets/Strings_Solo_Contrabass_SusVib.whic
+88404e43883229846c16a2be1e09812fb1aed1e2a66d5153b393b97c5bc297ef  ./library/VSCO-2-CE/presets/Strings_Solo_Contrabass_Trem.whic
+6886d78d3b4dc669777e700001c3b8f152180e7ba9f82c8df7f9558aeb9d3154  ./library/VSCO-2-CE/presets/Strings_Solo_Violin_Arco_Vib.whic
+b31604a09bbbfe5d994efaa43eee4ae77f6a2d75f42fe3cc635bf1dfa851635f  ./library/VSCO-2-CE/presets/Strings_Solo_Violin_Pizz.whic
+9fa24bf33a6805e1df2bf436e9780295fa79a99cc2400497e88f4e4c5e833e2f  ./library/VSCO-2-CE/presets/Strings_Solo_Violin_Trem.whic
+2cbe9b3e0fb6593adeef4f1836313926c7f5782666cfebc67f5cfe2c8880f527  ./library/VSCO-2-CE/presets/Strings_Solo_Violin_spic.whic
+372e56788caca878e1611fc9b0d84f2af5babf25983371823844c057add75887  ./library/VSCO-2-CE/presets/Strings_Viola_Section_pizz.whic
+e1f5c465f01d91c358b11bbdd5f61b6320647947de81de5636063da120da8820  ./library/VSCO-2-CE/presets/Strings_Viola_Section_spic.whic
+091d81e504dca153dac2811f85acf4f9f75a3476496d9bec133274dc5007f314  ./library/VSCO-2-CE/presets/Strings_Viola_Section_susvib.whic
+c98c1be8217349c5bcfd391387af9338267b502f1f21b7bb5a541322b019acd8  ./library/VSCO-2-CE/presets/Strings_Viola_Section_trem.whic
+206f721f84c4e9071a02e5d67b38f9cc02e4d13df6fadafed78f59db5d04390e  ./library/VSCO-2-CE/presets/Strings_Violin_Section_Pizz.whic
+3654549702b4814b42f7482028cf1fcd6d2850a7baba2dd5774396cd470cdecb  ./library/VSCO-2-CE/presets/Strings_Violin_Section_Spic.whic
+01e9c5ef93db39f992f456710f7df852dbc1cd7f2f3b128f0fac47056ac11dbf  ./library/VSCO-2-CE/presets/Strings_Violin_Section_Trem.whic
+481dfd42c8b13ff935e41ad0af7c9b13a520c3557563bf1e61b8da17bfdc7660  ./library/VSCO-2-CE/presets/Strings_Violin_Section_susVib.whic
+a39fa7c64d852cd2a008db10cdbe6539b0391aec3f3ed384448944b7066fbc52  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_bass_bdrum.whic
+749a513a07e5fa856dac243ffff07aca30086c466aa089da6cfc5d2ec8b7b522  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_bass_bdrum2.whic
+8bb70f8cdcae329e2607d13d84e895018c8819b119cc3d0e8ce89fcee546977a  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_bass_bdrum3.whic
+ea297770d5fc6dad2f8211bde4cbeb32d0468de0c9abb5b2101d9ad83c455e0c  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_bass_bdrum_muted.whic
+b3cd42b923e98cf7aeafa0ed970a770faf2a3e5fe92d2d04f003683abf5fe011  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_bass_bdrum_roll-quietest.whic
+00124386d3bb78de12fd93032cc81b25a7668973e80ca268af4d011b540812ae  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_bass_bdrum_roll1.whic
+2074c7f51039f1b65825c5ad4e0cf3a0450b152451010f6795f0f147ffe9bc36  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_bass_bdrum_roll_long1.whic
+c7e8c627b6f147033fe8649087c8955e4f5cddd544c8fc591e46796eec785db9  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_bass_bdrum_roll_quieter.whic
+bb3077d3cc33d614f8e758284f33b66db0b40e048c8e85a55418dc63dad750e8  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_bass_bdrum_roll_short.whic
+3a503c1e490222744f96bbe90a5592c6e6c8128ddce7123ab7927acde765433b  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_bass_bdrum_special_sidehit.whic
+636bf840953283922ac5564081a2c148f44c7f82225c9d76b6431fbf388d31ea  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_other_Bongos_HighBongo1.whic
+50a119cd5c8828e63b23dfbb4831fd446b37fd313cbc07f8f6af9574c07fdb6c  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_other_Bongos_HighBongo2.whic
+63218762278b372e4bf2964fdfe41e4d050e5613fa523270a8a1388fd701e6be  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_other_Bongos_LowBongo1.whic
+ebfb0d80a9d2d70c2529039f070737d6dd5b5fca56d20c13562070204db81a01  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_other_Bongos_LowBongo2.whic
+960ae3f3df0ca31c713fe8f583ac625fee648402f182c8019b2d67fac073f06f  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_other_ethnic_congo_muted_ethnicHigh_hit.whic
+715be48e7ce7da79dc265eb7ff7f2de5bafa6a04843a17eb52129e17d20805a5  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_other_ethnic_congo_muted_ethnicLow_hit.whic
+63084b1c0355c906366f9deaf4bd34df7460234573a13224680385e9db155ae0  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_other_ethnic_congo_open_ethnicHighOpen_hit.whic
+c0f03bc3e4f336ca19adf8681237dff224de4cca1965430b19a0961938df86c8  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_other_ethnic_congo_open_ethnicLowOpen_hit.whic
+308e5038b740a611467020f1831a70dc53eeb01ee354f8647b8e66909cc09b4b  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_OldSnare_snare.whic
+e65dcf66363cbc2526f78b259ebabaccb5e23a1defb978b631b0b6104dc41168  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_OldSnare_snare_f2.whic
+082237978081e12b5af527cf83f3d50819460caadb9b749fe4a25bb81a1e14b9  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_OldSnare_snare_f3.whic
+f157f6e703bd23cc65457aa7d0f12b16a63d44e6db21fd8be12c3cd4b6186170  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_OldSnare_snare_ff2.whic
+f16578f32c10ce30ae4382dc21aaad75e65e832d276365d615530393629cca86  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_OldSnare_snare_mf2.whic
+90e95b65f275601d802178b5f67986b69b94c8be5da1756207f8e80553323a31  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_OldSnare_snare_mf3.whic
+09a16b33efac21ed2b0433e8ae891a1b9a1222e1f860481203e8426dee725e0b  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_OldSnare_snare_mf4.whic
+491b6d1b162dd768e5e52f060e89fe4aebd61ad266067448e24f0d78b089beab  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_OldSnare_snare_p2.whic
+fc9d52899b32e960b44490ec2ef2b0a749a66876b164bc95ba8e57e6dfea9ed5  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_OldSnare_snare_pp2.whic
+0932d01e5978893fd144205e8b9de3cd9de4ab3f1889893011fcdc3a34920465  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_OldSnare_snare_pp3.whic
+956b08fe94c52e10dbdc4d4532881e4485018351faf62153d31604bfbf783235  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_OldSnare_snare_rim.whic
+45ce94bb993b90940ba4cd581938849e0c66ff4b64d412002a1257a51bef7488  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum1_snare1.whic
+24fc6a711277c78f607cd0fb8cf88ede34fdb14087dbf0caea411e84b4b118b8  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum1_snare1_click.whic
+99cc2240b12183506f5dd3671a62a0b19eee9ada81cf015aa1a370fe213d1ff5  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum1_snare1_click2.whic
+8b5624c41efb2bf5dac83289d192034fa2462a1e6cc1ca45a1789d574cd1d78c  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum1_snare1_click3.whic
+5a4107b9ebe8ea8144134882f59137054453725922d010b3a8069b6f322c50b8  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum1_snare1_click4.whic
+822d7136d2c71c464177806a8df9c025a6d861e4b6b6957d41124d10300d05c5  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum1_snare1_nosnare.whic
+b1bbb8f0bd82486ed52fa208a9723a59df4f2aedc07e2a5694ff08fc59be5515  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum1_snare1_pppp.whic
+7e07839c87586528913e17cc594d762ace81cdc1d7ad4081736297cc3d2de2c8  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum1_snare1_rim.whic
+985d1abf1904812772cedaad9bd6b7ce21060edc07dba4843f2cb4c463723721  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum1_snare1_rimshot.whic
+45156674464ec3b99dec1af41d77e873bcb423ba1d094c6f689ed8c01bc8fb1c  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum1_snare1_snare.whic
+a1f1fb04a524e2ac2ab372173d3a9fdb3b0c91b2101128153a926a741d2022ce  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum1_snare1_snare2.whic
+c160237de43563114e9363468c0a5d4ba22fe9fbec9d4e8f5fce5771ebc785da  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum2_sfx_click.whic
+1f4bed9a15748a6561d4bc98da6775fa41e224c44c03276f4e12e6b5ee6cd45a  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum2_snare2.whic
+42627d7c2ba5ca27afa6df60ccab3e8471f48be5177f217445d662d3e7b4a3da  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum2_snare2_click.whic
+49eae81ba10882a1fc3b0929a6af359e4e28136507e7255602ee58440c0e7343  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum2_snare2_nosnare.whic
+3b16d2016528155b2a89c51dfcfab617e5578a5ad351aeb853e210aec903e97e  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum2_snare2_nosnare_pppp.whic
+1dedc0258e14c8ff00175db4e0ca63122544a50440fbbcd6f777439b38aa5a76  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum2_snare2_nosnare_roll.whic
+745f4273a456f9d475e76add6a26113211dfb5848d2b685c06fa6e30cd74e960  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum2_snare2_pppp.whic
+8bf8e41382dbce996d0cbbec37d6ac8886cf98f1e8cb81326ea851c7f049e3af  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum2_snare2_rimshot.whic
+95e78b93bfbd31079d0484fe846125dd84a52a74cb111eb6741e65f4e1a6d09f  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum3_marching_snare3.whic
+1c11f5cbf8d5557b02b87f927d4f2d6ccd1f861e15a4f4d6d88b29691947fd50  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum3_marching_snare3_click.whic
+2413bf4e26f2ccf76a2b67cb68d55fda9672a12f082f80027e2691e22cedfe51  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_snare_drum3_marching_snare3_rimshot.whic
+615b24a6c4ad5e35448b0f911d545e3abcc6e19f2052d91987c735e98f8d19a8  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_tenor_tenor_higher_tenorH.whic
+78ba3cdb7bed70b70d98b1a938a5781203cb232462a29ec4a5a351f324227140  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_drums_tenor_tenor_lower_tenor.whic
+15998f5e68f2ab1ad9f5223e82b1a6d7482c8a7b850a651e64e0af5f22e01267  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Cymbals_clash_crash_hit_loose.whic
+d14369f96a392f6b3cbfcabaaef9a0dc9deebf76d53e308f1ca53419af2ce4b4  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Cymbals_clash_crash_hit_tight.whic
+c189c3399754416e5280abe3ef050862709c5eb473ccd7fa963ae6268246d513  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Cymbals_clash_crash_hit_verytight.whic
+915678c3e5eaf16f9c3078a9cb8f89d4bdae7e8b7cfedc8b50ceae28288b21ba  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Cymbals_susp_susp_FX_scrape.whic
+0944a424f5c2f397f607ea965bcd4d122c28cb5c65e735230abd10222dab28f4  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Cymbals_susp_susp_FX_scrape_continuous.whic
+f9001f1c2c66aad71148be10c11b1522cf312ee8e190fd59840cbd3758cf0f67  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Cymbals_susp_susp_FX_scrape_rapid.whic
+131d2bb46fa7dc2f9cb8720964dbe83d157c823ac34b8802cb4ac2965e1f4679  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Cymbals_susp_susp_hit_hardmall.whic
+4063f0242ac8cc717e2846febe74b9b14eafc577f70526d248715809a80759ad  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Cymbals_susp_susp_hit_metal.whic
+e67e628d5463bb1624dec87012d6096074494dabbbb658863d0086d06edc9d18  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Cymbals_susp_susp_hit_metal_2.whic
+721634c0dc43f9b6e0e8318b9d9a94083cfdc38729a79188e376ca44da0bf2cc  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Cymbals_susp_susp_hit_softmall.whic
+3bb666beccad4751b12ea2333031aa7730b14957c2282b15c7c20cea513c1ddf  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Cymbals_susp_susp_hit_softmall_roll1.whic
+23f72fe569cea27be31dc97c40496131ab9ffe37548a520932389b1685b4d20c  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Cymbals_susp_susp_hit_softmall_roll2_cresc.whic
+cf4202e3c81d2860bf9a03076471cdefb8f23c71bd0a34782c7859c2f497d2a1  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Cymbals_susp_susp_hit_softmall_roll3.whic
+c65909cecb09038572d1cc0560b43abd17b88045245714d7bbf4999ac7c2a0fd  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Cymbals_susp_susp_hit_softmall_roll4_long.whic
+488ce93addebbd0d29124cec6f4ef820f1dbe55fec5edf62eb133af9d451b4a2  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Cymbals_susp_susp_hit_softmall_roll5_long.whic
+bbcea88024e7244949e9c5b383ce42fa79c82cfa8ed2c8ebbbbfabeb2dcaa94f  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Cymbals_susp_susp_hit_woodmall.whic
+436946fe93e75c550f56da6cca008fa3b88c8e33f84a1946889033cb1adfeac5  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Cymbals_susp_susp_hit_woodmall_roll_cresc.whic
+f1342116ce0a99c99b468fb8845a106968dcd00ec13e8c53355c915e46175757  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Cymbals_susp_susp_hit_woodmall_roll_fx.whic
+adc139483a8511ca4772fec66578521bdc626a4bd9b5917c0b4fa8297ad66f8e  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Gong_gong_hit.whic
+d68a8915403c1c1187a92400003e61d173966bea5ee64b5afa3b621999be98e8  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Gong_gong_hit_hard.whic
+11fea1c70f14e7786fe92dda8b54ca526025fb1e8f9fffc3327d665b7de3c371  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Gong_gong_hit_hard2.whic
+a799f8c3c2a6f74dadd8b0a6fdcc70d8525058a6fbe71a06628a0e44c1f8a081  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Gong_gong_hit_mp-mf.whic
+d45b696945a6e73e1a45b13f77867eceab3cb749ffbe8616d40799e20f60f9fa  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Gong_gong_hit_pppp.whic
+4d0128760a0d1337043fe8383eea934440bef5c41332f48e97c4ed8d4d310572  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Gong_gong_roll_long.whic
+c30d73224343660e27ff2160e1cddb7df1c14a52d04faa32949d224221d274d5  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Gong_gong_roll_medium.whic
+274c5ece83350dfe5e4330096037f4cc37b5704acb0f6dc3cf41a61b846152d1  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Gong_gong_scrape.whic
+0589ad675b5718708dfcf0b892f7063ef264f478f9329bf936df946d0ad90d4f  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Gong_gong_smack.whic
+9ca1cbbc0c136205c99e2391ab9038552db3cfaf00531d59fb2044c537cb90b2  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Gong_gong_smack_light1.whic
+a5db79f3a708afe173b8f1f73154e0e3f0b0bd9025091d53dabb7a642e31ccaf  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_Gong_gong_smack_low.whic
+496279af7207b12e492934df2a2009604a10b6d2430aed6416a9c87456e41f51  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_triangle_1_triangle1_hit.whic
+6b0057c08dab06e90f508354f1236d40a9f8996abc37104cda9ab86cc30abc0a  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_triangle_1_triangle1_hit_muted.whic
+230175bdd64da28d6c8ceaf8ee65007bc376803c3f16d7d09700ff5f56fedb24  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_triangle_1_triangle1_hit_muted1.whic
+dc25ad1a331b4bd0b0ed4d79df05a4ed6c4a1224381a0590b63114752972a398  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_triangle_1_triangle1_hit_muted2.whic
+81d77ff3248bda148f49a7f6ed790d3d134d803d41ffafb4b311f0f5a6792c53  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_triangle_1_triangle1_hit_muted3.whic
+570c9567a512432d90fe7d9367c21f3080e75ca1159247f2b776aeb8b5a18a41  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_triangle_1_triangle1_hit_pt2.whic
+14924f9744d7069190219d69b40d50f2c6283f3d9091b48827540eb781d671ac  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_triangle_1_triangle1_hit_pt3.whic
+2dccb4c348767e095cc02ec632e33174b1d0e11e6f670d0f6e66fd7565d89e1c  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_triangle_1_triangle1_roll.whic
+abb266b24ec30e1ae92b4298c6b6cde2d2c19f9ce9015a4c604f7299cd3be265  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_triangle_2_triangle2_hit.whic
+dc800cff9cff02f64f97dbe4f2ee81dc90f4469b9c419a81aeecd4c170542ab3  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_triangle_2_triangle2_roll.whic
+4346874133cccc5dba6677b7f46bdf2677cc1467854e219c921c625b1aa92322  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_triangle_3_triangle3_hit.whic
+f6a57f35c3407d95ac140668b9b42516f6675938a31f81b6a905cf02b1bfe639  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_triangle_3_triangle3_hit_pt2.whic
+27ee477b98c288c69641d5242649265c38f775f829ddf8ab62ff028a933fab14  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_triangle_3_triangle3_hit_pt3.whic
+8b8968a2992830c8f973723c710f4f2618e9b9ef56491bb31198d50bcd55d310  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_triangle_3_triangle3_roll.whic
+cf38187366c1db7af1ce0cc2e4900c8e70c07e10bd9b907202798a98ccb9cfab  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_triangle_4_triangle4_hit.whic
+5cfcf9d0f4e55153f1d9ab3e3a4a7fdbc2ffd0c56e79779e0f7c8808e6e2b491  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_triangle_4_triangle4_roll1.whic
+4695c5f501f55fe73e02ddc0ca5e898efe3fd6352fcf7c3f19e6fe67532eb2a0  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_various_Fing_Cymb.whic
+0888dc3f2e3e60475b868b56e046e8744876168cd033cb40812e854f81988257  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_various_agogoBell.whic
+b8ee6589c3828e956ac2c87b884a72c29c9c68655c444c1db4da502077c9b61f  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_various_agogoBell2.whic
+a45a2dc03dc09ed339933f301074031dce287790a1a97c22c4d4218a2d4dd50b  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_various_agogoBell3.whic
+993a4c46fbb699aad0da04bbb2dc56a13cb2eba4b68ef2b2c24e2038cde0cf4a  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_various_agogoBell_mf1.whic
+86c0c30b44a3edb4156ba29691b9aa8336875c449d71296f3039477f2b16e709  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_various_bell_tree_metalscrape1.whic
+3f32270ec874594d374016b8c8111422220fdee5b859285b9f0865eca5f814ca  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_various_bell_tree_scrape1.whic
+a3b929296e81ce901cdc80b594fbd9ec49fd1c11b382ae04a28ed48f66572967  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_various_bell_tree_scrape2.whic
+42ab94173675a3212c2d249fed9fa58cf11ef023b4c5c086b42c02e95b928866  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_various_bell_tree_scrape3.whic
+0d9289e9e6b20d8d91fb751b30a401b395a4bdacc8966855d8704cd182fa6e4f  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varMetal_various_bell_tree_woodscrape1.whic
+44d0f27f4290ad63980656d31b035b55ef0f2b37e550dd8a5b043804e528a804  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varWood_Camo_s_Shaker_shake1.whic
+51d84817cacc4cc1fa36407502cb6e323ee3c09ae19ef4816e211a4b057b3095  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varWood_Camo_s_Shaker_shake2.whic
+25f31a7648abb0fb16e7369dae87f24915c2b3080500a1abab8428c5e6453ae2  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varWood_Camo_s_Shaker_shake3.whic
+9534a2cd4be96b21eed997b2c3f28b326ee94a82b26610b4f328f775b6156073  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varWood_Camo_s_Shaker_shake4.whic
+d4b24cf105b1eba722635dec0b2a27d92059faf43100d004aa09ef20eac29747  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varWood_Camo_s_Shaker_shake5.whic
+cbe9812022a5ac6dc69fa26cdc441b4c97dd2570acba1083ceb9e5701497098e  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varWood_Camo_s_Shaker_shake6.whic
+74f5c5e63128d73e5d9e203280eb52aebc561b1b7227a0746eb3b462861dc1d7  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varWood_Camo_s_Shaker_shake7.whic
+5e6bbb4f8c21490743c4ec43c2fc7cfa4de53a4abd76d831b43fbbb4ca1e6ce1  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varWood_Camo_s_Shaker_shake8.whic
+add70351322796633960fab65c1250d242c21b8a434b6fc957d948496f62b343  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varWood_log_drum_slitdrum0.whic
+3a3bf62719fffe2d7582396ef7919f8c6ddbe9235b57bfc630d6043d429e34bb  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varWood_log_drum_slitdrum1.whic
+b91591f325b3642378b397660e21164a9e81bea52655c28f2068affd3b2b9620  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varWood_log_drum_slitdrum2.whic
+11c054e21e63374627b2941a7eda8b8a5890fd7c4819a37d3d97cc6518e9cc85  ./library/VSCO-2-CE/presets/VSCO_1_Percussion_varWood_log_drum_slitdrum3.whic
+ca8cb06c88688d2e9e0aee7dec564abe6a242970ce882579cc3ce9ca1c605a1e  ./library/VSCO-2-CE/presets/Woodwinds_Bassoon_stac.whic
+10c0216fb12a91986a383dce8bb97cf1df26a69cbf3d87ea477df0e91986eb97  ./library/VSCO-2-CE/presets/Woodwinds_Bassoon_sus.whic
+d8adc17cf3001024eca9375678a8837173eac16acc4333bf04cef5ff37e5809c  ./library/VSCO-2-CE/presets/Woodwinds_Bassoon_vib.whic
+7436bd0f968d62b629b92293bed14896e4233e9e52a097242fa353b08202061a  ./library/VSCO-2-CE/presets/Woodwinds_Clarinet_stac.whic
+cef1927d72320a7fc28d59d7c25d4b1ea62162eeaa59eb83e463487604af344e  ./library/VSCO-2-CE/presets/Woodwinds_Clarinet_susLong.whic
+b8f6f757eb740e43332d4080dbfcb5a770d4430ab60747c15cdb0a9e6d8dd59e  ./library/VSCO-2-CE/presets/Woodwinds_Flute_expvib.whic
+79aa8b3fcb0a394f897c836258fe7e6c1666ff976817aa65d90add6757bdaee5  ./library/VSCO-2-CE/presets/Woodwinds_Flute_stac.whic
+7bb4f1007c2aa3c290daeac971bedc79afd72cad6d70214f59605520d71b3418  ./library/VSCO-2-CE/presets/Woodwinds_Flute_susNV.whic
+fb2ee331f96358b3d881186a46141ae0ebef59749c9d1dbcde0bdd82ad587703  ./library/VSCO-2-CE/presets/Woodwinds_Flute_susvib.whic
+6f443714e3d6534c8c788950b7594745455b0627e1e064484733e2d1c51c942f  ./library/VSCO-2-CE/presets/Woodwinds_Oboe_Stacc.whic
+7f96d3acb787cff6cbc7bfe11c6b58126f2c1cacaeae639c7f17006a83ecca56  ./library/VSCO-2-CE/presets/Woodwinds_Oboe_Sus.whic
+78da0725aad377a6caacd3e609ad54aa588e9e7112cdbae8fd3fa2fd7d461eea  ./library/VSCO-2-CE/presets/Woodwinds_Oboe_Vib.whic
+0ab87b18b6676f9bb835a19e00ac6f4acc0f7eb23def49dad9ce26cfb93232ab  ./library/VSCO-2-CE/presets/Woodwinds_Piccolo_Stac.whic
+7d116a0e50fb7517df9be3c84e02ba7bd56c9421f152b17552bfe1b596cf534f  ./library/VSCO-2-CE/presets/Woodwinds_Piccolo_Sus.whic
+db45e313f54d86813ea7c66ef9eafe29022783461ad1668f340f26aedf96b6b3  ./library/VSCO-2-CE/provenance.json
+36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673  ./library/VSCO-2-CE/source/LICENSE
+101ddb88eb013900cc911834ecbdfbd49497bcd913bf09417160b9677952bb38  ./library/VSCO-2-CE/source/Readme.txt
+3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986  ./original-app-docs/APP-LICENSE-GPLv3.txt
+efe4a0d74ac0ed0d41b2fd1166f3dcf3cb41c39752fd41ded52953bd3af6ba3f  ./original-app-docs/README.md
+49fcc91297f561e72ee35e2c20cdbae7646bcab856b1b34b13bd601c460de7ea  ./original-app-docs/THIRD_PARTY_NOTICES.md
+abd3ccae477873bc7549bfb602e449b78712fb9ed4fb3bfb1afb28f3b1bc5298  ./original-app-docs/UNINSTALL-DATA-POLICY.txt
+bc2b228f6f2becb0fb22198e8fc21a4d4a719c3217313ddc6addc5741cf27d5e  ./original-app-docs/USER-GUIDE.md
+260a435897d2a59f667c3b4ec8b218d43926bf0411e05eb0a10553a5462eeff3  ./original-app-docs/installed-manifest.tsv

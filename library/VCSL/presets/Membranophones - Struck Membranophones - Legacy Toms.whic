@@ -1,0 +1,45 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Membranophones/Struck Membranophones/Legacy Toms.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+41
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_lower/tenor_ppp_rr1.wav" 60 60 60 1 38 0 30.0 301 0.0 24.207229 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_lower/tenor_pp_rr4.wav" 60 60 60 39 59 1 30.0 881 0.0 17.066488 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_lower/tenor_pp_rr1.wav" 60 60 60 39 59 2 30.0 18 0.0 17.682407 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_lower/tenor_pp_rr3.wav" 60 60 60 39 59 3 30.0 1023 0.0 16.327966 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_lower/tenor_pp_rr2.wav" 60 60 60 39 59 4 30.0 967 0.0 16.5273 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_lower/tenor_mp_rr1.wav" 60 60 60 60 75 0 30.0 298 0.0 17.003238 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_lower/tenor_mf_rr4.wav" 60 60 60 76 90 1 30.0 507 0.0 6.831116 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_lower/tenor_mf_rr2.wav" 60 60 60 76 90 2 30.0 254 0.0 8.235517 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_lower/tenor_mf_rr3.wav" 60 60 60 76 90 3 30.0 1223 0.0 13.051853 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_lower/tenor_mf_rr1.wav" 60 60 60 76 90 4 30.0 697 0.0 6.855397 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_lower/tenor_f_rr1.wav" 60 60 60 91 103 1 30.0 662 0.0 4.165639 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_lower/tenor_f_rr2.wav" 60 60 60 91 103 2 30.0 1201 0.0 4.189592 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_lower/tenor_ff_rr1.wav" 60 60 60 104 115 1 30.0 1096 0.0 1.647365 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_lower/tenor_ff_rr2.wav" 60 60 60 104 115 2 30.0 762 0.0 1.785598 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_lower/tenor_ff_rr3.wav" 60 60 60 104 115 3 30.0 623 0.0 0.154984 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_lower/tenor_fff_rr1.wav" 60 60 60 116 127 1 30.0 1212 0.0 -1.444826 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_lower/tenor_fff_rr2.wav" 60 60 60 116 127 2 30.0 566 0.0 -0.884345 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_lower/tenor_fff_rr3.wav" 60 60 60 116 127 3 30.0 1081 0.0 -0.182337 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_lower/tenor_fff_rr4.wav" 60 60 60 116 127 4 30.0 512 0.0 -1.727469 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_pp_rr1.wav" 61 61 61 1 38 0 30.0 560 0.0 17.274316 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_p_rr3.wav" 61 61 61 39 59 1 30.0 1024 0.0 12.73622 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_p_rr2.wav" 61 61 61 39 59 2 30.0 212 0.0 14.023233 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_p_rr1.wav" 61 61 61 39 59 3 30.0 722 0.0 14.628023 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_mp_rr2.wav" 61 61 61 61 75 1 30.0 354 0.0 10.30533 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_mp_rr1.wav" 61 61 61 61 75 2 30.0 924 0.0 12.023295 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_mf_rr1.wav" 61 61 61 76 90 1 30.0 549 0.0 7.958355 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_mf_rr2.wav" 61 61 61 76 90 2 30.0 947 0.0 8.566067 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_mf_rr3.wav" 61 61 61 76 90 3 30.0 407 0.0 8.982623 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_f_rr1.wav" 61 61 61 91 103 1 30.0 457 0.0 6.770706 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_f_rr3.wav" 61 61 61 91 103 2 30.0 395 0.0 6.11857 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_f_rr2.wav" 61 61 61 91 103 3 30.0 1063 0.0 7.707729 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_ff_rr2.wav" 61 61 61 104 115 1 30.0 493 0.0 1.487087 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_ff_rr3.wav" 61 61 61 104 115 2 30.0 458 0.0 2.41158 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_ff_rr1.wav" 61 61 61 104 115 3 30.0 769 0.0 1.914515 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_ff_rr4.wav" 61 61 61 104 115 4 30.0 960 0.0 4.34718 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_ff_rr5.wav" 61 61 61 104 115 5 30.0 1111 0.0 1.576219 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_ff_rr6.wav" 61 61 61 104 115 6 30.0 1257 0.0 2.430141 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_fff_rr2.wav" 61 61 61 116 127 1 30.0 591 0.0 -1.505957 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_fff_rr3.wav" 61 61 61 116 127 2 30.0 748 0.0 0.35558 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_fff_rr1.wav" 61 61 61 116 127 3 30.0 464 0.0 -0.401599 0.004
+"../source/Membranophones/Struck Membranophones/Legacy Toms/tenor_higher/tenorH_fff_rr4.wav" 61 61 61 116 127 4 30.0 1118 0.0 2.213919 0.004

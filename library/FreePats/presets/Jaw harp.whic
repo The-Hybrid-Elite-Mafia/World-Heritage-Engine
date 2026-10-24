@@ -1,0 +1,52 @@
+WHIC_PRESET 4
+"Jaw harp; real acoustic recordings; CC0-1.0; https://freepats.zenvoid.org/Ethnic/jaw-harp.html; see original README and source SFZ. Finite recorded sustain (no looping)."
+0 0 1 0
+48
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp27.wav" 36 36 36 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp28.wav" 37 37 37 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp31.wav" 38 38 38 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp32.wav" 39 39 39 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp35.wav" 40 40 40 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp39.wav" 41 41 41 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp40.wav" 42 42 42 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp43.wav" 43 43 43 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp45.wav" 44 44 44 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp44.wav" 45 45 45 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp48.wav" 46 46 46 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp26.wav" 47 47 47 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp29.wav" 48 48 48 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp30.wav" 49 49 49 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp33.wav" 50 50 50 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp34.wav" 51 51 51 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp36.wav" 52 52 52 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp37.wav" 53 53 53 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp38.wav" 54 54 54 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp41.wav" 55 55 55 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp42.wav" 56 56 56 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp46.wav" 57 57 57 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp47.wav" 58 58 58 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp1.wav" 59 59 59 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp2.wav" 60 60 60 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp3.wav" 61 61 61 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp4.wav" 62 62 62 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp5.wav" 63 63 63 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp6.wav" 64 64 64 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp7.wav" 65 65 65 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp8.wav" 66 66 66 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp18.wav" 67 67 67 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp23.wav" 68 68 68 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp9.wav" 69 69 69 1 127 0 1.0 0 0.0 -20.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp10.wav" 70 70 70 1 127 0 1.0 0 0.0 -20.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp11.wav" 71 71 71 1 127 0 1.0 0 0.0 -20.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp12.wav" 72 72 72 1 127 0 1.0 0 0.0 -20.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp13.wav" 73 73 73 1 127 0 1.0 0 0.0 -20.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp14.wav" 74 74 74 1 127 0 1.0 0 0.0 -20.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp15.wav" 75 75 75 1 127 0 1.0 0 0.0 -20.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp16.wav" 76 76 76 1 127 0 1.0 0 0.0 -20.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp17.wav" 77 77 77 1 127 0 1.0 0 0.0 -20.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp22.wav" 78 78 78 1 127 0 1.0 0 0.0 -9.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp24.wav" 79 79 79 1 127 0 1.0 0 0.0 -6.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp19.wav" 80 80 80 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp20.wav" 81 81 81 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp21.wav" 82 82 82 1 127 0 1.0 0 0.0 0.0 0.003
+"../source/JawHarp-SFZ-20200606/samples/jaw_harp25.wav" 83 83 83 1 127 0 1.0 0 0.0 0.0 0.003

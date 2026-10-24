@@ -1,0 +1,38 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Membranophones/Struck Membranophones/Conga.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+34
+"../source/Membranophones/Struck Membranophones/Conga/Conga_HitFM_v1_rr1_Sum.wav" 60 60 60 1 83 1 15.0 0 0.0 25.866947 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Conga_HitFM_v1_rr2_Sum.wav" 60 60 60 1 83 2 15.0 0 0.0 26.060538 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Conga_HitFM_v2_rr1_Sum.wav" 60 60 60 84 127 1 15.0 0 0.0 14.562372 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Conga_HitFM_v2_rr2_Sum.wav" 60 60 60 84 127 2 15.0 0 0.0 18.990867 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Conga_HitN_v1_rr1_Sum.wav" 61 61 61 1 65 1 15.0 0 0.0 30.735752 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Conga_HitN_v1_rr2_Sum.wav" 61 61 61 1 65 2 15.0 0 0.0 24.36098 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Conga_HitN_v2_rr1_Sum.wav" 61 61 61 66 99 1 15.0 0 0.0 20.164805 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Conga_HitN_v2_rr2_Sum.wav" 61 61 61 66 99 2 15.0 0 0.0 17.590831 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Conga_HitN_v3_rr1_Sum.wav" 61 61 61 100 127 1 15.0 0 0.0 16.976001 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Conga_HitN_v3_rr2_Sum.wav" 61 61 61 100 127 2 15.0 0 0.0 17.159202 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Quinto_HitFM1_v1_rr1_Sum.wav" 62 62 62 1 83 1 15.0 0 0.0 35.997475 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Quinto_HitFM1_v1_rr2_Sum.wav" 62 62 62 1 83 2 15.0 0 0.0 35.297054 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Quinto_HitFM1_v2_rr1_Sum.wav" 62 62 62 84 127 1 15.0 0 0.0 15.127726 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Quinto_HitFM1_v2_rr2_Sum.wav" 62 62 62 84 127 2 15.0 0 0.0 14.346224 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Quinto_HitN_v1_rr1_Sum.wav" 63 63 63 1 65 1 15.0 0 0.0 27.525734 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Quinto_HitN_v1_rr2_Sum.wav" 63 63 63 1 65 2 15.0 0 0.0 29.684582 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Quinto_HitN_v2_rr1_Sum.wav" 63 63 63 66 99 1 15.0 0 0.0 21.625566 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Quinto_HitN_v2_rr2_Sum.wav" 63 63 63 66 99 2 15.0 0 0.0 22.701103 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Quinto_HitN_v3_rr1_Sum.wav" 63 63 63 100 127 1 15.0 0 0.0 18.363016 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Quinto_HitN_v3_rr2_Sum.wav" 63 63 63 100 127 2 15.0 0 0.0 12.103322 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Tumba_HitFM_v2_rr1_Sum.wav" 64 64 64 1 65 1 15.0 0 0.0 30.505204 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Tumba_HitFM_v2_rr2_Sum.wav" 64 64 64 1 65 2 15.0 0 0.0 21.896106 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Tumba_HitFM_v3_rr1_Sum.wav" 64 64 64 66 99 1 15.0 0 0.0 16.581491 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Tumba_HitFM_v3_rr2_Sum.wav" 64 64 64 66 99 2 15.0 0 0.0 17.153744 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Tumba_HitFM_v4_rr1_Sum.wav" 64 64 64 100 127 1 15.0 0 0.0 20.249931 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Tumba_HitFM_v4_rr2_Sum.wav" 64 64 64 100 127 2 15.0 0 0.0 19.525901 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Tumba_HitN_v1_rr1_Sum.wav" 65 65 65 1 54 1 15.0 0 0.0 54.853389 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Tumba_HitN_v1_rr2_Sum.wav" 65 65 65 1 54 2 15.0 0 0.0 26.496386 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Tumba_HitN_v2_rr1_Sum.wav" 65 65 65 55 83 1 15.0 0 0.0 22.856745 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Tumba_HitN_v2_rr2_Sum.wav" 65 65 65 55 83 2 15.0 0 0.0 22.337547 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Tumba_HitN_v3_rr1_Sum.wav" 65 65 65 84 106 1 15.0 0 0.0 16.34859 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Tumba_HitN_v3_rr2_Sum.wav" 65 65 65 84 106 2 15.0 0 0.0 17.938868 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Tumba_HitN_v4_rr1_Sum.wav" 65 65 65 107 127 1 15.0 0 0.0 15.543798 0.004
+"../source/Membranophones/Struck Membranophones/Conga/Tumba_HitN_v4_rr2_Sum.wav" 65 65 65 107 127 2 15.0 0 0.0 16.114862 0.004

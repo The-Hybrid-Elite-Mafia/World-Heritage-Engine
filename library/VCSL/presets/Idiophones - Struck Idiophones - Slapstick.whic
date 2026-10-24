@@ -1,0 +1,9 @@
+WHIC_PRESET 4
+"VCSL real acoustic recordings, Versilian Studios/contributors; CC0-1.0; https://github.com/sgossner/VCSL; source c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e; official SFZ b6e6ac82d22248edee98a0bde185eb9ef6d439ad: Idiophones/Struck Idiophones/Slapstick.sfz; see COLLECTION-MANIFEST.json for exact adaptations"
+0 0 1 0
+5
+"../source/Idiophones/Struck Idiophones/Slapstick/slapstick_rr3.wav" 60 60 60 1 127 1 0.3 642 0.0 -2.143026 0.004
+"../source/Idiophones/Struck Idiophones/Slapstick/slapstick_rr2.wav" 60 60 60 1 127 2 0.3 488 0.0 0.30247 0.004
+"../source/Idiophones/Struck Idiophones/Slapstick/slapstick_rr1.wav" 60 60 60 1 127 3 0.3 0 0.0 2.448004 0.004
+"../source/Idiophones/Struck Idiophones/Slapstick/slapstick_quiet_rr1.wav" 61 61 61 1 127 1 0.3 114 0.0 0.565856 0.004
+"../source/Idiophones/Struck Idiophones/Slapstick/slapstick_quiet_rr2.wav" 61 61 61 1 127 2 0.3 361 0.0 -0.531236 0.004

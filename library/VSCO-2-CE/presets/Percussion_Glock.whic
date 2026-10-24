@@ -1,0 +1,10 @@
+WHIC_PRESET 4
+"VSCO 2 Community Edition; Glockenspiel; variant Percussion/Glock; source commit 440300901dfe9275fd84e0b7763af1f8443ae62e; CC0-1.0; Versilian Studios/Sam Gossner and Ivy Audio/Simon Dalzell. Real recorded acoustic samples. Derived mapping; see provenance.json for source hashes, octave evidence, mapping assumptions and unsupported SFZ processing."
+0 0 1 0
+6
+"../source/Percussion/Glock/glock_medium_G4.wav" 67 67 69 1 127 0 7 0 0 8 0.005
+"../source/Percussion/Glock/glock_medium_C5.wav" 72 70 75 1 127 0 7 0 0 8 0.005
+"../source/Percussion/Glock/glock_medium_G5.wav" 79 76 81 1 127 0 7 0 0 8 0.005
+"../source/Percussion/Glock/glock_medium_C6.wav" 84 82 87 1 127 0 7 0 0 8 0.005
+"../source/Percussion/Glock/glock_medium_G6.wav" 91 88 93 1 127 0 7 0 0 8 0.005
+"../source/Percussion/Glock/glock_medium_C7.wav" 96 94 96 1 127 0 7 0 0 8 0.005
