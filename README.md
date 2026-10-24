@@ -216,8 +216,8 @@ Not verified:
 - **ASIO** (`src/platform/asio_output.cpp`) is written against the Steinberg ASIO SDK 2.3.4 but has not
   been run against a real ASIO driver. The SDK is never committed: `tools/fetch-asio-sdk.ps1` downloads it
   from Steinberg and checks its SHA-512, and the GitHub Actions workflow builds a WASAPI-only and an
-  ASIO-enabled flavor. Under the SDK's GPLv3 option, distributing an ASIO build means releasing this
-  source under the GPL; this repository is private.
+  ASIO-enabled flavor. Because the ASIO SDK is used under its GPLv3 option, this whole engine is
+  licensed GPLv3 (see `LICENSE`).
 - The bowed, plucked and aerophone engines have only been run on piano recordings (no real cello,
   guitar or flute pack was available in the build environment), so their *sound* on their own
   instrument families has not been judged — only their correctness and stability.
@@ -228,6 +228,9 @@ than two channels are folded to stereo; the naming parser covers common conventi
 vendor's scheme (check `whe_ingest --zones`); unpitched release noises are spread over the whole keyboard.
 
 ---
+
+## Licence
+GNU General Public License v3.0 — see `LICENSE`. The Steinberg ASIO SDK is used under its GPLv3 option and is downloaded at build time, never stored here.
 
 ## Sample credits (test packs, not included)
 - Salamander Grand Piano V3 — Alexander Holm, CC BY 3.0 (github.com/sfzinstruments/SalamanderGrandPiano)

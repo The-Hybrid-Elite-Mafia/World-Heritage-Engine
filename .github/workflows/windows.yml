@@ -48,7 +48,7 @@ jobs:
           if ('${{ matrix.flavor }}' -eq 'asio' -and $out -match 'no ASIO support') { throw 'ASIO build is missing ASIO support' }
           if ('${{ matrix.flavor }}' -eq 'wasapi' -and -not ($out -match 'no ASIO support')) { throw 'WASAPI build unexpectedly has ASIO' }
 
-      - name: Upload Windows binaries (private to this repository)
+      - name: Upload Windows binaries
         uses: actions/upload-artifact@v5
         with:
           name: WorldHeritageEngine-windows-x64-${{ matrix.flavor }}
