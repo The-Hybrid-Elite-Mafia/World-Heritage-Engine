@@ -1,0 +1,61 @@
+name: Windows build
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: MSVC x64 — ${{ matrix.flavor }}
+    runs-on: windows-2022
+    strategy:
+      fail-fast: false
+      matrix:
+        flavor: [wasapi, asio]
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Fetch Steinberg ASIO SDK (downloaded from Steinberg, SHA-512 checked, never committed)
+        if: matrix.flavor == 'asio'
+        shell: pwsh
+        run: powershell -ExecutionPolicy Bypass -File tools\fetch-asio-sdk.ps1
+
+      - name: Configure
+        run: cmake -S . -B build -G "Visual Studio 17 2022" -A x64
+
+      - name: Build Release
+        run: cmake --build build --config Release --parallel
+
+      - name: Fetch a real recorded test pack (Virtuosity Drums snare, CC0)
+        shell: pwsh
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/sfzinstruments/virtuosity_drums testpacks\vd
+          git -C testpacks\vd sparse-checkout set Samples/snaremic/snare
+          New-Item -ItemType Directory -Force testpacks\VirtuositySnare | Out-Null
+          Copy-Item testpacks\vd\Samples\snaremic\snare\*.flac testpacks\VirtuositySnare\
+
+      - name: Tests (unit + real recordings)
+        run: build\Release\whe_tests.exe testpacks\VirtuositySnare
+
+      - name: Offline render from the real recordings
+        run: build\Release\whe_render.exe testpacks\VirtuositySnare membrane snare_render.wav --seconds 4
+
+      - name: Check whe_play was built with the expected driver support
+        shell: pwsh
+        run: |
+          $out = & build\Release\whe_play.exe . piano --list-asio
+          Write-Host $out
+          if ('${{ matrix.flavor }}' -eq 'asio' -and $out -match 'no ASIO support') { throw 'ASIO build is missing ASIO support' }
+          if ('${{ matrix.flavor }}' -eq 'wasapi' -and -not ($out -match 'no ASIO support')) { throw 'WASAPI build unexpectedly has ASIO' }
+
+      - name: Upload Windows binaries (private to this repository)
+        uses: actions/upload-artifact@v5
+        with:
+          name: WorldHeritageEngine-windows-x64-${{ matrix.flavor }}
+          path: |
+            build/Release/whe_play.exe
+            build/Release/whe_render.exe
+            build/Release/whe_ingest.exe
+            build/Release/whe_tests.exe
+            snare_render.wav
+            README.md

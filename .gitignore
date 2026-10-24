@@ -1,0 +1,9 @@
+build/
+build-*/
+.whe_cache/
+testpacks/
+*.whs
+*.wav
+# Steinberg ASIO SDK: downloaded by tools/fetch-asio-sdk.ps1, never committed
+external/asiosdk/*
+!external/asiosdk/README.md
