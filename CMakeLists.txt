@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.25)
 project(WorldHeritageEngine LANGUAGES CXX)
 
+# Static MSVC runtime: the .exe files run on any Windows 10/11 PC without installing
+# the Visual C++ Redistributable.
+set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
+
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
