@@ -55,10 +55,27 @@ void AudioHost::render(float* L, float* R, int n) noexcept {
     LARGE_INTEGER t0{}, t1{};
     QueryPerformanceCounter(&t0);
     mgr_->process(L, R, n);
+    // Meters show the level before protection, so a hot setting is visible.
     float pl = 0, pr = 0;
     for (int i = 0; i < n; ++i) {
         pl = std::max(pl, std::abs(L[i]));
         pr = std::max(pr, std::abs(R[i]));
+    }
+    // Safety limiter: instant attack, 150 ms release, ceiling -0.5 dBFS. Untouched below the ceiling.
+    constexpr float kCeiling = 0.944f;
+    const float rel = 1.0f - std::exp(-1.0f / (0.15f * static_cast<float>(std::max(1.0, rate_))));
+    float g = limGain_, gMin = 1.0f;
+    for (int i = 0; i < n; ++i) {
+        const float pk = std::max(std::abs(L[i]), std::abs(R[i]));
+        const float target = pk > kCeiling ? kCeiling / pk : 1.0f;
+        g = target < g ? target : g + (1.0f - g) * rel;
+        L[i] *= g;
+        R[i] *= g;
+        gMin = std::min(gMin, g);
+    }
+    limGain_ = g;
+    float lm = limMin_.load(std::memory_order_relaxed);
+    while (gMin < lm && !limMin_.compare_exchange_weak(lm, gMin, std::memory_order_relaxed)) {
     }
     // Keep the highest peak until the UI reads it.
     float cur = peakL_.load(std::memory_order_relaxed);
@@ -263,6 +280,7 @@ AudioHost::Live AudioHost::readLive() {
     l.peakL = peakL_.exchange(0.0f, std::memory_order_relaxed);
     l.peakR = peakR_.exchange(0.0f, std::memory_order_relaxed);
     l.cpu = running_ ? cpu_.load(std::memory_order_relaxed) : 0.0f;
+    l.limitDb = 20.0f * std::log10(std::max(1e-6f, limMin_.exchange(1.0f, std::memory_order_relaxed)));
     if (engine_) l.voices = engine_->activeVoices();
     const auto st = mgr_->streamer().stats();
     l.diskBytes = st.bytesCopied;

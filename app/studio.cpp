@@ -258,6 +258,7 @@ private:
 
     // live numbers
     float meterL_ = -90, meterR_ = -90, peakHold_ = -90;
+    ULONGLONG limitUntil_ = 0;
     ULONGLONG peakHoldUntil_ = 0;
     float cpuShown_ = 0, diskMBs_ = 0;
     int voicesShown_ = 0;
@@ -1141,7 +1142,7 @@ void App::drawMeters() {
     auto fmt = [](float db) {
         wchar_t b[32];
         if (db <= -89.0f) return std::wstring(L"−∞ dB");
-        std::swprintf(b, 32, L"%.1f dB", db);
+        std::swprintf(b, 32, db > 0.05f ? L"+%.1f dB" : L"%.1f dB", db);
         std::wstring s = b;
         if (!s.empty() && s[0] == L'-') s[0] = L'−';
         return s;
@@ -1150,7 +1151,10 @@ void App::drawMeters() {
     T(1690, 698, fmt(meterR_), st(20, 800, kCyan, Align::Left, true));
     std::wstring pk = fmt(peakHold_);
     if (auto p = pk.find(L" dB"); p != std::wstring::npos) pk.erase(p);
-    T(1716, 736, pk, st(20, 800, kCyan, Align::Left, true));
+    T(1716, 736, pk, st(20, 800, peakHold_ > 0.05f ? kRed : kCyan, Align::Left, !(peakHold_ > 0.05f)));
+    // Lit while the safety limiter is holding the output under 0 dB (unlit = not touching the sound).
+    const bool limiting = GetTickCount64() < limitUntil_;
+    gfx_.text(L"LIMIT", Rect{1780, 742, 70, 18}, st(13, 800, limiting ? kRed : Color{1, 1, 1, 0.12f}, Align::Right));
 }
 
 void App::drawFader() {
@@ -1671,6 +1675,13 @@ void App::tick() {
         return true;
     });
     const auto live = host_.readLive();
+    if (live.limitDb < -0.5f) {
+        if (now >= limitUntil_) dyn = true;
+        limitUntil_ = now + 600;
+    } else if (limitUntil_ != 0 && now >= limitUntil_) {
+        limitUntil_ = 0;
+        dyn = true;
+    }
     auto toDb = [](float lin) { return lin > 1e-5f ? 20.0f * std::log10(lin) : -90.0f; };
     const float l = toDb(live.peakL), r = toDb(live.peakR);
     const float fall = 1.6f;  // dB per tick (~48 dB/s)

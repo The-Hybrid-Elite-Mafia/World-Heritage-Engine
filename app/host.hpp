@@ -75,6 +75,7 @@ public:
         int polyphony = 48;
         u64 diskBytes = 0;
         u64 underruns = 0;
+        float limitDb = 0;           // deepest safety-limiter gain reduction since last read (dB, <= 0)
     };
     [[nodiscard]] Live readLive();
 
@@ -108,6 +109,9 @@ private:
     std::atomic<InstrumentEngine*> live_{nullptr};  // what MIDI/UI threads post to
 
     std::atomic<float> peakL_{0}, peakR_{0}, cpu_{0};
+    // Output safety limiter: never lets the sum exceed -0.5 dBFS at the sound card.
+    float limGain_ = 1.0f;
+    std::atomic<float> limMin_{1.0f};
     std::atomic<u64> held_[2]{};  // 128-bit held-note mask
     std::atomic<bool> midiSustain_{false};
     std::vector<void*> midiIn_;

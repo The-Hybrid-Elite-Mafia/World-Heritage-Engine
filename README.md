@@ -23,7 +23,7 @@ Blender (`art/plate.py`, `art/parts.py`; coordinates shared through `art/layout.
 | Engine glass | What is loaded; **FILE MAP** shows every file and how its name was read (root note, keys, velocity layer, round robin, articulation) and lets you choose the engine |
 | Key map | Which recording plays where; tap a zone to hear it; lit = sounding |
 | Dials | The physics that reshape the recording, a plain-English line under each. Every dial starts at zero (strike-point dials start at the middle); double-click a dial to put it back |
-| Blend | Left = full recording, right = physics only; **ON** button bypasses the physics; L/R meters |
+| Blend | Left = full recording, right = physics only; **ON** button bypasses the physics; L/R meters (measured before protection). An output safety limiter (instant attack, 150 ms release, −0.5 dBFS ceiling) keeps loud physics settings from clipping the sound card; **LIMIT** lights while it is working |
 | Keyboard | Mouse, PC keys (A W S E D F T G Y H U J K …, Z/X octave, Space sustain) or any MIDI keyboard (all MIDI inputs are opened) |
 
 Faceplate rules: a lit light is ON, an unlit light is OFF. Art is decoded once and
