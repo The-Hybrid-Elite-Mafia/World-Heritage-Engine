@@ -173,6 +173,30 @@ int countRecordings(const fs::path& folder) {
 }
 
 // ---------------------------------------------------------------------------
+void logLine(const std::string& line) {
+    static bool first = true;
+    // Next to the program (…\World Heritage Engine\studio.log) when that folder is writable,
+    // otherwise in the settings folder.
+    static const fs::path file = [] {
+        wchar_t buf[MAX_PATH * 4];
+        const DWORD n = GetModuleFileNameW(nullptr, buf, static_cast<DWORD>(std::size(buf)));
+        const fs::path beside = fs::path(std::wstring(buf, n)).parent_path().parent_path() / L"studio.log";
+        std::ofstream probe(beside, std::ios::binary | std::ios::app);
+        return probe ? beside : settingsDir() / L"studio.log";
+    }();
+    std::error_code ec;
+    // Start a fresh log each run once it grows past 1 MB.
+    if (first && fs::exists(file, ec) && fs::file_size(file, ec) > (1u << 20)) fs::remove(file, ec);
+    first = false;
+    std::ofstream out(file, std::ios::binary | std::ios::app);
+    if (!out) return;
+    SYSTEMTIME t{};
+    GetLocalTime(&t);
+    char stamp[64];
+    std::snprintf(stamp, sizeof stamp, "%04d-%02d-%02d %02d:%02d:%02d.%03d  ", t.wYear, t.wMonth, t.wDay, t.wHour, t.wMinute, t.wSecond, t.wMilliseconds);
+    out << stamp << line << "\r\n";
+}
+
 std::wstring widen(const std::string& s) {
     if (s.empty()) return {};
     const int n = MultiByteToWideChar(CP_UTF8, 0, s.data(), static_cast<int>(s.size()), nullptr, 0);

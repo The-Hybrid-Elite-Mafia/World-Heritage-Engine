@@ -274,6 +274,7 @@ private:
 // ===========================================================================
 
 int App::run(HINSTANCE inst, int show) {
+    logLine("---- World Heritage Engine " + narrow(kVersion) + " starting");
     CoInitializeEx(nullptr, COINIT_APARTMENTTHREADED);
     settings_ = loadSettings();
 
@@ -308,14 +309,22 @@ int App::run(HINSTANCE inst, int show) {
     const fs::path base = exeDir();
     fs::path res = base / L"res";
     if (!fs::exists(res / L"art")) res = base.parent_path() / L"res";
+    logLine("art folder: " + narrow((res / L"art").wstring()));
     if (auto err = gfx_.init(hwnd_, res / L"art", res / L"brand", res / L"fonts"); !err.empty()) {
+        logLine("faceplate art failed: " + narrow(err));
         MessageBoxW(hwnd_, (L"The faceplate art could not be loaded.\n\n" + err).c_str(), L"World Heritage Engine", MB_ICONERROR);
         return 1;
     }
 
+    logLine(std::string("faceplate ready, Montserrat ") + (gfx_.fontLoaded() ? "loaded" : "not available (Segoe UI)"));
     discoverPacks();
+    logLine("sample packs found: " + std::to_string(packs_.size()));
     openAudioFromSettings();
+    logLine(host_.deviceOpen() ? "sound card: " + host_.deviceName() + " @ " + std::to_string(static_cast<int>(host_.sampleRate())) + " Hz, " +
+                                     std::to_string(host_.bufferFrames()) + " frames"
+                               : "sound card: not connected (" + host_.lastError() + ")");
     host_.openMidi(hwnd_, WM_APP_MIDI);
+    logLine("MIDI inputs opened: " + std::to_string(host_.midiDeviceCount()));
 
     ShowWindow(hwnd_, show);
     UpdateWindow(hwnd_);
@@ -383,6 +392,7 @@ void App::discoverPacks() {
 }
 
 void App::openAudioFromSettings() {
+    logLine("ASIO in this build: " + std::string(AudioHost::asioBuilt() ? "yes" : "no") + ", drivers: " + std::to_string(AudioHost::asioDrivers().size()));
     DeviceChoice c;
     const auto drivers = AudioHost::asioDrivers();
     c.asio = settings_.asio && AudioHost::asioBuilt() && !drivers.empty();
@@ -442,6 +452,7 @@ void App::startLoad(int packIndex, const fs::path& folder, EngineKind kind, bool
 
 void App::onLoaded(std::unique_ptr<LoadResult> r) {
     loading_ = false;
+    logLine("read " + narrow(r->folder.wstring()) + (r->lib ? ": ok, " + std::to_string(r->lib->store().size()) + " recordings" : ": FAILED " + r->error));
     if (!r->lib) {
         if (r->forImport) {
             importPage_ = false;
@@ -476,6 +487,7 @@ void App::rememberEngine(const fs::path& folder, EngineKind kind) {
 bool App::activateLibrary(int packIndex, EngineKind kind, std::shared_ptr<const SampleLibrary> lib) {
     host_.allNotesOff();
     if (auto res = host_.setInstrument(kind, std::move(lib)); !res) {
+        logLine("instrument build failed: " + res.error().message);
         setMessage(L"Could not build the instrument: " + widen(res.error().message), true);
         return false;
     }
@@ -1788,7 +1800,27 @@ LRESULT App::wndProc(UINT m, WPARAM w, LPARAM l) {
 
 }  // namespace
 
+namespace {
+
+// If the program ever crashes, write what and where to studio.log before Windows closes it.
+LONG WINAPI crashLogger(EXCEPTION_POINTERS* ep) {
+    HMODULE mod = nullptr;
+    const void* addr = ep->ExceptionRecord->ExceptionAddress;
+    GetModuleHandleExW(GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS | GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT, static_cast<LPCWSTR>(addr), &mod);
+    wchar_t name[MAX_PATH] = L"?";
+    if (mod) GetModuleFileNameW(mod, name, MAX_PATH);
+    char buf[512];
+    std::snprintf(buf, sizeof buf, "CRASH: exception 0x%08lX at %ls + 0x%llX", static_cast<unsigned long>(ep->ExceptionRecord->ExceptionCode),
+                  fs::path(name).filename().c_str(),
+                  static_cast<unsigned long long>(reinterpret_cast<const char*>(addr) - reinterpret_cast<const char*>(mod)));
+    logLine(buf);
+    return EXCEPTION_CONTINUE_SEARCH;
+}
+
+}  // namespace
+
 int WINAPI wWinMain(HINSTANCE inst, HINSTANCE, PWSTR, int show) {
+    SetUnhandledExceptionFilter(&crashLogger);
     // Crisp on high-DPI laptop screens and over remote desktop.
     SetProcessDpiAwarenessContext(DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2);
     auto app = std::make_unique<App>();

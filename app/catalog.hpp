@@ -80,6 +80,10 @@ struct Settings {
 bool saveSettings(const Settings& s);
 [[nodiscard]] std::wstring packKey(const std::filesystem::path& folder);
 
+// Appends one time-stamped line to studio.log in the program folder (or the settings folder)
+// (start-up steps, sound-card results, load errors) so problems can be traced.
+void logLine(const std::string& line);
+
 [[nodiscard]] std::wstring widen(const std::string& s);
 [[nodiscard]] std::string narrow(const std::wstring& s);
 [[nodiscard]] std::wstring noteName(int midiNote);  // C4 = 60
