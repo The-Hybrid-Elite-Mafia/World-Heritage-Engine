@@ -53,6 +53,20 @@ if(WIN32)
   add_executable(whe_play tools/whe_play.cpp src/platform/wasapi_output.cpp)
   target_link_libraries(whe_play PRIVATE whe_core)
 
+  # The instrument window (rendered HEM faceplate): Direct2D + WIC + DirectWrite, no frameworks.
+  add_executable(whe_studio WIN32
+    app/studio.cpp app/gfx.cpp app/host.cpp app/catalog.cpp app/studio.rc
+    src/platform/wasapi_output.cpp)
+  target_include_directories(whe_studio PRIVATE app)
+  target_link_libraries(whe_studio PRIVATE whe_core d2d1 dwrite windowscodecs ole32 shell32 user32 gdi32 winmm uuid)
+  if(MSVC)
+    target_compile_options(whe_studio PRIVATE /W4 /permissive- /O2 /utf-8)
+    target_link_options(whe_studio PRIVATE /MANIFEST:NO)  # app/studio.manifest is embedded by studio.rc
+  else()
+    target_compile_options(whe_studio PRIVATE -Wall -Wextra -O2)
+    target_link_options(whe_studio PRIVATE -municode -mwindows -static)
+  endif()
+
   # Steinberg ASIO SDK (GPLv3 or Steinberg proprietary). Never committed:
   # tools/fetch-asio-sdk.ps1 downloads it from Steinberg into external/asiosdk/sdk.
   set(WHE_ASIO_SDK_DIR "${PROJECT_SOURCE_DIR}/external/asiosdk/sdk" CACHE PATH "Steinberg ASIO SDK root (contains common/asio.h)")
@@ -75,6 +89,9 @@ if(WIN32)
     target_sources(whe_play PRIVATE src/platform/asio_output.cpp)
     target_compile_definitions(whe_play PRIVATE WHE_HAS_ASIO=1)
     target_link_libraries(whe_play PRIVATE whe_asio_sdk)
+    target_sources(whe_studio PRIVATE src/platform/asio_output.cpp)
+    target_compile_definitions(whe_studio PRIVATE WHE_HAS_ASIO=1)
+    target_link_libraries(whe_studio PRIVATE whe_asio_sdk)
     message(STATUS "WHE: ASIO SDK found at ${WHE_ASIO_SDK_DIR} — whe_play gets ASIO output")
   else()
     message(STATUS "WHE: ASIO SDK not found — whe_play is WASAPI-only (run tools/fetch-asio-sdk.ps1)")

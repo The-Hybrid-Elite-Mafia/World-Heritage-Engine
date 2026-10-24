@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>World Heritage Engine — Rendered Faceplate</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#050506}
+a{color:#3FD8EA}a:hover{color:#8BEAF5}
+button{font-family:inherit;cursor:pointer;padding:0;margin:0;background:none}
+</style>
+</helmet>
+<div style="position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #050506; font-family: Montserrat, Arial, sans-serif; color: #E2E4E7">
+  <img src="ASSET:plate" alt="" aria-hidden="true" style="position: absolute; left: 0; top: 0; width: 1920px; height: 1080px">
+
+  <sc-for list="{{glows}}" as="g" hint-placeholder-count="20">
+    <div aria-hidden="true" style="{{g}}"></div>
+  </sc-for>
+
+  <sc-for list="{{sprites}}" as="s" hint-placeholder-count="60">
+    <img src="{{s.src}}" alt="" aria-hidden="true" style="{{s.style}}">
+  </sc-for>
+
+  <sc-for list="{{knobs}}" as="k" hint-placeholder-count="9">
+    <div role="slider" tabindex="0" aria-label="{{k.label}}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{k.pct}}" aria-valuetext="{{k.value}}" style="{{k.box}}">
+      <img src="{{k.bsrc}}" alt="" style="{{k.body}}">
+      <img src="{{k.psrc}}" alt="" style="{{k.ptr}}">
+    </div>
+  </sc-for>
+
+  <sc-for list="{{buttons}}" as="b" hint-placeholder-count="10">
+    <button type="button" aria-pressed="{{b.pressed}}" style="{{b.style}}">{{b.text}}</button>
+  </sc-for>
+
+  <sc-for list="{{texts}}" as="t" hint-placeholder-count="60">
+    <span style="{{t.style}}">{{t.text}}</span>
+  </sc-for>
+
+  <sc-for list="{{keys}}" as="k" hint-placeholder-count="36">
+    <button type="button" aria-label="{{k.name}}" style="{{k.style}}"><img src="{{k.src}}" alt="" style="width: 100%; height: 100%; display: block"></button>
+  </sc-for>
+
+  <img src="ASSET:crown" alt="Hybrid Elite Mafia crown" style="position: absolute; left: 52px; top: 36px; width: 96px; height: 96px; filter: drop-shadow(0 3px 6px rgba(0,0,0,0.8))">
+  <img src="ASSET:ghost" alt="HEM hooded ghost" style="position: absolute; left: 1774px; top: 36px; width: 92px; height: 96px; filter: drop-shadow(0 0 10px rgba(63,216,234,0.35))">
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1920,"height":1080}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const A = {
+      knob_body: 'ASSET:knob_body', knob_pointer: 'ASSET:knob_pointer',
+      knob_big_body: 'ASSET:knob_big_body', knob_big_pointer: 'ASSET:knob_big_pointer',
+      led_on: 'ASSET:led_on', led_off: 'ASSET:led_off',
+      button_on: 'ASSET:button_on', button_off: 'ASSET:button_off',
+      round_on: 'ASSET:round_on', fader: 'ASSET:fader_cap',
+      kw: 'ASSET:key_white', kwd: 'ASSET:key_white_down', kb: 'ASSET:key_black', kbd: 'ASSET:key_black_down'
+    };
+    const CY = '#3FD8EA';
+    const GLOW = 'text-shadow:0 0 10px rgba(63,216,234,0.55),0 0 2px rgba(63,216,234,0.9);';
+    const ENGRAVE = 'text-shadow:0 -1px 0 rgba(0,0,0,0.9),0 1px 0 rgba(255,255,255,0.10);';
+    const abs = (x, y) => 'position:absolute;left:' + x + 'px;top:' + y + 'px;';
+    const texts = [];
+    const T = (x, y, text, css) => texts.push({ text, style: abs(x, y) + 'white-space:nowrap;' + css });
+    const TC = (cx, y, w, text, css) => texts.push({ text, style: abs(cx - w / 2, y) + 'width:' + w + 'px;text-align:center;' + css });
+    const sprites = [];
+    const S = (src, cx, cy, w, h, extra) => sprites.push({ src, style: abs(cx - w / 2, cy - h / 2) + 'width:' + w + 'px;height:' + h + 'px;' + (extra || '') });
+    const glows = [];
+    const buttons = [];
+    const B = (x, y, w, h, text, on, css) => buttons.push({
+      text, pressed: on ? 'true' : 'false',
+      style: abs(x, y) + 'width:' + w + 'px;height:' + h + 'px;box-sizing:border-box;border-style:solid;border-color:transparent;border-width:1px;' +
+        'border-image-source:url(' + (on ? A.button_on : A.button_off) + ');border-image-slice:128 fill;border-image-width:24px;border-image-outset:15px;' +
+        'display:flex;align-items:center;justify-content:center;font-weight:800;' + (on ? 'color:#03161A;' : 'color:#D8DADD;') + (css || '')
+    });
+
+    // ---------------- header
+    T(170, 54, 'WORLD HERITAGE', 'font-size:24px;font-weight:800;color:#E6E8EB;' + ENGRAVE);
+    T(170, 84, 'ENGINE · v0.1', 'font-size:17px;font-weight:700;color:#9AA0A8;' + ENGRAVE);
+    TC(960, 38, 900, 'HYBRID ELITE MAFIA', 'font-size:46px;font-weight:800;color:#ECEEF0;letter-spacing:1px;' + ENGRAVE);
+    TC(960, 94, 900, 'REAL INSTRUMENT CREATOR', 'font-size:21px;font-weight:700;color:' + CY + ';' + GLOW);
+    T(1590, 54, 'HEM AUDIO', 'font-size:24px;font-weight:800;color:#E6E8EB;' + ENGRAVE);
+    T(1640, 84, 'EST. 2024', 'font-size:17px;font-weight:700;color:' + CY + ';' + GLOW);
+
+    // ---------------- status glass
+    const status = [['ASIO DRIVER', 'Steinberg built-in'], ['SAMPLE RATE', '48 kHz'], ['BUFFER · LATENCY', '480 · 20 ms'], ['CPU', '18 %'], ['DISK STREAM', '2.1 MB/s'], ['VOICES', '3 / 48'], ['UNDERRUNS', '0']];
+    status.forEach((s, i) => {
+      const x = 70 + i * 258;
+      T(x, 164, s[0], 'font-size:13px;font-weight:700;letter-spacing:1px;color:#7F8790;');
+      T(x, 182, s[1], 'font-size:22px;font-weight:800;color:' + CY + ';' + GLOW);
+    });
+
+    // ---------------- engine glass
+    T(398, 250, 'PIANO ENGINE · REAL HAMMER → MODELED STRINGS', 'font-size:15px;font-weight:700;color:' + CY + ';' + GLOW);
+    T(398, 270, 'SALAMANDER GRAND', 'font-size:32px;font-weight:800;color:#F2F4F6;text-shadow:0 0 8px rgba(255,255,255,0.25);');
+    T(1060, 262, '85 recordings · 5 roots · 16 layers', 'font-size:18px;font-weight:600;color:#A9B0B8;');
+
+    // ---------------- key map glass: segments glow behind the glass
+    T(400, 338, 'KEY MAP · TAP A ZONE TO HEAR ITS RECORDING', 'font-size:14px;font-weight:800;color:' + CY + ';' + GLOW);
+    const zones = [['A3 · A0–A#3', 38, 0], ['C4', 3, 1], ['D#4', 3, 0], ['F#4', 3, 0], ['A4 · G#4–C8', 41, 0]];
+    let zx = 400; const zw = 1120 - 4 * 6 - 3 * 48;
+    zones.forEach((z) => {
+      const w = z[1] > 10 ? zw * z[1] / 79 : 48;
+      const on = z[2] === 1;
+      buttons.push({ text: z[0], pressed: on ? 'true' : 'false', style: abs(zx, 362) + 'width:' + w + 'px;height:44px;border-radius:5px;font-weight:800;font-size:16px;white-space:nowrap;overflow:hidden;' +
+        (on ? 'background:linear-gradient(180deg,rgba(80,230,245,0.95),rgba(30,170,190,0.95));color:#03161A;box-shadow:0 0 18px rgba(63,216,234,0.75),0 0 4px rgba(63,216,234,1);border:none;' :
+              'background:rgba(63,216,234,0.06);color:#7FDDEA;border:1px solid rgba(63,216,234,0.35);box-shadow:inset 0 0 12px rgba(63,216,234,0.10);') });
+      zx += w + 6;
+    });
+    T(400, 410, 'A0', 'font-size:12px;font-weight:700;color:#6F7780;');
+    TC(960, 410, 300, 'C4 · MIDDLE C', 'font-size:12px;font-weight:700;color:#6F7780;');
+    T(1500, 410, 'C8', 'font-size:12px;font-weight:700;color:#6F7780;');
+
+    // ---------------- library pocket
+    T(64, 252, 'INSTRUMENTS', 'font-size:19px;font-weight:800;color:' + CY + ';' + GLOW);
+    B(62, 286, 280, 68, '', true);
+    T(84, 300, 'SALAMANDER GRAND', 'font-size:18px;font-weight:800;color:#03161A;');
+    T(84, 324, 'Piano · 85 recordings', 'font-size:14px;font-weight:700;color:#05323A;');
+    B(62, 366, 280, 68, '', false);
+    T(84, 380, 'VIRTUOSITY SNARE', 'font-size:18px;font-weight:800;color:#E2E4E7;');
+    T(84, 404, 'Drum · 72 recordings', 'font-size:14px;font-weight:700;color:#9AA0A8;');
+    B(62, 446, 280, 68, '', false);
+    T(84, 460, '[YOUR NEXT PACK]', 'font-size:18px;font-weight:800;color:#E2E4E7;');
+    T(84, 484, 'Cello, guitar, flute, any', 'font-size:14px;font-weight:700;color:#9AA0A8;');
+    B(62, 538, 280, 56, '+  IMPORT SAMPLE PACK', false, 'color:' + CY + ';font-size:16px;' + GLOW);
+    T(64, 608, 'Any folder of real recordings —', 'font-size:14px;font-weight:600;color:#9AA0A8;');
+    T(64, 628, 'keys, layers and round robins', 'font-size:14px;font-weight:600;color:#9AA0A8;');
+    T(64, 648, 'mapped from the file names.', 'font-size:14px;font-weight:600;color:#9AA0A8;');
+    B(62, 690, 280, 44, 'SAVE INSTRUMENT', false, 'font-size:15px;');
+    B(62, 742, 280, 44, 'RESET TO RECORDING', false, 'font-size:15px;');
+
+    // ---------------- knob sections
+    const sections = [
+      ['hammer', 'HAMMER', 'The real recorded strike'],
+      ['strings', 'STRINGS', 'Modeled strings rung by the strike'],
+      ['body', 'BODY & PEDAL', 'The instrument around the strings']
+    ];
+    const P = { hammer: [376, 442, 280], strings: [672, 442, 556], body: [1244, 442, 300] };
+    sections.forEach((s) => {
+      const p = P[s[0]];
+      TC(p[0] + p[2] / 2, 454, p[2], s[1], 'font-size:21px;font-weight:800;color:' + CY + ';' + GLOW);
+      TC(p[0] + p[2] / 2, 482, p[2], s[2], 'font-size:14px;font-weight:600;color:#9AA0A8;');
+    });
+    const knobDefs = [
+      ['hardness', 'HARDNESS', '0.00', 0, 'Soft felt ↔ hard felt'],
+      ['strike', 'STRIKE WINDOW', '2 ms', 0, 'Attack that hits strings'],
+      ['resonance', 'RESONANCE', '0.00×', 0, 'How loud strings ring'],
+      ['detune', 'DETUNE', '0.0 ¢', 0, 'Unison beating'],
+      ['stiffness', 'STIFFNESS', '0.00', 0, 'Steel-like overtones'],
+      ['decay', 'DECAY', '0.5 s', 0, 'How long strings ring'],
+      ['sympathetic', 'SYMPATHETIC', '0.00×', 0, 'Open strings, pedal down'],
+      ['release', 'RELEASE NOISE', '0.00×', 0, 'Real key-off thumps']
+    ];
+    const KP = KNOB_POS;
+    const knobs = [];
+    const ring = (cx, cy, r, n, v, ledPx) => {
+      for (let i = 0; i < n; i++) {
+        const f = i / (n - 1);
+        const a = (-135 + 270 * f) * Math.PI / 180;
+        const on = v > 0 && f <= v + 1e-6;
+        S(on ? A.led_on : A.led_off, cx + r * Math.sin(a), cy - r * Math.cos(a), ledPx, ledPx);
+      }
+    };
+    knobDefs.forEach((d) => {
+      const [cx, cy, dia, rr] = KP[d[0]];
+      const size = dia * 1.5;
+      const ang = -135 + 270 * d[3];
+      knobs.push({ bsrc: A.knob_body, psrc: A.knob_pointer, label: d[1], value: d[2], pct: Math.round(d[3] * 100),
+        box: abs(cx - size / 2, cy - size / 2) + 'width:' + size + 'px;height:' + size + 'px;',
+        body: 'position:absolute;left:0;top:0;width:100%;height:100%;',
+        ptr: 'position:absolute;left:0;top:0;width:100%;height:100%;transform:rotate(' + ang.toFixed(1) + 'deg);' });
+      ring(cx, cy, rr, 21, d[3], 22);
+      TC(cx, 528, 140, d[1], 'font-size:15px;font-weight:800;color:#DDE0E4;' + ENGRAVE);
+      TC(cx, 686, 140, d[2], 'font-size:21px;font-weight:800;color:' + CY + ';' + GLOW);
+      TC(cx, 716, 136, d[4], 'font-size:13px;font-weight:600;color:#9AA0A8;white-space:normal;line-height:1.35;');
+    });
+
+    // ---------------- blend pane
+    const [bx, by, bdia, br] = KP.blend;
+    TC(bx, 252, 300, 'BLEND', 'font-size:21px;font-weight:800;color:' + CY + ';' + GLOW);
+    const bsize = bdia * 1.5;
+    knobs.push({ bsrc: A.knob_big_body, psrc: A.knob_big_pointer, label: 'Recording to physics blend', value: '0 percent physics', pct: 0,
+      box: abs(bx - bsize / 2, by - bsize / 2) + 'width:' + bsize + 'px;height:' + bsize + 'px;',
+      body: 'position:absolute;left:0;top:0;width:100%;height:100%;',
+      ptr: 'position:absolute;left:0;top:0;width:100%;height:100%;transform:rotate(' + (-135).toFixed(1) + 'deg);' });
+    ring(bx, by, br, 29, -1, 24);
+    T(1576, 442, 'REAL REC', 'font-size:15px;font-weight:800;color:#DDE0E4;' + ENGRAVE);
+    T(1786, 442, 'PHYSICS', 'font-size:15px;font-weight:800;color:#DDE0E4;' + ENGRAVE);
+    TC(bx, 466, 300, '0 % PHYSICS', 'font-size:22px;font-weight:800;color:' + CY + ';' + GLOW);
+    TC(bx, 496, 300, 'Left = recording · Right = physics', 'font-size:13px;font-weight:600;color:#9AA0A8;');
+    const [rcx, rcy, rd] = ROUND_POS.physics;
+    S(A.round_on, rcx, rcy, rd * 1.4, rd * 1.4);
+    TC(rcx, rcy - 13, 100, 'ON', 'font-size:22px;font-weight:800;color:#03161A;');
+    TC(rcx, 610, 300, 'PHYSICS ON / BYPASS', 'font-size:14px;font-weight:800;color:#DDE0E4;' + ENGRAVE);
+
+    // meters behind glass
+    const meterBar = (x, lit) => {
+      for (let i = 0; i < 18; i++) {
+        const y = 774 - i * 7.2;
+        const on = i < lit;
+        const col = i >= 16 ? '255,90,90' : (i >= 13 ? '255,195,77' : '63,216,234');
+        glows.push(abs(x, y) + 'width:20px;height:5px;border-radius:1px;' + (on ? 'background:rgb(' + col + ');box-shadow:0 0 6px rgba(' + col + ',0.9);' : 'background:rgba(' + col + ',0.08);'));
+      }
+    };
+    meterBar(1598, 11); meterBar(1624, 10);
+    T(1664, 668, 'L', 'font-size:16px;font-weight:800;color:#7F8790;');
+    T(1690, 664, '−8.1 dB', 'font-size:20px;font-weight:800;color:' + CY + ';' + GLOW);
+    T(1664, 702, 'R', 'font-size:16px;font-weight:800;color:#7F8790;');
+    T(1690, 698, '−9.0 dB', 'font-size:20px;font-weight:800;color:' + CY + ';' + GLOW);
+    T(1664, 740, 'PEAK', 'font-size:14px;font-weight:800;color:#7F8790;');
+    T(1716, 736, '−3.2', 'font-size:20px;font-weight:800;color:' + CY + ';' + GLOW);
+
+    // ---------------- keyboard controls
+    B(62, 824, 58, 42, '◀', false, 'color:' + CY + ';font-size:22px;');
+    T(132, 832, 'C3 – B5', 'font-size:20px;font-weight:800;color:#E2E4E7;');
+    B(224, 824, 58, 42, '▶', false, 'color:' + CY + ';font-size:22px;');
+    B(310, 824, 176, 42, 'SUSTAIN ON', true, 'font-size:17px;');
+    T(960, 834, 'VELOCITY', 'font-size:17px;font-weight:800;color:#DDE0E4;' + ENGRAVE);
+    const [fx, fy, fw, fh] = FADER_POS;
+    const fv = 96 / 127;
+    S(A.fader, fx + fw * fv, fy + fh / 2, 26 * 1.72, 40 * 1.67);
+    T(1420, 832, '96 · LAYER 13 / 16', 'font-size:19px;font-weight:800;color:' + CY + ';' + GLOW);
+    T(1660, 836, 'PC keys A–K · Z / X octave', 'font-size:14px;font-weight:600;color:#9AA0A8;');
+
+    // ---------------- keys (rendered key art, stretched only in width)
+    const [kx, ky, kw, kh] = KEYS_POS;
+    const names = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+    const isBlack = [0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0];
+    const down = { 60: 1, 64: 1, 67: 1 };
+    const keys = [];
+    const blacks = [];
+    const ww = kw / 21;
+    let wi = 0;
+    for (let n = 48; n < 84; n++) {
+      const pc = n % 12;
+      const nm = names[pc] + (Math.floor(n / 12) - 1);
+      if (!isBlack[pc]) {
+        keys.push({ name: nm, src: down[n] ? A.kwd : A.kw, style: abs(kx + wi * ww, ky) + 'width:' + (ww + 1).toFixed(2) + 'px;height:' + kh + 'px;border:none;' });
+        if (pc === 0) texts.push({ text: nm, style: abs(kx + wi * ww, ky + kh - 30) + 'width:' + ww.toFixed(2) + 'px;text-align:center;font-size:16px;font-weight:800;color:#4A4E54;z-index:5;pointer-events:none;' });
+        wi++;
+      } else {
+        const bw = ww * 0.62;
+        blacks.push({ name: nm, src: down[n] ? A.kbd : A.kb, style: abs(kx + wi * ww - bw / 2, ky - 2) + 'width:' + bw.toFixed(2) + 'px;height:' + (kh * 0.62).toFixed(0) + 'px;border:none;z-index:3;' });
+      }
+    }
+    return { glows, sprites, knobs, buttons, texts, keys: keys.concat(blacks) };
+  }
+}
+</script>
+</body>
+</html>

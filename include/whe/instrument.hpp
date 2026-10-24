@@ -12,6 +12,8 @@
 //                    one set of sympathetic strings) driven by the summed recordings
 #pragma once
 
+#include <algorithm>
+#include <atomic>
 #include <memory>
 #include <optional>
 #include <string_view>
@@ -57,6 +59,11 @@ public:
     void setParam(int index, float value) noexcept;
     [[nodiscard]] float paramTarget(int index) const noexcept;
     [[nodiscard]] int paramIndex(std::string_view name) const noexcept;
+    // Level of the library's recorded release noises (key-off thumps, damper
+    // sounds) started on note-off. 0 = never start them. Any thread.
+    void setReleaseLevel(float level) noexcept { releaseLevel_.store(std::clamp(level, 0.0f, 2.0f), std::memory_order_relaxed); }
+    [[nodiscard]] float releaseLevel() const noexcept { return releaseLevel_.load(std::memory_order_relaxed); }
+    [[nodiscard]] bool hasReleaseSamples() const noexcept { return releaseArt_ != nullptr; }
 
     // Render thread. Writes n frames (replaces content). Real-time safe.
     void render(float* outL, float* outR, int n) noexcept;
@@ -134,6 +141,7 @@ private:
     float bend_ = 0.0f;
     bool sustain_ = false;
     bool prepared_ = false;
+    std::atomic<float> releaseLevel_{0.7f};
 };
 
 enum class EngineKind { Piano, BowedString, PluckedString, Aerophone, Membrane };

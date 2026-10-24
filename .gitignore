@@ -7,3 +7,5 @@ testpacks/
 # Steinberg ASIO SDK: downloaded by tools/fetch-asio-sdk.ps1, never committed
 external/asiosdk/*
 !external/asiosdk/README.md
+# HEM brand badges (crown, ghost) are installed with the program, not published here
+app/res/brand/

@@ -48,14 +48,20 @@ jobs:
           if ('${{ matrix.flavor }}' -eq 'asio' -and $out -match 'no ASIO support') { throw 'ASIO build is missing ASIO support' }
           if ('${{ matrix.flavor }}' -eq 'wasapi' -and -not ($out -match 'no ASIO support')) { throw 'WASAPI build unexpectedly has ASIO' }
 
+      - name: Package (program folder layout)
+        shell: pwsh
+        run: |
+          $root = 'package\World Heritage Engine'
+          New-Item -ItemType Directory -Force "$root\bin", "$root\res" | Out-Null
+          Copy-Item build\Release\whe_studio.exe, build\Release\whe_play.exe, build\Release\whe_render.exe, build\Release\whe_ingest.exe, build\Release\whe_tests.exe "$root\bin\"
+          Copy-Item -Recurse app\res\art, app\res\fonts "$root\res\"
+          Copy-Item README.md, LICENSE "$root\"
+          Copy-Item snare_render.wav "$root\"
+          if (-not (Test-Path "$root\bin\whe_studio.exe")) { throw 'whe_studio.exe missing' }
+          Get-ChildItem -Recurse $root | Select-Object FullName, Length | Format-Table -AutoSize
+
       - name: Upload Windows binaries
         uses: actions/upload-artifact@v5
         with:
           name: WorldHeritageEngine-windows-x64-${{ matrix.flavor }}
-          path: |
-            build/Release/whe_play.exe
-            build/Release/whe_render.exe
-            build/Release/whe_ingest.exe
-            build/Release/whe_tests.exe
-            snare_render.wav
-            README.md
+          path: package

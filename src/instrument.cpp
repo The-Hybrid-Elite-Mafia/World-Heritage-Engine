@@ -145,8 +145,9 @@ void InstrumentEngine::noteOff(int note) noexcept {
             released = true;
         }
     }
-    if (released && releaseArt_)
-        if (const Zone* z = releaseArt_->find(note, velocity)) startVoice(*z, note, velocity, 0.7f, true);
+    const float relLevel = releaseLevel_.load(std::memory_order_relaxed);
+    if (released && releaseArt_ && relLevel > 0.0f)
+        if (const Zone* z = releaseArt_->find(note, velocity)) startVoice(*z, note, velocity, relLevel, true);
 }
 
 void InstrumentEngine::handle(const NoteEvent& e) noexcept {

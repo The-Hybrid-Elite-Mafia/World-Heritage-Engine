@@ -10,6 +10,32 @@ models exist only to articulate and reshape those recordings.
 
 ---
 
+## 0. The instrument window — `whe_studio.exe`
+
+The program you play. One window drawn with Direct2D over a faceplate rendered in
+Blender (`art/plate.py`, `art/parts.py`; coordinates shared through `art/layout.py`
+→ `app/layout_gen.hpp`). Only Windows' own APIs: Direct2D, WIC, DirectWrite, Win32.
+
+| Area | What it does |
+|---|---|
+| Status bar | Sound card (tap to pick ASIO driver or Windows audio), sample rate, buffer + latency (tap to change), CPU, disk stream, voices, underruns |
+| Instruments | Sample packs found in `Samples\` next to the program plus any you import. **+ Import sample pack**, drag a folder onto the window, or start `whe_studio.exe <folder>` |
+| Engine glass | What is loaded; **FILE MAP** shows every file and how its name was read (root note, keys, velocity layer, round robin, articulation) and lets you choose the engine |
+| Key map | Which recording plays where; tap a zone to hear it; lit = sounding |
+| Dials | The physics that reshape the recording, a plain-English line under each. Every dial starts at zero (strike-point dials start at the middle); double-click a dial to put it back |
+| Blend | Left = full recording, right = physics only; **ON** button bypasses the physics; L/R meters |
+| Keyboard | Mouse, PC keys (A W S E D F T G Y H U J K …, Z/X octave, Space sustain) or any MIDI keyboard (all MIDI inputs are opened) |
+
+Faceplate rules: a lit light is ON, an unlit light is OFF. Art is decoded once and
+re-sampled on the CPU to the exact pixel size it occupies in the window before it
+reaches the GPU — the 4K renders are never uploaded at full size. Static parts are
+cached in one layer so meters animate cheaply (remote desktop friendly).
+
+Settings and saved instrument sounds: `%APPDATA%\HEM\World Heritage Engine\settings.txt`.
+Fonts: Montserrat (SIL Open Font License, `app/res/fonts/OFL.txt`).
+
+---
+
 ## 1. The sample-first rule, enforced in code
 
 | Rule | Where it is enforced |
